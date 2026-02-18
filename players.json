@@ -9,7 +9,8 @@
     "positionRank" : 1,
     "lastYearStats" : "202 rush yds, 0 rush TDs, 15 rec, 146 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3117251"
+    "espnId" : "3117251",
+    "byeWeek" : 7
   },
   {
     "id" : 10001,
@@ -21,7 +22,8 @@
     "positionRank" : 2,
     "lastYearStats" : "1456 rush yds, 14 rush TDs, 61 rec, 431 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4430807"
+    "espnId" : "4430807",
+    "byeWeek" : 0
   },
   {
     "id" : 10002,
@@ -33,7 +35,8 @@
     "positionRank" : 3,
     "lastYearStats" : "876 rush yds, 5 rush TDs, 57 rec, 483 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4427366"
+    "espnId" : "4427366",
+    "byeWeek" : 0
   },
   {
     "id" : 10003,
@@ -45,7 +48,8 @@
     "positionRank" : 1,
     "lastYearStats" : "101 rec, 1194 rec yds, 6 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4241389"
+    "espnId" : "4241389",
+    "byeWeek" : 0
   },
   {
     "id" : 10004,
@@ -57,7 +61,8 @@
     "positionRank" : 2,
     "lastYearStats" : "81 rec, 959 rec yds, 6 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3116406"
+    "espnId" : "3116406",
+    "byeWeek" : 0
   },
   {
     "id" : 10005,
@@ -69,7 +74,8 @@
     "positionRank" : 3,
     "lastYearStats" : "127 rec, 1708 rec yds, 17 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4362628"
+    "espnId" : "4362628",
+    "byeWeek" : 0
   },
   {
     "id" : 10006,
@@ -81,7 +87,8 @@
     "positionRank" : 4,
     "lastYearStats" : "115 rec, 1263 rec yds, 12 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4374302"
+    "espnId" : "4374302",
+    "byeWeek" : 0
   },
   {
     "id" : 10007,
@@ -93,7 +100,8 @@
     "positionRank" : 5,
     "lastYearStats" : "103 rec, 1533 rec yds, 10 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4262921"
+    "espnId" : "4262921",
+    "byeWeek" : 0
   },
   {
     "id" : 10008,
@@ -105,7 +113,8 @@
     "positionRank" : 4,
     "lastYearStats" : "1431 rush yds, 11 rush TDs, 18 rec, 136 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4242335"
+    "espnId" : "4242335",
+    "byeWeek" : 0
   },
   {
     "id" : 10009,
@@ -117,7 +126,8 @@
     "positionRank" : 5,
     "lastYearStats" : "2005 rush yds, 13 rush TDs, 33 rec, 278 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3929630"
+    "espnId" : "3929630",
+    "byeWeek" : 0
   },
   {
     "id" : 10010,
@@ -129,7 +139,8 @@
     "positionRank" : 6,
     "lastYearStats" : "67 rec, 1079 rec yds, 7 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4047646"
+    "espnId" : "4047646",
+    "byeWeek" : 0
   },
   {
     "id" : 10011,
@@ -141,7 +152,8 @@
     "positionRank" : 7,
     "lastYearStats" : "101 rec, 1104 rec yds, 7 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4569618"
+    "espnId" : "4569618",
+    "byeWeek" : 0
   },
   {
     "id" : 10012,
@@ -153,7 +165,8 @@
     "positionRank" : 8,
     "lastYearStats" : "79 rec, 990 rec yds, 3 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4426515"
+    "espnId" : "4426515",
+    "byeWeek" : 0
   },
   {
     "id" : 10013,
@@ -165,7 +178,8 @@
     "positionRank" : 6,
     "lastYearStats" : "1299 rush yds, 14 rush TDs, 34 rec, 182 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4430737"
+    "espnId" : "4430737",
+    "byeWeek" : 0
   },
   {
     "id" : 10014,
@@ -177,7 +191,8 @@
     "positionRank" : 7,
     "lastYearStats" : "1921 rush yds, 16 rush TDs, 19 rec, 193 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3043078"
+    "espnId" : "3043078",
+    "byeWeek" : 0
   },
   {
     "id" : 10015,
@@ -189,7 +204,8 @@
     "positionRank" : 8,
     "lastYearStats" : "1412 rush yds, 16 rush TDs, 52 rec, 517 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4429795"
+    "espnId" : "4429795",
+    "byeWeek" : 0
   },
   {
     "id" : 10016,
@@ -201,7 +217,8 @@
     "positionRank" : 9,
     "lastYearStats" : "310 rush yds, 1 rush TDs, 12 rec, 79 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4361529"
+    "espnId" : "4361529",
+    "byeWeek" : 0
   },
   {
     "id" : 10017,
@@ -213,7 +230,8 @@
     "positionRank" : 9,
     "lastYearStats" : "32 rec, 400 rec yds, 1 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4361370"
+    "espnId" : "4361370",
+    "byeWeek" : 0
   },
   {
     "id" : 10018,
@@ -225,7 +243,8 @@
     "positionRank" : 10,
     "lastYearStats" : "74 rec, 1004 rec yds, 11 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "16737"
+    "espnId" : "16737",
+    "byeWeek" : 0
   },
   {
     "id" : 10019,
@@ -237,7 +256,8 @@
     "positionRank" : 11,
     "lastYearStats" : "51 rec, 670 rec yds, 3 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3126486"
+    "espnId" : "3126486",
+    "byeWeek" : 0
   },
   {
     "id" : 10020,
@@ -249,7 +269,8 @@
     "positionRank" : 12,
     "lastYearStats" : "66 rec, 992 rec yds, 5 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4047650"
+    "espnId" : "4047650",
+    "byeWeek" : 0
   },
   {
     "id" : 10021,
@@ -261,7 +282,8 @@
     "positionRank" : 13,
     "lastYearStats" : "68 rec, 1006 rec yds, 7 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4258173"
+    "espnId" : "4258173",
+    "byeWeek" : 0
   },
   {
     "id" : 10022,
@@ -273,7 +295,8 @@
     "positionRank" : 14,
     "lastYearStats" : "62 rec, 885 rec yds, 8 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4432708"
+    "espnId" : "4432708",
+    "byeWeek" : 0
   },
   {
     "id" : 10023,
@@ -285,7 +308,8 @@
     "positionRank" : 10,
     "lastYearStats" : "558 rush yds, 2 rush TDs, 39 rec, 254 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4239996"
+    "espnId" : "4239996",
+    "byeWeek" : 0
   },
   {
     "id" : 10024,
@@ -297,7 +321,8 @@
     "positionRank" : 11,
     "lastYearStats" : "613 rush yds, 3 rush TDs, 51 rec, 393 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4697815"
+    "espnId" : "4697815",
+    "byeWeek" : 0
   },
   {
     "id" : 10025,
@@ -309,7 +334,8 @@
     "positionRank" : 15,
     "lastYearStats" : "25 rec, 374 rec yds, 0 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4360438"
+    "espnId" : "4360438",
+    "byeWeek" : 0
   },
   {
     "id" : 10026,
@@ -321,7 +347,8 @@
     "positionRank" : 16,
     "lastYearStats" : "85 rec, 1063 rec yds, 8 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "16800"
+    "espnId" : "16800",
+    "byeWeek" : 0
   },
   {
     "id" : 10027,
@@ -333,7 +360,8 @@
     "positionRank" : 12,
     "lastYearStats" : "1329 rush yds, 15 rush TDs, 36 rec, 342 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4047365"
+    "espnId" : "4047365",
+    "byeWeek" : 0
   },
   {
     "id" : 10028,
@@ -345,7 +373,8 @@
     "positionRank" : 13,
     "lastYearStats" : "573 rush yds, 7 rush TDs, 46 rec, 299 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4567048"
+    "espnId" : "4567048",
+    "byeWeek" : 0
   },
   {
     "id" : 10029,
@@ -357,7 +386,8 @@
     "positionRank" : 14,
     "lastYearStats" : "1009 rush yds, 16 rush TDs, 32 rec, 258 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4379399"
+    "espnId" : "4379399",
+    "byeWeek" : 0
   },
   {
     "id" : 10030,
@@ -369,7 +399,8 @@
     "positionRank" : 17,
     "lastYearStats" : "100 rec, 1271 rec yds, 9 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4426502"
+    "espnId" : "4426502",
+    "byeWeek" : 0
   },
   {
     "id" : 10031,
@@ -381,7 +412,8 @@
     "positionRank" : 18,
     "lastYearStats" : "109 rec, 1204 rec yds, 7 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4595348"
+    "espnId" : "4595348",
+    "byeWeek" : 0
   },
   {
     "id" : 10032,
@@ -393,7 +425,8 @@
     "positionRank" : 19,
     "lastYearStats" : "98 rec, 966 rec yds, 6 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3915416"
+    "espnId" : "3915416",
+    "byeWeek" : 0
   },
   {
     "id" : 10033,
@@ -405,7 +438,8 @@
     "positionRank" : 20,
     "lastYearStats" : "64 rec, 1017 rec yds, 4 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3925357"
+    "espnId" : "3925357",
+    "byeWeek" : 0
   },
   {
     "id" : 10034,
@@ -417,7 +451,8 @@
     "positionRank" : 1,
     "lastYearStats" : "3731 pass yds, 28 pass TDs, 6 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3918298"
+    "espnId" : "3918298",
+    "byeWeek" : 0
   },
   {
     "id" : 10035,
@@ -429,7 +464,8 @@
     "positionRank" : 1,
     "lastYearStats" : "60 rec, 726 rec yds, 7 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4430027"
+    "espnId" : "4430027",
+    "byeWeek" : 0
   },
   {
     "id" : 10036,
@@ -441,7 +477,8 @@
     "positionRank" : 2,
     "lastYearStats" : "97 rec, 823 rec yds, 3 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "15847"
+    "espnId" : "15847",
+    "byeWeek" : 0
   },
   {
     "id" : 10037,
@@ -453,7 +490,8 @@
     "positionRank" : 2,
     "lastYearStats" : "2903 pass yds, 18 pass TDs, 5 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4040715"
+    "espnId" : "4040715",
+    "byeWeek" : 0
   },
   {
     "id" : 10038,
@@ -465,7 +503,8 @@
     "positionRank" : 15,
     "lastYearStats" : "1016 rush yds, 11 rush TDs, 36 rec, 309 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3116385"
+    "espnId" : "3116385",
+    "byeWeek" : 0
   },
   {
     "id" : 10039,
@@ -477,7 +516,8 @@
     "positionRank" : 16,
     "lastYearStats" : "950 rush yds, 6 rush TDs, 68 rec, 543 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3054850"
+    "espnId" : "3054850",
+    "byeWeek" : 0
   },
   {
     "id" : 10040,
@@ -489,7 +529,8 @@
     "positionRank" : 17,
     "lastYearStats" : "907 rush yds, 6 rush TDs, 78 rec, 592 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4429160"
+    "espnId" : "4429160",
+    "byeWeek" : 0
   },
   {
     "id" : 10041,
@@ -501,7 +542,8 @@
     "positionRank" : 21,
     "lastYearStats" : "69 rec, 808 rec yds, 3 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4035687"
+    "espnId" : "4035687",
+    "byeWeek" : 0
   },
   {
     "id" : 10042,
@@ -513,7 +555,8 @@
     "positionRank" : 22,
     "lastYearStats" : "73 rec, 911 rec yds, 10 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4239993"
+    "espnId" : "4239993",
+    "byeWeek" : 0
   },
   {
     "id" : 10043,
@@ -525,7 +568,8 @@
     "positionRank" : 23,
     "lastYearStats" : "67 rec, 710 rec yds, 6 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "2977187"
+    "espnId" : "2977187",
+    "byeWeek" : 0
   },
   {
     "id" : 10044,
@@ -537,7 +581,8 @@
     "positionRank" : 24,
     "lastYearStats" : "68 rec, 833 rec yds, 8 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4241478"
+    "espnId" : "4241478",
+    "byeWeek" : 0
   },
   {
     "id" : 10045,
@@ -549,7 +594,8 @@
     "positionRank" : 25,
     "lastYearStats" : "58 rec, 744 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4372016"
+    "espnId" : "4372016",
+    "byeWeek" : 0
   },
   {
     "id" : 10046,
@@ -561,7 +607,8 @@
     "positionRank" : 26,
     "lastYearStats" : "47 rec, 496 rec yds, 3 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "2976212"
+    "espnId" : "2976212",
+    "byeWeek" : 0
   },
   {
     "id" : 10047,
@@ -573,7 +620,8 @@
     "positionRank" : 27,
     "lastYearStats" : "59 rec, 900 rec yds, 3 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4426354"
+    "espnId" : "4426354",
+    "byeWeek" : 0
   },
   {
     "id" : 10048,
@@ -585,7 +633,8 @@
     "positionRank" : 3,
     "lastYearStats" : "4172 pass yds, 41 pass TDs, 4 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3916387"
+    "espnId" : "3916387",
+    "byeWeek" : 0
   },
   {
     "id" : 10049,
@@ -597,7 +646,8 @@
     "positionRank" : 4,
     "lastYearStats" : "3928 pass yds, 26 pass TDs, 11 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3139477"
+    "espnId" : "3139477",
+    "byeWeek" : 0
   },
   {
     "id" : 10050,
@@ -609,7 +659,8 @@
     "positionRank" : 3,
     "lastYearStats" : "55 rec, 673 rec yds, 11 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3116365"
+    "espnId" : "3116365",
+    "byeWeek" : 0
   },
   {
     "id" : 10051,
@@ -621,7 +672,8 @@
     "positionRank" : 28,
     "lastYearStats" : "51 rec, 667 rec yds, 3 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4366031"
+    "espnId" : "4366031",
+    "byeWeek" : 0
   },
   {
     "id" : 10052,
@@ -633,7 +685,8 @@
     "positionRank" : 29,
     "lastYearStats" : "24 rec, 288 rec yds, 2 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4428331"
+    "espnId" : "4428331",
+    "byeWeek" : 0
   },
   {
     "id" : 10053,
@@ -645,7 +698,8 @@
     "positionRank" : 30,
     "lastYearStats" : "74 rec, 1059 rec yds, 4 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4429615"
+    "espnId" : "4429615",
+    "byeWeek" : 0
   },
   {
     "id" : 10054,
@@ -657,7 +711,8 @@
     "positionRank" : 31,
     "lastYearStats" : "33 rec, 375 rec yds, 3 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3932905"
+    "espnId" : "3932905",
+    "byeWeek" : 0
   },
   {
     "id" : 10055,
@@ -669,7 +724,8 @@
     "positionRank" : 4,
     "lastYearStats" : "78 rec, 1106 rec yds, 8 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3040151"
+    "espnId" : "3040151",
+    "byeWeek" : 0
   },
   {
     "id" : 10056,
@@ -681,7 +737,8 @@
     "positionRank" : 5,
     "lastYearStats" : "111 rec, 1146 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4361307"
+    "espnId" : "4361307",
+    "byeWeek" : 0
   },
   {
     "id" : 10057,
@@ -693,7 +750,8 @@
     "positionRank" : 5,
     "lastYearStats" : "1814 pass yds, 8 pass TDs, 12 INTs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4429084"
+    "espnId" : "4429084",
+    "byeWeek" : 0
   },
   {
     "id" : 10058,
@@ -705,7 +763,8 @@
     "positionRank" : 6,
     "lastYearStats" : "3727 pass yds, 20 pass TDs, 12 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4432577"
+    "espnId" : "4432577",
+    "byeWeek" : 0
   },
   {
     "id" : 10059,
@@ -717,7 +776,8 @@
     "positionRank" : 7,
     "lastYearStats" : "4918 pass yds, 43 pass TDs, 9 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3915511"
+    "espnId" : "3915511",
+    "byeWeek" : 0
   },
   {
     "id" : 10060,
@@ -729,7 +789,8 @@
     "positionRank" : 8,
     "lastYearStats" : "1978 pass yds, 11 pass TDs, 8 INTs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "2577417"
+    "espnId" : "2577417",
+    "byeWeek" : 0
   },
   {
     "id" : 10061,
@@ -741,7 +802,8 @@
     "positionRank" : 18,
     "lastYearStats" : "959 rush yds, 6 rush TDs, 42 rec, 386 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4259545"
+    "espnId" : "4259545",
+    "byeWeek" : 0
   },
   {
     "id" : 10062,
@@ -753,7 +815,8 @@
     "positionRank" : 19,
     "lastYearStats" : "1094 rush yds, 8 rush TDs, 47 rec, 414 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3045147"
+    "espnId" : "3045147",
+    "byeWeek" : 0
   },
   {
     "id" : 10063,
@@ -765,7 +828,8 @@
     "positionRank" : 20,
     "lastYearStats" : "801 rush yds, 7 rush TDs, 33 rec, 168 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4569173"
+    "espnId" : "4569173",
+    "byeWeek" : 0
   },
   {
     "id" : 10064,
@@ -777,7 +841,8 @@
     "positionRank" : 21,
     "lastYearStats" : "1043 rush yds, 6 rush TDs, 36 rec, 283 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4241457"
+    "espnId" : "4241457",
+    "byeWeek" : 0
   },
   {
     "id" : 10065,
@@ -789,7 +854,8 @@
     "positionRank" : 22,
     "lastYearStats" : "183 rush yds, 1 rush TDs, 6 rec, 30 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4361777"
+    "espnId" : "4361777",
+    "byeWeek" : 0
   },
   {
     "id" : 10066,
@@ -801,7 +867,8 @@
     "positionRank" : 32,
     "lastYearStats" : "44 rec, 547 rec yds, 4 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "2976499"
+    "espnId" : "2976499",
+    "byeWeek" : 0
   },
   {
     "id" : 10067,
@@ -813,7 +880,8 @@
     "positionRank" : 33,
     "lastYearStats" : "50 rec, 576 rec yds, 5 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3116165"
+    "espnId" : "3116165",
+    "byeWeek" : 0
   },
   {
     "id" : 10068,
@@ -825,7 +893,8 @@
     "positionRank" : 34,
     "lastYearStats" : "29 rec, 620 rec yds, 2 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4248528"
+    "espnId" : "4248528",
+    "byeWeek" : 0
   },
   {
     "id" : 10069,
@@ -837,7 +906,8 @@
     "positionRank" : 35,
     "lastYearStats" : "82 rec, 1096 rec yds, 13 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3121422"
+    "espnId" : "3121422",
+    "byeWeek" : 0
   },
   {
     "id" : 10070,
@@ -849,7 +919,8 @@
     "positionRank" : 36,
     "lastYearStats" : "27 rec, 379 rec yds, 1 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3895856"
+    "espnId" : "3895856",
+    "byeWeek" : 0
   },
   {
     "id" : 10071,
@@ -861,7 +932,8 @@
     "positionRank" : 37,
     "lastYearStats" : "70 rec, 744 rec yds, 7 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "15818"
+    "espnId" : "15818",
+    "byeWeek" : 0
   },
   {
     "id" : 10072,
@@ -873,7 +945,8 @@
     "positionRank" : 6,
     "lastYearStats" : "47 rec, 602 rec yds, 4 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4360248"
+    "espnId" : "4360248",
+    "byeWeek" : 0
   },
   {
     "id" : 10073,
@@ -885,7 +958,8 @@
     "positionRank" : 7,
     "lastYearStats" : "64 rec, 505 rec yds, 5 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3123076"
+    "espnId" : "3123076",
+    "byeWeek" : 0
   },
   {
     "id" : 10074,
@@ -897,7 +971,8 @@
     "positionRank" : 8,
     "lastYearStats" : "44 rec, 448 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4385690"
+    "espnId" : "4385690",
+    "byeWeek" : 0
   },
   {
     "id" : 10075,
@@ -909,7 +984,8 @@
     "positionRank" : 23,
     "lastYearStats" : "1138 rush yds, 5 rush TDs, 51 rec, 408 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3042519"
+    "espnId" : "3042519",
+    "byeWeek" : 0
   },
   {
     "id" : 10076,
@@ -921,7 +997,8 @@
     "positionRank" : 24,
     "lastYearStats" : "775 rush yds, 12 rush TDs, 36 rec, 341 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4035538"
+    "espnId" : "4035538",
+    "byeWeek" : 0
   },
   {
     "id" : 10077,
@@ -933,7 +1010,8 @@
     "positionRank" : 25,
     "lastYearStats" : "799 rush yds, 8 rush TDs, 20 rec, 159 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4241474"
+    "espnId" : "4241474",
+    "byeWeek" : 0
   },
   {
     "id" : 10078,
@@ -945,7 +1023,8 @@
     "positionRank" : 26,
     "lastYearStats" : "513 rush yds, 4 rush TDs, 52 rec, 346 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4361579"
+    "espnId" : "4361579",
+    "byeWeek" : 0
   },
   {
     "id" : 10079,
@@ -957,7 +1036,8 @@
     "positionRank" : 27,
     "lastYearStats" : "1079 rush yds, 5 rush TDs, 41 rec, 238 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3916148"
+    "espnId" : "3916148",
+    "byeWeek" : 0
   },
   {
     "id" : 10080,
@@ -969,7 +1049,8 @@
     "positionRank" : 38,
     "lastYearStats" : "55 rec, 857 rec yds, 6 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4362249"
+    "espnId" : "4362249",
+    "byeWeek" : 0
   },
   {
     "id" : 10081,
@@ -981,7 +1062,8 @@
     "positionRank" : 39,
     "lastYearStats" : "59 rec, 638 rec yds, 6 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4683062"
+    "espnId" : "4683062",
+    "byeWeek" : 0
   },
   {
     "id" : 10082,
@@ -993,7 +1075,8 @@
     "positionRank" : 40,
     "lastYearStats" : "81 rec, 1081 rec yds, 8 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3128429"
+    "espnId" : "3128429",
+    "byeWeek" : 0
   },
   {
     "id" : 10083,
@@ -1005,7 +1088,8 @@
     "positionRank" : 41,
     "lastYearStats" : "100 rec, 1130 rec yds, 6 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4430878"
+    "espnId" : "4430878",
+    "byeWeek" : 0
   },
   {
     "id" : 10084,
@@ -1017,7 +1101,8 @@
     "positionRank" : 42,
     "lastYearStats" : "63 rec, 875 rec yds, 9 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4429205"
+    "espnId" : "4429205",
+    "byeWeek" : 0
   },
   {
     "id" : 10085,
@@ -1029,7 +1114,8 @@
     "positionRank" : 43,
     "lastYearStats" : "54 rec, 734 rec yds, 3 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4431299"
+    "espnId" : "4431299",
+    "byeWeek" : 0
   },
   {
     "id" : 10086,
@@ -1041,7 +1127,8 @@
     "positionRank" : 28,
     "lastYearStats" : "278 rush yds, 2 rush TDs, 19 rec, 161 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "2576414"
+    "espnId" : "2576414",
+    "byeWeek" : 0
   },
   {
     "id" : 10087,
@@ -1053,7 +1140,8 @@
     "positionRank" : 29,
     "lastYearStats" : "437 rush yds, 4 rush TDs, 21 rec, 119 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4040761"
+    "espnId" : "4040761",
+    "byeWeek" : 0
   },
   {
     "id" : 10088,
@@ -1065,7 +1153,8 @@
     "positionRank" : 30,
     "lastYearStats" : "312 rush yds, 4 rush TDs, 30 rec, 224 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4428557"
+    "espnId" : "4428557",
+    "byeWeek" : 0
   },
   {
     "id" : 10089,
@@ -1077,7 +1166,8 @@
     "positionRank" : 31,
     "lastYearStats" : "511 rush yds, 1 rush TDs, 38 rec, 310 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4569987"
+    "espnId" : "4569987",
+    "byeWeek" : 0
   },
   {
     "id" : 10090,
@@ -1089,7 +1179,8 @@
     "positionRank" : 9,
     "lastYearStats" : "3851 pass yds, 21 pass TDs, 11 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3917315"
+    "espnId" : "3917315",
+    "byeWeek" : 0
   },
   {
     "id" : 10091,
@@ -1101,7 +1192,8 @@
     "positionRank" : 10,
     "lastYearStats" : "3389 pass yds, 25 pass TDs, 11 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4036378"
+    "espnId" : "4036378",
+    "byeWeek" : 0
   },
   {
     "id" : 10092,
@@ -1113,7 +1205,8 @@
     "positionRank" : 11,
     "lastYearStats" : "3864 pass yds, 20 pass TDs, 12 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4361741"
+    "espnId" : "4361741",
+    "byeWeek" : 0
   },
   {
     "id" : 10093,
@@ -1125,7 +1218,8 @@
     "positionRank" : 44,
     "lastYearStats" : "29 rec, 556 rec yds, 4 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4635008"
+    "espnId" : "4635008",
+    "byeWeek" : 0
   },
   {
     "id" : 10094,
@@ -1137,7 +1231,8 @@
     "positionRank" : 45,
     "lastYearStats" : "82 rec, 1149 rec yds, 7 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4612826"
+    "espnId" : "4612826",
+    "byeWeek" : 0
   },
   {
     "id" : 10095,
@@ -1149,7 +1244,8 @@
     "positionRank" : 46,
     "lastYearStats" : "87 rec, 1282 rec yds, 10 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4432773"
+    "espnId" : "4432773",
+    "byeWeek" : 0
   },
   {
     "id" : 10096,
@@ -1161,7 +1257,8 @@
     "positionRank" : 47,
     "lastYearStats" : "87 rec, 1027 rec yds, 4 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3916433"
+    "espnId" : "3916433",
+    "byeWeek" : 0
   },
   {
     "id" : 10097,
@@ -1173,7 +1270,8 @@
     "positionRank" : 48,
     "lastYearStats" : "56 rec, 610 rec yds, 5 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "15795"
+    "espnId" : "15795",
+    "byeWeek" : 0
   },
   {
     "id" : 10098,
@@ -1185,7 +1283,8 @@
     "positionRank" : 12,
     "lastYearStats" : "3568 pass yds, 25 pass TDs, 9 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4426348"
+    "espnId" : "4426348",
+    "byeWeek" : 0
   },
   {
     "id" : 10099,
@@ -1197,7 +1296,8 @@
     "positionRank" : 9,
     "lastYearStats" : "47 rec, 365 rec yds, 1 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3051876"
+    "espnId" : "3051876",
+    "byeWeek" : 0
   },
   {
     "id" : 10100,
@@ -1209,7 +1309,8 @@
     "positionRank" : 10,
     "lastYearStats" : "59 rec, 494 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4242355"
+    "espnId" : "4242355",
+    "byeWeek" : 0
   },
   {
     "id" : 10101,
@@ -1221,7 +1322,8 @@
     "positionRank" : 32,
     "lastYearStats" : "226 rush yds, 3 rush TDs, 12 rec, 69 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3051392"
+    "espnId" : "3051392",
+    "byeWeek" : 0
   },
   {
     "id" : 10102,
@@ -1233,7 +1335,8 @@
     "positionRank" : 33,
     "lastYearStats" : "990 rush yds, 7 rush TDs, 54 rec, 360 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4362238"
+    "espnId" : "4362238",
+    "byeWeek" : 0
   },
   {
     "id" : 10103,
@@ -1245,7 +1348,8 @@
     "positionRank" : 34,
     "lastYearStats" : "367 rush yds, 4 rush TDs, 35 rec, 366 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3068267"
+    "espnId" : "3068267",
+    "byeWeek" : 0
   },
   {
     "id" : 10104,
@@ -1257,7 +1361,8 @@
     "positionRank" : 35,
     "lastYearStats" : "22 rush yds, 0 rush TDs, 3 rec, 23 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4678008"
+    "espnId" : "4678008",
+    "byeWeek" : 0
   },
   {
     "id" : 10105,
@@ -1269,7 +1374,8 @@
     "positionRank" : 36,
     "lastYearStats" : "365 rush yds, 4 rush TDs, 3 rec, 6 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3051926"
+    "espnId" : "3051926",
+    "byeWeek" : 0
   },
   {
     "id" : 10106,
@@ -1281,7 +1387,8 @@
     "positionRank" : 49,
     "lastYearStats" : "21 rec, 298 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3045138"
+    "espnId" : "3045138",
+    "byeWeek" : 0
   },
   {
     "id" : 10107,
@@ -1293,7 +1400,8 @@
     "positionRank" : 50,
     "lastYearStats" : "9 rec, 91 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4241372"
+    "espnId" : "4241372",
+    "byeWeek" : 0
   },
   {
     "id" : 10108,
@@ -1305,7 +1413,8 @@
     "positionRank" : 51,
     "lastYearStats" : "49 rec, 600 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "2577327"
+    "espnId" : "2577327",
+    "byeWeek" : 0
   },
   {
     "id" : 10109,
@@ -1317,7 +1426,8 @@
     "positionRank" : 11,
     "lastYearStats" : "112 rec, 1194 rec yds, 5 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4432665"
+    "espnId" : "4432665",
+    "byeWeek" : 0
   },
   {
     "id" : 10110,
@@ -1329,7 +1439,8 @@
     "positionRank" : 12,
     "lastYearStats" : "42 rec, 496 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3121023"
+    "espnId" : "3121023",
+    "byeWeek" : 0
   },
   {
     "id" : 10111,
@@ -1341,7 +1452,8 @@
     "positionRank" : 13,
     "lastYearStats" : "23 rec, 187 rec yds, 0 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "2468609"
+    "espnId" : "2468609",
+    "byeWeek" : 0
   },
   {
     "id" : 10112,
@@ -1353,7 +1465,8 @@
     "positionRank" : 37,
     "lastYearStats" : "242 rush yds, 2 rush TDs, 23 rec, 187 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4035676"
+    "espnId" : "4035676",
+    "byeWeek" : 0
   },
   {
     "id" : 10113,
@@ -1365,7 +1478,8 @@
     "positionRank" : 38,
     "lastYearStats" : "905 rush yds, 9 rush TDs, 32 rec, 153 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4241985"
+    "espnId" : "4241985",
+    "byeWeek" : 0
   },
   {
     "id" : 10114,
@@ -1377,7 +1491,8 @@
     "positionRank" : 39,
     "lastYearStats" : "332 rush yds, 3 rush TDs, 5 rec, 31 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3128720"
+    "espnId" : "3128720",
+    "byeWeek" : 0
   },
   {
     "id" : 10115,
@@ -1389,7 +1504,8 @@
     "positionRank" : 40,
     "lastYearStats" : "1195 rush yds, 10 rush TDs, 43 rec, 171 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4241416"
+    "espnId" : "4241416",
+    "byeWeek" : 0
   },
   {
     "id" : 10116,
@@ -1401,7 +1517,8 @@
     "positionRank" : 41,
     "lastYearStats" : "182 rush yds, 0 rush TDs, 6 rec, 42 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4242431"
+    "espnId" : "4242431",
+    "byeWeek" : 0
   },
   {
     "id" : 10117,
@@ -1413,7 +1530,8 @@
     "positionRank" : 13,
     "lastYearStats" : "3897 pass yds, 28 pass TDs, 11 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "8439"
+    "espnId" : "8439",
+    "byeWeek" : 0
   },
   {
     "id" : 10118,
@@ -1425,7 +1543,8 @@
     "positionRank" : 14,
     "lastYearStats" : "3870 pass yds, 23 pass TDs, 3 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4038941"
+    "espnId" : "4038941",
+    "byeWeek" : 0
   },
   {
     "id" : 10119,
@@ -1437,7 +1556,8 @@
     "positionRank" : 15,
     "lastYearStats" : "3508 pass yds, 18 pass TDs, 16 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "14880"
+    "espnId" : "14880",
+    "byeWeek" : 0
   },
   {
     "id" : 10120,
@@ -1449,7 +1569,8 @@
     "positionRank" : 42,
     "lastYearStats" : "565 rush yds, 3 rush TDs, 37 rec, 225 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4372019"
+    "espnId" : "4372019",
+    "byeWeek" : 0
   },
   {
     "id" : 10121,
@@ -1461,7 +1582,8 @@
     "positionRank" : 43,
     "lastYearStats" : "569 rush yds, 8 rush TDs, 42 rec, 340 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4426385"
+    "espnId" : "4426385",
+    "byeWeek" : 0
   },
   {
     "id" : 10122,
@@ -1473,7 +1595,8 @@
     "positionRank" : 44,
     "lastYearStats" : "644 rush yds, 3 rush TDs, 13 rec, 88 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4373626"
+    "espnId" : "4373626",
+    "byeWeek" : 0
   },
   {
     "id" : 10123,
@@ -1485,7 +1608,8 @@
     "positionRank" : 45,
     "lastYearStats" : "207 rush yds, 0 rush TDs, 7 rec, 58 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4429096"
+    "espnId" : "4429096",
+    "byeWeek" : 0
   },
   {
     "id" : 10124,
@@ -1497,7 +1621,8 @@
     "positionRank" : 52,
     "lastYearStats" : "90 rec, 1229 rec yds, 4 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4241463"
+    "espnId" : "4241463",
+    "byeWeek" : 0
   },
   {
     "id" : 10125,
@@ -1509,7 +1634,8 @@
     "positionRank" : 53,
     "lastYearStats" : "58 rec, 1001 rec yds, 7 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4426388"
+    "espnId" : "4426388",
+    "byeWeek" : 0
   },
   {
     "id" : 10126,
@@ -1521,7 +1647,8 @@
     "positionRank" : 54,
     "lastYearStats" : "64 rec, 992 rec yds, 5 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4040655"
+    "espnId" : "4040655",
+    "byeWeek" : 0
   },
   {
     "id" : 10127,
@@ -1533,7 +1660,8 @@
     "positionRank" : 55,
     "lastYearStats" : "66 rec, 621 rec yds, 3 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4427095"
+    "espnId" : "4427095",
+    "byeWeek" : 0
   },
   {
     "id" : 10128,
@@ -1545,7 +1673,8 @@
     "positionRank" : 56,
     "lastYearStats" : "76 rec, 821 rec yds, 4 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4373678"
+    "espnId" : "4373678",
+    "byeWeek" : 0
   },
   {
     "id" : 10129,
@@ -1557,7 +1686,8 @@
     "positionRank" : 57,
     "lastYearStats" : "12 rec, 87 rec yds, 2 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4430637"
+    "espnId" : "4430637",
+    "byeWeek" : 0
   },
   {
     "id" : 10130,
@@ -1569,7 +1699,8 @@
     "positionRank" : 58,
     "lastYearStats" : "20 rec, 239 rec yds, 2 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4243537"
+    "espnId" : "4243537",
+    "byeWeek" : 0
   },
   {
     "id" : 10131,
@@ -1581,7 +1712,8 @@
     "positionRank" : 16,
     "lastYearStats" : "3541 pass yds, 20 pass TDs, 6 INTs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4431611"
+    "espnId" : "4431611",
+    "byeWeek" : 0
   },
   {
     "id" : 10132,
@@ -1593,7 +1725,8 @@
     "positionRank" : 17,
     "lastYearStats" : "1148 pass yds, 5 pass TDs, 3 INTs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3122840"
+    "espnId" : "3122840",
+    "byeWeek" : 0
   },
   {
     "id" : 10133,
@@ -1605,7 +1738,8 @@
     "positionRank" : 18,
     "lastYearStats" : "2045 pass yds, 11 pass TDs, 7 INTs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4360310"
+    "espnId" : "4360310",
+    "byeWeek" : 0
   },
   {
     "id" : 10134,
@@ -1617,7 +1751,8 @@
     "positionRank" : 14,
     "lastYearStats" : "41 rec, 455 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4036133"
+    "espnId" : "4036133",
+    "byeWeek" : 0
   },
   {
     "id" : 10135,
@@ -1629,7 +1764,8 @@
     "positionRank" : 15,
     "lastYearStats" : "65 rec, 653 rec yds, 7 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4361411"
+    "espnId" : "4361411",
+    "byeWeek" : 0
   },
   {
     "id" : 10136,
@@ -1641,7 +1777,8 @@
     "positionRank" : 16,
     "lastYearStats" : "53 rec, 532 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3117256"
+    "espnId" : "3117256",
+    "byeWeek" : 0
   },
   {
     "id" : 10137,
@@ -1653,7 +1790,8 @@
     "positionRank" : 59,
     "lastYearStats" : "48 rec, 615 rec yds, 5 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "16460"
+    "espnId" : "16460",
+    "byeWeek" : 0
   },
   {
     "id" : 10138,
@@ -1665,7 +1803,8 @@
     "positionRank" : 60,
     "lastYearStats" : "20 rec, 349 rec yds, 3 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4032473"
+    "espnId" : "4032473",
+    "byeWeek" : 0
   },
   {
     "id" : 10139,
@@ -1677,7 +1816,8 @@
     "positionRank" : 61,
     "lastYearStats" : "31 rec, 253 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3121427"
+    "espnId" : "3121427",
+    "byeWeek" : 0
   },
   {
     "id" : 10140,
@@ -1689,7 +1829,8 @@
     "positionRank" : 62,
     "lastYearStats" : "39 rec, 584 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4242433"
+    "espnId" : "4242433",
+    "byeWeek" : 0
   },
   {
     "id" : 10141,
@@ -1701,7 +1842,8 @@
     "positionRank" : 46,
     "lastYearStats" : "291 rush yds, 1 rush TDs, 6 rec, 59 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4429275"
+    "espnId" : "4429275",
+    "byeWeek" : 0
   },
   {
     "id" : 10142,
@@ -1713,7 +1855,8 @@
     "positionRank" : 47,
     "lastYearStats" : "496 rush yds, 1 rush TDs, 24 rec, 76 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4722893"
+    "espnId" : "4722893",
+    "byeWeek" : 0
   },
   {
     "id" : 10143,
@@ -1725,7 +1868,8 @@
     "positionRank" : 48,
     "lastYearStats" : "1122 rush yds, 8 rush TDs, 47 rec, 392 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4596448"
+    "espnId" : "4596448",
+    "byeWeek" : 0
   },
   {
     "id" : 10144,
@@ -1737,7 +1881,8 @@
     "positionRank" : 49,
     "lastYearStats" : "1079 rush yds, 2 rush TDs, 39 rec, 249 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4038815"
+    "espnId" : "4038815",
+    "byeWeek" : 0
   },
   {
     "id" : 10145,
@@ -1749,7 +1894,8 @@
     "positionRank" : 50,
     "lastYearStats" : "538 rush yds, 1 rush TDs, 23 rec, 206 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4360294"
+    "espnId" : "4360294",
+    "byeWeek" : 0
   },
   {
     "id" : 10146,
@@ -1761,7 +1907,8 @@
     "positionRank" : 63,
     "lastYearStats" : "23 rec, 312 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4597500"
+    "espnId" : "4597500",
+    "byeWeek" : 0
   },
   {
     "id" : 10147,
@@ -1773,7 +1920,8 @@
     "positionRank" : 64,
     "lastYearStats" : "47 rec, 548 rec yds, 4 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4360761"
+    "espnId" : "4360761",
+    "byeWeek" : 0
   },
   {
     "id" : 10148,
@@ -1785,7 +1933,8 @@
     "positionRank" : 65,
     "lastYearStats" : "49 rec, 497 rec yds, 4 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4430034"
+    "espnId" : "4430034",
+    "byeWeek" : 0
   },
   {
     "id" : 10149,
@@ -1797,7 +1946,8 @@
     "positionRank" : 66,
     "lastYearStats" : "46 rec, 601 rec yds, 4 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4361432"
+    "espnId" : "4361432",
+    "byeWeek" : 0
   },
   {
     "id" : 10150,
@@ -1809,7 +1959,8 @@
     "positionRank" : 67,
     "lastYearStats" : "39 rec, 415 rec yds, 5 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4428850"
+    "espnId" : "4428850",
+    "byeWeek" : 0
   },
   {
     "id" : 10151,
@@ -1821,7 +1972,8 @@
     "positionRank" : 68,
     "lastYearStats" : "26 rec, 259 rec yds, 3 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "16731"
+    "espnId" : "16731",
+    "byeWeek" : 0
   },
   {
     "id" : 10152,
@@ -1833,7 +1985,8 @@
     "positionRank" : 51,
     "lastYearStats" : "130 rush yds, 1 rush TDs, 10 rec, 25 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4035886"
+    "espnId" : "4035886",
+    "byeWeek" : 0
   },
   {
     "id" : 10153,
@@ -1845,7 +1998,8 @@
     "positionRank" : 52,
     "lastYearStats" : "789 rush yds, 3 rush TDs, 11 rec, 91 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4360569"
+    "espnId" : "4360569",
+    "byeWeek" : 0
   },
   {
     "id" : 10154,
@@ -1857,7 +2011,8 @@
     "positionRank" : 53,
     "lastYearStats" : "249 rush yds, 0 rush TDs, 3 rec, 8 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4682745"
+    "espnId" : "4682745",
+    "byeWeek" : 0
   },
   {
     "id" : 10155,
@@ -1869,7 +2024,8 @@
     "positionRank" : 54,
     "lastYearStats" : "839 rush yds, 5 rush TDs, 38 rec, 284 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4360516"
+    "espnId" : "4360516",
+    "byeWeek" : 0
   },
   {
     "id" : 10156,
@@ -1881,7 +2037,8 @@
     "positionRank" : 55,
     "lastYearStats" : "442 rush yds, 3 rush TDs, 17 rec, 189 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4429501"
+    "espnId" : "4429501",
+    "byeWeek" : 0
   },
   {
     "id" : 10157,
@@ -1893,7 +2050,8 @@
     "positionRank" : 56,
     "lastYearStats" : "15 rush yds, 0 rush TDs, 1 rec, 3 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4429023"
+    "espnId" : "4429023",
+    "byeWeek" : 0
   },
   {
     "id" : 10158,
@@ -1905,7 +2063,8 @@
     "positionRank" : 57,
     "lastYearStats" : "205 rush yds, 2 rush TDs, 24 rec, 148 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4045163"
+    "espnId" : "4045163",
+    "byeWeek" : 0
   },
   {
     "id" : 10159,
@@ -1917,7 +2076,8 @@
     "positionRank" : 69,
     "lastYearStats" : "47 rec, 539 rec yds, 3 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4428718"
+    "espnId" : "4428718",
+    "byeWeek" : 0
   },
   {
     "id" : 10160,
@@ -1929,7 +2089,8 @@
     "positionRank" : 70,
     "lastYearStats" : "31 rec, 505 rec yds, 7 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3043116"
+    "espnId" : "3043116",
+    "byeWeek" : 0
   },
   {
     "id" : 10161,
@@ -1941,7 +2102,8 @@
     "positionRank" : 71,
     "lastYearStats" : "8 rec, 62 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4692590"
+    "espnId" : "4692590",
+    "byeWeek" : 0
   },
   {
     "id" : 10162,
@@ -1953,7 +2115,8 @@
     "positionRank" : 19,
     "lastYearStats" : "2867 pass yds, 19 pass TDs, 7 INTs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4241479"
+    "espnId" : "4241479",
+    "byeWeek" : 0
   },
   {
     "id" : 10163,
@@ -1965,7 +2128,8 @@
     "positionRank" : 20,
     "lastYearStats" : "4629 pass yds, 37 pass TDs, 12 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3046779"
+    "espnId" : "3046779",
+    "byeWeek" : 0
   },
   {
     "id" : 10164,
@@ -1977,7 +2141,8 @@
     "positionRank" : 17,
     "lastYearStats" : "51 rec, 449 rec yds, 4 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3915486"
+    "espnId" : "3915486",
+    "byeWeek" : 0
   },
   {
     "id" : 10165,
@@ -1989,7 +2154,8 @@
     "positionRank" : 18,
     "lastYearStats" : "52 rec, 479 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4360635"
+    "espnId" : "4360635",
+    "byeWeek" : 0
   },
   {
     "id" : 10166,
@@ -2001,7 +2167,8 @@
     "positionRank" : 19,
     "lastYearStats" : "66 rec, 674 rec yds, 2 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3046439"
+    "espnId" : "3046439",
+    "byeWeek" : 0
   },
   {
     "id" : 10167,
@@ -2013,7 +2180,8 @@
     "positionRank" : 20,
     "lastYearStats" : "50 rec, 548 rec yds, 3 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3929645"
+    "espnId" : "3929645",
+    "byeWeek" : 0
   },
   {
     "id" : 10192,
@@ -2025,7 +2193,8 @@
     "positionRank" : 21,
     "lastYearStats" : "47 rec, 474 rec yds, 4 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4258595"
+    "espnId" : "4258595",
+    "byeWeek" : 0
   },
   {
     "id" : 10193,
@@ -2037,7 +2206,8 @@
     "positionRank" : 72,
     "lastYearStats" : "72 rec, 803 rec yds, 5 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4688813"
+    "espnId" : "4688813",
+    "byeWeek" : 0
   },
   {
     "id" : 10194,
@@ -2049,7 +2219,8 @@
     "positionRank" : 58,
     "lastYearStats" : "46 rush yds, 0 rush TDs, 3 rec, 24 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4242214"
+    "espnId" : "4242214",
+    "byeWeek" : 0
   },
   {
     "id" : 10195,
@@ -2061,7 +2232,8 @@
     "positionRank" : 59,
     "lastYearStats" : "92 rush yds, 1 rush TDs, 28 rec, 322 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3116389"
+    "espnId" : "3116389",
+    "byeWeek" : 0
   },
   {
     "id" : 10196,
@@ -2073,7 +2245,8 @@
     "positionRank" : 21,
     "lastYearStats" : "3762 pass yds, 20 pass TDs, 8 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "12483"
+    "espnId" : "12483",
+    "byeWeek" : 0
   },
   {
     "id" : 10197,
@@ -2085,7 +2258,8 @@
     "positionRank" : 22,
     "lastYearStats" : "2403 pass yds, 15 pass TDs, 9 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4685720"
+    "espnId" : "4685720",
+    "byeWeek" : 0
   },
   {
     "id" : 10198,
@@ -2097,7 +2271,8 @@
     "positionRank" : 23,
     "lastYearStats" : "2070 pass yds, 8 pass TDs, 7 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3917792"
+    "espnId" : "3917792",
+    "byeWeek" : 0
   },
   {
     "id" : 10199,
@@ -2109,7 +2284,8 @@
     "positionRank" : 24,
     "lastYearStats" : "2091 pass yds, 13 pass TDs, 12 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4361418"
+    "espnId" : "4361418",
+    "byeWeek" : 0
   },
   {
     "id" : 10200,
@@ -2121,7 +2297,8 @@
     "positionRank" : 73,
     "lastYearStats" : "4 rec, 31 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3115394"
+    "espnId" : "3115394",
+    "byeWeek" : 0
   },
   {
     "id" : 10201,
@@ -2133,7 +2310,8 @@
     "positionRank" : 74,
     "lastYearStats" : "93 rec, 699 rec yds, 3 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4569587"
+    "espnId" : "4569587",
+    "byeWeek" : 0
   },
   {
     "id" : 10202,
@@ -2145,7 +2323,8 @@
     "positionRank" : 75,
     "lastYearStats" : "39 rec, 390 rec yds, 0 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3045144"
+    "espnId" : "3045144",
+    "byeWeek" : 0
   },
   {
     "id" : 10203,
@@ -2157,7 +2336,8 @@
     "positionRank" : 76,
     "lastYearStats" : "28 rec, 305 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3045523"
+    "espnId" : "3045523",
+    "byeWeek" : 0
   },
   {
     "id" : 10204,
@@ -2169,7 +2349,8 @@
     "positionRank" : 77,
     "lastYearStats" : "45 rec, 756 rec yds, 9 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4360939"
+    "espnId" : "4360939",
+    "byeWeek" : 0
   },
   {
     "id" : 10205,
@@ -2181,7 +2362,8 @@
     "positionRank" : 22,
     "lastYearStats" : "50 rec, 707 rec yds, 7 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4572680"
+    "espnId" : "4572680",
+    "byeWeek" : 0
   },
   {
     "id" : 10206,
@@ -2193,7 +2375,8 @@
     "positionRank" : 23,
     "lastYearStats" : "7 rec, 45 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4428085"
+    "espnId" : "4428085",
+    "byeWeek" : 0
   },
   {
     "id" : 10207,
@@ -2205,7 +2388,8 @@
     "positionRank" : 78,
     "lastYearStats" : "49 rec, 610 rec yds, 7 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4249417"
+    "espnId" : "4249417",
+    "byeWeek" : 0
   },
   {
     "id" : 10208,
@@ -2217,7 +2401,8 @@
     "positionRank" : 79,
     "lastYearStats" : "39 rec, 573 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3916945"
+    "espnId" : "3916945",
+    "byeWeek" : 0
   },
   {
     "id" : 10209,
@@ -2229,7 +2414,8 @@
     "positionRank" : 80,
     "lastYearStats" : "37 rec, 461 rec yds, 8 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4430834"
+    "espnId" : "4430834",
+    "byeWeek" : 0
   },
   {
     "id" : 10210,
@@ -2241,7 +2427,8 @@
     "positionRank" : 81,
     "lastYearStats" : "13 rec, 194 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3115306"
+    "espnId" : "3115306",
+    "byeWeek" : 0
   },
   {
     "id" : 10211,
@@ -2253,7 +2440,8 @@
     "positionRank" : 60,
     "lastYearStats" : "164 rush yds, 1 rush TDs, 9 rec, 57 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "2980453"
+    "espnId" : "2980453",
+    "byeWeek" : 0
   },
   {
     "id" : 10212,
@@ -2265,7 +2453,8 @@
     "positionRank" : 61,
     "lastYearStats" : "420 rush yds, 4 rush TDs, 36 rec, 294 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4048244"
+    "espnId" : "4048244",
+    "byeWeek" : 0
   },
   {
     "id" : 10213,
@@ -2277,7 +2466,8 @@
     "positionRank" : 62,
     "lastYearStats" : "30 rush yds, 0 rush TDs, 1 rec, 28 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4596334"
+    "espnId" : "4596334",
+    "byeWeek" : 0
   },
   {
     "id" : 10214,
@@ -2289,7 +2479,8 @@
     "positionRank" : 24,
     "lastYearStats" : "59 rec, 600 rec yds, 4 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4243331"
+    "espnId" : "4243331",
+    "byeWeek" : 0
   },
   {
     "id" : 10215,
@@ -2301,7 +2492,8 @@
     "positionRank" : 25,
     "lastYearStats" : "48 rec, 500 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4036131"
+    "espnId" : "4036131",
+    "byeWeek" : 0
   },
   {
     "id" : 10216,
@@ -2313,7 +2505,8 @@
     "positionRank" : 26,
     "lastYearStats" : "8 rec, 73 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3924365"
+    "espnId" : "3924365",
+    "byeWeek" : 0
   },
   {
     "id" : 10217,
@@ -2325,7 +2518,8 @@
     "positionRank" : 25,
     "lastYearStats" : "4500 pass yds, 41 pass TDs, 16 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3052587"
+    "espnId" : "3052587",
+    "byeWeek" : 0
   },
   {
     "id" : 10218,
@@ -2337,7 +2531,8 @@
     "positionRank" : 26,
     "lastYearStats" : "4320 pass yds, 21 pass TDs, 15 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "15864"
+    "espnId" : "15864",
+    "byeWeek" : 0
   },
   {
     "id" : 10219,
@@ -2349,7 +2544,8 @@
     "positionRank" : 27,
     "lastYearStats" : "3775 pass yds, 29 pass TDs, 12 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4426338"
+    "espnId" : "4426338",
+    "byeWeek" : 0
   },
   {
     "id" : 10220,
@@ -2361,7 +2557,8 @@
     "positionRank" : 63,
     "lastYearStats" : "148 rush yds, 1 rush TDs, 5 rec, 33 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4599739"
+    "espnId" : "4599739",
+    "byeWeek" : 0
   },
   {
     "id" : 10221,
@@ -2373,7 +2570,8 @@
     "positionRank" : 64,
     "lastYearStats" : "232 rush yds, 0 rush TDs, 6 rec, 54 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3125116"
+    "espnId" : "3125116",
+    "byeWeek" : 0
   },
   {
     "id" : 10222,
@@ -2385,7 +2583,8 @@
     "positionRank" : 65,
     "lastYearStats" : "290 rush yds, 1 rush TDs, 16 rec, 116 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4371733"
+    "espnId" : "4371733",
+    "byeWeek" : 0
   },
   {
     "id" : 10223,
@@ -2397,7 +2596,8 @@
     "positionRank" : 82,
     "lastYearStats" : "39 rec, 503 rec yds, 6 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4686472"
+    "espnId" : "4686472",
+    "byeWeek" : 0
   },
   {
     "id" : 10224,
@@ -2409,7 +2609,8 @@
     "positionRank" : 66,
     "lastYearStats" : "334 rush yds, 2 rush TDs, 19 rec, 148 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4685247"
+    "espnId" : "4685247",
+    "byeWeek" : 0
   },
   {
     "id" : 10225,
@@ -2421,7 +2622,8 @@
     "positionRank" : 67,
     "lastYearStats" : "766 rush yds, 7 rush TDs, 7 rec, 54 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4429013"
+    "espnId" : "4429013",
+    "byeWeek" : 0
   },
   {
     "id" : 10226,
@@ -2433,7 +2635,8 @@
     "positionRank" : 83,
     "lastYearStats" : "9 rec, 55 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "16733"
+    "espnId" : "16733",
+    "byeWeek" : 0
   },
   {
     "id" : 10227,
@@ -2445,7 +2648,8 @@
     "positionRank" : 84,
     "lastYearStats" : "8 rec, 84 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3059722"
+    "espnId" : "3059722",
+    "byeWeek" : 0
   },
   {
     "id" : 10228,
@@ -2457,7 +2661,8 @@
     "positionRank" : 85,
     "lastYearStats" : "36 rec, 479 rec yds, 6 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4368003"
+    "espnId" : "4368003",
+    "byeWeek" : 0
   },
   {
     "id" : 10229,
@@ -2469,7 +2674,8 @@
     "positionRank" : 86,
     "lastYearStats" : "55 rec, 711 rec yds, 8 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4429025"
+    "espnId" : "4429025",
+    "byeWeek" : 0
   },
   {
     "id" : 10230,
@@ -2481,7 +2687,8 @@
     "positionRank" : 87,
     "lastYearStats" : "62 rec, 686 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3728262"
+    "espnId" : "3728262",
+    "byeWeek" : 0
   },
   {
     "id" : 10231,
@@ -2493,7 +2700,8 @@
     "positionRank" : 88,
     "lastYearStats" : "12 rec, 172 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4426407"
+    "espnId" : "4426407",
+    "byeWeek" : 0
   },
   {
     "id" : 10232,
@@ -2505,7 +2713,8 @@
     "positionRank" : 89,
     "lastYearStats" : "28 rec, 263 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4431280"
+    "espnId" : "4431280",
+    "byeWeek" : 0
   },
   {
     "id" : 10233,
@@ -2517,7 +2726,8 @@
     "positionRank" : 90,
     "lastYearStats" : "3 rec, 16 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4613104"
+    "espnId" : "4613104",
+    "byeWeek" : 0
   },
   {
     "id" : 10238,
@@ -2529,7 +2739,8 @@
     "positionRank" : 68,
     "lastYearStats" : "213 rush yds, 1 rush TDs, 18 rec, 284 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3915411"
+    "espnId" : "3915411",
+    "byeWeek" : 0
   },
   {
     "id" : 10239,
@@ -2541,7 +2752,8 @@
     "positionRank" : 69,
     "lastYearStats" : "228 rush yds, 1 rush TDs, 42 rec, 383 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4038441"
+    "espnId" : "4038441",
+    "byeWeek" : 0
   },
   {
     "id" : 10240,
@@ -2553,7 +2765,8 @@
     "positionRank" : 70,
     "lastYearStats" : "293 rush yds, 2 rush TDs, 2 rec, 2 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4360238"
+    "espnId" : "4360238",
+    "byeWeek" : 0
   },
   {
     "id" : 10241,
@@ -2565,7 +2778,8 @@
     "positionRank" : 71,
     "lastYearStats" : "70 rush yds, 0 rush TDs, 3 rec, 18 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4431453"
+    "espnId" : "4431453",
+    "byeWeek" : 0
   },
   {
     "id" : 10242,
@@ -2577,7 +2791,8 @@
     "positionRank" : 72,
     "lastYearStats" : "159 rush yds, 2 rush TDs, 16 rec, 99 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4241401"
+    "espnId" : "4241401",
+    "byeWeek" : 0
   },
   {
     "id" : 10243,
@@ -2589,7 +2804,8 @@
     "positionRank" : 73,
     "lastYearStats" : "310 rush yds, 2 rush TDs, 5 rec, 27 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4569682"
+    "espnId" : "4569682",
+    "byeWeek" : 0
   },
   {
     "id" : 10244,
@@ -2601,7 +2817,8 @@
     "positionRank" : 74,
     "lastYearStats" : "31 rush yds, 0 rush TDs, 10 rec, 82 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4570561"
+    "espnId" : "4570561",
+    "byeWeek" : 0
   },
   {
     "id" : 10245,
@@ -2613,7 +2830,8 @@
     "positionRank" : 75,
     "lastYearStats" : "150 rush yds, 6 rush TDs, 16 rec, 104 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4426386"
+    "espnId" : "4426386",
+    "byeWeek" : 0
   },
   {
     "id" : 10246,
@@ -2625,7 +2843,8 @@
     "positionRank" : 76,
     "lastYearStats" : "174 rush yds, 1 rush TDs, 9 rec, 75 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4695404"
+    "espnId" : "4695404",
+    "byeWeek" : 0
   },
   {
     "id" : 10247,
@@ -2637,7 +2856,8 @@
     "positionRank" : 77,
     "lastYearStats" : "502 rush yds, 4 rush TDs, 11 rec, 48 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4887558"
+    "espnId" : "4887558",
+    "byeWeek" : 0
   },
   {
     "id" : 10248,
@@ -2649,7 +2869,8 @@
     "positionRank" : 78,
     "lastYearStats" : "135 rush yds, 0 rush TDs, 12 rec, 80 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "15807"
+    "espnId" : "15807",
+    "byeWeek" : 0
   },
   {
     "id" : 10249,
@@ -2661,7 +2882,8 @@
     "positionRank" : 79,
     "lastYearStats" : "143 rush yds, 0 rush TDs, 12 rec, 96 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3139602"
+    "espnId" : "3139602",
+    "byeWeek" : 0
   },
   {
     "id" : 10250,
@@ -2673,7 +2895,8 @@
     "positionRank" : 80,
     "lastYearStats" : "223 rush yds, 1 rush TDs, 16 rec, 104 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4362478"
+    "espnId" : "4362478",
+    "byeWeek" : 0
   },
   {
     "id" : 10251,
@@ -2685,7 +2908,8 @@
     "positionRank" : 91,
     "lastYearStats" : "17 rec, 167 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4426485"
+    "espnId" : "4426485",
+    "byeWeek" : 0
   },
   {
     "id" : 10252,
@@ -2697,7 +2921,8 @@
     "positionRank" : 92,
     "lastYearStats" : "17 rec, 215 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "2973405"
+    "espnId" : "2973405",
+    "byeWeek" : 0
   },
   {
     "id" : 10257,
@@ -2709,7 +2934,8 @@
     "positionRank" : 27,
     "lastYearStats" : "42 rec, 477 rec yds, 6 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4361050"
+    "espnId" : "4361050",
+    "byeWeek" : 0
   },
   {
     "id" : 10258,
@@ -2721,7 +2947,8 @@
     "positionRank" : 28,
     "lastYearStats" : "22 rec, 311 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3930086"
+    "espnId" : "3930086",
+    "byeWeek" : 0
   },
   {
     "id" : 10259,
@@ -2733,7 +2960,8 @@
     "positionRank" : 29,
     "lastYearStats" : "88 rec, 884 rec yds, 8 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3054212"
+    "espnId" : "3054212",
+    "byeWeek" : 0
   },
   {
     "id" : 10260,
@@ -2745,7 +2973,8 @@
     "positionRank" : 93,
     "lastYearStats" : "24 rec, 276 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3930066"
+    "espnId" : "3930066",
+    "byeWeek" : 0
   },
   {
     "id" : 10261,
@@ -2757,7 +2986,8 @@
     "positionRank" : 94,
     "lastYearStats" : "29 rec, 339 rec yds, 3 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4369863"
+    "espnId" : "4369863",
+    "byeWeek" : 0
   },
   {
     "id" : 10262,
@@ -2769,7 +2999,8 @@
     "positionRank" : 95,
     "lastYearStats" : "18 rec, 168 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4426948"
+    "espnId" : "4426948",
+    "byeWeek" : 0
   },
   {
     "id" : 10263,
@@ -2781,7 +3012,8 @@
     "positionRank" : 96,
     "lastYearStats" : "37 rec, 342 rec yds, 3 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4037235"
+    "espnId" : "4037235",
+    "byeWeek" : 0
   },
   {
     "id" : 10264,
@@ -2793,7 +3025,8 @@
     "positionRank" : 81,
     "lastYearStats" : "153 rush yds, 1 rush TDs, 11 rec, 61 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4429676"
+    "espnId" : "4429676",
+    "byeWeek" : 0
   },
   {
     "id" : 10265,
@@ -2805,7 +3038,8 @@
     "positionRank" : 82,
     "lastYearStats" : "0 rush yds, 0 rush TDs, 0 rec, 0 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4035222"
+    "espnId" : "4035222",
+    "byeWeek" : 0
   },
   {
     "id" : 10266,
@@ -2817,7 +3051,8 @@
     "positionRank" : 28,
     "lastYearStats" : "2482 pass yds, 16 pass TDs, 5 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "14881"
+    "espnId" : "14881",
+    "byeWeek" : 0
   },
   {
     "id" : 10267,
@@ -2829,7 +3064,8 @@
     "positionRank" : 29,
     "lastYearStats" : "2145 pass yds, 15 pass TDs, 5 INTs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "16757"
+    "espnId" : "16757",
+    "byeWeek" : 0
   },
   {
     "id" : 10268,
@@ -2841,7 +3077,8 @@
     "positionRank" : 30,
     "lastYearStats" : "2276 pass yds, 15 pass TDs, 10 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4431452"
+    "espnId" : "4431452",
+    "byeWeek" : 0
   },
   {
     "id" : 10269,
@@ -2853,7 +3090,8 @@
     "positionRank" : 31,
     "lastYearStats" : "2013 pass yds, 9 pass TDs, 10 INTs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4038524"
+    "espnId" : "4038524",
+    "byeWeek" : 0
   },
   {
     "id" : 10270,
@@ -2865,7 +3103,8 @@
     "positionRank" : 97,
     "lastYearStats" : "19 rec, 216 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4361409"
+    "espnId" : "4361409",
+    "byeWeek" : 0
   },
   {
     "id" : 10271,
@@ -2877,7 +3116,8 @@
     "positionRank" : 98,
     "lastYearStats" : "77 rec, 975 rec yds, 6 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3886598"
+    "espnId" : "3886598",
+    "byeWeek" : 0
   },
   {
     "id" : 10272,
@@ -2889,7 +3129,8 @@
     "positionRank" : 99,
     "lastYearStats" : "61 rec, 538 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4372414"
+    "espnId" : "4372414",
+    "byeWeek" : 0
   },
   {
     "id" : 10273,
@@ -2901,7 +3142,8 @@
     "positionRank" : 100,
     "lastYearStats" : "14 rec, 231 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "2971618"
+    "espnId" : "2971618",
+    "byeWeek" : 0
   },
   {
     "id" : 10274,
@@ -2913,7 +3155,8 @@
     "positionRank" : 101,
     "lastYearStats" : "30 rec, 308 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4361577"
+    "espnId" : "4361577",
+    "byeWeek" : 0
   },
   {
     "id" : 10275,
@@ -2925,7 +3168,8 @@
     "positionRank" : 83,
     "lastYearStats" : "69 rush yds, 0 rush TDs, 10 rec, 59 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3928925"
+    "espnId" : "3928925",
+    "byeWeek" : 0
   },
   {
     "id" : 10276,
@@ -2937,7 +3181,8 @@
     "positionRank" : 84,
     "lastYearStats" : "420 rush yds, 4 rush TDs, 15 rec, 152 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4372561"
+    "espnId" : "4372561",
+    "byeWeek" : 0
   },
   {
     "id" : 10277,
@@ -2949,7 +3194,8 @@
     "positionRank" : 85,
     "lastYearStats" : "261 rush yds, 4 rush TDs, 9 rec, 27 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3127586"
+    "espnId" : "3127586",
+    "byeWeek" : 0
   },
   {
     "id" : 10278,
@@ -2961,7 +3207,8 @@
     "positionRank" : 86,
     "lastYearStats" : "311 rush yds, 2 rush TDs, 40 rec, 261 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "2576336"
+    "espnId" : "2576336",
+    "byeWeek" : 0
   },
   {
     "id" : 10279,
@@ -2973,7 +3220,8 @@
     "positionRank" : 87,
     "lastYearStats" : "102 rush yds, 0 rush TDs, 2 rec, 11 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4367567"
+    "espnId" : "4367567",
+    "byeWeek" : 0
   },
   {
     "id" : 10280,
@@ -2985,7 +3233,8 @@
     "positionRank" : 88,
     "lastYearStats" : "155 rush yds, 0 rush TDs, 5 rec, 62 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4430968"
+    "espnId" : "4430968",
+    "byeWeek" : 0
   },
   {
     "id" : 10281,
@@ -2997,7 +3246,8 @@
     "positionRank" : 89,
     "lastYearStats" : "172 rush yds, 0 rush TDs, 3 rec, 22 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4427391"
+    "espnId" : "4427391",
+    "byeWeek" : 0
   },
   {
     "id" : 10282,
@@ -3009,7 +3259,8 @@
     "positionRank" : 90,
     "lastYearStats" : "139 rush yds, 0 rush TDs, 3 rec, 40 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4421446"
+    "espnId" : "4421446",
+    "byeWeek" : 0
   },
   {
     "id" : 10283,
@@ -3021,7 +3272,8 @@
     "positionRank" : 102,
     "lastYearStats" : "4 rec, 107 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4429033"
+    "espnId" : "4429033",
+    "byeWeek" : 0
   },
   {
     "id" : 10288,
@@ -3033,7 +3285,8 @@
     "positionRank" : 30,
     "lastYearStats" : "30 rec, 294 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4242557"
+    "espnId" : "4242557",
+    "byeWeek" : 0
   },
   {
     "id" : 10289,
@@ -3045,7 +3298,8 @@
     "positionRank" : 31,
     "lastYearStats" : "65 rec, 665 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3116164"
+    "espnId" : "3116164",
+    "byeWeek" : 0
   },
   {
     "id" : 10290,
@@ -3057,7 +3311,8 @@
     "positionRank" : 32,
     "lastYearStats" : "5 rec, 28 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4690923"
+    "espnId" : "4690923",
+    "byeWeek" : 0
   },
   {
     "id" : 10291,
@@ -3069,7 +3324,8 @@
     "positionRank" : 33,
     "lastYearStats" : "29 rec, 331 rec yds, 1 rec TDs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4429148"
+    "espnId" : "4429148",
+    "byeWeek" : 0
   },
   {
     "id" : 10292,
@@ -3081,7 +3337,8 @@
     "positionRank" : 34,
     "lastYearStats" : "14 rec, 182 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4039160"
+    "espnId" : "4039160",
+    "byeWeek" : 0
   },
   {
     "id" : 10293,
@@ -3093,7 +3350,8 @@
     "positionRank" : 103,
     "lastYearStats" : "7 rec, 131 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3047876"
+    "espnId" : "3047876",
+    "byeWeek" : 0
   },
   {
     "id" : 10294,
@@ -3105,7 +3363,8 @@
     "positionRank" : 104,
     "lastYearStats" : "6 rec, 39 rec yds, 1 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4427278"
+    "espnId" : "4427278",
+    "byeWeek" : 0
   },
   {
     "id" : 10295,
@@ -3117,7 +3376,8 @@
     "positionRank" : 32,
     "lastYearStats" : "4319 pass yds, 35 pass TDs, 12 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3912547"
+    "espnId" : "3912547",
+    "byeWeek" : 0
   },
   {
     "id" : 10300,
@@ -3129,7 +3389,8 @@
     "positionRank" : 33,
     "lastYearStats" : "826 pass yds, 2 pass TDs, 1 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "2578570"
+    "espnId" : "2578570",
+    "byeWeek" : 0
   },
   {
     "id" : 10301,
@@ -3141,7 +3402,8 @@
     "positionRank" : 34,
     "lastYearStats" : "1106 pass yds, 5 pass TDs, 1 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4362887"
+    "espnId" : "4362887",
+    "byeWeek" : 0
   },
   {
     "id" : 10302,
@@ -3153,7 +3415,8 @@
     "positionRank" : 91,
     "lastYearStats" : "308 rush yds, 2 rush TDs, 9 rec, 109 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4430871"
+    "espnId" : "4430871",
+    "byeWeek" : 0
   },
   {
     "id" : 10303,
@@ -3165,7 +3428,8 @@
     "positionRank" : 92,
     "lastYearStats" : "112 rush yds, 0 rush TDs, 19 rec, 198 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "2983509"
+    "espnId" : "2983509",
+    "byeWeek" : 0
   },
   {
     "id" : 10304,
@@ -3177,7 +3441,8 @@
     "positionRank" : 93,
     "lastYearStats" : "26 rush yds, 1 rush TDs, 19 rec, 200 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "16002"
+    "espnId" : "16002",
+    "byeWeek" : 0
   },
   {
     "id" : 10305,
@@ -3189,7 +3454,8 @@
     "positionRank" : 94,
     "lastYearStats" : "108 rush yds, 0 rush TDs, 14 rec, 104 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4249836"
+    "espnId" : "4249836",
+    "byeWeek" : 0
   },
   {
     "id" : 10306,
@@ -3201,7 +3467,8 @@
     "positionRank" : 95,
     "lastYearStats" : "32 rush yds, 0 rush TDs, 0 rec, 0 rec yds",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4429001"
+    "espnId" : "4429001",
+    "byeWeek" : 0
   },
   {
     "id" : 10307,
@@ -3213,7 +3480,8 @@
     "positionRank" : 96,
     "lastYearStats" : "82 rush yds, 0 rush TDs, 4 rec, 35 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4431545"
+    "espnId" : "4431545",
+    "byeWeek" : 0
   },
   {
     "id" : 10308,
@@ -3225,7 +3493,8 @@
     "positionRank" : 97,
     "lastYearStats" : "99 rush yds, 0 rush TDs, 5 rec, 34 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4243003"
+    "espnId" : "4243003",
+    "byeWeek" : 0
   },
   {
     "id" : 10309,
@@ -3237,7 +3506,8 @@
     "positionRank" : 35,
     "lastYearStats" : "1612 pass yds, 8 pass TDs, 4 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4260394"
+    "espnId" : "4260394",
+    "byeWeek" : 0
   },
   {
     "id" : 10310,
@@ -3249,7 +3519,8 @@
     "positionRank" : 35,
     "lastYearStats" : "8 rec, 36 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3918639"
+    "espnId" : "3918639",
+    "byeWeek" : 0
   },
   {
     "id" : 10311,
@@ -3261,7 +3532,8 @@
     "positionRank" : 36,
     "lastYearStats" : "5 rec, 28 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4367209"
+    "espnId" : "4367209",
+    "byeWeek" : 0
   },
   {
     "id" : 10312,
@@ -3273,7 +3545,8 @@
     "positionRank" : 37,
     "lastYearStats" : "66 rec, 654 rec yds, 7 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "15835"
+    "espnId" : "15835",
+    "byeWeek" : 0
   },
   {
     "id" : 10313,
@@ -3285,7 +3558,8 @@
     "positionRank" : 38,
     "lastYearStats" : "21 rec, 156 rec yds, 0 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4429086"
+    "espnId" : "4429086",
+    "byeWeek" : 0
   },
   {
     "id" : 10314,
@@ -3297,7 +3571,8 @@
     "positionRank" : 36,
     "lastYearStats" : "775 pass yds, 3 pass TDs, 3 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4360423"
+    "espnId" : "4360423",
+    "byeWeek" : 0
   },
   {
     "id" : 10315,
@@ -3309,7 +3584,8 @@
     "positionRank" : 37,
     "lastYearStats" : "24 pass yds, 0 pass TDs, 1 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4426875"
+    "espnId" : "4426875",
+    "byeWeek" : 0
   },
   {
     "id" : 10316,
@@ -3321,7 +3597,8 @@
     "positionRank" : 38,
     "lastYearStats" : "119 pass yds, 3 pass TDs, 0 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "14163"
+    "espnId" : "14163",
+    "byeWeek" : 0
   },
   {
     "id" : 10317,
@@ -3333,7 +3610,8 @@
     "positionRank" : 39,
     "lastYearStats" : "1761 pass yds, 12 pass TDs, 7 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "11252"
+    "espnId" : "11252",
+    "byeWeek" : 0
   },
   {
     "id" : 10318,
@@ -3345,7 +3623,8 @@
     "positionRank" : 40,
     "lastYearStats" : "0 pass yds, 0 pass TDs, 0 INTs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3886812"
+    "espnId" : "3886812",
+    "byeWeek" : 0
   },
   {
     "id" : 10319,
@@ -3357,7 +3636,8 @@
     "positionRank" : 98,
     "lastYearStats" : "0 rush yds, 0 rush TDs, 0 rec, 0 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4366963"
+    "espnId" : "4366963",
+    "byeWeek" : 0
   },
   {
     "id" : 10320,
@@ -3369,7 +3649,8 @@
     "positionRank" : 99,
     "lastYearStats" : "444 rush yds, 2 rush TDs, 14 rec, 68 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4240021"
+    "espnId" : "4240021",
+    "byeWeek" : 0
   },
   {
     "id" : 10321,
@@ -3381,7 +3662,8 @@
     "positionRank" : 100,
     "lastYearStats" : "0 rush yds, 0 rush TDs, 0 rec, 0 rec yds",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4429202"
+    "espnId" : "4429202",
+    "byeWeek" : 0
   },
   {
     "id" : 10322,
@@ -3393,7 +3675,8 @@
     "positionRank" : 39,
     "lastYearStats" : "19 rec, 142 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3052096"
+    "espnId" : "3052096",
+    "byeWeek" : 0
   },
   {
     "id" : 10323,
@@ -3405,7 +3688,8 @@
     "positionRank" : 40,
     "lastYearStats" : "40 rec, 437 rec yds, 5 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4240472"
+    "espnId" : "4240472",
+    "byeWeek" : 0
   },
   {
     "id" : 10324,
@@ -3417,7 +3701,8 @@
     "positionRank" : 41,
     "lastYearStats" : "8 rec, 66 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "2573401"
+    "espnId" : "2573401",
+    "byeWeek" : 0
   },
   {
     "id" : 10325,
@@ -3429,7 +3714,8 @@
     "positionRank" : 42,
     "lastYearStats" : "23 rec, 234 rec yds, 2 rec TDs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4372780"
+    "espnId" : "4372780",
+    "byeWeek" : 0
   },
   {
     "id" : 10180,
@@ -3441,7 +3727,8 @@
     "positionRank" : 1,
     "lastYearStats" : "15/16 FGs, 29 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3055899"
+    "espnId" : "3055899",
+    "byeWeek" : 0
   },
   {
     "id" : 10181,
@@ -3453,7 +3740,8 @@
     "positionRank" : 2,
     "lastYearStats" : "12/14 FGs, 30 XPs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3953687"
+    "espnId" : "3953687",
+    "byeWeek" : 0
   },
   {
     "id" : 10182,
@@ -3465,7 +3753,8 @@
     "positionRank" : 3,
     "lastYearStats" : "11/11 FGs, 60 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "15683"
+    "espnId" : "15683",
+    "byeWeek" : 0
   },
   {
     "id" : 10183,
@@ -3477,7 +3766,8 @@
     "positionRank" : 4,
     "lastYearStats" : "19/20 FGs, 47 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3050478"
+    "espnId" : "3050478",
+    "byeWeek" : 0
   },
   {
     "id" : 10184,
@@ -3489,7 +3779,8 @@
     "positionRank" : 5,
     "lastYearStats" : "8/10 FGs, 13 XPs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "14993"
+    "espnId" : "14993",
+    "byeWeek" : 0
   },
   {
     "id" : 10185,
@@ -3501,7 +3792,8 @@
     "positionRank" : 6,
     "lastYearStats" : "19/21 FGs, 34 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "2971573"
+    "espnId" : "2971573",
+    "byeWeek" : 0
   },
   {
     "id" : 10186,
@@ -3513,7 +3805,8 @@
     "positionRank" : 7,
     "lastYearStats" : "10/10 FGs, 37 XPs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "4360234"
+    "espnId" : "4360234",
+    "byeWeek" : 0
   },
   {
     "id" : 10187,
@@ -3525,7 +3818,8 @@
     "positionRank" : 8,
     "lastYearStats" : "14/14 FGs, 32 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4372066"
+    "espnId" : "4372066",
+    "byeWeek" : 0
   },
   {
     "id" : 10188,
@@ -3537,7 +3831,8 @@
     "positionRank" : 9,
     "lastYearStats" : "19/19 FGs, 33 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4362081"
+    "espnId" : "4362081",
+    "byeWeek" : 0
   },
   {
     "id" : 10189,
@@ -3549,7 +3844,8 @@
     "positionRank" : 10,
     "lastYearStats" : "8/8 FGs, 25 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "17427"
+    "espnId" : "17427",
+    "byeWeek" : 0
   },
   {
     "id" : 10190,
@@ -3561,7 +3857,8 @@
     "positionRank" : 11,
     "lastYearStats" : "12/14 FGs, 26 XPs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "3049899"
+    "espnId" : "3049899",
+    "byeWeek" : 0
   },
   {
     "id" : 10191,
@@ -3573,7 +3870,8 @@
     "positionRank" : 12,
     "lastYearStats" : "13/13 FGs, 64 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4689936"
+    "espnId" : "4689936",
+    "byeWeek" : 0
   },
   {
     "id" : 10236,
@@ -3585,7 +3883,8 @@
     "positionRank" : 13,
     "lastYearStats" : "9/11 FGs, 17 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "15965"
+    "espnId" : "15965",
+    "byeWeek" : 0
   },
   {
     "id" : 10237,
@@ -3597,7 +3896,8 @@
     "positionRank" : 14,
     "lastYearStats" : "21/21 FGs, 33 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4249087"
+    "espnId" : "4249087",
+    "byeWeek" : 0
   },
   {
     "id" : 10255,
@@ -3609,7 +3909,8 @@
     "positionRank" : 15,
     "lastYearStats" : "15/16 FGs, 33 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4034949"
+    "espnId" : "4034949",
+    "byeWeek" : 0
   },
   {
     "id" : 10256,
@@ -3621,7 +3922,8 @@
     "positionRank" : 16,
     "lastYearStats" : "18/18 FGs, 54 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3150744"
+    "espnId" : "3150744",
+    "byeWeek" : 0
   },
   {
     "id" : 10286,
@@ -3633,7 +3935,8 @@
     "positionRank" : 17,
     "lastYearStats" : "20/20 FGs, 26 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3124679"
+    "espnId" : "3124679",
+    "byeWeek" : 0
   },
   {
     "id" : 10287,
@@ -3645,7 +3948,8 @@
     "positionRank" : 18,
     "lastYearStats" : "7/7 FGs, 25 XPs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "10621"
+    "espnId" : "10621",
+    "byeWeek" : 0
   },
   {
     "id" : 10344,
@@ -3657,7 +3961,8 @@
     "positionRank" : 19,
     "lastYearStats" : "19/21 FGs, 32 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4566192"
+    "espnId" : "4566192",
+    "byeWeek" : 0
   },
   {
     "id" : 10345,
@@ -3669,7 +3974,8 @@
     "positionRank" : 20,
     "lastYearStats" : "7/8 FGs, 18 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4361765"
+    "espnId" : "4361765",
+    "byeWeek" : 0
   },
   {
     "id" : 10346,
@@ -3681,7 +3987,8 @@
     "positionRank" : 21,
     "lastYearStats" : "2/2 FGs, 10 XPs",
     "injuryStatus" : "QUESTIONABLE",
-    "espnId" : "11122"
+    "espnId" : "11122",
+    "byeWeek" : 0
   },
   {
     "id" : 10347,
@@ -3693,7 +4000,8 @@
     "positionRank" : 22,
     "lastYearStats" : "10/10 FGs, 37 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "2473037"
+    "espnId" : "2473037",
+    "byeWeek" : 0
   },
   {
     "id" : 10348,
@@ -3705,7 +4013,8 @@
     "positionRank" : 23,
     "lastYearStats" : "21/21 FGs, 35 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "17372"
+    "espnId" : "17372",
+    "byeWeek" : 0
   },
   {
     "id" : 10349,
@@ -3717,7 +4026,8 @@
     "positionRank" : 24,
     "lastYearStats" : "13/14 FGs, 59 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3917232"
+    "espnId" : "3917232",
+    "byeWeek" : 0
   },
   {
     "id" : 10350,
@@ -3729,7 +4039,8 @@
     "positionRank" : 25,
     "lastYearStats" : "21/21 FGs, 23 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3051909"
+    "espnId" : "3051909",
+    "byeWeek" : 0
   },
   {
     "id" : 10351,
@@ -3741,7 +4052,8 @@
     "positionRank" : 26,
     "lastYearStats" : "14/14 FGs, 27 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4686361"
+    "espnId" : "4686361",
+    "byeWeek" : 0
   },
   {
     "id" : 10352,
@@ -3753,7 +4065,8 @@
     "positionRank" : 27,
     "lastYearStats" : "14/15 FGs, 31 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4259619"
+    "espnId" : "4259619",
+    "byeWeek" : 0
   },
   {
     "id" : 10353,
@@ -3765,7 +4078,8 @@
     "positionRank" : 28,
     "lastYearStats" : "11/12 FGs, 38 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4567104"
+    "espnId" : "4567104",
+    "byeWeek" : 0
   },
   {
     "id" : 10354,
@@ -3777,7 +4091,8 @@
     "positionRank" : 29,
     "lastYearStats" : "15/17 FGs, 25 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "3124084"
+    "espnId" : "3124084",
+    "byeWeek" : 0
   },
   {
     "id" : 10355,
@@ -3789,7 +4104,8 @@
     "positionRank" : 30,
     "lastYearStats" : "3/4 FGs, 15 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "12460"
+    "espnId" : "12460",
+    "byeWeek" : 0
   },
   {
     "id" : 10356,
@@ -3801,7 +4117,8 @@
     "positionRank" : 31,
     "lastYearStats" : "7/8 FGs, 16 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "4428963"
+    "espnId" : "4428963",
+    "byeWeek" : 0
   },
   {
     "id" : 10357,
@@ -3813,7 +4130,8 @@
     "positionRank" : 32,
     "lastYearStats" : "15/16 FGs, 46 XPs",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "2985659"
+    "espnId" : "2985659",
+    "byeWeek" : 0
   },
   {
     "id" : 10168,
@@ -3825,7 +4143,8 @@
     "positionRank" : 1,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16005"
+    "espnId" : "-16005",
+    "byeWeek" : 0
   },
   {
     "id" : 10169,
@@ -3837,7 +4156,8 @@
     "positionRank" : 2,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16006"
+    "espnId" : "-16006",
+    "byeWeek" : 0
   },
   {
     "id" : 10170,
@@ -3849,7 +4169,8 @@
     "positionRank" : 3,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16020"
+    "espnId" : "-16020",
+    "byeWeek" : 0
   },
   {
     "id" : 10171,
@@ -3861,7 +4182,8 @@
     "positionRank" : 4,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16033"
+    "espnId" : "-16033",
+    "byeWeek" : 0
   },
   {
     "id" : 10172,
@@ -3873,7 +4195,8 @@
     "positionRank" : 5,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16025"
+    "espnId" : "-16025",
+    "byeWeek" : 0
   },
   {
     "id" : 10173,
@@ -3885,7 +4208,8 @@
     "positionRank" : 6,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16023"
+    "espnId" : "-16023",
+    "byeWeek" : 0
   },
   {
     "id" : 10174,
@@ -3897,7 +4221,8 @@
     "positionRank" : 7,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16015"
+    "espnId" : "-16015",
+    "byeWeek" : 0
   },
   {
     "id" : 10175,
@@ -3909,7 +4234,8 @@
     "positionRank" : 8,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16018"
+    "espnId" : "-16018",
+    "byeWeek" : 0
   },
   {
     "id" : 10176,
@@ -3921,7 +4247,8 @@
     "positionRank" : 9,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16030"
+    "espnId" : "-16030",
+    "byeWeek" : 0
   },
   {
     "id" : 10177,
@@ -3933,7 +4260,8 @@
     "positionRank" : 10,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16004"
+    "espnId" : "-16004",
+    "byeWeek" : 0
   },
   {
     "id" : 10178,
@@ -3945,7 +4273,8 @@
     "positionRank" : 11,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16012"
+    "espnId" : "-16012",
+    "byeWeek" : 0
   },
   {
     "id" : 10179,
@@ -3957,7 +4286,8 @@
     "positionRank" : 12,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16008"
+    "espnId" : "-16008",
+    "byeWeek" : 0
   },
   {
     "id" : 10234,
@@ -3969,7 +4299,8 @@
     "positionRank" : 13,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16003"
+    "espnId" : "-16003",
+    "byeWeek" : 0
   },
   {
     "id" : 10235,
@@ -3981,7 +4312,8 @@
     "positionRank" : 14,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16001"
+    "espnId" : "-16001",
+    "byeWeek" : 0
   },
   {
     "id" : 10253,
@@ -3993,7 +4325,8 @@
     "positionRank" : 15,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16026"
+    "espnId" : "-16026",
+    "byeWeek" : 0
   },
   {
     "id" : 10254,
@@ -4005,7 +4338,8 @@
     "positionRank" : 16,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16011"
+    "espnId" : "-16011",
+    "byeWeek" : 0
   },
   {
     "id" : 10284,
@@ -4017,7 +4351,8 @@
     "positionRank" : 17,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16002"
+    "espnId" : "-16002",
+    "byeWeek" : 0
   },
   {
     "id" : 10285,
@@ -4029,7 +4364,8 @@
     "positionRank" : 18,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16034"
+    "espnId" : "-16034",
+    "byeWeek" : 0
   },
   {
     "id" : 10296,
@@ -4041,7 +4377,8 @@
     "positionRank" : 19,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16009"
+    "espnId" : "-16009",
+    "byeWeek" : 0
   },
   {
     "id" : 10297,
@@ -4053,7 +4390,8 @@
     "positionRank" : 20,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16016"
+    "espnId" : "-16016",
+    "byeWeek" : 0
   },
   {
     "id" : 10298,
@@ -4065,7 +4403,8 @@
     "positionRank" : 21,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16021"
+    "espnId" : "-16021",
+    "byeWeek" : 0
   },
   {
     "id" : 10299,
@@ -4077,7 +4416,8 @@
     "positionRank" : 22,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16029"
+    "espnId" : "-16029",
+    "byeWeek" : 0
   },
   {
     "id" : 10358,
@@ -4089,7 +4429,8 @@
     "positionRank" : 23,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16013"
+    "espnId" : "-16013",
+    "byeWeek" : 0
   },
   {
     "id" : 10359,
@@ -4101,7 +4442,8 @@
     "positionRank" : 24,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16010"
+    "espnId" : "-16010",
+    "byeWeek" : 0
   },
   {
     "id" : 10360,
@@ -4113,7 +4455,8 @@
     "positionRank" : 25,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16028"
+    "espnId" : "-16028",
+    "byeWeek" : 0
   },
   {
     "id" : 10361,
@@ -4125,7 +4468,8 @@
     "positionRank" : 26,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16024"
+    "espnId" : "-16024",
+    "byeWeek" : 0
   },
   {
     "id" : 10362,
@@ -4137,7 +4481,8 @@
     "positionRank" : 27,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16027"
+    "espnId" : "-16027",
+    "byeWeek" : 0
   },
   {
     "id" : 10363,
@@ -4149,7 +4494,8 @@
     "positionRank" : 28,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16019"
+    "espnId" : "-16019",
+    "byeWeek" : 0
   },
   {
     "id" : 10364,
@@ -4161,7 +4507,8 @@
     "positionRank" : 29,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16014"
+    "espnId" : "-16014",
+    "byeWeek" : 0
   },
   {
     "id" : 10365,
@@ -4173,7 +4520,8 @@
     "positionRank" : 30,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16017"
+    "espnId" : "-16017",
+    "byeWeek" : 0
   },
   {
     "id" : 10366,
@@ -4185,7 +4533,8 @@
     "positionRank" : 31,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16007"
+    "espnId" : "-16007",
+    "byeWeek" : 0
   },
   {
     "id" : 10367,
@@ -4197,6 +4546,7 @@
     "positionRank" : 32,
     "lastYearStats" : "2024 Defense Stats",
     "injuryStatus" : "HEALTHY",
-    "espnId" : "-16022"
+    "espnId" : "-16022",
+    "byeWeek" : 0
   }
 ]
