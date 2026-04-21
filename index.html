@@ -6,8 +6,8 @@
     <title>Fantasy Draft Picker - Your Draft Day Companion</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             color: #e0e0e0;
             background: #0a0e27;
         }
@@ -65,16 +65,16 @@
             top: 0; left: 0; right: 0; bottom: 0;
             background: radial-gradient(ellipse at center top, rgba(25,118,210,0.25) 0%, transparent 60%);
         }
-        .hero h1 { 
-            font-size: 3.2em; 
-            margin-bottom: 14px; 
+        .hero h1 {
+            font-size: 3.2em;
+            margin-bottom: 14px;
             color: #fff;
             position: relative;
         }
-        .hero .tagline { 
-            font-size: 1.4em; 
-            opacity: 0.85; 
-            margin-bottom: 36px; 
+        .hero .tagline {
+            font-size: 1.4em;
+            opacity: 0.85;
+            margin-bottom: 36px;
             color: #b0c4de;
             position: relative;
         }
@@ -92,19 +92,19 @@
         .cta:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(0,0,0,0.4); }
         .cta-gold { background: linear-gradient(135deg, #FFA000, #FFB300); color: #000; }
         .cta-white { background: rgba(255,255,255,0.95); color: #111; }
-        .hero .subtitle { 
-            margin-top: 20px; 
-            font-size: 0.95em; 
-            opacity: 0.6; 
+        .hero .subtitle {
+            margin-top: 20px;
+            font-size: 0.95em;
+            opacity: 0.6;
             position: relative;
         }
 
         /* Section */
         section { padding: 70px 20px; max-width: 1040px; margin: 0 auto; position: relative; }
-        section h2 { 
-            font-size: 2.2em; 
-            text-align: center; 
-            margin-bottom: 16px; 
+        section h2 {
+            font-size: 2.2em;
+            text-align: center;
+            margin-bottom: 16px;
             color: #fff;
         }
         .section-subtitle {
@@ -133,8 +133,8 @@
             transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
             backdrop-filter: blur(4px);
         }
-        .feature-card:hover { 
-            transform: translateY(-6px); 
+        .feature-card:hover {
+            transform: translateY(-6px);
             border-color: rgba(25,118,210,0.4);
             box-shadow: 0 12px 40px rgba(25,118,210,0.15);
         }
@@ -145,16 +145,16 @@
         /* Grading Section */
         .grading-section { background: rgba(255,255,255,0.02); }
         .grade-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
-        .grade-table th { 
-            background: rgba(25,118,210,0.3); 
-            color: #fff; 
-            padding: 14px; 
-            text-align: left; 
+        .grade-table th {
+            background: rgba(25,118,210,0.3);
+            color: #fff;
+            padding: 14px;
+            text-align: left;
             font-size: 0.95em;
         }
-        .grade-table td { 
-            padding: 12px 14px; 
-            border-bottom: 1px solid rgba(255,255,255,0.06); 
+        .grade-table td {
+            padding: 12px 14px;
+            border-bottom: 1px solid rgba(255,255,255,0.06);
             color: #c0c8d0;
         }
         .grade-table tr:hover { background: rgba(25,118,210,0.08); }
@@ -197,8 +197,8 @@
             min-width: 220px;
             transition: border-color 0.2s, box-shadow 0.2s;
         }
-        .advisor-tag:hover { 
-            border-color: rgba(255,160,0,0.3); 
+        .advisor-tag:hover {
+            border-color: rgba(255,160,0,0.3);
             box-shadow: 0 4px 20px rgba(255,160,0,0.1);
         }
         .advisor-tag .emoji { font-size: 2em; }
@@ -231,9 +231,9 @@
             position: relative;
         }
         .stat-item { text-align: center; }
-        .stat-number { 
-            font-size: 2.4em; 
-            font-weight: bold; 
+        .stat-number {
+            font-size: 2.4em;
+            font-weight: bold;
             color: #FFA000;
             display: block;
         }
@@ -269,8 +269,15 @@
 
 <!-- Hero -->
 <div class="hero">
-    <h1 class="glow-blue">🏈 Fantasy Draft Picker</h1>
-    <p class="tagline">Your AI-Powered Draft Day Companion</p>
+    <p style="position: relative; font-size: 3.5em; margin-bottom: 8px;">🏈</p>
+    <h1 class="glow-blue">Fantasy Draft Picker</h1>
+    <p class="tagline" style="font-size: 1.6em; color: #FFA000; opacity: 1; font-weight: bold; margin-bottom: 8px;">
+        Be the General Manager.
+    </p>
+    <p class="tagline" style="font-size: 1.1em; margin-bottom: 36px;">
+        Build your roster. Outsmart the league. Win draft day.<br/>
+        AI-powered scouting, real-time grading, and elite player tracking — all in your pocket.
+    </p>
     <div class="btn-row">
         <a href="https://play.google.com/store/apps/details?id=com.fantasydraft.picker" class="cta cta-gold">
             ▶ Get It on Google Play
@@ -281,6 +288,29 @@
     </div>
     <p class="subtitle">Android & iOS • Free • No account required</p>
 </div>
+
+<!-- Screenshots Showcase -->
+<section style="padding-top: 40px; padding-bottom: 40px;">
+    <h2>See It in Action</h2>
+    <div class="divider"></div>
+    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; align-items: flex-start;">
+        <div style="text-align: center; flex: 0 1 260px;">
+            <img src="sshot_1.png" alt="Draft Screen"
+                 style="width: 100%; max-width: 260px; border-radius: 16px; box-shadow: 0 8px 40px rgba(25,118,210,0.3); border: 2px solid rgba(255,255,255,0.1);" />
+            <p style="margin-top: 12px; color: #8899aa; font-size: 0.9em;">Smart Draft Advisor</p>
+        </div>
+        <div style="text-align: center; flex: 0 1 260px;">
+            <img src="sshot_2.png" alt="Player Selection"
+                 style="width: 100%; max-width: 260px; border-radius: 16px; box-shadow: 0 8px 40px rgba(25,118,210,0.3); border: 2px solid rgba(255,255,255,0.1);" />
+            <p style="margin-top: 12px; color: #8899aa; font-size: 0.9em;">Player Detail Cards</p>
+        </div>
+        <div style="text-align: center; flex: 0 1 260px;">
+            <img src="sshot_3.png" alt="Draft Analytics"
+                 style="width: 100%; max-width: 260px; border-radius: 16px; box-shadow: 0 8px 40px rgba(25,118,210,0.3); border: 2px solid rgba(255,255,255,0.1);" />
+            <p style="margin-top: 12px; color: #8899aa; font-size: 0.9em;">League-Wide Analytics</p>
+        </div>
+    </div>
+</section>
 
 <!-- Stats Bar -->
 <div class="stats-bar">
@@ -492,9 +522,61 @@
     </div>
 </div>
 
+<!-- Feature Request Section -->
+<section>
+    <h2>Feature Requests & Feedback</h2>
+    <div class="divider"></div>
+    <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+        <p class="section-subtitle" style="margin-bottom: 24px;">
+            Have an idea for a new feature? Found a bug? We'd love to hear from you.
+            Send us your suggestions and we'll work to make the app even better.
+        </p>
+        <a href="mailto:jeff.norton@outlook.com?subject=Fantasy%20Draft%20Picker%20-%20Feature%20Request&body=Hi%2C%0A%0AI'd%20like%20to%20suggest%20the%20following%20feature%20or%20report%20an%20issue%3A%0A%0A"
+           class="cta cta-gold" style="margin-bottom: 16px;">
+            ✉️ Submit a Feature Request
+        </a>
+        <p style="color: #667; font-size: 0.9em; margin-top: 16px;">
+            Or email directly: <a href="mailto:jeff.norton@outlook.com" style="color: #64b5f6;">jeff.norton@outlook.com</a>
+        </p>
+    </div>
+</section>
+
+<!-- Buy Me a Coffee Section -->
+<section>
+    <h2>☕ Buy the Developer a Coffee</h2>
+    <div class="divider"></div>
+    <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+        <p class="section-subtitle" style="margin-bottom: 28px;">
+            Coffee fuels ideas! If you enjoy the app, consider supporting development with a tip.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 24px; flex-wrap: wrap;">
+            <div class="feature-card" style="flex: 1; min-width: 240px; max-width: 280px; text-align: center;">
+                <div class="icon">💳</div>
+                <h3>PayPal</h3>
+                <a href="https://www.paypal.com/paypalme/jdnorton22"
+                   style="color: #64b5f6; font-size: 1.1em; font-weight: bold; text-decoration: none;">
+                    @jdnorton22
+                </a>
+                <p style="margin-top: 8px;">Tap to send via PayPal</p>
+            </div>
+            <div class="feature-card" style="flex: 1; min-width: 240px; max-width: 280px; text-align: center;">
+                <div class="icon">🏦</div>
+                <h3>Zelle</h3>
+                <img src="zelle_qr.jpg" alt="Zelle QR Code"
+                     style="width: 180px; height: auto; border-radius: 8px; margin: 12px auto; display: block;" />
+                <p style="margin-top: 8px;">Scan with your banking app to send via Zelle</p>
+            </div>
+        </div>
+        <p style="color: #556; font-size: 0.9em; margin-top: 24px;">Thank you for your support! 🙏</p>
+    </div>
+</section>
+
 <!-- Footer -->
 <footer>
-    <p>Fantasy Draft Picker &copy; 2026 &nbsp;|&nbsp; <a href="mailto:Jeff.Norton@outlook.com">Contact</a></p>
+    <p>Fantasy Draft Picker &copy; 2026 &nbsp;|&nbsp;
+        <a href="mailto:jeff.norton@outlook.com">Contact</a> &nbsp;|&nbsp;
+        <a href="mailto:jeff.norton@outlook.com?subject=Fantasy%20Draft%20Picker%20-%20Feature%20Request">Request a Feature</a>
+    </p>
     <p style="margin-top: 8px;">Made with ☕ and 🏈</p>
 </footer>
 
