@@ -48,6 +48,46 @@
         "featureList": "AI Draft Recommendations, Pick Value Grading, Elite Player Tracking, Positional Scarcity Alerts, Roster Need Analysis, Bye Week Conflict Detection, Draft Clock, Keeper League Support, ESPN Integration, Dark Mode"
     }
     </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Does FFL Draft Day Picker work offline?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. All player data is bundled in the app. The AI advisor, pick grading, and draft tracking all run on your device with no internet connection required."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I use it for keeper or dynasty leagues?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. You can configure 1-10 linear rounds at the start of the draft for keeper picks, then the app switches to serpentine for the remaining rounds."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does the AI advisor decide who to recommend?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The engine scores every available player across five weighted factors: ADP value (30%), positional scarcity (25%), roster needs (25%), bye week conflicts (10%), and elite talent bonus (10%). Every recommendation includes reasoning."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is FFL Draft Day Picker really free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. It is free, ad-free, and requires no account or sign-up. No in-app purchases, no paywalls, no data collection."
+                }
+            }
+        ]
+    }
+    </script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -397,6 +437,94 @@
             .carousel-prev { left: 4px; }
             .carousel-next { right: 4px; }
         }
+        /* Football turf pattern */
+        .turf-bg {
+            position: relative;
+            overflow: hidden;
+        }
+        .turf-bg::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background:
+                /* Yard lines */
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent calc(10% - 1px),
+                    rgba(255,255,255,0.04) calc(10% - 1px),
+                    rgba(255,255,255,0.04) 10%
+                ),
+                /* Hash marks */
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent calc(5% - 1px),
+                    rgba(255,255,255,0.02) calc(5% - 1px),
+                    rgba(255,255,255,0.02) 5%
+                ),
+                /* Turf texture - alternating grass stripes */
+                repeating-linear-gradient(
+                    90deg,
+                    rgba(27,94,32,0.12) 0%,
+                    rgba(27,94,32,0.12) 5%,
+                    rgba(46,125,50,0.10) 5%,
+                    rgba(46,125,50,0.10) 10%
+                );
+            z-index: 0;
+            border-top: 2px solid rgba(255,255,255,0.06);
+            border-bottom: 2px solid rgba(255,255,255,0.06);
+        }
+        .turf-bg > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* FAQ */
+        .faq-item {
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .faq-item:first-child {
+            border-top: 1px solid rgba(255,255,255,0.08);
+        }
+        .faq-item:hover {
+            background: rgba(255,255,255,0.02);
+        }
+        .faq-q {
+            padding: 18px 40px 18px 0;
+            font-weight: 600;
+            color: #e0e0e0;
+            font-size: 1.05em;
+            position: relative;
+        }
+        .faq-q::after {
+            content: '+';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.4em;
+            color: #64b5f6;
+            transition: transform 0.3s;
+        }
+        .faq-item.open .faq-q::after {
+            transform: translateY(-50%) rotate(45deg);
+        }
+        .faq-a {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.35s ease, padding 0.35s ease;
+            color: #9aa8b8;
+            line-height: 1.7;
+            font-size: 0.95em;
+            padding: 0 0;
+        }
+        .faq-item.open .faq-a {
+            max-height: 200px;
+            padding: 0 0 18px 0;
+        }
     </style>
 </head>
 <body>
@@ -431,6 +559,33 @@
 </header>
 
 <main>
+
+<!-- NFL Season Countdown -->
+<section class="turf-bg" style="padding-top: 40px; padding-bottom: 40px;">
+    <div style="max-width: 720px; margin: 0 auto; text-align: center; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 20px; padding: 36px 24px; backdrop-filter: blur(4px);">
+        <p style="font-size: 0.85em; text-transform: uppercase; letter-spacing: 2px; color: #FFA000; font-weight: bold; margin-bottom: 8px;">🏈 NFL Kickoff 2026</p>
+        <h2 style="font-size: 1.6em; color: #fff; margin-bottom: 24px;">Draft Season Is Coming</h2>
+        <div id="countdown" style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+            <div style="min-width: 80px;">
+                <span id="cd-days" style="display: block; font-size: 2.8em; font-weight: bold; color: #64b5f6; line-height: 1;">--</span>
+                <span style="font-size: 0.75em; color: #667; text-transform: uppercase; letter-spacing: 1px;">Days</span>
+            </div>
+            <div style="min-width: 80px;">
+                <span id="cd-hours" style="display: block; font-size: 2.8em; font-weight: bold; color: #64b5f6; line-height: 1;">--</span>
+                <span style="font-size: 0.75em; color: #667; text-transform: uppercase; letter-spacing: 1px;">Hours</span>
+            </div>
+            <div style="min-width: 80px;">
+                <span id="cd-mins" style="display: block; font-size: 2.8em; font-weight: bold; color: #64b5f6; line-height: 1;">--</span>
+                <span style="font-size: 0.75em; color: #667; text-transform: uppercase; letter-spacing: 1px;">Minutes</span>
+            </div>
+            <div style="min-width: 80px;">
+                <span id="cd-secs" style="display: block; font-size: 2.8em; font-weight: bold; color: #64b5f6; line-height: 1;">--</span>
+                <span style="font-size: 0.75em; color: #667; text-transform: uppercase; letter-spacing: 1px;">Seconds</span>
+            </div>
+        </div>
+        <p style="margin-top: 20px; color: #8899aa; font-size: 0.9em;">Thursday, September 10, 2026 &nbsp;•&nbsp; Get your draft kit ready</p>
+    </div>
+</section>
 
 <!-- NEW: AI Recommendation Engine -->
 <section style="padding-top: 60px; padding-bottom: 60px;">
@@ -533,7 +688,7 @@
         <span class="stat-label">NFL Players</span>
     </div>
     <div class="stat-item">
-        <span class="stat-number">8</span>
+        <span class="stat-number">5</span>
         <span class="stat-label">Advisor Factors</span>
     </div>
     <div class="stat-item">
@@ -600,7 +755,7 @@
 </section>
 
 <!-- How It Works -->
-<section>
+<section class="turf-bg">
     <h2>How the Fantasy Draft Kit Works</h2>
     <div class="divider"></div>
     <div class="steps">
@@ -632,7 +787,7 @@
     <h2>AI Draft Advisor Intelligence</h2>
     <div class="divider"></div>
     <p class="section-subtitle">
-        Analyzes 8 factors for every available player and gives you a clear recommendation:
+        Analyzes 5 factors for every available player and gives you a clear recommendation:
     </p>
     <div class="advisor-tags">
         <div class="advisor-tag">
@@ -785,6 +940,46 @@
     </div>
 </section>
 
+<!-- FAQ -->
+<section>
+    <h2>Frequently Asked Questions</h2>
+    <div class="divider"></div>
+    <div style="max-width: 720px; margin: 0 auto;">
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+            <div class="faq-q">Does it work offline?</div>
+            <div class="faq-a">Yes — 100%. All player data is bundled in the app. The AI advisor, pick grading, and draft tracking all run on your device with no internet connection required. Perfect for draft parties with spotty Wi-Fi.</div>
+        </div>
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+            <div class="faq-q">How many teams and rounds does it support?</div>
+            <div class="faq-a">Up to 30 rounds and as many teams as your league needs. Team names, draft order, and position requirements are all fully configurable before the draft starts.</div>
+        </div>
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+            <div class="faq-q">Can I use it for keeper or dynasty leagues?</div>
+            <div class="faq-a">Yes. You can configure 1–10 linear rounds at the start of the draft for keeper picks, then the app switches to serpentine for the remaining rounds. Great for leagues where the first few rounds are pre-determined.</div>
+        </div>
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+            <div class="faq-q">Where does the player data come from?</div>
+            <div class="faq-a">Player rankings, ADP, and stats come from publicly available ESPN data, bundled directly in the app. The paid tier also lets you import your own custom player rankings via JSON file if you prefer a different source.</div>
+        </div>
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+            <div class="faq-q">How does the AI advisor decide who to recommend?</div>
+            <div class="faq-a">The engine scores every available player across five weighted factors: ADP value (30%), positional scarcity (25%), your team's roster needs (25%), bye week conflicts (10%), and elite talent bonus (10%). Every recommendation includes the reasoning so you can agree or override it.</div>
+        </div>
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+            <div class="faq-q">Is it really free? What's the catch?</div>
+            <div class="faq-a">It's free, ad-free, and requires no account or sign-up. No in-app purchases, no paywalls, no data collection. The app was built by a fantasy football fan for fantasy football fans.</div>
+        </div>
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+            <div class="faq-q">Can I add a player who's missing from the list?</div>
+            <div class="faq-a">Yes. There's an "Add Custom Player" option in the player list. Custom players are available for the current draft session and work with all the same features — grading, advisor, and roster tracking.</div>
+        </div>
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+            <div class="faq-q">Does it support both serpentine and linear drafts?</div>
+            <div class="faq-a">Yes. Choose serpentine (snake) or linear (straight) draft order during setup. You can also combine them — linear for keeper rounds, then serpentine for the rest.</div>
+        </div>
+    </div>
+</section>
+
 <!-- Footer -->
 </main>
 <footer>
@@ -888,7 +1083,40 @@
     autoPlayTimer = setInterval(autoPlay, 4000);
     window.addEventListener('resize', () => { buildDots(); updateCarousel(); });
 })();
+
+// NFL Season Countdown
+(function() {
+    // NFL Week 1 2026: Thursday, September 10, 2026 at 8:20 PM ET (kickoff)
+    const kickoff = new Date('2026-09-10T20:20:00-04:00').getTime();
+    
+    function update() {
+        const now = Date.now();
+        const diff = kickoff - now;
+        
+        if (diff <= 0) {
+            document.getElementById('cd-days').textContent = '0';
+            document.getElementById('cd-hours').textContent = '0';
+            document.getElementById('cd-mins').textContent = '0';
+            document.getElementById('cd-secs').textContent = '0';
+            return;
+        }
+        
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        const secs = Math.floor((diff % (1000 * 60)) / 1000);
+        
+        document.getElementById('cd-days').textContent = days;
+        document.getElementById('cd-hours').textContent = hours;
+        document.getElementById('cd-mins').textContent = mins;
+        document.getElementById('cd-secs').textContent = secs;
+    }
+    
+    update();
+    setInterval(update, 1000);
+})();
 </script>
 
 </body>
+
 
