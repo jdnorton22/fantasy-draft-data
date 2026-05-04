@@ -109,17 +109,33 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             color: #e0e0e0;
-            background: #0a0e27;
+            background: #0a1a0a;
         }
 
         /* Animated gradient background */
         .bg-gradient {
             position: fixed;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: linear-gradient(-45deg, #0a0e27, #1a1a4e, #0d2137, #0a1628, #1b0a3d);
+            background: linear-gradient(-45deg, #0a1a0a, #1B5E20, #0D3B0F, #0a1a0a, #14421a);
             background-size: 400% 400%;
             animation: gradientShift 20s ease infinite;
             z-index: -2;
+        }
+        /* Subtle field lines overlay */
+        .bg-gradient::after {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background:
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 119px,
+                    rgba(46,125,50,0.06) 119px,
+                    rgba(46,125,50,0.06) 120px
+                );
+            z-index: -1;
+            pointer-events: none;
         }
         @keyframes gradientShift {
             0% { background-position: 0% 50%; }
@@ -137,7 +153,7 @@
         .particle {
             position: absolute;
             width: 4px; height: 4px;
-            background: rgba(255,255,255,0.15);
+            background: rgba(165,214,167,0.15);
             border-radius: 50%;
             animation: float linear infinite;
         }
@@ -149,7 +165,7 @@
         }
 
         /* Glow effects */
-        .glow-blue { text-shadow: 0 0 30px rgba(25, 118, 210, 0.5), 0 0 60px rgba(25, 118, 210, 0.2); }
+        .glow-blue { text-shadow: 0 0 30px rgba(76, 175, 80, 0.5), 0 0 60px rgba(76, 175, 80, 0.2); }
         .glow-gold { text-shadow: 0 0 20px rgba(255, 160, 0, 0.4); }
 
         /* Hero */
@@ -163,7 +179,7 @@
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: radial-gradient(ellipse at center top, rgba(25,118,210,0.25) 0%, transparent 60%);
+            background: radial-gradient(ellipse at center top, rgba(46,125,50,0.25) 0%, transparent 60%);
         }
         .hero h1 {
             font-size: 3.2em;
@@ -175,7 +191,7 @@
             font-size: 1.4em;
             opacity: 0.85;
             margin-bottom: 36px;
-            color: #b0c4de;
+            color: #A5D6A7;
             position: relative;
         }
         .btn-row { position: relative; display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; }
@@ -209,7 +225,7 @@
         }
         .section-subtitle {
             text-align: center;
-            color: #8899aa;
+            color: #81C784;
             margin-bottom: 40px;
             font-size: 1.05em;
         }
@@ -218,7 +234,7 @@
         .divider {
             width: 60px;
             height: 3px;
-            background: linear-gradient(90deg, #1976D2, #FFA000);
+            background: linear-gradient(90deg, #2E7D32, #FF8C00);
             margin: 0 auto 40px;
             border-radius: 2px;
         }
@@ -235,18 +251,18 @@
         }
         .feature-card:hover {
             transform: translateY(-6px);
-            border-color: rgba(25,118,210,0.4);
-            box-shadow: 0 12px 40px rgba(25,118,210,0.15);
+            border-color: rgba(46,125,50,0.4);
+            box-shadow: 0 12px 40px rgba(46,125,50,0.15);
         }
         .feature-card .icon { font-size: 2.2em; margin-bottom: 14px; }
-        .feature-card h3 { font-size: 1.15em; margin-bottom: 8px; color: #64b5f6; }
-        .feature-card p { color: #9aa8b8; line-height: 1.65; font-size: 0.95em; }
+        .feature-card h3 { font-size: 1.15em; margin-bottom: 8px; color: #66BB6A; }
+        .feature-card p { color: #A5D6A7; line-height: 1.65; font-size: 0.95em; }
 
         /* Grading Section */
         .grading-section { background: rgba(255,255,255,0.02); }
         .grade-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
         .grade-table th {
-            background: rgba(25,118,210,0.3);
+            background: rgba(46,125,50,0.3);
             color: #fff;
             padding: 14px;
             text-align: left;
@@ -255,9 +271,9 @@
         .grade-table td {
             padding: 12px 14px;
             border-bottom: 1px solid rgba(255,255,255,0.06);
-            color: #c0c8d0;
+            color: #C8E6C9;
         }
-        .grade-table tr:hover { background: rgba(25,118,210,0.08); }
+        .grade-table tr:hover { background: rgba(46,125,50,0.08); }
         .grade-icon { font-size: 1.4em; }
 
         /* How It Works */
@@ -270,7 +286,7 @@
         }
         .step-number {
             width: 56px; height: 56px;
-            background: linear-gradient(135deg, #1976D2, #1E88E5);
+            background: linear-gradient(135deg, #2E7D32, #43A047);
             color: white;
             border-radius: 50%;
             display: flex;
@@ -279,10 +295,10 @@
             font-size: 1.5em;
             font-weight: bold;
             margin: 0 auto 16px;
-            box-shadow: 0 4px 20px rgba(25,118,210,0.4);
+            box-shadow: 0 4px 20px rgba(46,125,50,0.4);
         }
         .step h3 { margin-bottom: 8px; color: #fff; }
-        .step p { color: #8899aa; font-size: 0.95em; line-height: 1.5; }
+        .step p { color: #A5D6A7; font-size: 0.95em; line-height: 1.5; }
 
         /* Advisor Section */
         .advisor-tags { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin-top: 28px; }
@@ -303,7 +319,7 @@
         }
         .advisor-tag .emoji { font-size: 2em; }
         .advisor-tag .label { font-weight: bold; color: #fff; }
-        .advisor-tag .desc { font-size: 0.85em; color: #8899aa; }
+        .advisor-tag .desc { font-size: 0.85em; color: #A5D6A7; }
 
         /* CTA Banner */
         .cta-banner {
@@ -316,10 +332,10 @@
             content: '';
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: radial-gradient(ellipse at center, rgba(25,118,210,0.2) 0%, transparent 70%);
+            background: radial-gradient(ellipse at center, rgba(46,125,50,0.2) 0%, transparent 70%);
         }
         .cta-banner h2 { color: white; margin-bottom: 16px; position: relative; }
-        .cta-banner p { margin-bottom: 28px; opacity: 0.8; font-size: 1.15em; position: relative; color: #b0c4de; }
+        .cta-banner p { margin-bottom: 28px; opacity: 0.8; font-size: 1.15em; position: relative; color: #A5D6A7; }
 
         /* Stats counter */
         .stats-bar {
@@ -337,7 +353,7 @@
             color: #FFA000;
             display: block;
         }
-        .stat-label { font-size: 0.9em; color: #8899aa; margin-top: 4px; }
+        .stat-label { font-size: 0.9em; color: #A5D6A7; margin-top: 4px; }
 
         /* Footer */
         footer {
@@ -346,9 +362,9 @@
             text-align: center;
             padding: 30px 20px;
             font-size: 0.9em;
-            border-top: 1px solid rgba(255,255,255,0.05);
+            border-top: 2px solid #FF8C00;
         }
-        footer a { color: #64b5f6; text-decoration: none; }
+        footer a { color: #66BB6A; text-decoration: none; }
 
         /* Responsive */
         @media (max-width: 600px) {
@@ -389,17 +405,17 @@
             width: 100%;
             max-width: 260px;
             border-radius: 16px;
-            box-shadow: 0 8px 40px rgba(25,118,210,0.3);
+            box-shadow: 0 8px 40px rgba(46,125,50,0.3);
             border: 2px solid rgba(255,255,255,0.1);
             transition: transform 0.3s, box-shadow 0.3s;
         }
         .carousel-slide img:hover {
             transform: scale(1.03);
-            box-shadow: 0 12px 50px rgba(25,118,210,0.5);
+            box-shadow: 0 12px 50px rgba(46,125,50,0.5);
         }
         .carousel-slide p {
             margin-top: 12px;
-            color: #8899aa;
+            color: #A5D6A7;
             font-size: 0.9em;
         }
         .carousel-btn {
@@ -410,7 +426,7 @@
             height: 44px;
             border-radius: 50%;
             border: 2px solid rgba(255,255,255,0.2);
-            background: rgba(25,118,210,0.4);
+            background: rgba(46,125,50,0.4);
             color: white;
             font-size: 1.6em;
             cursor: pointer;
@@ -422,7 +438,7 @@
             backdrop-filter: blur(4px);
         }
         .carousel-btn:hover {
-            background: rgba(25,118,210,0.7);
+            background: rgba(46,125,50,0.7);
             border-color: rgba(255,255,255,0.5);
         }
         .carousel-prev { left: -22px; }
@@ -520,7 +536,7 @@
             top: 50%;
             transform: translateY(-50%);
             font-size: 1.4em;
-            color: #64b5f6;
+            color: #66BB6A;
             transition: transform 0.3s;
         }
         .faq-item.open .faq-q::after {
@@ -530,7 +546,7 @@
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.35s ease, padding 0.35s ease;
-            color: #9aa8b8;
+            color: #A5D6A7;
             line-height: 1.7;
             font-size: 0.95em;
             padding: 0 0;
@@ -543,7 +559,7 @@
         /* Version badge */
         .version-badge {
             display: inline-block;
-            background: linear-gradient(135deg, #1976D2, #1E88E5);
+            background: linear-gradient(135deg, #2E7D32, #43A047);
             color: #fff;
             font-size: 0.75em;
             font-weight: bold;
@@ -602,11 +618,14 @@
         }
         .grade-card .grade-label {
             font-size: 0.9em;
-            color: #8899aa;
+            color: #A5D6A7;
         }
     </style>
 </head>
 <body>
+
+<!-- Top accent bar -->
+<div style="position: fixed; top: 0; left: 0; right: 0; height: 4px; background: #FF8C00; z-index: 100;"></div>
 
 <!-- Animated Background -->
 <div class="bg-gradient"></div>
@@ -654,23 +673,23 @@
         <h2 style="font-size: 1.6em; color: #fff; margin-bottom: 24px;">Draft Season Is Coming</h2>
         <div id="countdown" style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
             <div style="min-width: 80px;">
-                <span id="cd-days" style="display: block; font-size: 2.8em; font-weight: bold; color: #64b5f6; line-height: 1;">--</span>
+                <span id="cd-days" style="display: block; font-size: 2.8em; font-weight: bold; color: #66BB6A; line-height: 1;">--</span>
                 <span style="font-size: 0.75em; color: #667; text-transform: uppercase; letter-spacing: 1px;">Days</span>
             </div>
             <div style="min-width: 80px;">
-                <span id="cd-hours" style="display: block; font-size: 2.8em; font-weight: bold; color: #64b5f6; line-height: 1;">--</span>
+                <span id="cd-hours" style="display: block; font-size: 2.8em; font-weight: bold; color: #66BB6A; line-height: 1;">--</span>
                 <span style="font-size: 0.75em; color: #667; text-transform: uppercase; letter-spacing: 1px;">Hours</span>
             </div>
             <div style="min-width: 80px;">
-                <span id="cd-mins" style="display: block; font-size: 2.8em; font-weight: bold; color: #64b5f6; line-height: 1;">--</span>
+                <span id="cd-mins" style="display: block; font-size: 2.8em; font-weight: bold; color: #66BB6A; line-height: 1;">--</span>
                 <span style="font-size: 0.75em; color: #667; text-transform: uppercase; letter-spacing: 1px;">Minutes</span>
             </div>
             <div style="min-width: 80px;">
-                <span id="cd-secs" style="display: block; font-size: 2.8em; font-weight: bold; color: #64b5f6; line-height: 1;">--</span>
+                <span id="cd-secs" style="display: block; font-size: 2.8em; font-weight: bold; color: #66BB6A; line-height: 1;">--</span>
                 <span style="font-size: 0.75em; color: #667; text-transform: uppercase; letter-spacing: 1px;">Seconds</span>
             </div>
         </div>
-        <p style="margin-top: 20px; color: #8899aa; font-size: 0.9em;">Thursday, September 10, 2026 &nbsp;&bull;&nbsp; Get your draft kit ready</p>
+        <p style="margin-top: 20px; color: #A5D6A7; font-size: 0.9em;">Thursday, September 10, 2026 &nbsp;&bull;&nbsp; Get your draft kit ready</p>
     </div>
 </section>
 
@@ -721,13 +740,13 @@
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; max-width: 1040px; margin: 28px auto 0;">
         <div style="text-align: center; padding: 24px; background: rgba(106,27,154,0.08); border: 1px solid rgba(106,27,154,0.15); border-radius: 16px;">
             <p style="color: #CE93D8; font-size: 1.1em; font-weight: bold; margin-bottom: 8px;">🧠 Transparent Reasoning</p>
-            <p style="color: #9aa8b8; line-height: 1.65; font-size: 0.95em;">
+            <p style="color: #A5D6A7; line-height: 1.65; font-size: 0.95em;">
                 Every recommendation comes with clear reasoning bullets explaining which factors drove the pick. No black box — you see exactly why the AI likes a player.
             </p>
         </div>
         <div style="text-align: center; padding: 24px; background: rgba(106,27,154,0.08); border: 1px solid rgba(106,27,154,0.15); border-radius: 16px;">
             <p style="color: #CE93D8; font-size: 1.1em; font-weight: bold; margin-bottom: 8px;">🏥 Injury-Aware Scoring</p>
-            <p style="color: #9aa8b8; line-height: 1.65; font-size: 0.95em;">
+            <p style="color: #A5D6A7; line-height: 1.65; font-size: 0.95em;">
                 Non-healthy players (Questionable, Out) receive a -15 point penalty. Injury warnings are displayed directly in the advisor text so you never draft blind.
             </p>
         </div>
@@ -960,7 +979,7 @@
             <div class="grade-label">Great Draft</div>
         </div>
         <div class="grade-card">
-            <div class="grade-letter" style="color: #64b5f6;">B+ / B</div>
+            <div class="grade-letter" style="color: #66BB6A;">B+ / B</div>
             <div class="grade-label">Good Draft</div>
         </div>
         <div class="grade-card">
@@ -1233,7 +1252,7 @@
             ✉️ Submit a Feature Request
         </a>
         <p style="color: #667; font-size: 0.9em; margin-top: 16px;">
-            Or email directly: <a href="mailto:jeff.norton@outlook.com" style="color: #64b5f6;">jeff.norton@outlook.com</a>
+            Or email directly: <a href="mailto:jeff.norton@outlook.com" style="color: #66BB6A;">jeff.norton@outlook.com</a>
         </p>
     </div>
 </section>
@@ -1251,7 +1270,7 @@
                 <div class="icon">💳</div>
                 <h3>PayPal</h3>
                 <a href="https://www.paypal.com/paypalme/jdnorton22"
-                   style="color: #64b5f6; font-size: 1.1em; font-weight: bold; text-decoration: none;">
+                   style="color: #66BB6A; font-size: 1.1em; font-weight: bold; text-decoration: none;">
                     @jdnorton22
                 </a>
                 <p style="margin-top: 8px;">Tap to send via PayPal</p>

@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FFL Draft Day Picker - Fantasy Football Draft Kit & AI Draft Assistant App</title>
-    <meta name="description" content="Free fantasy football draft kit app with AI-powered recommendations, real-time pick grading, ADP value tracking, positional scarcity alerts, and roster need analysis. Your complete live draft day companion for Android and iOS.">
-    <meta name="keywords" content="fantasy football draft kit, fantasy football draft app, fantasy draft assistant, AI draft recommendations, live draft tool, fantasy football cheat sheet, draft day app, ADP rankings, fantasy football 2026, draft board app, fantasy draft picker, best available player, draft advisor, mock draft tool, keeper league draft">
+    <meta name="description" content="Free fantasy football draft kit app with AI-powered recommendations, real-time pick grading, ADP value tracking, positional scarcity alerts, mock drafts, and roster need analysis. Your complete live draft day companion for Android and iOS.">
+    <meta name="keywords" content="fantasy football draft kit, fantasy football draft app, fantasy draft assistant, AI draft recommendations, live draft tool, fantasy football cheat sheet, draft day app, ADP rankings, fantasy football 2026, draft board app, fantasy draft picker, best available player, draft advisor, mock draft tool, keeper league draft, draft analytics, draft grades, favorite players, bust list">
     <meta name="author" content="FFL Draft Day Picker">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://ffldraftdaypicker.com/">
@@ -15,7 +15,7 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="FFL Draft Day Picker - Fantasy Football Draft Kit & AI Draft Assistant">
-    <meta property="og:description" content="AI-powered fantasy football draft kit with real-time pick grading, positional scarcity alerts, and roster need analysis. Free for Android and iOS.">
+    <meta property="og:description" content="AI-powered fantasy football draft kit with real-time pick grading, mock drafts, draft analytics, and roster need analysis. Free for Android and iOS.">
     <meta property="og:image" content="https://ffldraftdaypicker.com/FootballIcon1024.png">
     <meta property="og:url" content="https://ffldraftdaypicker.com/">
     <meta property="og:site_name" content="FFL Draft Day Picker">
@@ -23,7 +23,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="FFL Draft Day Picker - Fantasy Football Draft Kit & AI Draft Assistant">
-    <meta name="twitter:description" content="AI-powered fantasy football draft kit with real-time pick grading, positional scarcity alerts, and roster need analysis. Free for Android and iOS.">
+    <meta name="twitter:description" content="AI-powered fantasy football draft kit with real-time pick grading, mock drafts, draft analytics, and roster need analysis. Free for Android and iOS.">
     <meta name="twitter:image" content="https://ffldraftdaypicker.com/FootballIcon1024.png">
 
     <!-- Structured Data: SoftwareApplication -->
@@ -32,7 +32,7 @@
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
         "name": "FFL Draft Day Picker",
-        "description": "AI-powered fantasy football draft kit app with real-time pick grading, ADP value tracking, positional scarcity alerts, and roster need analysis for live draft day.",
+        "description": "AI-powered fantasy football draft kit app with real-time pick grading, ADP value tracking, mock drafts, draft analytics with letter grades, positional scarcity alerts, and roster need analysis for live draft day.",
         "applicationCategory": "SportsApplication",
         "operatingSystem": "Android, iOS",
         "offers": {
@@ -45,7 +45,7 @@
             "ratingValue": "5",
             "ratingCount": "1"
         },
-        "featureList": "AI Draft Recommendations, Pick Value Grading, Elite Player Tracking, Positional Scarcity Alerts, Roster Need Analysis, Bye Week Conflict Detection, Draft Clock, Keeper League Support, ESPN Integration, Dark Mode"
+        "featureList": "AI Draft Recommendations, Pick Value Grading, Elite Player Tracking, Positional Scarcity Alerts, Roster Need Analysis, Bye Week Conflict Detection, Draft Clock, Keeper League Support, ESPN Integration, Mock Draft Mode, Draft Analytics & Grades, Favorite & Bust System, Injury Awareness, Dark Mode, Config Backup/Restore"
     }
     </script>
     <script type="application/ld+json">
@@ -83,6 +83,22 @@
                 "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Yes. It is free, ad-free, and requires no account or sign-up. No in-app purchases, no paywalls, no data collection."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Mock Draft Mode?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Mock Draft Mode lets AI auto-pick for all non-user teams, simulating a realistic draft with controlled randomness. It's perfect for practice runs before your real draft day."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does the draft grading system work?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "After the draft, every team receives a letter grade (A+ through F) based on a curve-normalized scoring system. Grades factor in value picks, reaches, roster balance, and health risk from injured players."
                 }
             }
         ]
@@ -437,6 +453,7 @@
             .carousel-prev { left: 4px; }
             .carousel-next { right: 4px; }
         }
+
         /* Football turf pattern */
         .turf-bg {
             position: relative;
@@ -447,7 +464,6 @@
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
             background:
-                /* Yard lines */
                 repeating-linear-gradient(
                     90deg,
                     transparent,
@@ -455,7 +471,6 @@
                     rgba(255,255,255,0.04) calc(10% - 1px),
                     rgba(255,255,255,0.04) 10%
                 ),
-                /* Hash marks */
                 repeating-linear-gradient(
                     90deg,
                     transparent,
@@ -463,7 +478,6 @@
                     rgba(255,255,255,0.02) calc(5% - 1px),
                     rgba(255,255,255,0.02) 5%
                 ),
-                /* Turf texture - alternating grass stripes */
                 repeating-linear-gradient(
                     90deg,
                     rgba(27,94,32,0.12) 0%,
@@ -525,6 +539,71 @@
             max-height: 200px;
             padding: 0 0 18px 0;
         }
+
+        /* Version badge */
+        .version-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #1976D2, #1E88E5);
+            color: #fff;
+            font-size: 0.75em;
+            font-weight: bold;
+            padding: 4px 14px;
+            border-radius: 20px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        /* New feature badge */
+        .new-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #6A1B9A, #9C27B0);
+            color: #fff;
+            font-size: 0.8em;
+            font-weight: bold;
+            padding: 6px 18px;
+            border-radius: 20px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        /* Mock draft badge */
+        .mock-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #E65100, #FF6D00);
+            color: #fff;
+            font-size: 0.8em;
+            font-weight: bold;
+            padding: 6px 18px;
+            border-radius: 20px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        /* Draft grade cards */
+        .grade-card {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            padding: 24px;
+            text-align: center;
+            transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
+            backdrop-filter: blur(4px);
+        }
+        .grade-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255,160,0,0.3);
+            box-shadow: 0 8px 30px rgba(255,160,0,0.1);
+        }
+        .grade-letter {
+            font-size: 2.8em;
+            font-weight: bold;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+        .grade-card .grade-label {
+            font-size: 0.9em;
+            color: #8899aa;
+        }
     </style>
 </head>
 <body>
@@ -536,7 +615,7 @@
 <!-- Hero -->
 <header class="hero" role="banner">
     <p style="position: relative; font-size: 3.5em; margin-bottom: 8px;">
-        <img src="FootballIcon1024.png" alt="FFL Draft Day Picker - Fantasy Football Draft Kit App Icon" 
+        <img src="FootballIcon1024.png" alt="FFL Draft Day Picker - Fantasy Football Draft Kit App Icon"
              style="width: 90px; height: 90px; border-radius: 20px; box-shadow: 0 4px 24px rgba(0,0,0,0.4);" />
     </p>
     <h1 class="glow-blue">FFL Draft Day Picker</h1>
@@ -545,7 +624,7 @@
     </p>
     <p class="tagline" style="font-size: 1.1em; margin-bottom: 36px;">
         The complete fantasy football draft assistant for your live in-person draft day.<br/>
-        AI-powered recommendations, real-time pick grading, ADP value tracking, and elite player alerts — all in your pocket.
+        AI-powered recommendations, mock drafts, real-time pick grading, draft analytics &amp; grades — all in your pocket.
     </p>
     <div class="btn-row">
         <a href="https://play.google.com/store/apps/details?id=com.fantasydraft.picker" class="cta cta-gold">
@@ -555,10 +634,18 @@
              Download on App Store
         </a>
     </div>
-    <p class="subtitle">Android & iOS • Free • Ad free • No account required</p>
+    <p class="subtitle">Android &amp; iOS &bull; Free &bull; Ad free &bull; No account required</p>
+    <p style="position: relative; margin-top: 12px;"><span class="version-badge">v4.1 &bull; Build 43</span></p>
 </header>
 
 <main>
+
+<!-- Infographic Banner -->
+<section style="padding-top: 20px; padding-bottom: 20px;">
+    <div style="max-width: 960px; margin: 0 auto; border-radius: 20px; overflow: hidden; box-shadow: 0 8px 40px rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.08);">
+        <img src="football_infographic.svg" alt="Fantasy Draft Picker v4.1 infographic — Mock Drafts, AI Draft Advisor, and 360+ NFL Players" style="width: 100%; height: auto; display: block;" />
+    </div>
+</section>
 
 <!-- NFL Season Countdown -->
 <section class="turf-bg" style="padding-top: 40px; padding-bottom: 40px;">
@@ -583,19 +670,19 @@
                 <span style="font-size: 0.75em; color: #667; text-transform: uppercase; letter-spacing: 1px;">Seconds</span>
             </div>
         </div>
-        <p style="margin-top: 20px; color: #8899aa; font-size: 0.9em;">Thursday, September 10, 2026 &nbsp;•&nbsp; Get your draft kit ready</p>
+        <p style="margin-top: 20px; color: #8899aa; font-size: 0.9em;">Thursday, September 10, 2026 &nbsp;&bull;&nbsp; Get your draft kit ready</p>
     </div>
 </section>
 
-<!-- NEW: AI Recommendation Engine -->
+<!-- AI Recommendation Engine -->
 <section style="padding-top: 60px; padding-bottom: 60px;">
     <div style="text-align: center; margin-bottom: 12px;">
-        <span style="display: inline-block; background: linear-gradient(135deg, #6A1B9A, #9C27B0); color: #fff; font-size: 0.8em; font-weight: bold; padding: 6px 18px; border-radius: 20px; letter-spacing: 1.5px; text-transform: uppercase;">New Feature</span>
+        <span class="new-badge">Core Feature</span>
     </div>
     <h2 style="text-align: center;">🤖 AI-Powered Draft Recommendations</h2>
     <div class="divider" style="background: linear-gradient(90deg, #6A1B9A, #CE93D8);"></div>
     <p class="section-subtitle" style="max-width: 680px; margin: 0 auto 44px;">
-        Go beyond simple rankings. The AI engine evaluates every available player through five key lenses and tells you exactly <em>why</em> it likes a pick — so you can draft with confidence.
+        Go beyond simple rankings. The AI engine evaluates every available player through five key lenses — factoring in player health status — and tells you exactly <em>why</em> it likes a pick so you can draft with confidence.
     </p>
 
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; max-width: 1040px; margin: 0 auto;">
@@ -624,13 +711,55 @@
             <h3 style="color: #CE93D8;">Elite Talent</h3>
             <p>Some players are generational starters. The engine gives a bonus to top-tier positional talent so you don't pass on a league-winner.</p>
         </div>
+        <div class="feature-card" style="border-color: rgba(106,27,154,0.2);">
+            <div class="icon">🏥</div>
+            <h3 style="color: #CE93D8;">Health Status</h3>
+            <p>Player health matters. The engine applies a scoring penalty for Questionable and Out players, and surfaces injury warnings so you draft with eyes wide open.</p>
+        </div>
     </div>
 
-    <div style="text-align: center; margin-top: 40px; padding: 24px; background: rgba(106,27,154,0.08); border: 1px solid rgba(106,27,154,0.15); border-radius: 16px; max-width: 680px; margin-left: auto; margin-right: auto;">
-        <p style="color: #CE93D8; font-size: 1.1em; font-weight: bold; margin-bottom: 8px;">🧠 Transparent Reasoning</p>
-        <p style="color: #9aa8b8; line-height: 1.65; font-size: 0.95em;">
-            Every recommendation comes with clear reasoning bullets that explain which factors drove the pick. No black box — you see exactly why the AI likes a player, so you stay in control.
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; max-width: 1040px; margin: 28px auto 0;">
+        <div style="text-align: center; padding: 24px; background: rgba(106,27,154,0.08); border: 1px solid rgba(106,27,154,0.15); border-radius: 16px;">
+            <p style="color: #CE93D8; font-size: 1.1em; font-weight: bold; margin-bottom: 8px;">🧠 Transparent Reasoning</p>
+            <p style="color: #9aa8b8; line-height: 1.65; font-size: 0.95em;">
+                Every recommendation comes with clear reasoning bullets explaining which factors drove the pick. No black box — you see exactly why the AI likes a player.
+            </p>
+        </div>
+        <div style="text-align: center; padding: 24px; background: rgba(106,27,154,0.08); border: 1px solid rgba(106,27,154,0.15); border-radius: 16px;">
+            <p style="color: #CE93D8; font-size: 1.1em; font-weight: bold; margin-bottom: 8px;">🏥 Injury-Aware Scoring</p>
+            <p style="color: #9aa8b8; line-height: 1.65; font-size: 0.95em;">
+                Non-healthy players (Questionable, Out) receive a -15 point penalty. Injury warnings are displayed directly in the advisor text so you never draft blind.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Mock Draft Mode -->
+<section class="turf-bg" style="padding-top: 60px; padding-bottom: 60px;">
+    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+        <span class="mock-badge">Mock Draft Mode</span>
+        <h2 style="margin-top: 16px;">🎮 Practice Before the Real Thing</h2>
+        <div class="divider" style="background: linear-gradient(90deg, #E65100, #FFB74D);"></div>
+        <p class="section-subtitle" style="max-width: 640px; margin: 0 auto 36px;">
+            Run full mock drafts with AI-powered auto-picks for every non-user team. The AI simulates realistic human drafting with controlled randomness — it won't always pick the optimal player, just like your real league mates.
         </p>
+        <div style="display: flex; justify-content: center; gap: 24px; flex-wrap: wrap;">
+            <div class="feature-card" style="flex: 1; min-width: 220px; max-width: 300px; border-color: rgba(230,81,0,0.2);">
+                <div class="icon">🤖</div>
+                <h3 style="color: #FFB74D;">AI Auto-Pick</h3>
+                <p>Non-user teams draft intelligently with realistic variance — no two mock drafts play out the same way.</p>
+            </div>
+            <div class="feature-card" style="flex: 1; min-width: 220px; max-width: 300px; border-color: rgba(230,81,0,0.2);">
+                <div class="icon">🟠</div>
+                <h3 style="color: #FFB74D;">MOCK Badge</h3>
+                <p>An orange "MOCK" indicator in the league summary header keeps you aware you're in practice mode.</p>
+            </div>
+            <div class="feature-card" style="flex: 1; min-width: 220px; max-width: 300px; border-color: rgba(230,81,0,0.2);">
+                <div class="icon">⚙️</div>
+                <h3 style="color: #FFB74D;">One Toggle</h3>
+                <p>Enable or disable mock mode with a single checkbox in draft settings. Switch between practice and live instantly.</p>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -638,10 +767,10 @@
 <section style="padding-top: 40px; padding-bottom: 40px; overflow: hidden;">
     <h2>See It in Action</h2>
     <div class="divider"></div>
-    
+
     <div class="carousel-wrapper">
-        <button class="carousel-btn carousel-prev" onclick="carouselMove(-1)">‹</button>
-        
+        <button class="carousel-btn carousel-prev" onclick="carouselMove(-1)" aria-label="Previous screenshot">&#8249;</button>
+
         <div class="carousel-viewport">
             <div class="carousel-track" id="carouselTrack">
                 <div class="carousel-slide">
@@ -674,34 +803,34 @@
                 </div>
             </div>
         </div>
-        
-        <button class="carousel-btn carousel-next" onclick="carouselMove(1)">›</button>
+
+        <button class="carousel-btn carousel-next" onclick="carouselMove(1)" aria-label="Next screenshot">&#8250;</button>
     </div>
-    
+
     <div class="carousel-dots" id="carouselDots"></div>
 </section>
 
 <!-- Stats Bar -->
 <div class="stats-bar">
     <div class="stat-item">
-        <span class="stat-number">300+</span>
+        <span class="stat-number">360+</span>
         <span class="stat-label">NFL Players</span>
     </div>
     <div class="stat-item">
         <span class="stat-number">5</span>
-        <span class="stat-label">Advisor Factors</span>
+        <span class="stat-label">AI Scoring Factors</span>
     </div>
     <div class="stat-item">
         <span class="stat-number">6</span>
         <span class="stat-label">Value Grades</span>
     </div>
     <div class="stat-item">
-        <span class="stat-number">A+</span>
-        <span class="stat-label">Draft Grades</span>
+        <span class="stat-number">6</span>
+        <span class="stat-label">Positions Tracked</span>
     </div>
 </div>
 
-<!-- Features -->
+<!-- Core Features -->
 <section>
     <h2>Everything You Need in Your Fantasy Football Draft Kit</h2>
     <div class="divider"></div>
@@ -709,47 +838,75 @@
         <div class="feature-card">
             <div class="icon">🤖</div>
             <h3>Smart Draft Advisor</h3>
-            <p>Real-time pick recommendations based on roster needs, positional scarcity, ADP value, and last year's stats. Runs entirely on your device — no internet required.</p>
+            <p>Real-time pick recommendations based on roster needs, positional scarcity, ADP value, bye weeks, and elite status. Composite scoring with transparent reasoning bullets for every suggestion.</p>
         </div>
         <div class="feature-card">
             <div class="icon">📊</div>
             <h3>Pick Value Grading</h3>
-            <p>Every pick is graded instantly. Color-coded indicators make it easy to spot steals and reaches at a glance.</p>
+            <p>Every pick is graded instantly across 6 tiers from Elite to Big Reach. Color-coded icons make it easy to spot steals and reaches at a glance. K and DST excluded for accuracy.</p>
         </div>
         <div class="feature-card">
             <div class="icon">🏆</div>
             <h3>Elite Player Tracking</h3>
-            <p>Top 5 players at each position are tagged as Elite with a purple trophy badge. Know when game-changing talent is on the board.</p>
+            <p>Top 5 players at each position are tagged as Elite with a purple trophy badge. The AI gives these game-changers a bonus so you never pass on generational talent.</p>
         </div>
         <div class="feature-card">
             <div class="icon">📋</div>
             <h3>Player Detail Cards</h3>
-            <p>Tap any player for their full card: stats with TD totals, injury status, ADP, ESPN profile, team depth chart, and advisor score.</p>
+            <p>Tap any player for their full card: AI composite scores with reasoning, stats with TD totals, injury status, ADP, position rank, ESPN profile links, and team depth chart.</p>
         </div>
         <div class="feature-card">
             <div class="icon">🎯</div>
             <h3>Position Requirements</h3>
-            <p>Set min/max roster limits per position. The app tracks your roster and warns you when positions need attention.</p>
+            <p>Set min/max roster limits per position (QB, RB, WR, TE, K, DST). The app tracks your roster in real time and warns you when positions need attention.</p>
         </div>
         <div class="feature-card">
             <div class="icon">📈</div>
             <h3>League-Wide Analytics</h3>
-            <p>Curve-based grades (A+ to F) for every team after the draft. Compare value picks, reaches, and roster balance.</p>
+            <p>Curve-based grades (A+ to F) for every team after the draft. Compare value picks, reaches, roster balance, draft strategy classification, and health risk indicators.</p>
         </div>
         <div class="feature-card">
             <div class="icon">⏱️</div>
             <h3>Draft Clock</h3>
-            <p>Built-in stopwatch tracks time per pick. Keep your draft moving with a visible timer and haptic feedback.</p>
+            <p>Built-in stopwatch tracks time per pick with color changes — green under 1 min, orange under 2 min, red at 2+ min. Keep your draft moving.</p>
         </div>
         <div class="feature-card">
             <div class="icon">⭐</div>
-            <h3>Favorites & Filters</h3>
-            <p>Mark players as favorites. Filter by position, team, or favorites. Sort by overall rank or ADP.</p>
+            <h3>Favorites &amp; Bust System</h3>
+            <p>Two-way toggle: mark any player as ⭐ Favorite or 💣 Bust (mutually exclusive). Favorites get a +3 AI bonus, busts get a -15 penalty. Highlighted across all views.</p>
         </div>
         <div class="feature-card">
             <div class="icon">🔄</div>
             <h3>Keeper League Support</h3>
-            <p>Configure 1-10 forced linear rounds for keeper leagues. Serpentine kicks in after your keeper rounds.</p>
+            <p>Configure 1-10 forced linear rounds for keeper leagues. Serpentine kicks in after your keeper rounds. Supports both serpentine and linear draft flows.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Best Available Card -->
+<section style="padding-top: 40px; padding-bottom: 40px;">
+    <div style="max-width: 800px; margin: 0 auto;">
+        <h2>🃏 Best Available Card</h2>
+        <div class="divider"></div>
+        <p class="section-subtitle" style="max-width: 640px; margin: 0 auto 36px;">
+            Your command center for every pick. The Best Available card shows the top recommended player with all the info you need to make a confident decision.
+        </p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px;">
+            <div class="feature-card">
+                <div class="icon">🏷️</div>
+                <h3>Position Filters</h3>
+                <p>Filter by Overall, QB, RB, WR, TE, K, DST, or Favorites. Instantly see the best available at any position.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🏥</div>
+                <h3>Injury Awareness</h3>
+                <p>Injury status displayed with color coding — red for OUT, orange for QUESTIONABLE. Injury advice warnings for non-healthy players.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🎨</div>
+                <h3>Smart Highlighting</h3>
+                <p>Card background adapts: yellow for favorites, red for busts, or position-specific color gradients. One-tap draft button with position-colored background.</p>
+            </div>
         </div>
     </div>
 </section>
@@ -762,32 +919,104 @@
         <div class="step">
             <div class="step-number">1</div>
             <h3>Configure</h3>
-            <p>Set your league name, teams, rounds, and draft flow.</p>
+            <p>Set your league name, teams, rounds, draft flow, keeper rounds, and position requirements.</p>
         </div>
         <div class="step">
             <div class="step-number">2</div>
             <h3>Draft</h3>
-            <p>Use the Best Available card or search any player. The advisor guides every pick.</p>
+            <p>Use the Best Available card or search any player. The AI advisor guides every pick with reasoning.</p>
         </div>
         <div class="step">
             <div class="step-number">3</div>
             <h3>Track</h3>
-            <p>Monitor rosters, position counts, and recent picks in real time.</p>
+            <p>Monitor rosters, position counts, recent picks, and the draft clock in real time.</p>
         </div>
         <div class="step">
             <div class="step-number">4</div>
             <h3>Analyze</h3>
-            <p>Review league-wide grades and share your draft report card.</p>
+            <p>Review league-wide letter grades, draft strategy classifications, and share your report card.</p>
         </div>
     </div>
 </section>
 
-<!-- Draft Advisor -->
+<!-- Draft Analytics & Grading -->
+<section>
+    <div style="text-align: center; margin-bottom: 12px;">
+        <span class="new-badge">New in v4.1</span>
+    </div>
+    <h2>📊 Draft Analytics &amp; Grading</h2>
+    <div class="divider" style="background: linear-gradient(90deg, #FFA000, #FFD54F);"></div>
+    <p class="section-subtitle" style="max-width: 680px; margin: 0 auto 36px;">
+        After the draft, every team gets a comprehensive grade. The curve-based system normalizes raw scores across all teams by percentile — so grades reflect how you drafted relative to your league, not just raw numbers.
+    </p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 16px; max-width: 800px; margin: 0 auto 36px;">
+        <div class="grade-card">
+            <div class="grade-letter" style="color: #81C784;">A+</div>
+            <div class="grade-label">Elite Draft</div>
+        </div>
+        <div class="grade-card">
+            <div class="grade-letter" style="color: #AED581;">A / A-</div>
+            <div class="grade-label">Great Draft</div>
+        </div>
+        <div class="grade-card">
+            <div class="grade-letter" style="color: #64b5f6;">B+ / B</div>
+            <div class="grade-label">Good Draft</div>
+        </div>
+        <div class="grade-card">
+            <div class="grade-letter" style="color: #FFB74D;">C+ / C</div>
+            <div class="grade-label">Average Draft</div>
+        </div>
+        <div class="grade-card">
+            <div class="grade-letter" style="color: #FF8A65;">D+ / D</div>
+            <div class="grade-label">Below Average</div>
+        </div>
+        <div class="grade-card">
+            <div class="grade-letter" style="color: #EF5350;">F</div>
+            <div class="grade-label">Poor Draft</div>
+        </div>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; max-width: 1040px; margin: 0 auto;">
+        <div class="feature-card" style="border-color: rgba(255,160,0,0.2);">
+            <div class="icon">🏅</div>
+            <h3 style="color: #FFB74D;">Team Grades Overview</h3>
+            <p>Ranked list of all teams' letter grades with numeric scores (0-100). Tap any team to view detailed analytics.</p>
+        </div>
+        <div class="feature-card" style="border-color: rgba(255,160,0,0.2);">
+            <div class="icon">📐</div>
+            <h3 style="color: #FFB74D;">Draft Strategy Classification</h3>
+            <p>Each team's approach is classified: RB Heavy, WR Heavy, Zero RB, QB Stacking (3+ QBs), Balanced, or Flexible.</p>
+        </div>
+        <div class="feature-card" style="border-color: rgba(255,160,0,0.2);">
+            <div class="icon">🏥</div>
+            <h3 style="color: #FFB74D;">Health Risk Indicator</h3>
+            <p>Low, Moderate, or High health risk based on injured players drafted. Each injured player incurs a -2 grade penalty.</p>
+        </div>
+        <div class="feature-card" style="border-color: rgba(255,160,0,0.2);">
+            <div class="icon">🌟</div>
+            <h3 style="color: #FFB74D;">Notable Picks</h3>
+            <p>Best value pick and biggest reach identified for each team. Position distribution shown with color-coded badges.</p>
+        </div>
+        <div class="feature-card" style="border-color: rgba(255,160,0,0.2);">
+            <div class="icon">📤</div>
+            <h3 style="color: #FFB74D;">Share Results</h3>
+            <p>Generate a shareable text grade report. View full roster or open the complete draft history from the analytics screen.</p>
+        </div>
+        <div class="feature-card" style="border-color: rgba(255,160,0,0.2);">
+            <div class="icon">📉</div>
+            <h3 style="color: #FFB74D;">Key Stats</h3>
+            <p>Value picks count, reach picks count, and average ADP difference — the numbers behind every team's grade.</p>
+        </div>
+    </div>
+</section>
+
+<!-- AI Draft Advisor Intelligence -->
 <section>
     <h2>AI Draft Advisor Intelligence</h2>
     <div class="divider"></div>
     <p class="section-subtitle">
-        Analyzes 5 factors for every available player and gives you a clear recommendation:
+        Analyzes 5 factors for every available player and gives you a clear recommendation with reasoning:
     </p>
     <div class="advisor-tags">
         <div class="advisor-tag">
@@ -801,7 +1030,7 @@
             <div class="emoji">🎯</div>
             <div>
                 <div class="label">NEED</div>
-                <div class="desc">Fills a roster need based on position requirements</div>
+                <div class="desc">Fills a roster need — team name shown for clarity</div>
             </div>
         </div>
         <div class="advisor-tag">
@@ -818,6 +1047,36 @@
                 <div class="desc">Top 5 at their position — game-changing talent</div>
             </div>
         </div>
+        <div class="advisor-tag">
+            <div class="emoji">📅</div>
+            <div>
+                <div class="label">BYE WEEK</div>
+                <div class="desc">Penalizes overlapping bye weeks on your roster</div>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-top: 28px;">
+        <div class="advisor-tag" style="border-color: rgba(239,83,80,0.2);">
+            <div class="emoji">🏥</div>
+            <div>
+                <div class="label" style="color: #EF5350;">INJURY</div>
+                <div class="desc">-15 penalty for Questionable/Out players</div>
+            </div>
+        </div>
+        <div class="advisor-tag" style="border-color: rgba(239,83,80,0.2);">
+            <div class="emoji">💣</div>
+            <div>
+                <div class="label" style="color: #EF5350;">BUST</div>
+                <div class="desc">-15 penalty for user-marked bust players</div>
+            </div>
+        </div>
+        <div class="advisor-tag" style="border-color: rgba(255,235,59,0.2);">
+            <div class="emoji">⭐</div>
+            <div>
+                <div class="label" style="color: #FDD835;">FAVORITE</div>
+                <div class="desc">+3 bonus for user-marked favorite players</div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -826,7 +1085,7 @@
 <section>
     <h2>Fantasy Draft Pick Value Grading System</h2>
     <div class="divider"></div>
-    <p class="section-subtitle">Every pick is graded based on ADP vs. actual draft position.</p>
+    <p class="section-subtitle">Every pick is graded based on ADP vs. actual draft position. K and DST are excluded from value grading due to unreliable ADP data.</p>
     <table class="grade-table">
         <tr><th>Icon</th><th>Grade</th><th>Meaning</th><th>Color</th></tr>
         <tr><td class="grade-icon">🏆</td><td>Elite</td><td>Top 5 at position</td><td style="color:#CE93D8;font-weight:bold;">Purple</td></tr>
@@ -839,40 +1098,109 @@
 </section>
 </div>
 
+<!-- Player Database -->
+<section>
+    <h2>🗂️ 360+ Player Database</h2>
+    <div class="divider"></div>
+    <p class="section-subtitle" style="max-width: 680px; margin: 0 auto 36px;">
+        A comprehensive NFL player database with full profiles, searchable and filterable across every view in the app.
+    </p>
+    <div class="features">
+        <div class="feature-card">
+            <div class="icon">👤</div>
+            <h3>Full Player Profiles</h3>
+            <p>Name, position, NFL team, overall rank, ADP (PFF rank), position rank, bye week, last year stats, injury status, and ESPN player ID — all at your fingertips.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">🔍</div>
+            <h3>Search &amp; Filter</h3>
+            <p>Search by name and filter by position across all player views. Sort by overall rank or ADP. Dedicated Favorites tab with its own search and filtering.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">🔗</div>
+            <h3>ESPN Integration</h3>
+            <p>One-tap links to ESPN player profiles and team depth charts. Deep links are clickable directly in the app for quick research.</p>
+        </div>
+        <div class="feature-card">
+            <div class="icon">🔄</div>
+            <h3>Data Refresh</h3>
+            <p>Player data refreshes from a remote source with first-run auto-refresh. Favorites and busts persist through data refreshes and app restarts.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Draft Board UI -->
+<section class="turf-bg" style="padding-top: 60px; padding-bottom: 60px;">
+    <div style="max-width: 800px; margin: 0 auto;">
+        <h2>🏟️ Draft Board UI</h2>
+        <div class="divider"></div>
+        <p class="section-subtitle" style="max-width: 640px; margin: 0 auto 36px;">
+            A purpose-built draft board designed for live draft day. Everything you need is visible at a glance — no digging through menus.
+        </p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px;">
+            <div class="feature-card">
+                <div class="icon">📋</div>
+                <h3>League Summary Header</h3>
+                <p>Collapsible header with team info, mock draft indicator badge, and real-time draft state: current round, pick number, team on the clock.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">⏱️</div>
+                <h3>Stopwatch Timer</h3>
+                <p>Color-coded timer: green under 1 min, orange under 2 min, red at 2+ min. Configurable enable/disable in settings.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📜</div>
+                <h3>Recent Picks</h3>
+                <p>Last 3 picks displayed with value scoring icons. See what just happened without scrolling through the full history.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📊</div>
+                <h3>Position Counter</h3>
+                <p>Track how many players have been drafted at each position. Team roster dialog shows full player details for any team.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">↩️</div>
+                <h3>Undo &amp; Reset</h3>
+                <p>Undo the last pick or fully reset the draft. Mistakes happen — the app has you covered.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📜</div>
+                <h3>Draft History</h3>
+                <p>Full pick-by-pick history with player details, favorite/bust highlighting, and value scoring. Exportable to CSV.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- More Features -->
 <section>
     <h2>More Draft Kit Features</h2>
     <div class="divider"></div>
     <div class="features">
         <div class="feature-card">
-            <div class="icon">🔗</div>
-            <h3>ESPN Integration</h3>
-            <p>One-tap links to ESPN player profiles and team depth charts.</p>
-        </div>
-        <div class="feature-card">
-            <div class="icon">📱</div>
-            <h3>SMS Draft Updates</h3>
-            <p>Send pick notifications to phone numbers via SMS.</p>
+            <div class="icon">⚙️</div>
+            <h3>Deep Configuration</h3>
+            <p>League name, rounds, draft flow (serpentine/linear), keeper rounds, skip first round, stopwatch, mock draft, sort by ADP, user team selection, and position requirement customization.</p>
         </div>
         <div class="feature-card">
             <div class="icon">💾</div>
-            <h3>Auto-Save & Backup</h3>
-            <p>Draft state saves automatically. Config backs up to JSON that survives reinstalls.</p>
+            <h3>Config Backup &amp; Restore</h3>
+            <p>Back up your entire configuration to a JSON file that survives reinstalls. Restore it on any device to pick up right where you left off.</p>
         </div>
         <div class="feature-card">
             <div class="icon">📤</div>
-            <h3>Export & Share</h3>
-            <p>Export draft results to CSV. Share your draft grade report card.</p>
+            <h3>Export &amp; Share</h3>
+            <p>Export draft results to CSV. Share your draft grade report card as text. Access draft history from analytics or the main draft screen.</p>
         </div>
         <div class="feature-card">
             <div class="icon">🌙</div>
             <h3>Dark Mode</h3>
-            <p>Full dark mode support with theme-aware colors throughout.</p>
+            <p>Full dark mode with adaptive colors throughout. Theme-aware text, favorite highlights (yellow/gold), and bust highlights (light red/dark red) adapt to your preference.</p>
         </div>
         <div class="feature-card">
-            <div class="icon">📖</div>
-            <h3>Built-in Help Guide</h3>
-            <p>In-app documentation covers every feature and grading system.</p>
+            <div class="icon">♿</div>
+            <h3>Accessibility</h3>
+            <p>48dp minimum touch targets, content descriptions on interactive elements, and theme-aware text colors (text_primary, text_secondary) that adapt to light and dark modes.</p>
         </div>
     </div>
 </section>
@@ -885,7 +1213,7 @@
         <a href="https://play.google.com/store/apps/details?id=com.fantasydraft.picker" class="cta cta-gold">
             ▶ Download on Google Play
         </a>
-        <a href="https://apps.apple.com/app/fantasy-draft-picker" class="cta cta-white">
+        <a href="https://apps.apple.com/us/app/ffl-draft-day-picker/id6758958075" class="cta cta-white">
              Download on App Store
         </a>
     </div>
@@ -893,7 +1221,7 @@
 
 <!-- Feature Request Section -->
 <section>
-    <h2>Feature Requests & Feedback</h2>
+    <h2>Feature Requests &amp; Feedback</h2>
     <div class="divider"></div>
     <div style="max-width: 600px; margin: 0 auto; text-align: center;">
         <p class="section-subtitle" style="margin-bottom: 24px;">
@@ -958,24 +1286,32 @@
             <div class="faq-a">Yes. You can configure 1–10 linear rounds at the start of the draft for keeper picks, then the app switches to serpentine for the remaining rounds. Great for leagues where the first few rounds are pre-determined.</div>
         </div>
         <div class="faq-item" onclick="this.classList.toggle('open')">
-            <div class="faq-q">Where does the player data come from?</div>
-            <div class="faq-a">Player rankings, ADP, and stats come from publicly available ESPN data, bundled directly in the app. The paid tier also lets you import your own custom player rankings via JSON file if you prefer a different source.</div>
+            <div class="faq-q">What is Mock Draft Mode?</div>
+            <div class="faq-a">Mock Draft Mode lets AI auto-pick for all non-user teams, simulating a realistic draft with controlled randomness. It's perfect for practice runs before your real draft day. Enable it with a single checkbox in draft settings — an orange "MOCK" badge appears in the header so you always know you're in practice mode.</div>
         </div>
         <div class="faq-item" onclick="this.classList.toggle('open')">
             <div class="faq-q">How does the AI advisor decide who to recommend?</div>
-            <div class="faq-a">The engine scores every available player across five weighted factors: ADP value (30%), positional scarcity (25%), your team's roster needs (25%), bye week conflicts (10%), and elite talent bonus (10%). Every recommendation includes the reasoning so you can agree or override it.</div>
+            <div class="faq-a">The engine scores every available player across five weighted factors: ADP value (30%), positional scarcity (25%), your team's roster needs (25%), bye week conflicts (10%), and elite talent bonus (10%). Injury and bust penalties are applied on top. Every recommendation includes reasoning bullets so you can agree or override it.</div>
         </div>
         <div class="faq-item" onclick="this.classList.toggle('open')">
-            <div class="faq-q">Is it really free? What's the catch?</div>
-            <div class="faq-a">It's free, ad-free, and requires no account or sign-up. No in-app purchases, no paywalls, no data collection. The app was built by a fantasy football fan for fantasy football fans.</div>
+            <div class="faq-q">How does the draft grading system work?</div>
+            <div class="faq-a">After the draft, every team receives a letter grade (A+ through F) based on a curve-normalized scoring system. Grades factor in value picks, reaches, average ADP difference, roster balance, and health risk from injured players (-2 penalty per injured player). Each team also gets a draft strategy classification like RB Heavy, Zero RB, or Balanced.</div>
         </div>
         <div class="faq-item" onclick="this.classList.toggle('open')">
-            <div class="faq-q">Can I add a player who's missing from the list?</div>
-            <div class="faq-a">Yes. There's an "Add Custom Player" option in the player list. Custom players are available for the current draft session and work with all the same features — grading, advisor, and roster tracking.</div>
+            <div class="faq-q">What are Favorites and Busts?</div>
+            <div class="faq-a">You can mark any player as a ⭐ Favorite or 💣 Bust — they're mutually exclusive. Favorites are highlighted yellow and get a +3 AI bonus. Busts are highlighted red and get a -15 penalty. These persist through app restarts and data refreshes, and they're visible across all views with emoji indicators.</div>
+        </div>
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+            <div class="faq-q">Where does the player data come from?</div>
+            <div class="faq-a">Player rankings, ADP, and stats come from publicly available ESPN data, bundled directly in the app. Data can be refreshed from a remote source, with auto-refresh on first run.</div>
         </div>
         <div class="faq-item" onclick="this.classList.toggle('open')">
             <div class="faq-q">Does it support both serpentine and linear drafts?</div>
             <div class="faq-a">Yes. Choose serpentine (snake) or linear (straight) draft order during setup. You can also combine them — linear for keeper rounds, then serpentine for the rest.</div>
+        </div>
+        <div class="faq-item" onclick="this.classList.toggle('open')">
+            <div class="faq-q">Is it really free? What's the catch?</div>
+            <div class="faq-a">It's free, ad-free, and requires no account or sign-up. No in-app purchases, no paywalls, no data collection. The app was built by a fantasy football fan for fantasy football fans.</div>
         </div>
     </div>
 </section>
@@ -987,10 +1323,10 @@
         <a href="mailto:jeff.norton@outlook.com">Contact</a> &nbsp;|&nbsp;
         <a href="mailto:jeff.norton@outlook.com?subject=Fantasy%20Draft%20Picker%20-%20Feature%20Request">Request a Feature</a>
     </p>
-    <p style="margin-top: 8px;">Made with ☕ and 🏈</p>
+    <p style="margin-top: 8px;">Made with ☕ and 🏈 &nbsp;|&nbsp; v4.1 Build 43</p>
 </footer>
 
-<!-- Particle Animation + Carousel Script -->
+<!-- Particle Animation + Carousel + Countdown Script -->
 <script>
 // Particles
 (function() {
@@ -1015,24 +1351,24 @@
     const dotsContainer = document.getElementById('carouselDots');
     let currentIndex = 0;
     let autoPlayTimer;
-    
+
     function getSlidesPerView() {
         if (window.innerWidth <= 480) return 1;
         if (window.innerWidth <= 768) return 2;
         return 3;
     }
-    
+
     function getMaxIndex() {
         return Math.max(0, slides.length - getSlidesPerView());
     }
-    
+
     function updateCarousel() {
         const slideWidth = 100 / getSlidesPerView();
         slides.forEach(s => s.style.minWidth = slideWidth + '%');
         track.style.transform = 'translateX(-' + (currentIndex * slideWidth) + '%)';
         updateDots();
     }
-    
+
     function buildDots() {
         dotsContainer.innerHTML = '';
         const max = getMaxIndex();
@@ -1043,30 +1379,30 @@
             dotsContainer.appendChild(dot);
         }
     }
-    
+
     function updateDots() {
         const dots = dotsContainer.querySelectorAll('.carousel-dot');
         dots.forEach((d, i) => d.classList.toggle('active', i === currentIndex));
     }
-    
+
     window.carouselMove = function(dir) {
         const max = getMaxIndex();
         currentIndex = Math.max(0, Math.min(max, currentIndex + dir));
         updateCarousel();
         resetAutoPlay();
     };
-    
+
     function autoPlay() {
         const max = getMaxIndex();
         currentIndex = currentIndex >= max ? 0 : currentIndex + 1;
         updateCarousel();
     }
-    
+
     function resetAutoPlay() {
         clearInterval(autoPlayTimer);
         autoPlayTimer = setInterval(autoPlay, 4000);
     }
-    
+
     // Touch/swipe support
     let touchStartX = 0;
     track.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
@@ -1076,7 +1412,7 @@
             carouselMove(diff > 0 ? 1 : -1);
         }
     }, { passive: true });
-    
+
     // Init
     buildDots();
     updateCarousel();
@@ -1088,11 +1424,11 @@
 (function() {
     // NFL Week 1 2026: Thursday, September 10, 2026 at 8:20 PM ET (kickoff)
     const kickoff = new Date('2026-09-10T20:20:00-04:00').getTime();
-    
+
     function update() {
         const now = Date.now();
         const diff = kickoff - now;
-        
+
         if (diff <= 0) {
             document.getElementById('cd-days').textContent = '0';
             document.getElementById('cd-hours').textContent = '0';
@@ -1100,23 +1436,22 @@
             document.getElementById('cd-secs').textContent = '0';
             return;
         }
-        
+
         const days = Math.floor(diff / (1000 * 60 * 60 * 24));
         const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
         const secs = Math.floor((diff % (1000 * 60)) / 1000);
-        
+
         document.getElementById('cd-days').textContent = days;
         document.getElementById('cd-hours').textContent = hours;
         document.getElementById('cd-mins').textContent = mins;
         document.getElementById('cd-secs').textContent = secs;
     }
-    
+
     update();
     setInterval(update, 1000);
 })();
 </script>
 
 </body>
-
-
+</html>
