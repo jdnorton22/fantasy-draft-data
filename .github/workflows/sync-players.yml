@@ -1,0 +1,49 @@
+# Copy this file to your fantasy-draft-data repo at:
+# .github/workflows/sync-players.yml
+
+name: Sync players.json from S3
+
+on:
+  schedule:
+    # Run daily at 6:15am UTC (15 min after Lambda runs)
+    - cron: '15 6 * * *'
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: Download players.json from S3
+        run: |
+          aws s3 cp s3://espn-fantasy-players-807256224129/players.json ./players.json
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet players.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add players.json
+          git commit -m "Update players.json - $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
