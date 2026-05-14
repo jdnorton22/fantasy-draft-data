@@ -6,7 +6,7 @@ name: Sync players.json from S3
 on:
   schedule:
     # Run daily at 6:15am UTC (15 min after Lambda runs)
-    - cron: '15 2300 * * *'
+    - cron: '00 23 * * *'
   workflow_dispatch: # Allow manual trigger from GitHub UI
 
 jobs:
