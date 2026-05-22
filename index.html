@@ -298,6 +298,57 @@
         .support-card a { color: #66BB6A; font-weight: bold; text-decoration: none; }
         .support-card p { color: #A5D6A7; font-size: 0.9em; margin-top: 6px; }
 
+        /* Hamburger Menu */
+        .hamburger-menu {
+            position: fixed; top: 14px; right: 20px; z-index: 200;
+        }
+        .hamburger-btn {
+            width: 44px; height: 44px; border-radius: 50%;
+            background: rgba(46,125,50,0.6); border: 1px solid rgba(255,255,255,0.15);
+            backdrop-filter: blur(8px); cursor: pointer;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            gap: 5px; transition: background 0.2s;
+        }
+        .hamburger-btn:hover { background: rgba(46,125,50,0.85); }
+        .hamburger-btn span {
+            display: block; width: 20px; height: 2px;
+            background: #fff; border-radius: 2px;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+        .hamburger-btn.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+        .hamburger-btn.open span:nth-child(2) { opacity: 0; }
+        .hamburger-btn.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+        .nav-drawer {
+            position: fixed; top: 0; right: -280px; width: 280px; height: 100%;
+            background: rgba(10,26,10,0.97); border-left: 1px solid rgba(255,255,255,0.1);
+            backdrop-filter: blur(12px); z-index: 190;
+            transition: right 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
+            padding: 80px 24px 40px; overflow-y: auto;
+        }
+        .nav-drawer.open { right: 0; }
+        .nav-drawer-overlay {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.5); z-index: 180;
+            opacity: 0; pointer-events: none; transition: opacity 0.3s;
+        }
+        .nav-drawer-overlay.open { opacity: 1; pointer-events: all; }
+
+        .nav-drawer h3 {
+            color: #FFA000; font-size: 0.75em; text-transform: uppercase;
+            letter-spacing: 2px; margin-bottom: 16px; padding-bottom: 8px;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+        .nav-drawer a {
+            display: flex; align-items: center; gap: 12px;
+            padding: 14px 0; color: #e0e0e0; text-decoration: none;
+            font-size: 1em; font-weight: 500;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            transition: color 0.2s;
+        }
+        .nav-drawer a:hover { color: #66BB6A; }
+        .nav-drawer a .nav-icon { font-size: 1.3em; }
+
         /* Responsive */
         @media (max-width: 768px) {
             .carousel-slide { min-width: 50%; }
@@ -321,7 +372,26 @@
 <body>
 
 <!-- Top accent bar -->
-<div style="position: fixed; top: 0; left: 0; right: 0; height: 4px; background: #FF8C00; z-index: 100;"></div>
+<div style="position: fixed; top: 0; left: 0; right: 0; height: 4px; background: #FF8C00; z-index: 200;"></div>
+
+<!-- Hamburger Menu -->
+<div class="hamburger-menu">
+    <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open navigation menu" onclick="toggleNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</div>
+<div class="nav-drawer-overlay" id="navOverlay" onclick="toggleNav()"></div>
+<nav class="nav-drawer" id="navDrawer" aria-label="Main navigation">
+    <h3>User Guides</h3>
+    <a href="user-guide_iOS.html">iOS User Guide</a>
+    <a href="user-guide_Android.html">Android User Guide</a>
+    <h3 style="margin-top: 28px;">Quick Links</h3>
+    <a href="https://play.google.com/store/apps/details?id=com.fantasydraft.picker">Google Play</a>
+    <a href="https://apps.apple.com/us/app/ffl-draft-day-picker/id6758958075">App Store</a>
+    <a href="mailto:jeff.norton@outlook.com?subject=Fantasy%20Draft%20Picker%20-%20Feature%20Request">Feature Request</a>
+</nav>
 
 <!-- Animated Background -->
 <div class="bg-gradient"></div>
@@ -661,7 +731,7 @@
             <a href="mailto:jeff.norton@outlook.com?subject=Fantasy%20Draft%20Picker%20-%20Feature%20Request">Send Feedback</a>
             <p>Ideas, bugs, suggestions welcome</p>
         </div>
-        <div class="support-card">
+  <!--      <div class="support-card">
             <div style="font-size: 1.8em; margin-bottom: 8px;">💳</div>
             <h3>PayPal</h3>
             <a href="https://www.paypal.com/paypalme/jdnorton22">@jdnorton22</a>
@@ -672,7 +742,7 @@
             <h3>Zelle</h3>
             <img src="zelle_qr.jpg" alt="Zelle QR Code" style="width: 120px; border-radius: 8px; margin-top: 8px;" />
             <p>Scan to tip</p>
-        </div>
+        </div>-->
     </div>
 </div>
 
@@ -703,6 +773,16 @@
         container.appendChild(p);
     }
 })();
+
+// Navigation drawer toggle
+function toggleNav() {
+    const btn = document.getElementById('hamburgerBtn');
+    const drawer = document.getElementById('navDrawer');
+    const overlay = document.getElementById('navOverlay');
+    btn.classList.toggle('open');
+    drawer.classList.toggle('open');
+    overlay.classList.toggle('open');
+}
 
 // Tab switching
 function switchTab(e, tabId) {
