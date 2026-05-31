@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFL Draft Day Picker - Blog</title>
+    <meta name="description" content="Tips, updates, and strategy guides from the FFL Draft Day Picker team.">
+    <link rel="icon" type="image/png" href="FootballIcon1024.png">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: #e0e0e0; background: #0a1a0a; line-height: 1.6;
+        }
+        .bg-gradient {
+            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(-45deg, #0a1a0a, #1B5E20, #0D3B0F, #0a1a0a, #14421a);
+            background-size: 400% 400%; animation: gradientShift 20s ease infinite; z-index: -2;
+        }
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        header {
+            text-align: center; padding: 60px 20px 40px; position: relative;
+        }
+        header h1 { font-size: 2.4em; color: #fff; margin-bottom: 8px; }
+        header p { color: #A5D6A7; font-size: 1.1em; }
+        .back-link {
+            display: inline-block; margin-bottom: 30px; color: #66BB6A;
+            text-decoration: none; font-size: 0.95em;
+        }
+        .back-link:hover { text-decoration: underline; }
+
+        .post {
+            background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px; padding: 32px; margin-bottom: 24px;
+            transition: border-color 0.25s, box-shadow 0.25s;
+        }
+        .post:hover {
+            border-color: rgba(46,125,50,0.4);
+            box-shadow: 0 8px 30px rgba(46,125,50,0.1);
+        }
+        .post-date {
+            font-size: 0.8em; color: #667; text-transform: uppercase;
+            letter-spacing: 1px; margin-bottom: 8px;
+        }
+        .post h2 { font-size: 1.4em; color: #fff; margin-bottom: 12px; }
+        .post p { color: #A5D6A7; margin-bottom: 12px; }
+        .post ul { color: #A5D6A7; margin: 12px 0 12px 20px; }
+        .post li { margin-bottom: 6px; }
+        .tag {
+            display: inline-block; padding: 3px 10px; border-radius: 12px;
+            font-size: 0.75em; font-weight: bold; background: rgba(46,125,50,0.3);
+            color: #81C784; margin-right: 6px;
+        }
+
+        footer {
+            text-align: center; padding: 30px 20px; color: #667;
+            font-size: 0.9em; border-top: 2px solid #FF8C00; margin-top: 40px;
+        }
+        footer a { color: #66BB6A; text-decoration: none; }
+    </style>
+</head>
+<body>
+<div class="bg-gradient"></div>
+
+<header>
+    <h1>🏈 Blog</h1>
+    <p>Updates, tips, and draft strategy from the FFL Draft Day Picker team</p>
+</header>
+
+<div class="container">
+    <a href="index.html" class="back-link">&larr; Back to Home</a>
+
+    <!-- Blog Post: Release 4.523 -->
+    <article class="post">
+        <div class="post-date">May 31, 2026</div>
+        <h2>Release Notes — v4.523</h2>
+        <p>Hi All,</p>
+        <p>
+            I addressed what I considered were AI miscoded drafting for mock. DST and K were following draft 
+            rules arbitrarily and deprioritized over position players. While that is true in a normal draft, 
+            I still did not want to be in a drafting position where I was picking either the top talent always, 
+            or the bottom of the barrel when it came to the picks.
+        </p>
+        <p>
+            So I fixed AI to follow normal random draft behavior for mock opponents, which in turn required 
+            tuning to the draft recommendations for AI. All should be well now.
+        </p>
+        <p>Any issues, shoot me an email!</p>
+        <p style="margin-top: 16px; color: #fff; font-weight: 600;">— Jeff</p>
+        <div style="margin-top: 16px;">
+            <span class="tag">Release</span>
+            <span class="tag">v4.523</span>
+            <span class="tag">Mock Draft</span>
+        </div>
+    </article>
+
+    <!-- Blog Post: From the Developer -->
+    <article class="post">
+        <div class="post-date">May 31, 2026</div>
+        <h2>From the Developer</h2>
+        <p>Hi All,</p>
+        <p>
+            For those early adopters who stuck it through, thank you. For those new to the app, I welcome you.
+        </p>
+        <p>
+            I'm both a fantasy football fan and developer. I wanted a distinct advantage similar to the ESPN 
+            online draft with my live fantasy draft league. This inspired me to create this app.
+        </p>
+        <p>
+            Developed for the casual fan who just wants the facts laid out in front of them. So FFL Draft Day 
+            Picker was born. Really an idea to make live drafts easier — or like online when you have a digital 
+            board telling you what has happened and where you need to go.
+        </p>
+        <p>
+            I really hope this helps folks navigate their drafts... especially the first timers. My unique and 
+            free package will get you through your first draft with good grades. But don't let my recommendations 
+            be the last word. You are the GM.
+        </p>
+        <p>Good luck and happy drafting!</p>
+        <p style="margin-top: 16px; color: #fff; font-weight: 600;">— Jeff</p>
+        <div style="margin-top: 16px;">
+            <span class="tag">From the Dev</span>
+        </div>
+    </article>
+
+    <!-- Blog Post 1 -->
+    <article class="post">
+        <div class="post-date">May 31, 2026</div>
+        <h2>Welcome to the FFL Draft Day Picker Blog</h2>
+        <p>
+            We're excited to launch this blog as a home for draft strategy tips, app updates, 
+            and fantasy football insights. Whether you're a seasoned veteran or drafting for the 
+            first time, we'll share content to help you dominate your league.
+        </p>
+        <p>Here's what you can expect:</p>
+        <ul>
+            <li>App release notes and feature deep-dives</li>
+            <li>Draft strategy guides (Zero RB, Hero RB, robust RB, and more)</li>
+            <li>ADP trends and sleeper picks as the season approaches</li>
+            <li>Tips for getting the most out of the AI advisor</li>
+        </ul>
+        <p>Stay tuned — draft season is coming.</p>
+        <div style="margin-top: 16px;">
+            <span class="tag">Announcement</span>
+            <span class="tag">v4.3</span>
+        </div>
+    </article>
+
+    <!-- Blog Post 2 -->
+    <article class="post">
+        <div class="post-date">May 31, 2026</div>
+        <h2>5 Ways the AI Advisor Gives You an Edge</h2>
+        <p>
+            The AI recommendation engine isn't just another rankings list. It evaluates every 
+            available player in real time based on your specific draft situation. Here's how to 
+            use it to its full potential:
+        </p>
+        <ul>
+            <li><strong>Trust the scarcity alerts.</strong> When the AI flags a position running dry, it's usually right. Don't wait another round.</li>
+            <li><strong>Watch for value steals.</strong> If a player's ADP says round 4 but they're still on the board in round 6, the AI will flag it.</li>
+            <li><strong>Use Favorites strategically.</strong> Mark 10-15 players you've researched as favorites — the +3 bonus helps the AI align with your pre-draft prep.</li>
+            <li><strong>Don't ignore bye week warnings.</strong> Stacking 3 starters on the same bye is a recipe for a week 7 disaster.</li>
+            <li><strong>Read the reasoning bullets.</strong> The AI tells you why. If you disagree with the logic, override it — you're the GM.</li>
+        </ul>
+        <div style="margin-top: 16px;">
+            <span class="tag">Strategy</span>
+            <span class="tag">AI Advisor</span>
+        </div>
+    </article>
+
+</div>
+
+<footer>
+    <p>FFL Draft Day Picker &copy; 2026 &nbsp;|&nbsp; <a href="index.html">Home</a> &nbsp;|&nbsp; <a href="mailto:jeff.norton@outlook.com">Contact</a></p>
+</footer>
+
+</body>
+</html>
