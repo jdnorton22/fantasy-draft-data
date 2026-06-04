@@ -23,7 +23,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4429795",
   "byeWeek" : 6,
-  "adp" : 2.2
+  "adp" : 2.1
 }, {
   "id" : 10002,
   "name" : "Puka Nacua",
@@ -62,7 +62,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3117251",
   "byeWeek" : 8,
-  "adp" : 5.0
+  "adp" : 4.9
 }, {
   "id" : 10005,
   "name" : "Jaxon Smith-Njigba",
@@ -75,7 +75,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4430878",
   "byeWeek" : 11,
-  "adp" : 6.3
+  "adp" : 6.2
 }, {
   "id" : 10006,
   "name" : "Amon-Ra St. Brown",
@@ -104,29 +104,29 @@
   "adp" : 8.2
 }, {
   "id" : 10008,
-  "name" : "De'Von Achane",
-  "position" : "RB",
-  "nflTeam" : "MIA",
-  "rank" : 9,
-  "pffRank" : 9,
-  "positionRank" : 5,
-  "lastYearStats" : "7 total TDs, 1827 total yds | 1315 rush yds, 5 rush TDs, 65 rec, 512 rec yds, 2 rec TDs",
-  "injuryStatus" : "QUESTIONABLE",
-  "espnId" : "4429160",
-  "byeWeek" : 6,
-  "adp" : 11.2
-}, {
-  "id" : 10009,
   "name" : "CeeDee Lamb",
   "position" : "WR",
   "nflTeam" : "DAL",
-  "rank" : 10,
-  "pffRank" : 10,
+  "rank" : 9,
+  "pffRank" : 9,
   "positionRank" : 5,
   "lastYearStats" : "8 total TDs, 1381 total yds | 158 tgt, 104 rec, 1381 rec yds, 8 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4241389",
   "byeWeek" : 14,
+  "adp" : 11.3
+}, {
+  "id" : 10009,
+  "name" : "De'Von Achane",
+  "position" : "RB",
+  "nflTeam" : "MIA",
+  "rank" : 10,
+  "pffRank" : 10,
+  "positionRank" : 5,
+  "lastYearStats" : "7 total TDs, 1827 total yds | 1315 rush yds, 5 rush TDs, 65 rec, 512 rec yds, 2 rec TDs",
+  "injuryStatus" : "QUESTIONABLE",
+  "espnId" : "4429160",
+  "byeWeek" : 6,
   "adp" : 11.3
 }, {
   "id" : 10010,
@@ -192,7 +192,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4870808",
   "byeWeek" : 14,
-  "adp" : 17.0
+  "adp" : 17.1
 }, {
   "id" : 10015,
   "name" : "Derrick Henry",
@@ -218,7 +218,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4426502",
   "byeWeek" : 11,
-  "adp" : 19.0
+  "adp" : 18.8
 }, {
   "id" : 10017,
   "name" : "Trey McBride",
@@ -244,7 +244,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4685382",
   "byeWeek" : 7,
-  "adp" : 21.4
+  "adp" : 21.3
 }, {
   "id" : 10019,
   "name" : "Josh Allen",
@@ -257,33 +257,33 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3918298",
   "byeWeek" : 7,
-  "adp" : 23.6
+  "adp" : 23.7
 }, {
   "id" : 10020,
-  "name" : "Nico Collins",
-  "position" : "WR",
-  "nflTeam" : "HOU",
-  "rank" : 21,
-  "pffRank" : 21,
-  "positionRank" : 8,
-  "lastYearStats" : "6 total TDs, 1212 total yds | 137 tgt, 86 rec, 1212 rec yds, 6 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4258173",
-  "byeWeek" : 8,
-  "adp" : 23.8
-}, {
-  "id" : 10021,
   "name" : "Brock Bowers",
   "position" : "TE",
   "nflTeam" : "LV",
-  "rank" : 22,
-  "pffRank" : 22,
+  "rank" : 21,
+  "pffRank" : 21,
   "positionRank" : 2,
   "lastYearStats" : "6 total TDs, 995 total yds | 135 tgt, 98 rec, 995 rec yds, 6 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4432665",
   "byeWeek" : 13,
-  "adp" : 24.1
+  "adp" : 23.9
+}, {
+  "id" : 10021,
+  "name" : "Nico Collins",
+  "position" : "WR",
+  "nflTeam" : "HOU",
+  "rank" : 22,
+  "pffRank" : 22,
+  "positionRank" : 8,
+  "lastYearStats" : "6 total TDs, 1212 total yds | 137 tgt, 86 rec, 1212 rec yds, 6 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4258173",
+  "byeWeek" : 8,
+  "adp" : 23.9
 }, {
   "id" : 10022,
   "name" : "Rashee Rice",
@@ -296,7 +296,7 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4428331",
   "byeWeek" : 5,
-  "adp" : 24.2
+  "adp" : 24.4
 }, {
   "id" : 10023,
   "name" : "Malik Nabers",
@@ -309,7 +309,7 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4595348",
   "byeWeek" : 8,
-  "adp" : 25.9
+  "adp" : 26.4
 }, {
   "id" : 10024,
   "name" : "Kenneth Walker III",
@@ -335,7 +335,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4362238",
   "byeWeek" : 6,
-  "adp" : 26.9
+  "adp" : 27.0
 }, {
   "id" : 10026,
   "name" : "George Pickens",
@@ -361,7 +361,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4047365",
   "byeWeek" : 11,
-  "adp" : 27.9
+  "adp" : 28.1
 }, {
   "id" : 10028,
   "name" : "A.J. Brown",
@@ -374,7 +374,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4047646",
   "byeWeek" : 11,
-  "adp" : 30.9
+  "adp" : 29.9
 }, {
   "id" : 10029,
   "name" : "Breece Hall",
@@ -387,7 +387,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4427366",
   "byeWeek" : 13,
-  "adp" : 31.7
+  "adp" : 31.8
 }, {
   "id" : 10030,
   "name" : "Chris Olave",
@@ -400,7 +400,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4361370",
   "byeWeek" : 8,
-  "adp" : 33.2
+  "adp" : 33.3
 }, {
   "id" : 10031,
   "name" : "Javonte Williams",
@@ -413,7 +413,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4361579",
   "byeWeek" : 14,
-  "adp" : 36.2
+  "adp" : 36.1
 }, {
   "id" : 10032,
   "name" : "Kyren Williams",
@@ -426,7 +426,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4430737",
   "byeWeek" : 11,
-  "adp" : 36.5
+  "adp" : 36.3
 }, {
   "id" : 10033,
   "name" : "Lamar Jackson",
@@ -439,7 +439,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3916387",
   "byeWeek" : 13,
-  "adp" : 36.6
+  "adp" : 36.7
 }, {
   "id" : 10034,
   "name" : "Garrett Wilson",
@@ -452,7 +452,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4569618",
   "byeWeek" : 13,
-  "adp" : 38.1
+  "adp" : 37.9
 }, {
   "id" : 10035,
   "name" : "DeVonta Smith",
@@ -465,7 +465,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4241478",
   "byeWeek" : 10,
-  "adp" : 38.7
+  "adp" : 38.1
 }, {
   "id" : 10036,
   "name" : "Tetairoa McMillan",
@@ -491,7 +491,7 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4696981",
   "byeWeek" : 8,
-  "adp" : 41.5
+  "adp" : 41.6
 }, {
   "id" : 10038,
   "name" : "Travis Etienne Jr.",
@@ -504,7 +504,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4239996",
   "byeWeek" : 8,
-  "adp" : 42.5
+  "adp" : 42.6
 }, {
   "id" : 10039,
   "name" : "Colston Loveland",
@@ -530,7 +530,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "16800",
   "byeWeek" : 11,
-  "adp" : 44.6
+  "adp" : 44.4
 }, {
   "id" : 10041,
   "name" : "Zay Flowers",
@@ -543,7 +543,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4429615",
   "byeWeek" : 13,
-  "adp" : 44.7
+  "adp" : 44.6
 }, {
   "id" : 10042,
   "name" : "Tyler Warren",
@@ -556,7 +556,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4431459",
   "byeWeek" : 13,
-  "adp" : 47.2
+  "adp" : 47.1
 }, {
   "id" : 10043,
   "name" : "Tee Higgins",
@@ -569,7 +569,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4239993",
   "byeWeek" : 6,
-  "adp" : 49.6
+  "adp" : 49.8
 }, {
   "id" : 10044,
   "name" : "Drake Maye",
@@ -582,33 +582,33 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4431452",
   "byeWeek" : 11,
-  "adp" : 51.4
+  "adp" : 50.8
 }, {
   "id" : 10045,
-  "name" : "Bucky Irving",
-  "position" : "RB",
-  "nflTeam" : "TB",
-  "rank" : 46,
-  "pffRank" : 46,
-  "positionRank" : 20,
-  "lastYearStats" : "6 total TDs, 1374 total yds | 1061 rush yds, 5 rush TDs, 38 rec, 313 rec yds, 1 rec TDs",
-  "injuryStatus" : "QUESTIONABLE",
-  "espnId" : "4596448",
-  "byeWeek" : 10,
-  "adp" : 51.6
-}, {
-  "id" : 10046,
   "name" : "Emeka Egbuka",
   "position" : "WR",
   "nflTeam" : "TB",
-  "rank" : 47,
-  "pffRank" : 47,
+  "rank" : 46,
+  "pffRank" : 46,
   "positionRank" : 20,
   "lastYearStats" : "7 total TDs, 1078 total yds | 122 tgt, 66 rec, 1078 rec yds, 7 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4567750",
   "byeWeek" : 10,
-  "adp" : 52.1
+  "adp" : 51.6
+}, {
+  "id" : 10046,
+  "name" : "Bucky Irving",
+  "position" : "RB",
+  "nflTeam" : "TB",
+  "rank" : 47,
+  "pffRank" : 47,
+  "positionRank" : 20,
+  "lastYearStats" : "6 total TDs, 1374 total yds | 1061 rush yds, 5 rush TDs, 38 rec, 313 rec yds, 1 rec TDs",
+  "injuryStatus" : "QUESTIONABLE",
+  "espnId" : "4596448",
+  "byeWeek" : 10,
+  "adp" : 51.7
 }, {
   "id" : 10047,
   "name" : "Jayden Daniels",
@@ -621,7 +621,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4426348",
   "byeWeek" : 7,
-  "adp" : 52.5
+  "adp" : 52.3
 }, {
   "id" : 10048,
   "name" : "Terry McLaurin",
@@ -634,7 +634,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3121422",
   "byeWeek" : 7,
-  "adp" : 53.3
+  "adp" : 53.2
 }, {
   "id" : 10049,
   "name" : "Quinshon Judkins",
@@ -647,7 +647,7 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4685702",
   "byeWeek" : 11,
-  "adp" : 53.4
+  "adp" : 53.6
 }, {
   "id" : 10050,
   "name" : "Joe Burrow",
@@ -660,7 +660,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3915511",
   "byeWeek" : 6,
-  "adp" : 56.2
+  "adp" : 56.8
 }, {
   "id" : 10051,
   "name" : "Carnell Tate",
@@ -673,7 +673,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4871023",
   "byeWeek" : 9,
-  "adp" : 57.1
+  "adp" : 56.9
 }, {
   "id" : 10052,
   "name" : "Ladd McConkey",
@@ -686,7 +686,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4612826",
   "byeWeek" : 7,
-  "adp" : 57.5
+  "adp" : 57.4
 }, {
   "id" : 10053,
   "name" : "TreVeyon Henderson",
@@ -699,33 +699,33 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4432710",
   "byeWeek" : 11,
-  "adp" : 57.9
+  "adp" : 58.1
 }, {
   "id" : 10054,
-  "name" : "Jaylen Waddle",
-  "position" : "WR",
-  "nflTeam" : "DEN",
-  "rank" : 55,
-  "pffRank" : 55,
-  "positionRank" : 24,
-  "lastYearStats" : "6 total TDs, 991 total yds | 118 tgt, 76 rec, 991 rec yds, 6 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4372016",
-  "byeWeek" : 10,
-  "adp" : 60.7
-}, {
-  "id" : 10055,
   "name" : "Jalen Hurts",
   "position" : "QB",
   "nflTeam" : "PHI",
-  "rank" : 56,
-  "pffRank" : 56,
+  "rank" : 55,
+  "pffRank" : 55,
   "positionRank" : 6,
   "lastYearStats" : "32 total TDs, 4216 total yds | 3779 pass yds, 23 pass TDs, 9 INTs, 437 rush yds, 9 rush TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4040715",
   "byeWeek" : 10,
   "adp" : 60.7
+}, {
+  "id" : 10055,
+  "name" : "Jaylen Waddle",
+  "position" : "WR",
+  "nflTeam" : "DEN",
+  "rank" : 56,
+  "pffRank" : 56,
+  "positionRank" : 24,
+  "lastYearStats" : "6 total TDs, 991 total yds | 118 tgt, 76 rec, 991 rec yds, 6 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4372016",
+  "byeWeek" : 10,
+  "adp" : 61.0
 }, {
   "id" : 10056,
   "name" : "Jadarian Price",
@@ -738,7 +738,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4685512",
   "byeWeek" : 11,
-  "adp" : 61.2
+  "adp" : 61.4
 }, {
   "id" : 10057,
   "name" : "Harold Fannin Jr.",
@@ -751,7 +751,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "5083076",
   "byeWeek" : 11,
-  "adp" : 63.4
+  "adp" : 63.5
 }, {
   "id" : 10058,
   "name" : "DJ Moore",
@@ -764,45 +764,45 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3915416",
   "byeWeek" : 7,
-  "adp" : 65.0
+  "adp" : 65.2
 }, {
   "id" : 10059,
-  "name" : "Kyle Pitts Sr.",
-  "position" : "TE",
-  "nflTeam" : "ATL",
-  "rank" : 60,
-  "pffRank" : 60,
-  "positionRank" : 6,
-  "lastYearStats" : "3 total TDs, 862 total yds | 115 tgt, 80 rec, 862 rec yds, 3 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4360248",
-  "byeWeek" : 11,
-  "adp" : 67.3
-}, {
-  "id" : 10060,
-  "name" : "D'Andre Swift",
-  "position" : "RB",
-  "nflTeam" : "CHI",
-  "rank" : 61,
-  "pffRank" : 61,
-  "positionRank" : 24,
-  "lastYearStats" : "9 total TDs, 1263 total yds | 994 rush yds, 8 rush TDs, 30 rec, 269 rec yds, 1 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4259545",
-  "byeWeek" : 10,
-  "adp" : 67.5
-}, {
-  "id" : 10061,
   "name" : "Jameson Williams",
   "position" : "WR",
   "nflTeam" : "DET",
-  "rank" : 62,
-  "pffRank" : 62,
+  "rank" : 60,
+  "pffRank" : 60,
   "positionRank" : 26,
   "lastYearStats" : "5 total TDs, 1028 total yds | 102 tgt, 64 rec, 1028 rec yds, 5 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4426388",
   "byeWeek" : 6,
+  "adp" : 67.7
+}, {
+  "id" : 10060,
+  "name" : "Kyle Pitts Sr.",
+  "position" : "TE",
+  "nflTeam" : "ATL",
+  "rank" : 61,
+  "pffRank" : 61,
+  "positionRank" : 6,
+  "lastYearStats" : "3 total TDs, 862 total yds | 115 tgt, 80 rec, 862 rec yds, 3 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4360248",
+  "byeWeek" : 11,
+  "adp" : 67.7
+}, {
+  "id" : 10061,
+  "name" : "D'Andre Swift",
+  "position" : "RB",
+  "nflTeam" : "CHI",
+  "rank" : 62,
+  "pffRank" : 62,
+  "positionRank" : 24,
+  "lastYearStats" : "9 total TDs, 1263 total yds | 994 rush yds, 8 rush TDs, 30 rec, 269 rec yds, 1 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4259545",
+  "byeWeek" : 10,
   "adp" : 67.8
 }, {
   "id" : 10062,
@@ -816,7 +816,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4035538",
   "byeWeek" : 8,
-  "adp" : 70.3
+  "adp" : 70.7
 }, {
   "id" : 10063,
   "name" : "Jaxson Dart",
@@ -829,7 +829,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4689114",
   "byeWeek" : 8,
-  "adp" : 71.2
+  "adp" : 71.5
 }, {
   "id" : 10064,
   "name" : "Rome Odunze",
@@ -842,7 +842,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4431299",
   "byeWeek" : 10,
-  "adp" : 72.1
+  "adp" : 72.3
 }, {
   "id" : 10065,
   "name" : "Luther Burden III",
@@ -855,7 +855,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4685278",
   "byeWeek" : 10,
-  "adp" : 73.5
+  "adp" : 73.3
 }, {
   "id" : 10066,
   "name" : "Sam LaPorta",
@@ -868,7 +868,7 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4430027",
   "byeWeek" : 6,
-  "adp" : 74.2
+  "adp" : 74.1
 }, {
   "id" : 10067,
   "name" : "Bhayshul Tuten",
@@ -881,7 +881,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4882093",
   "byeWeek" : 7,
-  "adp" : 74.3
+  "adp" : 74.5
 }, {
   "id" : 10068,
   "name" : "Chuba Hubbard",
@@ -894,7 +894,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4241416",
   "byeWeek" : 5,
-  "adp" : 76.5
+  "adp" : 77.0
 }, {
   "id" : 10069,
   "name" : "Marvin Harrison Jr.",
@@ -907,7 +907,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4432708",
   "byeWeek" : 14,
-  "adp" : 77.9
+  "adp" : 78.2
 }, {
   "id" : 10070,
   "name" : "Mike Evans",
@@ -920,7 +920,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "16737",
   "byeWeek" : 8,
-  "adp" : 79.5
+  "adp" : 79.7
 }, {
   "id" : 10071,
   "name" : "Texans D/ST",
@@ -933,7 +933,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16034",
   "byeWeek" : 8,
-  "adp" : 81.5
+  "adp" : 82.0
 }, {
   "id" : 10072,
   "name" : "Brandon Aubrey",
@@ -946,7 +946,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3953687",
   "byeWeek" : 14,
-  "adp" : 83.4
+  "adp" : 83.5
 }, {
   "id" : 10073,
   "name" : "DK Metcalf",
@@ -972,7 +972,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4035687",
   "byeWeek" : 9,
-  "adp" : 84.8
+  "adp" : 85.0
 }, {
   "id" : 10075,
   "name" : "Jordyn Tyson",
@@ -985,7 +985,7 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4880281",
   "byeWeek" : 8,
-  "adp" : 86.5
+  "adp" : 87.0
 }, {
   "id" : 10076,
   "name" : "Alec Pierce",
@@ -998,7 +998,7 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4360078",
   "byeWeek" : 13,
-  "adp" : 87.2
+  "adp" : 87.3
 }, {
   "id" : 10077,
   "name" : "Courtland Sutton",
@@ -1011,7 +1011,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3128429",
   "byeWeek" : 10,
-  "adp" : 87.3
+  "adp" : 87.5
 }, {
   "id" : 10078,
   "name" : "Travis Kelce",
@@ -1024,7 +1024,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "15847",
   "byeWeek" : 5,
-  "adp" : 88.4
+  "adp" : 88.6
 }, {
   "id" : 10079,
   "name" : "Broncos D/ST",
@@ -1037,7 +1037,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16007",
   "byeWeek" : 10,
-  "adp" : 88.4
+  "adp" : 88.7
 }, {
   "id" : 10080,
   "name" : "Tony Pollard",
@@ -1050,7 +1050,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3916148",
   "byeWeek" : 9,
-  "adp" : 88.5
+  "adp" : 88.9
 }, {
   "id" : 10081,
   "name" : "Jaylen Warren",
@@ -1063,7 +1063,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4569987",
   "byeWeek" : 9,
-  "adp" : 91.1
+  "adp" : 91.4
 }, {
   "id" : 10082,
   "name" : "Dak Prescott",
@@ -1076,7 +1076,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "2577417",
   "byeWeek" : 14,
-  "adp" : 92.1
+  "adp" : 92.3
 }, {
   "id" : 10083,
   "name" : "George Kittle",
@@ -1089,7 +1089,7 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "3040151",
   "byeWeek" : 8,
-  "adp" : 94.0
+  "adp" : 94.1
 }, {
   "id" : 10084,
   "name" : "Aaron Jones Sr.",
@@ -1102,7 +1102,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3042519",
   "byeWeek" : 6,
-  "adp" : 94.2
+  "adp" : 94.5
 }, {
   "id" : 10085,
   "name" : "Christian Watson",
@@ -1115,7 +1115,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4248528",
   "byeWeek" : 11,
-  "adp" : 94.8
+  "adp" : 95.2
 }, {
   "id" : 10086,
   "name" : "Rico Dowdle",
@@ -1128,7 +1128,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4038815",
   "byeWeek" : 9,
-  "adp" : 97.3
+  "adp" : 97.5
 }, {
   "id" : 10087,
   "name" : "Seahawks D/ST",
@@ -1141,7 +1141,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16026",
   "byeWeek" : 11,
-  "adp" : 98.1
+  "adp" : 98.0
 }, {
   "id" : 10088,
   "name" : "Brock Purdy",
@@ -1154,7 +1154,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4361741",
   "byeWeek" : 8,
-  "adp" : 98.3
+  "adp" : 99.1
 }, {
   "id" : 10089,
   "name" : "Makai Lemon",
@@ -1167,7 +1167,7 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4870795",
   "byeWeek" : 10,
-  "adp" : 99.4
+  "adp" : 99.8
 }, {
   "id" : 10090,
   "name" : "Brian Thomas Jr.",
@@ -1183,69 +1183,69 @@
   "adp" : 100.4
 }, {
   "id" : 10091,
+  "name" : "Matthew Stafford",
+  "position" : "QB",
+  "nflTeam" : "LAR",
+  "rank" : 92,
+  "pffRank" : 92,
+  "positionRank" : 10,
+  "lastYearStats" : "34 total TDs, 4321 total yds | 4282 pass yds, 34 pass TDs, 9 INTs, 39 rush yds, 0 rush TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "12483",
+  "byeWeek" : 11,
+  "adp" : 101.6
+}, {
+  "id" : 10092,
   "name" : "Chris Godwin Jr.",
   "position" : "WR",
   "nflTeam" : "TB",
-  "rank" : 92,
-  "pffRank" : 92,
+  "rank" : 93,
+  "pffRank" : 93,
   "positionRank" : 39,
   "lastYearStats" : "4 total TDs, 702 total yds | 90 tgt, 60 rec, 702 rec yds, 4 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "3116165",
   "byeWeek" : 10,
-  "adp" : 101.8
+  "adp" : 102.2
 }, {
-  "id" : 10092,
+  "id" : 10093,
   "name" : "Caleb Williams",
   "position" : "QB",
   "nflTeam" : "CHI",
-  "rank" : 93,
-  "pffRank" : 93,
-  "positionRank" : 10,
+  "rank" : 94,
+  "pffRank" : 94,
+  "positionRank" : 11,
   "lastYearStats" : "27 total TDs, 4201 total yds | 3820 pass yds, 25 pass TDs, 10 INTs, 381 rush yds, 2 rush TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4431611",
   "byeWeek" : 10,
-  "adp" : 102.5
-}, {
-  "id" : 10093,
-  "name" : "Kenneth Gainwell",
-  "position" : "RB",
-  "nflTeam" : "TB",
-  "rank" : 94,
-  "pffRank" : 94,
-  "positionRank" : 32,
-  "lastYearStats" : "6 total TDs, 824 total yds | 482 rush yds, 4 rush TDs, 51 rec, 342 rec yds, 2 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4371733",
-  "byeWeek" : 10,
-  "adp" : 103.0
+  "adp" : 102.6
 }, {
   "id" : 10094,
-  "name" : "Matthew Stafford",
-  "position" : "QB",
-  "nflTeam" : "LAR",
-  "rank" : 95,
-  "pffRank" : 95,
-  "positionRank" : 11,
-  "lastYearStats" : "34 total TDs, 4321 total yds | 4282 pass yds, 34 pass TDs, 9 INTs, 39 rush yds, 0 rush TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "12483",
-  "byeWeek" : 11,
-  "adp" : 103.1
-}, {
-  "id" : 10095,
   "name" : "Dallas Goedert",
   "position" : "TE",
   "nflTeam" : "PHI",
-  "rank" : 96,
-  "pffRank" : 96,
+  "rank" : 95,
+  "pffRank" : 95,
   "positionRank" : 10,
   "lastYearStats" : "5 total TDs, 723 total yds | 93 tgt, 70 rec, 723 rec yds, 5 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "3121023",
   "byeWeek" : 10,
-  "adp" : 103.1
+  "adp" : 102.8
+}, {
+  "id" : 10095,
+  "name" : "Kenneth Gainwell",
+  "position" : "RB",
+  "nflTeam" : "TB",
+  "rank" : 96,
+  "pffRank" : 96,
+  "positionRank" : 32,
+  "lastYearStats" : "6 total TDs, 824 total yds | 482 rush yds, 4 rush TDs, 51 rec, 342 rec yds, 2 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4371733",
+  "byeWeek" : 10,
+  "adp" : 103.3
 }, {
   "id" : 10096,
   "name" : "Parker Washington",
@@ -1258,7 +1258,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4432620",
   "byeWeek" : 7,
-  "adp" : 103.6
+  "adp" : 103.8
 }, {
   "id" : 10097,
   "name" : "Jakobi Meyers",
@@ -1271,7 +1271,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3916433",
   "byeWeek" : 7,
-  "adp" : 104.2
+  "adp" : 104.4
 }, {
   "id" : 10098,
   "name" : "J.K. Dobbins",
@@ -1284,59 +1284,59 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4241985",
   "byeWeek" : 10,
-  "adp" : 104.7
+  "adp" : 105.1
 }, {
   "id" : 10099,
-  "name" : "Rhamondre Stevenson",
-  "position" : "RB",
-  "nflTeam" : "NE",
-  "rank" : 100,
-  "pffRank" : 100,
-  "positionRank" : 34,
-  "lastYearStats" : "7 total TDs, 1034 total yds | 721 rush yds, 6 rush TDs, 38 rec, 313 rec yds, 1 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4569173",
-  "byeWeek" : 11,
-  "adp" : 105.9
-}, {
-  "id" : 10100,
   "name" : "Rachaad White",
   "position" : "RB",
   "nflTeam" : "WAS",
-  "rank" : 101,
-  "pffRank" : 101,
-  "positionRank" : 35,
+  "rank" : 100,
+  "pffRank" : 100,
+  "positionRank" : 34,
   "lastYearStats" : "6 total TDs, 860 total yds | 566 rush yds, 5 rush TDs, 46 rec, 294 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4697815",
   "byeWeek" : 7,
-  "adp" : 105.9
+  "adp" : 106.1
+}, {
+  "id" : 10100,
+  "name" : "Rhamondre Stevenson",
+  "position" : "RB",
+  "nflTeam" : "NE",
+  "rank" : 101,
+  "pffRank" : 101,
+  "positionRank" : 35,
+  "lastYearStats" : "7 total TDs, 1034 total yds | 721 rush yds, 6 rush TDs, 38 rec, 313 rec yds, 1 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4569173",
+  "byeWeek" : 11,
+  "adp" : 106.3
 }, {
   "id" : 10101,
-  "name" : "Patrick Mahomes",
-  "position" : "QB",
-  "nflTeam" : "KC",
-  "rank" : 102,
-  "pffRank" : 102,
-  "positionRank" : 12,
-  "lastYearStats" : "29 total TDs, 4318 total yds | 3992 pass yds, 26 pass TDs, 11 INTs, 326 rush yds, 3 rush TDs",
-  "injuryStatus" : "QUESTIONABLE",
-  "espnId" : "3139477",
-  "byeWeek" : 5,
-  "adp" : 106.9
-}, {
-  "id" : 10102,
   "name" : "Jake Ferguson",
   "position" : "TE",
   "nflTeam" : "DAL",
-  "rank" : 103,
-  "pffRank" : 103,
+  "rank" : 102,
+  "pffRank" : 102,
   "positionRank" : 11,
   "lastYearStats" : "5 total TDs, 599 total yds | 96 tgt, 73 rec, 599 rec yds, 5 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4242355",
   "byeWeek" : 14,
   "adp" : 106.9
+}, {
+  "id" : 10102,
+  "name" : "Patrick Mahomes",
+  "position" : "QB",
+  "nflTeam" : "KC",
+  "rank" : 103,
+  "pffRank" : 103,
+  "positionRank" : 12,
+  "lastYearStats" : "29 total TDs, 4318 total yds | 3992 pass yds, 26 pass TDs, 11 INTs, 326 rush yds, 3 rush TDs",
+  "injuryStatus" : "QUESTIONABLE",
+  "espnId" : "3139477",
+  "byeWeek" : 5,
+  "adp" : 107.8
 }, {
   "id" : 10103,
   "name" : "Wan'Dale Robinson",
@@ -1349,7 +1349,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4569587",
   "byeWeek" : 9,
-  "adp" : 109.1
+  "adp" : 109.3
 }, {
   "id" : 10104,
   "name" : "RJ Harvey",
@@ -1362,7 +1362,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4568490",
   "byeWeek" : 10,
-  "adp" : 110.1
+  "adp" : 110.6
 }, {
   "id" : 10105,
   "name" : "Cameron Dicker",
@@ -1375,7 +1375,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4362081",
   "byeWeek" : 7,
-  "adp" : 111.3
+  "adp" : 111.2
 }, {
   "id" : 10106,
   "name" : "Tucker Kraft",
@@ -1388,97 +1388,97 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4572680",
   "byeWeek" : 11,
-  "adp" : 111.4
+  "adp" : 111.3
 }, {
   "id" : 10107,
+  "name" : "Rams D/ST",
+  "position" : "DST",
+  "nflTeam" : "LAR",
+  "rank" : 108,
+  "pffRank" : 108,
+  "positionRank" : 4,
+  "lastYearStats" : "43 sacks, 12 INTs, 8 fumbles, 1 def TDs, 331 pts allowed",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "-16014",
+  "byeWeek" : 11,
+  "adp" : 112.6
+}, {
+  "id" : 10108,
   "name" : "Kyle Monangai",
   "position" : "RB",
   "nflTeam" : "CHI",
-  "rank" : 108,
-  "pffRank" : 108,
+  "rank" : 109,
+  "pffRank" : 109,
   "positionRank" : 37,
   "lastYearStats" : "7 total TDs, 1039 total yds | 824 rush yds, 6 rush TDs, 25 rec, 215 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4608686",
   "byeWeek" : 10,
-  "adp" : 113.5
+  "adp" : 113.8
 }, {
-  "id" : 10108,
+  "id" : 10109,
   "name" : "Michael Wilson",
   "position" : "WR",
   "nflTeam" : "ARI",
-  "rank" : 109,
-  "pffRank" : 109,
+  "rank" : 110,
+  "pffRank" : 110,
   "positionRank" : 43,
   "lastYearStats" : "3 total TDs, 813 total yds | 108 tgt, 66 rec, 813 rec yds, 3 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4360761",
   "byeWeek" : 14,
-  "adp" : 114.5
-}, {
-  "id" : 10109,
-  "name" : "Matthew Golden",
-  "position" : "WR",
-  "nflTeam" : "GB",
-  "rank" : 110,
-  "pffRank" : 110,
-  "positionRank" : 44,
-  "lastYearStats" : "4 total TDs, 873 total yds | 104 tgt, 66 rec, 873 rec yds, 4 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4701936",
-  "byeWeek" : 11,
-  "adp" : 115.5
+  "adp" : 114.7
 }, {
   "id" : 10110,
-  "name" : "Trevor Lawrence",
-  "position" : "QB",
-  "nflTeam" : "JAX",
-  "rank" : 111,
-  "pffRank" : 111,
-  "positionRank" : 13,
-  "lastYearStats" : "28 total TDs, 4262 total yds | 3928 pass yds, 24 pass TDs, 12 INTs, 334 rush yds, 4 rush TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4360310",
-  "byeWeek" : 7,
-  "adp" : 115.5
-}, {
-  "id" : 10111,
   "name" : "Travis Hunter",
   "position" : "WR",
   "nflTeam" : "JAX",
-  "rank" : 112,
-  "pffRank" : 112,
-  "positionRank" : 45,
+  "rank" : 111,
+  "pffRank" : 111,
+  "positionRank" : 44,
   "lastYearStats" : "3 total TDs, 496 total yds | 68 tgt, 41 rec, 496 rec yds, 3 rec TDs",
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4685415",
   "byeWeek" : 7,
   "adp" : 115.7
 }, {
+  "id" : 10111,
+  "name" : "Matthew Golden",
+  "position" : "WR",
+  "nflTeam" : "GB",
+  "rank" : 112,
+  "pffRank" : 112,
+  "positionRank" : 45,
+  "lastYearStats" : "4 total TDs, 873 total yds | 104 tgt, 66 rec, 873 rec yds, 4 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4701936",
+  "byeWeek" : 11,
+  "adp" : 115.8
+}, {
   "id" : 10112,
+  "name" : "Trevor Lawrence",
+  "position" : "QB",
+  "nflTeam" : "JAX",
+  "rank" : 113,
+  "pffRank" : 113,
+  "positionRank" : 13,
+  "lastYearStats" : "28 total TDs, 4262 total yds | 3928 pass yds, 24 pass TDs, 12 INTs, 334 rush yds, 4 rush TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4360310",
+  "byeWeek" : 7,
+  "adp" : 116.1
+}, {
+  "id" : 10113,
   "name" : "Ricky Pearsall",
   "position" : "WR",
   "nflTeam" : "SF",
-  "rank" : 113,
-  "pffRank" : 113,
+  "rank" : 114,
+  "pffRank" : 114,
   "positionRank" : 46,
   "lastYearStats" : "3 total TDs, 829 total yds | 91 tgt, 59 rec, 829 rec yds, 3 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4428209",
   "byeWeek" : 8,
-  "adp" : 117.8
-}, {
-  "id" : 10113,
-  "name" : "Rams D/ST",
-  "position" : "DST",
-  "nflTeam" : "LAR",
-  "rank" : 114,
-  "pffRank" : 114,
-  "positionRank" : 4,
-  "lastYearStats" : "43 sacks, 12 INTs, 8 fumbles, 1 def TDs, 331 pts allowed",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "-16014",
-  "byeWeek" : 11,
   "adp" : 117.9
 }, {
   "id" : 10114,
@@ -1492,33 +1492,33 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4426338",
   "byeWeek" : 10,
-  "adp" : 121.2
+  "adp" : 121.5
 }, {
   "id" : 10115,
-  "name" : "Steelers D/ST",
-  "position" : "DST",
-  "nflTeam" : "PIT",
-  "rank" : 116,
-  "pffRank" : 116,
-  "positionRank" : 5,
-  "lastYearStats" : "43 sacks, 11 INTs, 9 fumbles, 1 def TDs, 319 pts allowed",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "-16023",
-  "byeWeek" : 9,
-  "adp" : 121.8
-}, {
-  "id" : 10116,
   "name" : "Jason Myers",
   "position" : "K",
   "nflTeam" : "SEA",
-  "rank" : 117,
-  "pffRank" : 117,
+  "rank" : 116,
+  "pffRank" : 116,
   "positionRank" : 3,
   "lastYearStats" : "18/18 FGs, 42 XPs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "2473037",
   "byeWeek" : 11,
-  "adp" : 122.6
+  "adp" : 122.3
+}, {
+  "id" : 10116,
+  "name" : "Steelers D/ST",
+  "position" : "DST",
+  "nflTeam" : "PIT",
+  "rank" : 117,
+  "pffRank" : 117,
+  "positionRank" : 5,
+  "lastYearStats" : "43 sacks, 11 INTs, 9 fumbles, 1 def TDs, 319 pts allowed",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "-16023",
+  "byeWeek" : 9,
+  "adp" : 122.3
 }, {
   "id" : 10117,
   "name" : "Patriots D/ST",
@@ -1531,14 +1531,27 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16017",
   "byeWeek" : 11,
-  "adp" : 122.6
+  "adp" : 122.5
 }, {
   "id" : 10118,
+  "name" : "Blake Corum",
+  "position" : "RB",
+  "nflTeam" : "LAR",
+  "rank" : 119,
+  "pffRank" : 119,
+  "positionRank" : 38,
+  "lastYearStats" : "6 total TDs, 891 total yds | 774 rush yds, 6 rush TDs, 16 rec, 117 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4429096",
+  "byeWeek" : 11,
+  "adp" : 123.0
+}, {
+  "id" : 10119,
   "name" : "KC Concepcion",
   "position" : "WR",
   "nflTeam" : "CLE",
-  "rank" : 119,
-  "pffRank" : 119,
+  "rank" : 120,
+  "pffRank" : 120,
   "positionRank" : 47,
   "lastYearStats" : "3 total TDs, 770 total yds | 98 tgt, 61 rec, 770 rec yds, 3 rec TDs",
   "injuryStatus" : "HEALTHY",
@@ -1546,83 +1559,70 @@
   "byeWeek" : 11,
   "adp" : 123.1
 }, {
-  "id" : 10119,
-  "name" : "Blake Corum",
-  "position" : "RB",
-  "nflTeam" : "LAR",
-  "rank" : 120,
-  "pffRank" : 120,
-  "positionRank" : 38,
-  "lastYearStats" : "6 total TDs, 891 total yds | 774 rush yds, 6 rush TDs, 16 rec, 117 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4429096",
-  "byeWeek" : 11,
-  "adp" : 123.1
-}, {
   "id" : 10120,
-  "name" : "Xavier Worthy",
-  "position" : "WR",
-  "nflTeam" : "KC",
-  "rank" : 121,
-  "pffRank" : 121,
-  "positionRank" : 48,
-  "lastYearStats" : "4 total TDs, 785 total yds | 92 tgt, 55 rec, 785 rec yds, 4 rec TDs",
-  "injuryStatus" : "QUESTIONABLE",
-  "espnId" : "4683062",
-  "byeWeek" : 5,
-  "adp" : 124.8
-}, {
-  "id" : 10121,
   "name" : "Ka'imi Fairbairn",
   "position" : "K",
   "nflTeam" : "HOU",
-  "rank" : 122,
-  "pffRank" : 122,
+  "rank" : 121,
+  "pffRank" : 121,
   "positionRank" : 4,
   "lastYearStats" : "19/19 FGs, 31 XPs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "2971573",
   "byeWeek" : 8,
-  "adp" : 125.7
+  "adp" : 125.5
+}, {
+  "id" : 10121,
+  "name" : "Xavier Worthy",
+  "position" : "WR",
+  "nflTeam" : "KC",
+  "rank" : 122,
+  "pffRank" : 122,
+  "positionRank" : 48,
+  "lastYearStats" : "4 total TDs, 785 total yds | 92 tgt, 55 rec, 785 rec yds, 4 rec TDs",
+  "injuryStatus" : "QUESTIONABLE",
+  "espnId" : "4683062",
+  "byeWeek" : 5,
+  "adp" : 125.8
 }, {
   "id" : 10122,
-  "name" : "Justin Herbert",
-  "position" : "QB",
-  "nflTeam" : "LAC",
-  "rank" : 123,
-  "pffRank" : 123,
-  "positionRank" : 15,
-  "lastYearStats" : "27 total TDs, 4251 total yds | 3846 pass yds, 25 pass TDs, 11 INTs, 405 rush yds, 2 rush TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4038941",
-  "byeWeek" : 7,
-  "adp" : 127.0
-}, {
-  "id" : 10123,
   "name" : "Jordan Addison",
   "position" : "WR",
   "nflTeam" : "MIN",
-  "rank" : 124,
-  "pffRank" : 124,
+  "rank" : 123,
+  "pffRank" : 123,
   "positionRank" : 49,
   "lastYearStats" : "5 total TDs, 769 total yds | 99 tgt, 60 rec, 769 rec yds, 5 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4429205",
   "byeWeek" : 6,
-  "adp" : 127.1
+  "adp" : 126.9
 }, {
-  "id" : 10124,
+  "id" : 10123,
   "name" : "Isaiah Likely",
   "position" : "TE",
   "nflTeam" : "NYG",
-  "rank" : 125,
-  "pffRank" : 125,
+  "rank" : 124,
+  "pffRank" : 124,
   "positionRank" : 13,
   "lastYearStats" : "4 total TDs, 684 total yds | 86 tgt, 63 rec, 684 rec yds, 4 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4361050",
   "byeWeek" : 8,
-  "adp" : 127.2
+  "adp" : 127.0
+}, {
+  "id" : 10124,
+  "name" : "Justin Herbert",
+  "position" : "QB",
+  "nflTeam" : "LAC",
+  "rank" : 125,
+  "pffRank" : 125,
+  "positionRank" : 15,
+  "lastYearStats" : "27 total TDs, 4251 total yds | 3846 pass yds, 25 pass TDs, 11 INTs, 405 rush yds, 2 rush TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4038941",
+  "byeWeek" : 7,
+  "adp" : 127.4
 }, {
   "id" : 10125,
   "name" : "Jonathon Brooks",
@@ -1635,7 +1635,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4678008",
   "byeWeek" : 5,
-  "adp" : 128.2
+  "adp" : 128.3
 }, {
   "id" : 10126,
   "name" : "Josh Downs",
@@ -1648,7 +1648,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4688813",
   "byeWeek" : 13,
-  "adp" : 128.5
+  "adp" : 128.7
 }, {
   "id" : 10127,
   "name" : "Eagles D/ST",
@@ -1661,7 +1661,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16021",
   "byeWeek" : 10,
-  "adp" : 130.4
+  "adp" : 130.5
 }, {
   "id" : 10128,
   "name" : "Jacory Croskey-Merritt",
@@ -1674,7 +1674,7 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4575131",
   "byeWeek" : 7,
-  "adp" : 132.5
+  "adp" : 132.8
 }, {
   "id" : 10129,
   "name" : "Khalil Shakir",
@@ -1700,33 +1700,33 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4686361",
   "byeWeek" : 7,
-  "adp" : 135.2
+  "adp" : 135.1
 }, {
   "id" : 10131,
-  "name" : "Kenyon Sadiq",
-  "position" : "TE",
-  "nflTeam" : "NYJ",
-  "rank" : 132,
-  "pffRank" : 132,
-  "positionRank" : 14,
-  "lastYearStats" : "4 total TDs, 691 total yds | 90 tgt, 66 rec, 691 rec yds, 4 rec TDs",
-  "injuryStatus" : "QUESTIONABLE",
-  "espnId" : "5083315",
-  "byeWeek" : 13,
-  "adp" : 136.1
-}, {
-  "id" : 10132,
   "name" : "Ravens D/ST",
   "position" : "DST",
   "nflTeam" : "BAL",
-  "rank" : 133,
-  "pffRank" : 133,
+  "rank" : 132,
+  "pffRank" : 132,
   "positionRank" : 8,
   "lastYearStats" : "43 sacks, 12 INTs, 7 fumbles, 1 def TDs, 329 pts allowed",
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16033",
   "byeWeek" : 13,
   "adp" : 136.7
+}, {
+  "id" : 10132,
+  "name" : "Kenyon Sadiq",
+  "position" : "TE",
+  "nflTeam" : "NYJ",
+  "rank" : 133,
+  "pffRank" : 133,
+  "positionRank" : 14,
+  "lastYearStats" : "4 total TDs, 691 total yds | 90 tgt, 66 rec, 691 rec yds, 4 rec TDs",
+  "injuryStatus" : "QUESTIONABLE",
+  "espnId" : "5083315",
+  "byeWeek" : 13,
+  "adp" : 137.5
 }, {
   "id" : 10133,
   "name" : "Zach Charbonnet",
@@ -1739,7 +1739,7 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4426385",
   "byeWeek" : 11,
-  "adp" : 137.5
+  "adp" : 137.8
 }, {
   "id" : 10134,
   "name" : "Mark Andrews",
@@ -1752,7 +1752,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3116365",
   "byeWeek" : 13,
-  "adp" : 138.0
+  "adp" : 138.1
 }, {
   "id" : 10135,
   "name" : "Harrison Mevis",
@@ -1765,7 +1765,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4574716",
   "byeWeek" : 11,
-  "adp" : 138.9
+  "adp" : 138.7
 }, {
   "id" : 10136,
   "name" : "Woody Marks",
@@ -1778,7 +1778,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4429059",
   "byeWeek" : 8,
-  "adp" : 140.6
+  "adp" : 140.8
 }, {
   "id" : 10137,
   "name" : "Romeo Doubs",
@@ -1791,7 +1791,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4361432",
   "byeWeek" : 11,
-  "adp" : 141.1
+  "adp" : 141.2
 }, {
   "id" : 10138,
   "name" : "Quentin Johnston",
@@ -1804,7 +1804,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4429025",
   "byeWeek" : 7,
-  "adp" : 141.9
+  "adp" : 142.0
 }, {
   "id" : 10139,
   "name" : "Isiah Pacheco",
@@ -1830,7 +1830,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4362249",
   "byeWeek" : 11,
-  "adp" : 142.6
+  "adp" : 142.4
 }, {
   "id" : 10141,
   "name" : "Tyjae Spears",
@@ -1843,7 +1843,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4428557",
   "byeWeek" : 9,
-  "adp" : 144.6
+  "adp" : 144.5
 }, {
   "id" : 10142,
   "name" : "Eddy Pineiro",
@@ -1859,43 +1859,43 @@
   "adp" : 145.9
 }, {
   "id" : 10143,
-  "name" : "Browns D/ST",
-  "position" : "DST",
-  "nflTeam" : "CLE",
-  "rank" : 144,
-  "pffRank" : 144,
-  "positionRank" : 9,
-  "lastYearStats" : "40 sacks, 11 INTs, 6 fumbles, 1 def TDs, 340 pts allowed",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "-16005",
-  "byeWeek" : 11,
-  "adp" : 148.7
-}, {
-  "id" : 10144,
   "name" : "T.J. Hockenson",
   "position" : "TE",
   "nflTeam" : "MIN",
-  "rank" : 145,
-  "pffRank" : 145,
+  "rank" : 144,
+  "pffRank" : 144,
   "positionRank" : 16,
   "lastYearStats" : "2 total TDs, 638 total yds | 99 tgt, 77 rec, 638 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4036133",
   "byeWeek" : 6,
-  "adp" : 148.9
+  "adp" : 149.2
 }, {
-  "id" : 10145,
+  "id" : 10144,
   "name" : "Alvin Kamara",
   "position" : "RB",
   "nflTeam" : "NO",
-  "rank" : 146,
-  "pffRank" : 146,
+  "rank" : 145,
+  "pffRank" : 145,
   "positionRank" : 45,
   "lastYearStats" : "2 total TDs, 713 total yds | 481 rush yds, 2 rush TDs, 35 rec, 232 rec yds, 0 rec TDs",
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "3054850",
   "byeWeek" : 8,
-  "adp" : 149.5
+  "adp" : 149.6
+}, {
+  "id" : 10145,
+  "name" : "Browns D/ST",
+  "position" : "DST",
+  "nflTeam" : "CLE",
+  "rank" : 146,
+  "pffRank" : 146,
+  "positionRank" : 9,
+  "lastYearStats" : "40 sacks, 11 INTs, 6 fumbles, 1 def TDs, 340 pts allowed",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "-16005",
+  "byeWeek" : 11,
+  "adp" : 150.1
 }, {
   "id" : 10146,
   "name" : "Jake Bates",
@@ -1921,7 +1921,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4360569",
   "byeWeek" : 6,
-  "adp" : 153.0
+  "adp" : 152.8
 }, {
   "id" : 10148,
   "name" : "Jared Goff",
@@ -1934,7 +1934,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3046779",
   "byeWeek" : 6,
-  "adp" : 153.5
+  "adp" : 153.6
 }, {
   "id" : 10149,
   "name" : "Dalton Kincaid",
@@ -1947,33 +1947,33 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4385690",
   "byeWeek" : 7,
-  "adp" : 153.9
+  "adp" : 154.2
 }, {
   "id" : 10150,
-  "name" : "Harrison Butker",
-  "position" : "K",
-  "nflTeam" : "KC",
-  "rank" : 151,
-  "pffRank" : 151,
-  "positionRank" : 9,
-  "lastYearStats" : "16/17 FGs, 40 XPs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "3055899",
-  "byeWeek" : 5,
-  "adp" : 154.6
-}, {
-  "id" : 10151,
   "name" : "Vikings D/ST",
   "position" : "DST",
   "nflTeam" : "MIN",
-  "rank" : 152,
-  "pffRank" : 152,
+  "rank" : 151,
+  "pffRank" : 151,
   "positionRank" : 10,
   "lastYearStats" : "38 sacks, 10 INTs, 9 fumbles, 1 def TDs, 379 pts allowed",
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16016",
   "byeWeek" : 6,
   "adp" : 154.6
+}, {
+  "id" : 10151,
+  "name" : "Harrison Butker",
+  "position" : "K",
+  "nflTeam" : "KC",
+  "rank" : 152,
+  "pffRank" : 152,
+  "positionRank" : 9,
+  "lastYearStats" : "16/17 FGs, 40 XPs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "3055899",
+  "byeWeek" : 5,
+  "adp" : 154.7
 }, {
   "id" : 10152,
   "name" : "Kyler Murray",
@@ -1986,33 +1986,33 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3917315",
   "byeWeek" : 6,
-  "adp" : 154.8
+  "adp" : 155.2
 }, {
   "id" : 10153,
-  "name" : "Omar Cooper Jr.",
-  "position" : "WR",
-  "nflTeam" : "NYJ",
-  "rank" : 154,
-  "pffRank" : 154,
-  "positionRank" : 55,
-  "lastYearStats" : "3 total TDs, 665 total yds | 79 tgt, 53 rec, 665 rec yds, 3 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4723820",
-  "byeWeek" : 13,
-  "adp" : 156.8
-}, {
-  "id" : 10154,
   "name" : "Lions D/ST",
   "position" : "DST",
   "nflTeam" : "DET",
-  "rank" : 155,
-  "pffRank" : 155,
+  "rank" : 154,
+  "pffRank" : 154,
   "positionRank" : 11,
   "lastYearStats" : "39 sacks, 12 INTs, 8 fumbles, 1 def TDs, 335 pts allowed",
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16008",
   "byeWeek" : 6,
-  "adp" : 156.8
+  "adp" : 156.7
+}, {
+  "id" : 10154,
+  "name" : "Omar Cooper Jr.",
+  "position" : "WR",
+  "nflTeam" : "NYJ",
+  "rank" : 155,
+  "pffRank" : 155,
+  "positionRank" : 55,
+  "lastYearStats" : "3 total TDs, 665 total yds | 79 tgt, 53 rec, 665 rec yds, 3 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4723820",
+  "byeWeek" : 13,
+  "adp" : 157.0
 }, {
   "id" : 10155,
   "name" : "Tyler Shough",
@@ -2025,7 +2025,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4360689",
   "byeWeek" : 8,
-  "adp" : 157.5
+  "adp" : 157.7
 }, {
   "id" : 10156,
   "name" : "Jalen Coker",
@@ -2038,7 +2038,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4695883",
   "byeWeek" : 5,
-  "adp" : 159.1
+  "adp" : 159.0
 }, {
   "id" : 10157,
   "name" : "Jaguars D/ST",
@@ -2051,7 +2051,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16030",
   "byeWeek" : 7,
-  "adp" : 159.4
+  "adp" : 159.1
 }, {
   "id" : 10158,
   "name" : "Tyler Loop",
@@ -2067,42 +2067,42 @@
   "adp" : 159.7
 }, {
   "id" : 10159,
-  "name" : "Baker Mayfield",
-  "position" : "QB",
-  "nflTeam" : "TB",
-  "rank" : 160,
-  "pffRank" : 160,
-  "positionRank" : 19,
-  "lastYearStats" : "25 total TDs, 4146 total yds | 3823 pass yds, 24 pass TDs, 11 INTs, 323 rush yds, 1 rush TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "3052587",
-  "byeWeek" : 10,
-  "adp" : 160.7
-}, {
-  "id" : 10160,
   "name" : "Stefon Diggs",
   "position" : "WR",
   "nflTeam" : "UNK",
-  "rank" : 161,
-  "pffRank" : 161,
+  "rank" : 160,
+  "pffRank" : 160,
   "positionRank" : 57,
   "lastYearStats" : "0 total TDs, 0 total yds | 0 tgt, 0 rec, 0 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "2976212",
   "byeWeek" : 0,
-  "adp" : 160.8
+  "adp" : 160.6
 }, {
-  "id" : 10161,
+  "id" : 10160,
   "name" : "Hunter Henry",
   "position" : "TE",
   "nflTeam" : "NE",
-  "rank" : 162,
-  "pffRank" : 162,
+  "rank" : 161,
+  "pffRank" : 161,
   "positionRank" : 18,
   "lastYearStats" : "5 total TDs, 628 total yds | 77 tgt, 55 rec, 628 rec yds, 5 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "3046439",
   "byeWeek" : 11,
+  "adp" : 160.8
+}, {
+  "id" : 10161,
+  "name" : "Baker Mayfield",
+  "position" : "QB",
+  "nflTeam" : "TB",
+  "rank" : 162,
+  "pffRank" : 162,
+  "positionRank" : 19,
+  "lastYearStats" : "25 total TDs, 4146 total yds | 3823 pass yds, 24 pass TDs, 11 INTs, 323 rush yds, 1 rush TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "3052587",
+  "byeWeek" : 10,
   "adp" : 161.0
 }, {
   "id" : 10162,
@@ -2116,33 +2116,33 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "17372",
   "byeWeek" : 9,
-  "adp" : 161.3
-}, {
-  "id" : 10163,
-  "name" : "Tyreek Hill",
-  "position" : "WR",
-  "nflTeam" : "UNK",
-  "rank" : 164,
-  "pffRank" : 164,
-  "positionRank" : 58,
-  "lastYearStats" : "0 total TDs, 0 total yds | 0 tgt, 0 rec, 0 rec yds, 0 rec TDs",
-  "injuryStatus" : "QUESTIONABLE",
-  "espnId" : "3116406",
-  "byeWeek" : 0,
   "adp" : 161.4
 }, {
-  "id" : 10164,
+  "id" : 10163,
   "name" : "Jayden Higgins",
   "position" : "WR",
   "nflTeam" : "HOU",
-  "rank" : 165,
-  "pffRank" : 165,
-  "positionRank" : 59,
+  "rank" : 164,
+  "pffRank" : 164,
+  "positionRank" : 58,
   "lastYearStats" : "3 total TDs, 667 total yds | 87 tgt, 54 rec, 667 rec yds, 3 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4877706",
   "byeWeek" : 8,
   "adp" : 161.8
+}, {
+  "id" : 10164,
+  "name" : "Tyreek Hill",
+  "position" : "WR",
+  "nflTeam" : "UNK",
+  "rank" : 165,
+  "pffRank" : 165,
+  "positionRank" : 59,
+  "lastYearStats" : "0 total TDs, 0 total yds | 0 tgt, 0 rec, 0 rec yds, 0 rec TDs",
+  "injuryStatus" : "QUESTIONABLE",
+  "espnId" : "3116406",
+  "byeWeek" : 0,
+  "adp" : 161.9
 }, {
   "id" : 10165,
   "name" : "Chris Rodriguez Jr.",
@@ -2155,7 +2155,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4362619",
   "byeWeek" : 7,
-  "adp" : 162.2
+  "adp" : 162.5
 }, {
   "id" : 10166,
   "name" : "Rashid Shaheed",
@@ -2168,7 +2168,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4032473",
   "byeWeek" : 11,
-  "adp" : 163.1
+  "adp" : 163.2
 }, {
   "id" : 10167,
   "name" : "Fernando Mendoza",
@@ -2194,32 +2194,32 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4567104",
   "byeWeek" : 6,
-  "adp" : 164.2
+  "adp" : 164.3
 }, {
   "id" : 10169,
-  "name" : "Jordan Love",
-  "position" : "QB",
-  "nflTeam" : "GB",
-  "rank" : 170,
-  "pffRank" : 170,
-  "positionRank" : 21,
-  "lastYearStats" : "25 total TDs, 4205 total yds | 3993 pass yds, 25 pass TDs, 10 INTs, 212 rush yds, 0 rush TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4036378",
-  "byeWeek" : 11,
-  "adp" : 164.5
-}, {
-  "id" : 10170,
   "name" : "Chargers D/ST",
   "position" : "DST",
   "nflTeam" : "LAC",
-  "rank" : 171,
-  "pffRank" : 171,
+  "rank" : 170,
+  "pffRank" : 170,
   "positionRank" : 13,
   "lastYearStats" : "39 sacks, 12 INTs, 7 fumbles, 1 def TDs, 370 pts allowed",
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16024",
   "byeWeek" : 7,
+  "adp" : 164.4
+}, {
+  "id" : 10170,
+  "name" : "Jordan Love",
+  "position" : "QB",
+  "nflTeam" : "GB",
+  "rank" : 171,
+  "pffRank" : 171,
+  "positionRank" : 21,
+  "lastYearStats" : "25 total TDs, 4205 total yds | 3993 pass yds, 25 pass TDs, 10 INTs, 212 rush yds, 0 rush TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4036378",
+  "byeWeek" : 11,
   "adp" : 164.6
 }, {
   "id" : 10171,
@@ -2233,7 +2233,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4430834",
   "byeWeek" : 10,
-  "adp" : 164.8
+  "adp" : 164.7
 }, {
   "id" : 10172,
   "name" : "Tyler Allgeier",
@@ -2246,7 +2246,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4373626",
   "byeWeek" : 14,
-  "adp" : 164.9
+  "adp" : 165.0
 }, {
   "id" : 10173,
   "name" : "Juwan Johnson",
@@ -2259,7 +2259,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3929645",
   "byeWeek" : 8,
-  "adp" : 165.1
+  "adp" : 165.2
 }, {
   "id" : 10174,
   "name" : "Cairo Santos",
@@ -2272,33 +2272,33 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "17427",
   "byeWeek" : 10,
-  "adp" : 165.5
+  "adp" : 165.4
 }, {
   "id" : 10175,
-  "name" : "Chiefs D/ST",
-  "position" : "DST",
-  "nflTeam" : "KC",
-  "rank" : 176,
-  "pffRank" : 176,
-  "positionRank" : 14,
-  "lastYearStats" : "41 sacks, 12 INTs, 6 fumbles, 1 def TDs, 358 pts allowed",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "-16012",
-  "byeWeek" : 5,
-  "adp" : 165.7
-}, {
-  "id" : 10176,
   "name" : "Sam Darnold",
   "position" : "QB",
   "nflTeam" : "SEA",
-  "rank" : 177,
-  "pffRank" : 177,
+  "rank" : 176,
+  "pffRank" : 176,
   "positionRank" : 22,
   "lastYearStats" : "23 total TDs, 4136 total yds | 4011 pass yds, 23 pass TDs, 12 INTs, 125 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "3912547",
   "byeWeek" : 11,
-  "adp" : 166.0
+  "adp" : 165.9
+}, {
+  "id" : 10176,
+  "name" : "Chiefs D/ST",
+  "position" : "DST",
+  "nflTeam" : "KC",
+  "rank" : 177,
+  "pffRank" : 177,
+  "positionRank" : 14,
+  "lastYearStats" : "41 sacks, 12 INTs, 6 fumbles, 1 def TDs, 358 pts allowed",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "-16012",
+  "byeWeek" : 5,
+  "adp" : 165.9
 }, {
   "id" : 10177,
   "name" : "Calvin Ridley",
@@ -2311,7 +2311,7 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "3925357",
   "byeWeek" : 9,
-  "adp" : 166.3
+  "adp" : 166.2
 }, {
   "id" : 10178,
   "name" : "Jerry Jeudy",
@@ -2337,7 +2337,7 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16006",
   "byeWeek" : 14,
-  "adp" : 166.7
+  "adp" : 166.6
 }, {
   "id" : 10180,
   "name" : "Daniel Jones",
@@ -2350,7 +2350,7 @@
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "3917792",
   "byeWeek" : 13,
-  "adp" : 166.9
+  "adp" : 167.0
 }, {
   "id" : 10181,
   "name" : "Denzel Boston",
@@ -2376,79 +2376,53 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "3150744",
   "byeWeek" : 10,
-  "adp" : 167.1
+  "adp" : 167.3
 }, {
   "id" : 10183,
+  "name" : "Tank Bigsby",
+  "position" : "RB",
+  "nflTeam" : "PHI",
+  "rank" : 184,
+  "pffRank" : 184,
+  "positionRank" : 49,
+  "lastYearStats" : "3 total TDs, 400 total yds | 372 rush yds, 3 rush TDs, 3 rec, 28 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4429013",
+  "byeWeek" : 10,
+  "adp" : 167.4
+}, {
+  "id" : 10184,
   "name" : "Packers D/ST",
   "position" : "DST",
   "nflTeam" : "GB",
-  "rank" : 184,
-  "pffRank" : 184,
+  "rank" : 185,
+  "pffRank" : 185,
   "positionRank" : 16,
   "lastYearStats" : "41 sacks, 11 INTs, 7 fumbles, 1 def TDs, 368 pts allowed",
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16009",
   "byeWeek" : 11,
-  "adp" : 167.3
+  "adp" : 167.4
 }, {
-  "id" : 10184,
+  "id" : 10185,
   "name" : "Tyrone Tracy Jr.",
   "position" : "RB",
   "nflTeam" : "NYG",
-  "rank" : 185,
-  "pffRank" : 185,
-  "positionRank" : 49,
+  "rank" : 186,
+  "pffRank" : 186,
+  "positionRank" : 50,
   "lastYearStats" : "1 total TDs, 532 total yds | 416 rush yds, 1 rush TDs, 16 rec, 116 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4360516",
   "byeWeek" : 8,
-  "adp" : 167.4
-}, {
-  "id" : 10185,
-  "name" : "Cam Ward",
-  "position" : "QB",
-  "nflTeam" : "TEN",
-  "rank" : 186,
-  "pffRank" : 186,
-  "positionRank" : 24,
-  "lastYearStats" : "18 total TDs, 3954 total yds | 3754 pass yds, 16 pass TDs, 10 INTs, 200 rush yds, 2 rush TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4688380",
-  "byeWeek" : 9,
-  "adp" : 167.4
-}, {
-  "id" : 10186,
-  "name" : "C.J. Stroud",
-  "position" : "QB",
-  "nflTeam" : "HOU",
-  "rank" : 187,
-  "pffRank" : 187,
-  "positionRank" : 25,
-  "lastYearStats" : "22 total TDs, 4193 total yds | 3945 pass yds, 21 pass TDs, 12 INTs, 248 rush yds, 1 rush TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4432577",
-  "byeWeek" : 8,
-  "adp" : 167.4
-}, {
-  "id" : 10187,
-  "name" : "Tank Bigsby",
-  "position" : "RB",
-  "nflTeam" : "PHI",
-  "rank" : 188,
-  "pffRank" : 188,
-  "positionRank" : 50,
-  "lastYearStats" : "3 total TDs, 400 total yds | 372 rush yds, 3 rush TDs, 3 rec, 28 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4429013",
-  "byeWeek" : 10,
   "adp" : 167.5
 }, {
-  "id" : 10188,
+  "id" : 10186,
   "name" : "Brian Robinson Jr.",
   "position" : "RB",
   "nflTeam" : "ATL",
-  "rank" : 189,
-  "pffRank" : 189,
+  "rank" : 187,
+  "pffRank" : 187,
   "positionRank" : 51,
   "lastYearStats" : "3 total TDs, 618 total yds | 559 rush yds, 3 rush TDs, 8 rec, 59 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
@@ -2456,17 +2430,43 @@
   "byeWeek" : 11,
   "adp" : 167.5
 }, {
-  "id" : 10189,
+  "id" : 10187,
+  "name" : "Cam Ward",
+  "position" : "QB",
+  "nflTeam" : "TEN",
+  "rank" : 188,
+  "pffRank" : 188,
+  "positionRank" : 24,
+  "lastYearStats" : "18 total TDs, 3954 total yds | 3754 pass yds, 16 pass TDs, 10 INTs, 200 rush yds, 2 rush TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4688380",
+  "byeWeek" : 9,
+  "adp" : 167.5
+}, {
+  "id" : 10188,
   "name" : "Jauan Jennings",
   "position" : "WR",
   "nflTeam" : "MIN",
-  "rank" : 190,
-  "pffRank" : 190,
+  "rank" : 189,
+  "pffRank" : 189,
   "positionRank" : 65,
   "lastYearStats" : "3 total TDs, 486 total yds | 71 tgt, 46 rec, 486 rec yds, 3 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "3886598",
   "byeWeek" : 6,
+  "adp" : 167.6
+}, {
+  "id" : 10189,
+  "name" : "C.J. Stroud",
+  "position" : "QB",
+  "nflTeam" : "HOU",
+  "rank" : 190,
+  "pffRank" : 190,
+  "positionRank" : 25,
+  "lastYearStats" : "22 total TDs, 4193 total yds | 3945 pass yds, 21 pass TDs, 12 INTs, 248 rush yds, 1 rush TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4432577",
+  "byeWeek" : 8,
   "adp" : 167.8
 }, {
   "id" : 10190,
@@ -2509,30 +2509,30 @@
   "adp" : 168.3
 }, {
   "id" : 10193,
-  "name" : "Deebo Samuel",
-  "position" : "WR",
-  "nflTeam" : "UNK",
-  "rank" : 194,
-  "pffRank" : 194,
-  "positionRank" : 66,
-  "lastYearStats" : "0 total TDs, 0 total yds | 0 tgt, 0 rec, 0 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "3126486",
-  "byeWeek" : 0,
-  "adp" : 168.4
-}, {
-  "id" : 10194,
   "name" : "Evan McPherson",
   "position" : "K",
   "nflTeam" : "CIN",
-  "rank" : 195,
-  "pffRank" : 195,
+  "rank" : 194,
+  "pffRank" : 194,
   "positionRank" : 15,
   "lastYearStats" : "15/15 FGs, 44 XPs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4360234",
   "byeWeek" : 6,
   "adp" : 168.4
+}, {
+  "id" : 10194,
+  "name" : "Deebo Samuel",
+  "position" : "WR",
+  "nflTeam" : "UNK",
+  "rank" : 195,
+  "pffRank" : 195,
+  "positionRank" : 66,
+  "lastYearStats" : "0 total TDs, 0 total yds | 0 tgt, 0 rec, 0 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "3126486",
+  "byeWeek" : 0,
+  "adp" : 168.5
 }, {
   "id" : 10195,
   "name" : "Cooper Kupp",
@@ -2548,11 +2548,24 @@
   "adp" : 168.6
 }, {
   "id" : 10196,
+  "name" : "Oronde Gadsden",
+  "position" : "TE",
+  "nflTeam" : "LAC",
+  "rank" : 197,
+  "pffRank" : 197,
+  "positionRank" : 21,
+  "lastYearStats" : "3 total TDs, 484 total yds | 63 tgt, 45 rec, 484 rec yds, 3 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4595342",
+  "byeWeek" : 7,
+  "adp" : 168.6
+}, {
+  "id" : 10197,
   "name" : "Germie Bernard",
   "position" : "WR",
   "nflTeam" : "PIT",
-  "rank" : 197,
-  "pffRank" : 197,
+  "rank" : 198,
+  "pffRank" : 198,
   "positionRank" : 68,
   "lastYearStats" : "3 total TDs, 593 total yds | 79 tgt, 47 rec, 593 rec yds, 3 rec TDs",
   "injuryStatus" : "HEALTHY",
@@ -2560,25 +2573,25 @@
   "byeWeek" : 9,
   "adp" : 168.7
 }, {
-  "id" : 10197,
-  "name" : "Oronde Gadsden",
-  "position" : "TE",
-  "nflTeam" : "LAC",
-  "rank" : 198,
-  "pffRank" : 198,
-  "positionRank" : 21,
-  "lastYearStats" : "3 total TDs, 484 total yds | 63 tgt, 45 rec, 484 rec yds, 3 rec TDs",
+  "id" : 10198,
+  "name" : "James Conner",
+  "position" : "RB",
+  "nflTeam" : "ARI",
+  "rank" : 199,
+  "pffRank" : 199,
+  "positionRank" : 52,
+  "lastYearStats" : "0 total TDs, 0 total yds | 0 rush yds, 0 rush TDs, 0 rec, 0 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4595342",
-  "byeWeek" : 7,
+  "espnId" : "3045147",
+  "byeWeek" : 14,
   "adp" : 168.7
 }, {
-  "id" : 10198,
+  "id" : 10199,
   "name" : "Buccaneers D/ST",
   "position" : "DST",
   "nflTeam" : "TB",
-  "rank" : 199,
-  "pffRank" : 199,
+  "rank" : 200,
+  "pffRank" : 200,
   "positionRank" : 18,
   "lastYearStats" : "41 sacks, 12 INTs, 5 fumbles, 1 def TDs, 362 pts allowed",
   "injuryStatus" : "HEALTHY",
@@ -2586,12 +2599,12 @@
   "byeWeek" : 10,
   "adp" : 168.7
 }, {
-  "id" : 10199,
+  "id" : 10200,
   "name" : "Titans D/ST",
   "position" : "DST",
   "nflTeam" : "TEN",
-  "rank" : 200,
-  "pffRank" : 200,
+  "rank" : 201,
+  "pffRank" : 201,
   "positionRank" : 19,
   "lastYearStats" : "41 sacks, 12 INTs, 6 fumbles, 1 def TDs, 403 pts allowed",
   "injuryStatus" : "HEALTHY",
@@ -2599,12 +2612,12 @@
   "byeWeek" : 9,
   "adp" : 168.7
 }, {
-  "id" : 10200,
+  "id" : 10201,
   "name" : "Chris Bell",
   "position" : "WR",
   "nflTeam" : "MIA",
-  "rank" : 201,
-  "pffRank" : 201,
+  "rank" : 202,
+  "pffRank" : 202,
   "positionRank" : 69,
   "lastYearStats" : "2 total TDs, 581 total yds | 71 tgt, 44 rec, 581 rec yds, 2 rec TDs",
   "injuryStatus" : "QUESTIONABLE",
@@ -2612,42 +2625,29 @@
   "byeWeek" : 6,
   "adp" : 168.8
 }, {
-  "id" : 10201,
-  "name" : "James Conner",
+  "id" : 10202,
+  "name" : "Mike Washington Jr.",
   "position" : "RB",
-  "nflTeam" : "ARI",
-  "rank" : 202,
-  "pffRank" : 202,
-  "positionRank" : 52,
-  "lastYearStats" : "0 total TDs, 0 total yds | 0 rush yds, 0 rush TDs, 0 rec, 0 rec yds, 0 rec TDs",
+  "nflTeam" : "LV",
+  "rank" : 203,
+  "pffRank" : 203,
+  "positionRank" : 53,
+  "lastYearStats" : "2 total TDs, 424 total yds | 365 rush yds, 2 rush TDs, 8 rec, 59 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "3045147",
-  "byeWeek" : 14,
+  "espnId" : "4686658",
+  "byeWeek" : 13,
   "adp" : 168.8
 }, {
-  "id" : 10202,
+  "id" : 10203,
   "name" : "Tank Dell",
   "position" : "WR",
   "nflTeam" : "HOU",
-  "rank" : 203,
-  "pffRank" : 203,
+  "rank" : 204,
+  "pffRank" : 204,
   "positionRank" : 70,
   "lastYearStats" : "2 total TDs, 462 total yds | 60 tgt, 38 rec, 462 rec yds, 2 rec TDs",
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4366031",
-  "byeWeek" : 8,
-  "adp" : 168.8
-}, {
-  "id" : 10203,
-  "name" : "Brandon Aiyuk",
-  "position" : "WR",
-  "nflTeam" : "SF",
-  "rank" : 204,
-  "pffRank" : 204,
-  "positionRank" : 71,
-  "lastYearStats" : "0 total TDs, 0 total yds | 0 tgt, 0 rec, 0 rec yds, 0 rec TDs",
-  "injuryStatus" : "OUT",
-  "espnId" : "4360438",
   "byeWeek" : 8,
   "adp" : 168.8
 }, {
@@ -2665,30 +2665,30 @@
   "adp" : 168.8
 }, {
   "id" : 10205,
-  "name" : "Mike Washington Jr.",
-  "position" : "RB",
-  "nflTeam" : "LV",
+  "name" : "Brandon Aiyuk",
+  "position" : "WR",
+  "nflTeam" : "SF",
   "rank" : 206,
   "pffRank" : 206,
-  "positionRank" : 53,
-  "lastYearStats" : "2 total TDs, 424 total yds | 365 rush yds, 2 rush TDs, 8 rec, 59 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4686658",
-  "byeWeek" : 13,
+  "positionRank" : 71,
+  "lastYearStats" : "0 total TDs, 0 total yds | 0 tgt, 0 rec, 0 rec yds, 0 rec TDs",
+  "injuryStatus" : "OUT",
+  "espnId" : "4360438",
+  "byeWeek" : 8,
   "adp" : 168.9
 }, {
   "id" : 10206,
-  "name" : "Bryce Young",
-  "position" : "QB",
-  "nflTeam" : "CAR",
+  "name" : "Tre Tucker",
+  "position" : "WR",
+  "nflTeam" : "LV",
   "rank" : 207,
   "pffRank" : 207,
-  "positionRank" : 27,
-  "lastYearStats" : "22 total TDs, 3906 total yds | 3634 pass yds, 20 pass TDs, 12 INTs, 272 rush yds, 2 rush TDs",
+  "positionRank" : 72,
+  "lastYearStats" : "2 total TDs, 655 total yds | 81 tgt, 48 rec, 655 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4685720",
-  "byeWeek" : 5,
-  "adp" : 168.9
+  "espnId" : "4428718",
+  "byeWeek" : 13,
+  "adp" : 169.0
 }, {
   "id" : 10207,
   "name" : "Chig Okonkwo",
@@ -2701,71 +2701,71 @@
   "injuryStatus" : "HEALTHY",
   "espnId" : "4360635",
   "byeWeek" : 7,
-  "adp" : 168.9
-}, {
-  "id" : 10208,
-  "name" : "Bills D/ST",
-  "position" : "DST",
-  "nflTeam" : "BUF",
-  "rank" : 209,
-  "pffRank" : 209,
-  "positionRank" : 20,
-  "lastYearStats" : "40 sacks, 11 INTs, 6 fumbles, 1 def TDs, 413 pts allowed",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "-16002",
-  "byeWeek" : 7,
-  "adp" : 168.9
-}, {
-  "id" : 10209,
-  "name" : "Tre Tucker",
-  "position" : "WR",
-  "nflTeam" : "LV",
-  "rank" : 210,
-  "pffRank" : 210,
-  "positionRank" : 72,
-  "lastYearStats" : "2 total TDs, 655 total yds | 81 tgt, 48 rec, 655 rec yds, 2 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4428718",
-  "byeWeek" : 13,
   "adp" : 169.0
 }, {
-  "id" : 10210,
+  "id" : 10208,
+  "name" : "David Njoku",
+  "position" : "TE",
+  "nflTeam" : "LAC",
+  "rank" : 209,
+  "pffRank" : 209,
+  "positionRank" : 23,
+  "lastYearStats" : "3 total TDs, 336 total yds | 47 tgt, 32 rec, 336 rec yds, 3 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "3123076",
+  "byeWeek" : 7,
+  "adp" : 169.0
+}, {
+  "id" : 10209,
   "name" : "Bears D/ST",
   "position" : "DST",
   "nflTeam" : "CHI",
-  "rank" : 211,
-  "pffRank" : 211,
-  "positionRank" : 21,
+  "rank" : 210,
+  "pffRank" : 210,
+  "positionRank" : 20,
   "lastYearStats" : "38 sacks, 13 INTs, 9 fumbles, 1 def TDs, 377 pts allowed",
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16003",
   "byeWeek" : 10,
   "adp" : 169.0
 }, {
+  "id" : 10210,
+  "name" : "Giants D/ST",
+  "position" : "DST",
+  "nflTeam" : "NYG",
+  "rank" : 211,
+  "pffRank" : 211,
+  "positionRank" : 21,
+  "lastYearStats" : "40 sacks, 11 INTs, 6 fumbles, 1 def TDs, 399 pts allowed",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "-16019",
+  "byeWeek" : 8,
+  "adp" : 169.0
+}, {
   "id" : 10211,
-  "name" : "Ja'Kobi Lane",
-  "position" : "WR",
-  "nflTeam" : "BAL",
+  "name" : "Pat Freiermuth",
+  "position" : "TE",
+  "nflTeam" : "PIT",
   "rank" : 212,
   "pffRank" : 212,
-  "positionRank" : 73,
-  "lastYearStats" : "2 total TDs, 393 total yds | 41 tgt, 25 rec, 393 rec yds, 2 rec TDs",
+  "positionRank" : 24,
+  "lastYearStats" : "2 total TDs, 600 total yds | 85 tgt, 59 rec, 600 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4870847",
-  "byeWeek" : 13,
+  "espnId" : "4361411",
+  "byeWeek" : 9,
   "adp" : 169.1
 }, {
   "id" : 10212,
-  "name" : "David Njoku",
-  "position" : "TE",
-  "nflTeam" : "LAC",
+  "name" : "Bryce Young",
+  "position" : "QB",
+  "nflTeam" : "CAR",
   "rank" : 213,
   "pffRank" : 213,
-  "positionRank" : 23,
-  "lastYearStats" : "3 total TDs, 336 total yds | 47 tgt, 32 rec, 336 rec yds, 3 rec TDs",
+  "positionRank" : 27,
+  "lastYearStats" : "22 total TDs, 3906 total yds | 3634 pass yds, 20 pass TDs, 12 INTs, 272 rush yds, 2 rush TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "3123076",
-  "byeWeek" : 7,
+  "espnId" : "4685720",
+  "byeWeek" : 5,
   "adp" : 169.1
 }, {
   "id" : 10213,
@@ -2782,16 +2782,16 @@
   "adp" : 169.1
 }, {
   "id" : 10214,
-  "name" : "Giants D/ST",
-  "position" : "DST",
-  "nflTeam" : "NYG",
+  "name" : "Andy Borregales",
+  "position" : "K",
+  "nflTeam" : "NE",
   "rank" : 215,
   "pffRank" : 215,
-  "positionRank" : 22,
-  "lastYearStats" : "40 sacks, 11 INTs, 6 fumbles, 1 def TDs, 399 pts allowed",
+  "positionRank" : 18,
+  "lastYearStats" : "14/15 FGs, 41 XPs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "-16019",
-  "byeWeek" : 8,
+  "espnId" : "4569923",
+  "byeWeek" : 11,
   "adp" : 169.1
 }, {
   "id" : 10215,
@@ -2800,7 +2800,7 @@
   "nflTeam" : "WAS",
   "rank" : 216,
   "pffRank" : 216,
-  "positionRank" : 74,
+  "positionRank" : 73,
   "lastYearStats" : "3 total TDs, 522 total yds | 61 tgt, 40 rec, 522 rec yds, 3 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "5081432",
@@ -2808,55 +2808,55 @@
   "adp" : 169.2
 }, {
   "id" : 10216,
-  "name" : "Pat Freiermuth",
-  "position" : "TE",
-  "nflTeam" : "PIT",
-  "rank" : 217,
-  "pffRank" : 217,
-  "positionRank" : 24,
-  "lastYearStats" : "2 total TDs, 600 total yds | 85 tgt, 59 rec, 600 rec yds, 2 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4361411",
-  "byeWeek" : 9,
-  "adp" : 169.2
-}, {
-  "id" : 10217,
-  "name" : "Aaron Rodgers",
-  "position" : "QB",
-  "nflTeam" : "PIT",
-  "rank" : 218,
-  "pffRank" : 218,
-  "positionRank" : 28,
-  "lastYearStats" : "19 total TDs, 3863 total yds | 3764 pass yds, 19 pass TDs, 11 INTs, 99 rush yds, 0 rush TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "8439",
-  "byeWeek" : 9,
-  "adp" : 169.2
-}, {
-  "id" : 10218,
   "name" : "Terrance Ferguson",
   "position" : "TE",
   "nflTeam" : "LAR",
-  "rank" : 219,
-  "pffRank" : 219,
+  "rank" : 217,
+  "pffRank" : 217,
   "positionRank" : 25,
   "lastYearStats" : "5 total TDs, 534 total yds | 67 tgt, 42 rec, 534 rec yds, 5 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4570037",
   "byeWeek" : 11,
-  "adp" : 169.3
+  "adp" : 169.2
+}, {
+  "id" : 10217,
+  "name" : "Ja'Kobi Lane",
+  "position" : "WR",
+  "nflTeam" : "BAL",
+  "rank" : 218,
+  "pffRank" : 218,
+  "positionRank" : 74,
+  "lastYearStats" : "2 total TDs, 393 total yds | 41 tgt, 25 rec, 393 rec yds, 2 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4870847",
+  "byeWeek" : 13,
+  "adp" : 169.2
+}, {
+  "id" : 10218,
+  "name" : "Bills D/ST",
+  "position" : "DST",
+  "nflTeam" : "BUF",
+  "rank" : 219,
+  "pffRank" : 219,
+  "positionRank" : 22,
+  "lastYearStats" : "40 sacks, 11 INTs, 6 fumbles, 1 def TDs, 413 pts allowed",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "-16002",
+  "byeWeek" : 7,
+  "adp" : 169.2
 }, {
   "id" : 10219,
-  "name" : "Andy Borregales",
-  "position" : "K",
-  "nflTeam" : "NE",
+  "name" : "Aaron Rodgers",
+  "position" : "QB",
+  "nflTeam" : "PIT",
   "rank" : 220,
   "pffRank" : 220,
-  "positionRank" : 18,
-  "lastYearStats" : "14/15 FGs, 41 XPs",
+  "positionRank" : 28,
+  "lastYearStats" : "19 total TDs, 3863 total yds | 3764 pass yds, 19 pass TDs, 11 INTs, 99 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4569923",
-  "byeWeek" : 11,
+  "espnId" : "8439",
+  "byeWeek" : 9,
   "adp" : 169.3
 }, {
   "id" : 10220,
@@ -2925,50 +2925,11 @@
   "adp" : 169.5
 }, {
   "id" : 10225,
-  "name" : "AJ Barner",
-  "position" : "TE",
-  "nflTeam" : "SEA",
-  "rank" : 226,
-  "pffRank" : 226,
-  "positionRank" : 26,
-  "lastYearStats" : "3 total TDs, 432 total yds | 60 tgt, 44 rec, 432 rec yds, 3 rec TDs",
-  "injuryStatus" : "QUESTIONABLE",
-  "espnId" : "4576297",
-  "byeWeek" : 11,
-  "adp" : 169.5
-}, {
-  "id" : 10226,
-  "name" : "MarShawn Lloyd",
-  "position" : "RB",
-  "nflTeam" : "GB",
-  "rank" : 227,
-  "pffRank" : 227,
-  "positionRank" : 57,
-  "lastYearStats" : "2 total TDs, 371 total yds | 286 rush yds, 2 rush TDs, 12 rec, 85 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4429023",
-  "byeWeek" : 11,
-  "adp" : 169.5
-}, {
-  "id" : 10227,
-  "name" : "Bengals D/ST",
-  "position" : "DST",
-  "nflTeam" : "CIN",
-  "rank" : 228,
-  "pffRank" : 228,
-  "positionRank" : 23,
-  "lastYearStats" : "38 sacks, 12 INTs, 6 fumbles, 1 def TDs, 362 pts allowed",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "-16004",
-  "byeWeek" : 6,
-  "adp" : 169.5
-}, {
-  "id" : 10228,
   "name" : "Jalen Nailor",
   "position" : "WR",
   "nflTeam" : "LV",
-  "rank" : 229,
-  "pffRank" : 229,
+  "rank" : 226,
+  "pffRank" : 226,
   "positionRank" : 76,
   "lastYearStats" : "2 total TDs, 558 total yds | 70 tgt, 40 rec, 558 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
@@ -2976,51 +2937,51 @@
   "byeWeek" : 13,
   "adp" : 169.6
 }, {
-  "id" : 10229,
+  "id" : 10226,
   "name" : "Kimani Vidal",
   "position" : "RB",
   "nflTeam" : "LAC",
-  "rank" : 230,
-  "pffRank" : 230,
-  "positionRank" : 58,
+  "rank" : 227,
+  "pffRank" : 227,
+  "positionRank" : 57,
   "lastYearStats" : "2 total TDs, 434 total yds | 340 rush yds, 2 rush TDs, 11 rec, 94 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4430968",
   "byeWeek" : 7,
   "adp" : 169.6
 }, {
-  "id" : 10230,
+  "id" : 10227,
   "name" : "Justice Hill",
   "position" : "RB",
   "nflTeam" : "BAL",
-  "rank" : 231,
-  "pffRank" : 231,
-  "positionRank" : 59,
+  "rank" : 228,
+  "pffRank" : 228,
+  "positionRank" : 58,
   "lastYearStats" : "2 total TDs, 570 total yds | 222 rush yds, 1 rush TDs, 39 rec, 348 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4038441",
   "byeWeek" : 13,
   "adp" : 169.6
 }, {
-  "id" : 10231,
+  "id" : 10228,
   "name" : "Dalton Schultz",
   "position" : "TE",
   "nflTeam" : "HOU",
-  "rank" : 232,
-  "pffRank" : 232,
-  "positionRank" : 27,
+  "rank" : 229,
+  "pffRank" : 229,
+  "positionRank" : 26,
   "lastYearStats" : "3 total TDs, 556 total yds | 82 tgt, 59 rec, 556 rec yds, 3 rec TDs",
-  "injuryStatus" : "QUESTIONABLE",
+  "injuryStatus" : "HEALTHY",
   "espnId" : "3117256",
   "byeWeek" : 8,
   "adp" : 169.6
 }, {
-  "id" : 10232,
+  "id" : 10229,
   "name" : "Isaac TeSlaa",
   "position" : "WR",
   "nflTeam" : "DET",
-  "rank" : 233,
-  "pffRank" : 233,
+  "rank" : 230,
+  "pffRank" : 230,
   "positionRank" : 77,
   "lastYearStats" : "3 total TDs, 301 total yds | 37 tgt, 23 rec, 301 rec yds, 3 rec TDs",
   "injuryStatus" : "HEALTHY",
@@ -3028,116 +2989,116 @@
   "byeWeek" : 6,
   "adp" : 169.6
 }, {
-  "id" : 10233,
+  "id" : 10230,
+  "name" : "AJ Barner",
+  "position" : "TE",
+  "nflTeam" : "SEA",
+  "rank" : 231,
+  "pffRank" : 231,
+  "positionRank" : 27,
+  "lastYearStats" : "3 total TDs, 432 total yds | 60 tgt, 44 rec, 432 rec yds, 3 rec TDs",
+  "injuryStatus" : "QUESTIONABLE",
+  "espnId" : "4576297",
+  "byeWeek" : 11,
+  "adp" : 169.6
+}, {
+  "id" : 10231,
   "name" : "Emmett Johnson",
   "position" : "RB",
   "nflTeam" : "KC",
-  "rank" : 234,
-  "pffRank" : 234,
-  "positionRank" : 60,
+  "rank" : 232,
+  "pffRank" : 232,
+  "positionRank" : 59,
   "lastYearStats" : "2 total TDs, 349 total yds | 290 rush yds, 2 rush TDs, 8 rec, 59 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4832955",
   "byeWeek" : 5,
   "adp" : 169.6
 }, {
-  "id" : 10234,
-  "name" : "Nick Folk",
-  "position" : "K",
-  "nflTeam" : "ATL",
-  "rank" : 235,
-  "pffRank" : 235,
-  "positionRank" : 20,
-  "lastYearStats" : "16/16 FGs, 30 XPs",
+  "id" : 10232,
+  "name" : "MarShawn Lloyd",
+  "position" : "RB",
+  "nflTeam" : "GB",
+  "rank" : 233,
+  "pffRank" : 233,
+  "positionRank" : 60,
+  "lastYearStats" : "2 total TDs, 371 total yds | 286 rush yds, 2 rush TDs, 12 rec, 85 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "10621",
+  "espnId" : "4429023",
   "byeWeek" : 11,
   "adp" : 169.6
 }, {
-  "id" : 10235,
-  "name" : "Jordan James",
-  "position" : "RB",
-  "nflTeam" : "SF",
-  "rank" : 236,
-  "pffRank" : 236,
-  "positionRank" : 61,
-  "lastYearStats" : "2 total TDs, 403 total yds | 340 rush yds, 2 rush TDs, 8 rec, 63 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4685397",
-  "byeWeek" : 8,
-  "adp" : 169.7
-}, {
-  "id" : 10236,
-  "name" : "Kaelon Black",
-  "position" : "RB",
-  "nflTeam" : "SF",
-  "rank" : 237,
-  "pffRank" : 237,
-  "positionRank" : 62,
-  "lastYearStats" : "1 total TDs, 214 total yds | 183 rush yds, 1 rush TDs, 4 rec, 31 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4696044",
-  "byeWeek" : 8,
-  "adp" : 169.7
-}, {
-  "id" : 10237,
-  "name" : "Gunnar Helm",
-  "position" : "TE",
-  "nflTeam" : "TEN",
-  "rank" : 238,
-  "pffRank" : 238,
-  "positionRank" : 28,
-  "lastYearStats" : "3 total TDs, 493 total yds | 77 tgt, 57 rec, 493 rec yds, 3 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4686728",
-  "byeWeek" : 9,
-  "adp" : 169.7
-}, {
-  "id" : 10238,
+  "id" : 10233,
   "name" : "Shedeur Sanders",
   "position" : "QB",
   "nflTeam" : "CLE",
-  "rank" : 239,
-  "pffRank" : 239,
+  "rank" : 234,
+  "pffRank" : 234,
   "positionRank" : 29,
   "lastYearStats" : "7 total TDs, 1742 total yds | 1623 pass yds, 7 pass TDs, 5 INTs, 119 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4432762",
   "byeWeek" : 11,
-  "adp" : 169.7
+  "adp" : 169.6
 }, {
-  "id" : 10239,
-  "name" : "Darnell Washington",
-  "position" : "TE",
-  "nflTeam" : "PIT",
-  "rank" : 240,
-  "pffRank" : 240,
-  "positionRank" : 29,
-  "lastYearStats" : "1 total TDs, 304 total yds | 45 tgt, 30 rec, 304 rec yds, 1 rec TDs",
+  "id" : 10234,
+  "name" : "Bengals D/ST",
+  "position" : "DST",
+  "nflTeam" : "CIN",
+  "rank" : 235,
+  "pffRank" : 235,
+  "positionRank" : 23,
+  "lastYearStats" : "38 sacks, 12 INTs, 6 fumbles, 1 def TDs, 362 pts allowed",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4430802",
-  "byeWeek" : 9,
-  "adp" : 169.7
+  "espnId" : "-16004",
+  "byeWeek" : 6,
+  "adp" : 169.6
 }, {
-  "id" : 10240,
+  "id" : 10235,
   "name" : "Falcons D/ST",
   "position" : "DST",
   "nflTeam" : "ATL",
-  "rank" : 241,
-  "pffRank" : 241,
+  "rank" : 236,
+  "pffRank" : 236,
   "positionRank" : 24,
   "lastYearStats" : "38 sacks, 11 INTs, 8 fumbles, 1 def TDs, 410 pts allowed",
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16001",
   "byeWeek" : 11,
+  "adp" : 169.6
+}, {
+  "id" : 10236,
+  "name" : "Nick Folk",
+  "position" : "K",
+  "nflTeam" : "ATL",
+  "rank" : 237,
+  "pffRank" : 237,
+  "positionRank" : 20,
+  "lastYearStats" : "16/16 FGs, 30 XPs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "10621",
+  "byeWeek" : 11,
   "adp" : 169.7
 }, {
-  "id" : 10241,
+  "id" : 10237,
+  "name" : "Matt Gay",
+  "position" : "K",
+  "nflTeam" : "LV",
+  "rank" : 238,
+  "pffRank" : 238,
+  "positionRank" : 21,
+  "lastYearStats" : "15/16 FGs, 27 XPs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4249087",
+  "byeWeek" : 13,
+  "adp" : 169.7
+}, {
+  "id" : 10238,
   "name" : "Raiders D/ST",
   "position" : "DST",
   "nflTeam" : "LV",
-  "rank" : 242,
-  "pffRank" : 242,
+  "rank" : 239,
+  "pffRank" : 239,
   "positionRank" : 25,
   "lastYearStats" : "38 sacks, 10 INTs, 7 fumbles, 1 def TDs, 406 pts allowed",
   "injuryStatus" : "HEALTHY",
@@ -3145,30 +3106,69 @@
   "byeWeek" : 13,
   "adp" : 169.7
 }, {
+  "id" : 10239,
+  "name" : "Rashod Bateman",
+  "position" : "WR",
+  "nflTeam" : "BAL",
+  "rank" : 240,
+  "pffRank" : 240,
+  "positionRank" : 78,
+  "lastYearStats" : "3 total TDs, 614 total yds | 65 tgt, 37 rec, 614 rec yds, 3 rec TDs",
+  "injuryStatus" : "QUESTIONABLE",
+  "espnId" : "4360939",
+  "byeWeek" : 13,
+  "adp" : 169.8
+}, {
+  "id" : 10240,
+  "name" : "Jordan James",
+  "position" : "RB",
+  "nflTeam" : "SF",
+  "rank" : 241,
+  "pffRank" : 241,
+  "positionRank" : 61,
+  "lastYearStats" : "2 total TDs, 403 total yds | 340 rush yds, 2 rush TDs, 8 rec, 63 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4685397",
+  "byeWeek" : 8,
+  "adp" : 169.8
+}, {
+  "id" : 10241,
+  "name" : "Kaelon Black",
+  "position" : "RB",
+  "nflTeam" : "SF",
+  "rank" : 242,
+  "pffRank" : 242,
+  "positionRank" : 62,
+  "lastYearStats" : "1 total TDs, 214 total yds | 183 rush yds, 1 rush TDs, 4 rec, 31 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4696044",
+  "byeWeek" : 8,
+  "adp" : 169.8
+}, {
   "id" : 10242,
+  "name" : "Gunnar Helm",
+  "position" : "TE",
+  "nflTeam" : "TEN",
+  "rank" : 243,
+  "pffRank" : 243,
+  "positionRank" : 28,
+  "lastYearStats" : "3 total TDs, 493 total yds | 77 tgt, 57 rec, 493 rec yds, 3 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4686728",
+  "byeWeek" : 9,
+  "adp" : 169.8
+}, {
+  "id" : 10243,
   "name" : "Dylan Sampson",
   "position" : "RB",
   "nflTeam" : "CLE",
-  "rank" : 243,
-  "pffRank" : 243,
+  "rank" : 244,
+  "pffRank" : 244,
   "positionRank" : 63,
   "lastYearStats" : "2 total TDs, 433 total yds | 227 rush yds, 1 rush TDs, 29 rec, 206 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "5081397",
   "byeWeek" : 11,
-  "adp" : 169.8
-}, {
-  "id" : 10243,
-  "name" : "Keon Coleman",
-  "position" : "WR",
-  "nflTeam" : "BUF",
-  "rank" : 244,
-  "pffRank" : 244,
-  "positionRank" : 78,
-  "lastYearStats" : "2 total TDs, 309 total yds | 37 tgt, 22 rec, 309 rec yds, 2 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4635008",
-  "byeWeek" : 7,
   "adp" : 169.8
 }, {
   "id" : 10244,
@@ -3177,7 +3177,7 @@
   "nflTeam" : "PHI",
   "rank" : 245,
   "pffRank" : 245,
-  "positionRank" : 30,
+  "positionRank" : 29,
   "lastYearStats" : "1 total TDs, 142 total yds | 19 tgt, 14 rec, 142 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4431574",
@@ -3185,37 +3185,50 @@
   "adp" : 169.8
 }, {
   "id" : 10245,
-  "name" : "Matt Gay",
-  "position" : "K",
-  "nflTeam" : "LV",
+  "name" : "Darnell Washington",
+  "position" : "TE",
+  "nflTeam" : "PIT",
   "rank" : 246,
   "pffRank" : 246,
-  "positionRank" : 21,
-  "lastYearStats" : "15/16 FGs, 27 XPs",
+  "positionRank" : 30,
+  "lastYearStats" : "1 total TDs, 304 total yds | 45 tgt, 30 rec, 304 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4249087",
-  "byeWeek" : 13,
+  "espnId" : "4430802",
+  "byeWeek" : 9,
   "adp" : 169.8
 }, {
   "id" : 10246,
-  "name" : "Ryan Fitzgerald",
+  "name" : "Tyler Bass",
   "position" : "K",
-  "nflTeam" : "CAR",
+  "nflTeam" : "BUF",
   "rank" : 247,
   "pffRank" : 247,
   "positionRank" : 22,
-  "lastYearStats" : "15/15 FGs, 28 XPs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4568263",
-  "byeWeek" : 5,
+  "lastYearStats" : "14/14 FGs, 47 XPs",
+  "injuryStatus" : "QUESTIONABLE",
+  "espnId" : "3917232",
+  "byeWeek" : 7,
   "adp" : 169.8
 }, {
   "id" : 10247,
+  "name" : "Ben Sauls",
+  "position" : "K",
+  "nflTeam" : "NYG",
+  "rank" : 248,
+  "pffRank" : 248,
+  "positionRank" : 23,
+  "lastYearStats" : "16/16 FGs, 35 XPs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4566158",
+  "byeWeek" : 8,
+  "adp" : 169.8
+}, {
+  "id" : 10248,
   "name" : "Colts D/ST",
   "position" : "DST",
   "nflTeam" : "IND",
-  "rank" : 248,
-  "pffRank" : 248,
+  "rank" : 249,
+  "pffRank" : 249,
   "positionRank" : 26,
   "lastYearStats" : "39 sacks, 11 INTs, 6 fumbles, 1 def TDs, 366 pts allowed",
   "injuryStatus" : "HEALTHY",
@@ -3223,12 +3236,12 @@
   "byeWeek" : 13,
   "adp" : 169.8
 }, {
-  "id" : 10248,
+  "id" : 10249,
   "name" : "Panthers D/ST",
   "position" : "DST",
   "nflTeam" : "CAR",
-  "rank" : 249,
-  "pffRank" : 249,
+  "rank" : 250,
+  "pffRank" : 250,
   "positionRank" : 27,
   "lastYearStats" : "37 sacks, 10 INTs, 5 fumbles, 1 def TDs, 373 pts allowed",
   "injuryStatus" : "HEALTHY",
@@ -3236,56 +3249,43 @@
   "byeWeek" : 5,
   "adp" : 169.8
 }, {
-  "id" : 10249,
+  "id" : 10250,
+  "name" : "Commanders D/ST",
+  "position" : "DST",
+  "nflTeam" : "WAS",
+  "rank" : 251,
+  "pffRank" : 251,
+  "positionRank" : 28,
+  "lastYearStats" : "42 sacks, 11 INTs, 9 fumbles, 1 def TDs, 440 pts allowed",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "-16028",
+  "byeWeek" : 7,
+  "adp" : 169.8
+}, {
+  "id" : 10251,
   "name" : "Dolphins D/ST",
   "position" : "DST",
   "nflTeam" : "MIA",
-  "rank" : 250,
-  "pffRank" : 250,
-  "positionRank" : 28,
+  "rank" : 252,
+  "pffRank" : 252,
+  "positionRank" : 29,
   "lastYearStats" : "37 sacks, 11 INTs, 6 fumbles, 1 def TDs, 460 pts allowed",
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16015",
   "byeWeek" : 6,
   "adp" : 169.8
 }, {
-  "id" : 10250,
+  "id" : 10252,
   "name" : "Ray Davis",
   "position" : "RB",
   "nflTeam" : "BUF",
-  "rank" : 251,
-  "pffRank" : 251,
+  "rank" : 253,
+  "pffRank" : 253,
   "positionRank" : 64,
   "lastYearStats" : "1 total TDs, 196 total yds | 137 rush yds, 1 rush TDs, 7 rec, 59 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4429501",
   "byeWeek" : 7,
-  "adp" : 169.9
-}, {
-  "id" : 10251,
-  "name" : "Rashod Bateman",
-  "position" : "WR",
-  "nflTeam" : "BAL",
-  "rank" : 252,
-  "pffRank" : 252,
-  "positionRank" : 79,
-  "lastYearStats" : "3 total TDs, 614 total yds | 65 tgt, 37 rec, 614 rec yds, 3 rec TDs",
-  "injuryStatus" : "QUESTIONABLE",
-  "espnId" : "4360939",
-  "byeWeek" : 13,
-  "adp" : 169.9
-}, {
-  "id" : 10252,
-  "name" : "Jack Bech",
-  "position" : "WR",
-  "nflTeam" : "LV",
-  "rank" : 253,
-  "pffRank" : 253,
-  "positionRank" : 80,
-  "lastYearStats" : "1 total TDs, 482 total yds | 65 tgt, 41 rec, 482 rec yds, 1 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4603186",
-  "byeWeek" : 13,
   "adp" : 169.9
 }, {
   "id" : 10253,
@@ -3294,7 +3294,7 @@
   "nflTeam" : "DAL",
   "rank" : 254,
   "pffRank" : 254,
-  "positionRank" : 81,
+  "positionRank" : 79,
   "lastYearStats" : "2 total TDs, 384 total yds | 50 tgt, 34 rec, 384 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "5083754",
@@ -3315,16 +3315,16 @@
   "adp" : 169.9
 }, {
   "id" : 10255,
-  "name" : "De'Zhaun Stribling",
+  "name" : "Keon Coleman",
   "position" : "WR",
-  "nflTeam" : "SF",
+  "nflTeam" : "BUF",
   "rank" : 256,
   "pffRank" : 256,
-  "positionRank" : 82,
-  "lastYearStats" : "2 total TDs, 325 total yds | 35 tgt, 22 rec, 325 rec yds, 2 rec TDs",
+  "positionRank" : 80,
+  "lastYearStats" : "2 total TDs, 309 total yds | 37 tgt, 22 rec, 309 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4710714",
-  "byeWeek" : 8,
+  "espnId" : "4635008",
+  "byeWeek" : 7,
   "adp" : 169.9
 }, {
   "id" : 10256,
@@ -3346,7 +3346,7 @@
   "nflTeam" : "NE",
   "rank" : 258,
   "pffRank" : 258,
-  "positionRank" : 83,
+  "positionRank" : 81,
   "lastYearStats" : "2 total TDs, 319 total yds | 36 tgt, 23 rec, 319 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4429022",
@@ -3354,16 +3354,16 @@
   "adp" : 169.9
 }, {
   "id" : 10258,
-  "name" : "Geno Smith",
-  "position" : "QB",
-  "nflTeam" : "NYJ",
+  "name" : "Evan Engram",
+  "position" : "TE",
+  "nflTeam" : "DEN",
   "rank" : 259,
   "pffRank" : 259,
-  "positionRank" : 30,
-  "lastYearStats" : "21 total TDs, 4035 total yds | 3816 pass yds, 20 pass TDs, 14 INTs, 219 rush yds, 1 rush TDs",
+  "positionRank" : 32,
+  "lastYearStats" : "2 total TDs, 463 total yds | 67 tgt, 47 rec, 463 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "15864",
-  "byeWeek" : 13,
+  "espnId" : "3051876",
+  "byeWeek" : 10,
   "adp" : 169.9
 }, {
   "id" : 10259,
@@ -3372,7 +3372,7 @@
   "nflTeam" : "ATL",
   "rank" : 260,
   "pffRank" : 260,
-  "positionRank" : 31,
+  "positionRank" : 30,
   "lastYearStats" : "10 total TDs, 2211 total yds | 2168 pass yds, 10 pass TDs, 7 INTs, 43 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4241479",
@@ -3380,11 +3380,24 @@
   "adp" : 169.9
 }, {
   "id" : 10260,
+  "name" : "Kirk Cousins",
+  "position" : "QB",
+  "nflTeam" : "LV",
+  "rank" : 261,
+  "pffRank" : 261,
+  "positionRank" : 31,
+  "lastYearStats" : "4 total TDs, 843 total yds | 832 pass yds, 4 pass TDs, 2 INTs, 11 rush yds, 0 rush TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "14880",
+  "byeWeek" : 13,
+  "adp" : 169.9
+}, {
+  "id" : 10261,
   "name" : "J.J. McCarthy",
   "position" : "QB",
   "nflTeam" : "MIN",
-  "rank" : 261,
-  "pffRank" : 261,
+  "rank" : 262,
+  "pffRank" : 262,
   "positionRank" : 32,
   "lastYearStats" : "3 total TDs, 641 total yds | 598 pass yds, 3 pass TDs, 2 INTs, 43 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
@@ -3392,116 +3405,155 @@
   "byeWeek" : 6,
   "adp" : 169.9
 }, {
-  "id" : 10261,
-  "name" : "Justin Fields",
-  "position" : "QB",
-  "nflTeam" : "KC",
-  "rank" : 262,
-  "pffRank" : 262,
-  "positionRank" : 33,
-  "lastYearStats" : "0 total TDs, 155 total yds | 140 pass yds, 0 pass TDs, 0 INTs, 15 rush yds, 0 rush TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4362887",
-  "byeWeek" : 5,
-  "adp" : 169.9
-}, {
   "id" : 10262,
-  "name" : "Tyler Bass",
-  "position" : "K",
-  "nflTeam" : "BUF",
-  "rank" : 263,
-  "pffRank" : 263,
-  "positionRank" : 23,
-  "lastYearStats" : "14/14 FGs, 47 XPs",
-  "injuryStatus" : "QUESTIONABLE",
-  "espnId" : "3917232",
-  "byeWeek" : 7,
-  "adp" : 169.9
-}, {
-  "id" : 10263,
-  "name" : "Ben Sauls",
-  "position" : "K",
-  "nflTeam" : "NYG",
-  "rank" : 264,
-  "pffRank" : 264,
-  "positionRank" : 24,
-  "lastYearStats" : "16/16 FGs, 35 XPs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4566158",
-  "byeWeek" : 8,
-  "adp" : 169.9
-}, {
-  "id" : 10264,
   "name" : "Blake Grupe",
   "position" : "K",
   "nflTeam" : "IND",
-  "rank" : 265,
-  "pffRank" : 265,
-  "positionRank" : 25,
+  "rank" : 263,
+  "pffRank" : 263,
+  "positionRank" : 24,
   "lastYearStats" : "15/16 FGs, 34 XPs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4259619",
   "byeWeek" : 13,
   "adp" : 169.9
 }, {
+  "id" : 10263,
+  "name" : "Jake Moody",
+  "position" : "K",
+  "nflTeam" : "WAS",
+  "rank" : 264,
+  "pffRank" : 264,
+  "positionRank" : 25,
+  "lastYearStats" : "15/16 FGs, 34 XPs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4372066",
+  "byeWeek" : 7,
+  "adp" : 169.9
+}, {
+  "id" : 10264,
+  "name" : "Zane Gonzalez",
+  "position" : "K",
+  "nflTeam" : "MIA",
+  "rank" : 265,
+  "pffRank" : 265,
+  "positionRank" : 26,
+  "lastYearStats" : "16/16 FGs, 24 XPs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "3043234",
+  "byeWeek" : 6,
+  "adp" : 169.9
+}, {
   "id" : 10265,
+  "name" : "Ryan Fitzgerald",
+  "position" : "K",
+  "nflTeam" : "CAR",
+  "rank" : 266,
+  "pffRank" : 266,
+  "positionRank" : 27,
+  "lastYearStats" : "15/15 FGs, 28 XPs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4568263",
+  "byeWeek" : 5,
+  "adp" : 169.9
+}, {
+  "id" : 10266,
+  "name" : "Joey Slye",
+  "position" : "K",
+  "nflTeam" : "TEN",
+  "rank" : 267,
+  "pffRank" : 267,
+  "positionRank" : 28,
+  "lastYearStats" : "14/15 FGs, 29 XPs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "3124084",
+  "byeWeek" : 9,
+  "adp" : 169.9
+}, {
+  "id" : 10267,
+  "name" : "Chad Ryland",
+  "position" : "K",
+  "nflTeam" : "ARI",
+  "rank" : 268,
+  "pffRank" : 268,
+  "positionRank" : 29,
+  "lastYearStats" : "15/16 FGs, 26 XPs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4363538",
+  "byeWeek" : 14,
+  "adp" : 169.9
+}, {
+  "id" : 10268,
   "name" : "Andre Szmyt",
   "position" : "K",
   "nflTeam" : "CLE",
-  "rank" : 266,
-  "pffRank" : 266,
-  "positionRank" : 26,
+  "rank" : 269,
+  "pffRank" : 269,
+  "positionRank" : 30,
   "lastYearStats" : "15/15 FGs, 24 XPs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4258620",
   "byeWeek" : 11,
   "adp" : 169.9
 }, {
-  "id" : 10266,
+  "id" : 10269,
   "name" : "Saints D/ST",
   "position" : "DST",
   "nflTeam" : "NO",
-  "rank" : 267,
-  "pffRank" : 267,
-  "positionRank" : 29,
+  "rank" : 270,
+  "pffRank" : 270,
+  "positionRank" : 30,
   "lastYearStats" : "37 sacks, 11 INTs, 6 fumbles, 1 def TDs, 373 pts allowed",
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16018",
   "byeWeek" : 8,
   "adp" : 169.9
 }, {
-  "id" : 10267,
+  "id" : 10270,
   "name" : "Caleb Douglas",
   "position" : "WR",
   "nflTeam" : "MIA",
-  "rank" : 268,
-  "pffRank" : 268,
-  "positionRank" : 84,
+  "rank" : 271,
+  "pffRank" : 271,
+  "positionRank" : 82,
   "lastYearStats" : "2 total TDs, 581 total yds | 71 tgt, 44 rec, 581 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4869645",
   "byeWeek" : 6,
   "adp" : 170.0
 }, {
-  "id" : 10268,
-  "name" : "Demond Claiborne",
-  "position" : "RB",
-  "nflTeam" : "MIN",
-  "rank" : 269,
-  "pffRank" : 269,
-  "positionRank" : 66,
-  "lastYearStats" : "0 total TDs, 139 total yds | 110 rush yds, 0 rush TDs, 4 rec, 29 rec yds, 0 rec TDs",
+  "id" : 10271,
+  "name" : "Jack Bech",
+  "position" : "WR",
+  "nflTeam" : "LV",
+  "rank" : 272,
+  "pffRank" : 272,
+  "positionRank" : 83,
+  "lastYearStats" : "1 total TDs, 482 total yds | 65 tgt, 41 rec, 482 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4832846",
-  "byeWeek" : 6,
+  "espnId" : "4603186",
+  "byeWeek" : 13,
   "adp" : 170.0
 }, {
-  "id" : 10269,
+  "id" : 10272,
+  "name" : "De'Zhaun Stribling",
+  "position" : "WR",
+  "nflTeam" : "SF",
+  "rank" : 273,
+  "pffRank" : 273,
+  "positionRank" : 84,
+  "lastYearStats" : "2 total TDs, 325 total yds | 35 tgt, 22 rec, 325 rec yds, 2 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4710714",
+  "byeWeek" : 8,
+  "adp" : 170.0
+}, {
+  "id" : 10273,
   "name" : "Christian Kirk",
   "position" : "WR",
   "nflTeam" : "SF",
-  "rank" : 270,
-  "pffRank" : 270,
+  "rank" : 274,
+  "pffRank" : 274,
   "positionRank" : 85,
   "lastYearStats" : "2 total TDs, 341 total yds | 40 tgt, 24 rec, 341 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
@@ -3509,64 +3561,25 @@
   "byeWeek" : 8,
   "adp" : 170.0
 }, {
-  "id" : 10270,
-  "name" : "Xavier Legette",
-  "position" : "WR",
-  "nflTeam" : "CAR",
-  "rank" : 271,
-  "pffRank" : 271,
-  "positionRank" : 86,
-  "lastYearStats" : "2 total TDs, 307 total yds | 46 tgt, 26 rec, 307 rec yds, 2 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4430034",
-  "byeWeek" : 5,
-  "adp" : 170.0
-}, {
-  "id" : 10271,
-  "name" : "Jaydon Blue",
-  "position" : "RB",
-  "nflTeam" : "DAL",
-  "rank" : 272,
-  "pffRank" : 272,
-  "positionRank" : 67,
-  "lastYearStats" : "1 total TDs, 216 total yds | 186 rush yds, 1 rush TDs, 4 rec, 30 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4685279",
-  "byeWeek" : 14,
-  "adp" : 170.0
-}, {
-  "id" : 10272,
-  "name" : "Chris Brooks",
-  "position" : "RB",
-  "nflTeam" : "GB",
-  "rank" : 273,
-  "pffRank" : 273,
-  "positionRank" : 68,
-  "lastYearStats" : "0 total TDs, 209 total yds | 98 rush yds, 0 rush TDs, 15 rec, 111 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "3149687",
-  "byeWeek" : 11,
-  "adp" : 170.0
-}, {
-  "id" : 10273,
-  "name" : "Dontayvion Wicks",
-  "position" : "WR",
-  "nflTeam" : "PHI",
-  "rank" : 274,
-  "pffRank" : 274,
-  "positionRank" : 87,
-  "lastYearStats" : "1 total TDs, 269 total yds | 34 tgt, 21 rec, 269 rec yds, 1 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4428850",
-  "byeWeek" : 10,
-  "adp" : 170.0
-}, {
   "id" : 10274,
+  "name" : "Geno Smith",
+  "position" : "QB",
+  "nflTeam" : "NYJ",
+  "rank" : 275,
+  "pffRank" : 275,
+  "positionRank" : 33,
+  "lastYearStats" : "21 total TDs, 4035 total yds | 3816 pass yds, 20 pass TDs, 14 INTs, 219 rush yds, 1 rush TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "15864",
+  "byeWeek" : 13,
+  "adp" : 170.0
+}, {
+  "id" : 10275,
   "name" : "Deshaun Watson",
   "position" : "QB",
   "nflTeam" : "CLE",
-  "rank" : 275,
-  "pffRank" : 275,
+  "rank" : 276,
+  "pffRank" : 276,
   "positionRank" : 34,
   "lastYearStats" : "8 total TDs, 2250 total yds | 2040 pass yds, 8 pass TDs, 7 INTs, 210 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
@@ -3574,90 +3587,64 @@
   "byeWeek" : 11,
   "adp" : 170.0
 }, {
-  "id" : 10275,
-  "name" : "Cade Otton",
-  "position" : "TE",
-  "nflTeam" : "TB",
-  "rank" : 276,
-  "pffRank" : 276,
-  "positionRank" : 32,
-  "lastYearStats" : "2 total TDs, 479 total yds | 69 tgt, 48 rec, 479 rec yds, 2 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4243331",
-  "byeWeek" : 10,
-  "adp" : 170.0
-}, {
   "id" : 10276,
-  "name" : "Evan Engram",
+  "name" : "Mike Gesicki",
   "position" : "TE",
-  "nflTeam" : "DEN",
+  "nflTeam" : "CIN",
   "rank" : 277,
   "pffRank" : 277,
   "positionRank" : 33,
-  "lastYearStats" : "2 total TDs, 463 total yds | 67 tgt, 47 rec, 463 rec yds, 2 rec TDs",
+  "lastYearStats" : "4 total TDs, 393 total yds | 57 tgt, 40 rec, 393 rec yds, 4 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "3051876",
-  "byeWeek" : 10,
+  "espnId" : "3116164",
+  "byeWeek" : 6,
   "adp" : 170.0
 }, {
   "id" : 10277,
-  "name" : "Kirk Cousins",
-  "position" : "QB",
-  "nflTeam" : "LV",
-  "rank" : 278,
-  "pffRank" : 278,
-  "positionRank" : 35,
-  "lastYearStats" : "4 total TDs, 843 total yds | 832 pass yds, 4 pass TDs, 2 INTs, 11 rush yds, 0 rush TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "14880",
-  "byeWeek" : 13,
-  "adp" : 170.0
-}, {
-  "id" : 10278,
-  "name" : "Ja'Tavion Sanders",
-  "position" : "TE",
-  "nflTeam" : "CAR",
-  "rank" : 279,
-  "pffRank" : 279,
-  "positionRank" : 34,
-  "lastYearStats" : "2 total TDs, 301 total yds | 46 tgt, 34 rec, 301 rec yds, 2 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4431588",
-  "byeWeek" : 5,
-  "adp" : 170.0
-}, {
-  "id" : 10279,
   "name" : "Colby Parkinson",
   "position" : "TE",
   "nflTeam" : "LAR",
-  "rank" : 280,
-  "pffRank" : 280,
-  "positionRank" : 35,
+  "rank" : 278,
+  "pffRank" : 278,
+  "positionRank" : 34,
   "lastYearStats" : "2 total TDs, 249 total yds | 33 tgt, 24 rec, 249 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4242557",
   "byeWeek" : 11,
   "adp" : 170.0
 }, {
-  "id" : 10280,
+  "id" : 10278,
   "name" : "Carson Beck",
   "position" : "QB",
   "nflTeam" : "ARI",
-  "rank" : 281,
-  "pffRank" : 281,
-  "positionRank" : 36,
+  "rank" : 279,
+  "pffRank" : 279,
+  "positionRank" : 35,
   "lastYearStats" : "2 total TDs, 477 total yds | 448 pass yds, 2 pass TDs, 1 INTs, 29 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4430841",
   "byeWeek" : 14,
   "adp" : 170.0
 }, {
-  "id" : 10281,
+  "id" : 10279,
+  "name" : "Justin Fields",
+  "position" : "QB",
+  "nflTeam" : "KC",
+  "rank" : 280,
+  "pffRank" : 280,
+  "positionRank" : 36,
+  "lastYearStats" : "0 total TDs, 155 total yds | 140 pass yds, 0 pass TDs, 0 INTs, 15 rush yds, 0 rush TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4362887",
+  "byeWeek" : 5,
+  "adp" : 170.0
+}, {
+  "id" : 10280,
   "name" : "Mac Jones",
   "position" : "QB",
   "nflTeam" : "SF",
-  "rank" : 282,
-  "pffRank" : 282,
+  "rank" : 281,
+  "pffRank" : 281,
   "positionRank" : 37,
   "lastYearStats" : "0 total TDs, 147 total yds | 145 pass yds, 0 pass TDs, 0 INTs, 2 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
@@ -3665,108 +3652,121 @@
   "byeWeek" : 8,
   "adp" : 170.0
 }, {
+  "id" : 10281,
+  "name" : "Dawson Knox",
+  "position" : "TE",
+  "nflTeam" : "BUF",
+  "rank" : 282,
+  "pffRank" : 282,
+  "positionRank" : 35,
+  "lastYearStats" : "2 total TDs, 264 total yds | 35 tgt, 24 rec, 264 rec yds, 2 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "3930086",
+  "byeWeek" : 7,
+  "adp" : 170.0
+}, {
   "id" : 10282,
-  "name" : "Ty Simpson",
-  "position" : "QB",
+  "name" : "Tyler Higbee",
+  "position" : "TE",
   "nflTeam" : "LAR",
   "rank" : 283,
   "pffRank" : 283,
+  "positionRank" : 36,
+  "lastYearStats" : "1 total TDs, 154 total yds | 22 tgt, 15 rec, 154 rec yds, 1 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "2573401",
+  "byeWeek" : 11,
+  "adp" : 170.0
+}, {
+  "id" : 10283,
+  "name" : "Cole Kmet",
+  "position" : "TE",
+  "nflTeam" : "CHI",
+  "rank" : 284,
+  "pffRank" : 284,
+  "positionRank" : 37,
+  "lastYearStats" : "1 total TDs, 219 total yds | 30 tgt, 21 rec, 219 rec yds, 1 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4258595",
+  "byeWeek" : 10,
+  "adp" : 170.0
+}, {
+  "id" : 10284,
+  "name" : "Jameis Winston",
+  "position" : "QB",
+  "nflTeam" : "NYG",
+  "rank" : 285,
+  "pffRank" : 285,
   "positionRank" : 38,
+  "lastYearStats" : "0 total TDs, 165 total yds | 163 pass yds, 0 pass TDs, 0 INTs, 2 rush yds, 0 rush TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "2969939",
+  "byeWeek" : 8,
+  "adp" : 170.0
+}, {
+  "id" : 10285,
+  "name" : "Ty Simpson",
+  "position" : "QB",
+  "nflTeam" : "LAR",
+  "rank" : 286,
+  "pffRank" : 286,
+  "positionRank" : 39,
   "lastYearStats" : "1 total TDs, 150 total yds | 146 pass yds, 1 pass TDs, 0 INTs, 4 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4685522",
   "byeWeek" : 11,
   "adp" : 170.0
 }, {
-  "id" : 10283,
-  "name" : "Jake Moody",
-  "position" : "K",
-  "nflTeam" : "WAS",
-  "rank" : 284,
-  "pffRank" : 284,
-  "positionRank" : 27,
-  "lastYearStats" : "15/16 FGs, 34 XPs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4372066",
-  "byeWeek" : 7,
-  "adp" : 170.0
-}, {
-  "id" : 10284,
-  "name" : "Zane Gonzalez",
-  "position" : "K",
-  "nflTeam" : "MIA",
-  "rank" : 285,
-  "pffRank" : 285,
-  "positionRank" : 28,
-  "lastYearStats" : "16/16 FGs, 24 XPs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "3043234",
-  "byeWeek" : 6,
-  "adp" : 170.0
-}, {
-  "id" : 10285,
-  "name" : "Joey Slye",
-  "position" : "K",
-  "nflTeam" : "TEN",
-  "rank" : 286,
-  "pffRank" : 286,
-  "positionRank" : 29,
-  "lastYearStats" : "14/15 FGs, 29 XPs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "3124084",
-  "byeWeek" : 9,
-  "adp" : 170.0
-}, {
   "id" : 10286,
-  "name" : "Chad Ryland",
-  "position" : "K",
-  "nflTeam" : "ARI",
+  "name" : "Tommy DeVito",
+  "position" : "QB",
+  "nflTeam" : "NE",
   "rank" : 287,
   "pffRank" : 287,
-  "positionRank" : 30,
-  "lastYearStats" : "15/16 FGs, 26 XPs",
+  "positionRank" : 40,
+  "lastYearStats" : "0 total TDs, 158 total yds | 149 pass yds, 0 pass TDs, 0 INTs, 9 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4363538",
-  "byeWeek" : 14,
+  "espnId" : "4240391",
+  "byeWeek" : 11,
   "adp" : 170.0
 }, {
   "id" : 10287,
-  "name" : "Cade York",
+  "name" : "Charlie Smyth",
   "position" : "K",
-  "nflTeam" : "NYJ",
+  "nflTeam" : "NO",
   "rank" : 288,
   "pffRank" : 288,
   "positionRank" : 31,
+  "lastYearStats" : "16/17 FGs, 31 XPs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "5208518",
+  "byeWeek" : 8,
+  "adp" : 170.0
+}, {
+  "id" : 10288,
+  "name" : "Cade York",
+  "position" : "K",
+  "nflTeam" : "NYJ",
+  "rank" : 289,
+  "pffRank" : 289,
+  "positionRank" : 32,
   "lastYearStats" : "15/15 FGs, 27 XPs",
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4428963",
   "byeWeek" : 13,
   "adp" : 170.0
 }, {
-  "id" : 10288,
+  "id" : 10289,
   "name" : "Jets D/ST",
   "position" : "DST",
   "nflTeam" : "NYJ",
-  "rank" : 289,
-  "pffRank" : 289,
-  "positionRank" : 30,
+  "rank" : 290,
+  "pffRank" : 290,
+  "positionRank" : 31,
   "lastYearStats" : "39 sacks, 10 INTs, 8 fumbles, 1 def TDs, 371 pts allowed",
   "injuryStatus" : "HEALTHY",
   "espnId" : "-16020",
   "byeWeek" : 13,
-  "adp" : 170.0
-}, {
-  "id" : 10289,
-  "name" : "Commanders D/ST",
-  "position" : "DST",
-  "nflTeam" : "WAS",
-  "rank" : 290,
-  "pffRank" : 290,
-  "positionRank" : 31,
-  "lastYearStats" : "42 sacks, 11 INTs, 9 fumbles, 1 def TDs, 440 pts allowed",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "-16028",
-  "byeWeek" : 7,
   "adp" : 170.0
 }, {
   "id" : 10290,
@@ -3788,7 +3788,7 @@
   "nflTeam" : "LAC",
   "rank" : 292,
   "pffRank" : 292,
-  "positionRank" : 88,
+  "positionRank" : 86,
   "lastYearStats" : "2 total TDs, 407 total yds | 53 tgt, 34 rec, 407 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4686612",
@@ -3796,154 +3796,193 @@
   "adp" : 170.1
 }, {
   "id" : 10292,
+  "name" : "Demond Claiborne",
+  "position" : "RB",
+  "nflTeam" : "MIN",
+  "rank" : 293,
+  "pffRank" : 293,
+  "positionRank" : 66,
+  "lastYearStats" : "0 total TDs, 139 total yds | 110 rush yds, 0 rush TDs, 4 rec, 29 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4832846",
+  "byeWeek" : 6,
+  "adp" : 170.1
+}, {
+  "id" : 10293,
   "name" : "Samaje Perine",
   "position" : "RB",
   "nflTeam" : "CIN",
-  "rank" : 293,
-  "pffRank" : 293,
-  "positionRank" : 69,
+  "rank" : 294,
+  "pffRank" : 294,
+  "positionRank" : 67,
   "lastYearStats" : "3 total TDs, 582 total yds | 443 rush yds, 3 rush TDs, 18 rec, 139 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "3116389",
   "byeWeek" : 6,
   "adp" : 170.1
 }, {
-  "id" : 10293,
+  "id" : 10294,
   "name" : "Malik Washington",
   "position" : "WR",
   "nflTeam" : "MIA",
-  "rank" : 294,
-  "pffRank" : 294,
-  "positionRank" : 89,
+  "rank" : 295,
+  "pffRank" : 295,
+  "positionRank" : 87,
   "lastYearStats" : "1 total TDs, 394 total yds | 56 tgt, 38 rec, 394 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4569603",
   "byeWeek" : 6,
   "adp" : 170.1
 }, {
-  "id" : 10294,
-  "name" : "Savion Williams",
+  "id" : 10295,
+  "name" : "Pat Bryant",
   "position" : "WR",
-  "nflTeam" : "GB",
-  "rank" : 295,
-  "pffRank" : 295,
-  "positionRank" : 90,
-  "lastYearStats" : "1 total TDs, 272 total yds | 36 tgt, 23 rec, 272 rec yds, 1 rec TDs",
+  "nflTeam" : "DEN",
+  "rank" : 296,
+  "pffRank" : 296,
+  "positionRank" : 88,
+  "lastYearStats" : "2 total TDs, 319 total yds | 45 tgt, 28 rec, 319 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4431487",
-  "byeWeek" : 11,
+  "espnId" : "4600981",
+  "byeWeek" : 10,
   "adp" : 170.1
 }, {
-  "id" : 10295,
+  "id" : 10296,
   "name" : "Jaylen Wright",
   "position" : "RB",
   "nflTeam" : "MIA",
-  "rank" : 296,
-  "pffRank" : 296,
-  "positionRank" : 70,
+  "rank" : 297,
+  "pffRank" : 297,
+  "positionRank" : 68,
   "lastYearStats" : "0 total TDs, 265 total yds | 209 rush yds, 0 rush TDs, 7 rec, 56 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4682745",
   "byeWeek" : 6,
   "adp" : 170.1
 }, {
-  "id" : 10296,
+  "id" : 10297,
+  "name" : "Jaydon Blue",
+  "position" : "RB",
+  "nflTeam" : "DAL",
+  "rank" : 298,
+  "pffRank" : 298,
+  "positionRank" : 69,
+  "lastYearStats" : "1 total TDs, 216 total yds | 186 rush yds, 1 rush TDs, 4 rec, 30 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4685279",
+  "byeWeek" : 14,
+  "adp" : 170.1
+}, {
+  "id" : 10298,
   "name" : "Kyle Juszczyk",
   "position" : "RB",
   "nflTeam" : "SF",
-  "rank" : 297,
-  "pffRank" : 297,
-  "positionRank" : 71,
+  "rank" : 299,
+  "pffRank" : 299,
+  "positionRank" : 70,
   "lastYearStats" : "1 total TDs, 182 total yds | 18 rush yds, 0 rush TDs, 20 rec, 164 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "16002",
   "byeWeek" : 8,
   "adp" : 170.1
 }, {
-  "id" : 10297,
+  "id" : 10299,
+  "name" : "Chris Brooks",
+  "position" : "RB",
+  "nflTeam" : "GB",
+  "rank" : 300,
+  "pffRank" : 300,
+  "positionRank" : 71,
+  "lastYearStats" : "0 total TDs, 209 total yds | 98 rush yds, 0 rush TDs, 15 rec, 111 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "3149687",
+  "byeWeek" : 11,
+  "adp" : 170.1
+}, {
+  "id" : 10300,
+  "name" : "Dontayvion Wicks",
+  "position" : "WR",
+  "nflTeam" : "PHI",
+  "rank" : 301,
+  "pffRank" : 301,
+  "positionRank" : 89,
+  "lastYearStats" : "1 total TDs, 269 total yds | 34 tgt, 21 rec, 269 rec yds, 1 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4428850",
+  "byeWeek" : 10,
+  "adp" : 170.1
+}, {
+  "id" : 10301,
   "name" : "Greg Dulcich",
   "position" : "TE",
   "nflTeam" : "MIA",
-  "rank" : 298,
-  "pffRank" : 298,
-  "positionRank" : 36,
+  "rank" : 302,
+  "pffRank" : 302,
+  "positionRank" : 38,
   "lastYearStats" : "1 total TDs, 541 total yds | 71 tgt, 49 rec, 541 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4367209",
   "byeWeek" : 6,
   "adp" : 170.1
 }, {
-  "id" : 10298,
-  "name" : "Ted Hurst",
-  "position" : "WR",
-  "nflTeam" : "TB",
-  "rank" : 299,
-  "pffRank" : 299,
-  "positionRank" : 91,
-  "lastYearStats" : "2 total TDs, 295 total yds | 37 tgt, 22 rec, 295 rec yds, 2 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "5220680",
-  "byeWeek" : 10,
-  "adp" : 170.1
-}, {
-  "id" : 10299,
+  "id" : 10302,
   "name" : "Elijah Sarratt",
   "position" : "WR",
   "nflTeam" : "BAL",
-  "rank" : 300,
-  "pffRank" : 300,
-  "positionRank" : 92,
+  "rank" : 303,
+  "pffRank" : 303,
+  "positionRank" : 90,
   "lastYearStats" : "1 total TDs, 294 total yds | 32 tgt, 19 rec, 294 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "5088338",
   "byeWeek" : 13,
   "adp" : 170.1
 }, {
-  "id" : 10300,
-  "name" : "Emanuel Wilson",
-  "position" : "RB",
-  "nflTeam" : "SEA",
-  "rank" : 301,
-  "pffRank" : 301,
-  "positionRank" : 72,
-  "lastYearStats" : "1 total TDs, 221 total yds | 169 rush yds, 1 rush TDs, 6 rec, 52 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4887558",
-  "byeWeek" : 11,
-  "adp" : 170.1
-}, {
-  "id" : 10301,
+  "id" : 10303,
   "name" : "Jacoby Brissett",
   "position" : "QB",
   "nflTeam" : "ARI",
-  "rank" : 302,
-  "pffRank" : 302,
-  "positionRank" : 39,
+  "rank" : 304,
+  "pffRank" : 304,
+  "positionRank" : 41,
   "lastYearStats" : "16 total TDs, 3569 total yds | 3359 pass yds, 15 pass TDs, 9 INTs, 210 rush yds, 1 rush TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "2578570",
   "byeWeek" : 14,
   "adp" : 170.1
 }, {
-  "id" : 10302,
-  "name" : "Malik Davis",
-  "position" : "RB",
-  "nflTeam" : "DAL",
-  "rank" : 303,
-  "pffRank" : 303,
-  "positionRank" : 73,
-  "lastYearStats" : "1 total TDs, 270 total yds | 211 rush yds, 1 rush TDs, 8 rec, 59 rec yds, 0 rec TDs",
+  "id" : 10304,
+  "name" : "Darius Slayton",
+  "position" : "WR",
+  "nflTeam" : "NYG",
+  "rank" : 305,
+  "pffRank" : 305,
+  "positionRank" : 91,
+  "lastYearStats" : "1 total TDs, 427 total yds | 49 tgt, 30 rec, 427 rec yds, 1 rec TDs",
   "injuryStatus" : "QUESTIONABLE",
-  "espnId" : "4240603",
-  "byeWeek" : 14,
+  "espnId" : "3916945",
+  "byeWeek" : 8,
   "adp" : 170.1
 }, {
-  "id" : 10303,
+  "id" : 10305,
+  "name" : "Andrei Iosivas",
+  "position" : "WR",
+  "nflTeam" : "CIN",
+  "rank" : 306,
+  "pffRank" : 306,
+  "positionRank" : 92,
+  "lastYearStats" : "2 total TDs, 317 total yds | 45 tgt, 27 rec, 317 rec yds, 2 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4368003",
+  "byeWeek" : 6,
+  "adp" : 170.1
+}, {
+  "id" : 10306,
   "name" : "Tyquan Thornton",
   "position" : "WR",
   "nflTeam" : "KC",
-  "rank" : 304,
-  "pffRank" : 304,
+  "rank" : 307,
+  "pffRank" : 307,
   "positionRank" : 93,
   "lastYearStats" : "2 total TDs, 357 total yds | 43 tgt, 23 rec, 357 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
@@ -3951,207 +3990,181 @@
   "byeWeek" : 5,
   "adp" : 170.1
 }, {
-  "id" : 10304,
-  "name" : "Mike Gesicki",
+  "id" : 10307,
+  "name" : "Cade Otton",
   "position" : "TE",
-  "nflTeam" : "CIN",
-  "rank" : 305,
-  "pffRank" : 305,
-  "positionRank" : 37,
-  "lastYearStats" : "4 total TDs, 393 total yds | 57 tgt, 40 rec, 393 rec yds, 4 rec TDs",
+  "nflTeam" : "TB",
+  "rank" : 308,
+  "pffRank" : 308,
+  "positionRank" : 39,
+  "lastYearStats" : "2 total TDs, 479 total yds | 69 tgt, 48 rec, 479 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "3116164",
-  "byeWeek" : 6,
+  "espnId" : "4243331",
+  "byeWeek" : 10,
   "adp" : 170.1
 }, {
-  "id" : 10305,
+  "id" : 10308,
+  "name" : "Ja'Tavion Sanders",
+  "position" : "TE",
+  "nflTeam" : "CAR",
+  "rank" : 309,
+  "pffRank" : 309,
+  "positionRank" : 40,
+  "lastYearStats" : "2 total TDs, 301 total yds | 46 tgt, 34 rec, 301 rec yds, 2 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4431588",
+  "byeWeek" : 5,
+  "adp" : 170.1
+}, {
+  "id" : 10309,
   "name" : "Joe Flacco",
   "position" : "QB",
   "nflTeam" : "CIN",
-  "rank" : 306,
-  "pffRank" : 306,
-  "positionRank" : 40,
+  "rank" : 310,
+  "pffRank" : 310,
+  "positionRank" : 42,
   "lastYearStats" : "1 total TDs, 165 total yds | 164 pass yds, 1 pass TDs, 0 INTs, 1 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "11252",
   "byeWeek" : 6,
   "adp" : 170.1
 }, {
-  "id" : 10306,
-  "name" : "Dawson Knox",
-  "position" : "TE",
-  "nflTeam" : "BUF",
-  "rank" : 307,
-  "pffRank" : 307,
-  "positionRank" : 38,
-  "lastYearStats" : "2 total TDs, 264 total yds | 35 tgt, 24 rec, 264 rec yds, 2 rec TDs",
+  "id" : 10310,
+  "name" : "Reggie Gilliam",
+  "position" : "RB",
+  "nflTeam" : "NE",
+  "rank" : 311,
+  "pffRank" : 311,
+  "positionRank" : 72,
+  "lastYearStats" : "0 total TDs, 29 total yds | 0 rush yds, 0 rush TDs, 4 rec, 29 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "3930086",
-  "byeWeek" : 7,
+  "espnId" : "4039505",
+  "byeWeek" : 11,
   "adp" : 170.1
 }, {
-  "id" : 10307,
+  "id" : 10311,
   "name" : "Theo Johnson",
   "position" : "TE",
   "nflTeam" : "NYG",
-  "rank" : 308,
-  "pffRank" : 308,
-  "positionRank" : 39,
+  "rank" : 312,
+  "pffRank" : 312,
+  "positionRank" : 41,
   "lastYearStats" : "1 total TDs, 274 total yds | 38 tgt, 26 rec, 274 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4429148",
   "byeWeek" : 8,
   "adp" : 170.1
 }, {
-  "id" : 10308,
-  "name" : "Tyler Higbee",
-  "position" : "TE",
-  "nflTeam" : "LAR",
-  "rank" : 309,
-  "pffRank" : 309,
-  "positionRank" : 40,
-  "lastYearStats" : "1 total TDs, 154 total yds | 22 tgt, 15 rec, 154 rec yds, 1 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "2573401",
-  "byeWeek" : 11,
-  "adp" : 170.1
-}, {
-  "id" : 10309,
-  "name" : "Cole Kmet",
-  "position" : "TE",
-  "nflTeam" : "CHI",
-  "rank" : 310,
-  "pffRank" : 310,
-  "positionRank" : 41,
-  "lastYearStats" : "1 total TDs, 219 total yds | 30 tgt, 21 rec, 219 rec yds, 1 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4258595",
-  "byeWeek" : 10,
-  "adp" : 170.1
-}, {
-  "id" : 10310,
-  "name" : "Tommy Tremble",
-  "position" : "TE",
-  "nflTeam" : "CAR",
-  "rank" : 311,
-  "pffRank" : 311,
-  "positionRank" : 42,
-  "lastYearStats" : "1 total TDs, 250 total yds | 36 tgt, 25 rec, 250 rec yds, 1 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4372780",
-  "byeWeek" : 5,
-  "adp" : 170.1
-}, {
-  "id" : 10311,
-  "name" : "Jameis Winston",
-  "position" : "QB",
-  "nflTeam" : "NYG",
-  "rank" : 312,
-  "pffRank" : 312,
-  "positionRank" : 41,
-  "lastYearStats" : "0 total TDs, 165 total yds | 163 pass yds, 0 pass TDs, 0 INTs, 2 rush yds, 0 rush TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "2969939",
-  "byeWeek" : 8,
-  "adp" : 170.1
-}, {
   "id" : 10312,
-  "name" : "Anthony Richardson Sr.",
-  "position" : "QB",
-  "nflTeam" : "IND",
+  "name" : "Noah Gray",
+  "position" : "TE",
+  "nflTeam" : "KC",
   "rank" : 313,
   "pffRank" : 313,
   "positionRank" : 42,
+  "lastYearStats" : "1 total TDs, 261 total yds | 38 tgt, 26 rec, 261 rec yds, 1 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4240472",
+  "byeWeek" : 5,
+  "adp" : 170.1
+}, {
+  "id" : 10313,
+  "name" : "Mason Rudolph",
+  "position" : "QB",
+  "nflTeam" : "PIT",
+  "rank" : 314,
+  "pffRank" : 314,
+  "positionRank" : 43,
+  "lastYearStats" : "0 total TDs, 166 total yds | 162 pass yds, 0 pass TDs, 0 INTs, 4 rush yds, 0 rush TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "3116407",
+  "byeWeek" : 9,
+  "adp" : 170.1
+}, {
+  "id" : 10314,
+  "name" : "Anthony Richardson Sr.",
+  "position" : "QB",
+  "nflTeam" : "IND",
+  "rank" : 315,
+  "pffRank" : 315,
+  "positionRank" : 44,
   "lastYearStats" : "0 total TDs, 0 total yds | 0 pass yds, 0 pass TDs, 0 INTs, 0 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4429084",
   "byeWeek" : 13,
   "adp" : 170.1
 }, {
-  "id" : 10313,
+  "id" : 10315,
   "name" : "Riley Leonard",
   "position" : "QB",
   "nflTeam" : "IND",
-  "rank" : 314,
-  "pffRank" : 314,
-  "positionRank" : 43,
+  "rank" : 316,
+  "pffRank" : 316,
+  "positionRank" : 45,
   "lastYearStats" : "0 total TDs, 163 total yds | 158 pass yds, 0 pass TDs, 0 INTs, 5 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4683423",
   "byeWeek" : 13,
   "adp" : 170.1
 }, {
-  "id" : 10314,
+  "id" : 10316,
   "name" : "Joe Milton III",
   "position" : "QB",
   "nflTeam" : "DAL",
-  "rank" : 315,
-  "pffRank" : 315,
-  "positionRank" : 44,
+  "rank" : 317,
+  "pffRank" : 317,
+  "positionRank" : 46,
   "lastYearStats" : "1 total TDs, 164 total yds | 159 pass yds, 1 pass TDs, 0 INTs, 5 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4360698",
   "byeWeek" : 14,
   "adp" : 170.1
 }, {
-  "id" : 10315,
-  "name" : "Tommy DeVito",
+  "id" : 10317,
+  "name" : "Jarrett Stidham",
   "position" : "QB",
-  "nflTeam" : "NE",
-  "rank" : 316,
-  "pffRank" : 316,
-  "positionRank" : 45,
-  "lastYearStats" : "0 total TDs, 158 total yds | 149 pass yds, 0 pass TDs, 0 INTs, 9 rush yds, 0 rush TDs",
+  "nflTeam" : "DEN",
+  "rank" : 318,
+  "pffRank" : 318,
+  "positionRank" : 47,
+  "lastYearStats" : "1 total TDs, 167 total yds | 161 pass yds, 1 pass TDs, 0 INTs, 6 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4240391",
-  "byeWeek" : 11,
+  "espnId" : "3892775",
+  "byeWeek" : 10,
   "adp" : 170.1
 }, {
-  "id" : 10316,
+  "id" : 10318,
   "name" : "Jake Browning",
   "position" : "QB",
   "nflTeam" : "TB",
-  "rank" : 317,
-  "pffRank" : 317,
-  "positionRank" : 46,
+  "rank" : 319,
+  "pffRank" : 319,
+  "positionRank" : 48,
   "lastYearStats" : "1 total TDs, 167 total yds | 162 pass yds, 1 pass TDs, 0 INTs, 5 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "3886812",
   "byeWeek" : 10,
   "adp" : 170.1
 }, {
-  "id" : 10317,
-  "name" : "Charlie Smyth",
-  "position" : "K",
-  "nflTeam" : "NO",
-  "rank" : 318,
-  "pffRank" : 318,
-  "positionRank" : 32,
-  "lastYearStats" : "16/17 FGs, 31 XPs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "5208518",
-  "byeWeek" : 8,
-  "adp" : 170.1
-}, {
-  "id" : 10318,
+  "id" : 10319,
   "name" : "Seth McGowan",
   "position" : "RB",
   "nflTeam" : "IND",
-  "rank" : 319,
-  "pffRank" : 319,
-  "positionRank" : 74,
+  "rank" : 320,
+  "pffRank" : 320,
+  "positionRank" : 73,
   "lastYearStats" : "0 total TDs, 80 total yds | 52 rush yds, 0 rush TDs, 4 rec, 28 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4686468",
   "byeWeek" : 13,
   "adp" : 170.2
 }, {
-  "id" : 10319,
+  "id" : 10320,
   "name" : "Adonai Mitchell",
   "position" : "WR",
   "nflTeam" : "NYJ",
-  "rank" : 320,
-  "pffRank" : 320,
+  "rank" : 321,
+  "pffRank" : 321,
   "positionRank" : 94,
   "lastYearStats" : "2 total TDs, 381 total yds | 47 tgt, 26 rec, 381 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
@@ -4159,12 +4172,12 @@
   "byeWeek" : 13,
   "adp" : 170.2
 }, {
-  "id" : 10320,
+  "id" : 10321,
   "name" : "Jalen Tolbert",
   "position" : "WR",
   "nflTeam" : "MIA",
-  "rank" : 321,
-  "pffRank" : 321,
+  "rank" : 322,
+  "pffRank" : 322,
   "positionRank" : 95,
   "lastYearStats" : "1 total TDs, 364 total yds | 51 tgt, 30 rec, 364 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
@@ -4172,95 +4185,82 @@
   "byeWeek" : 6,
   "adp" : 170.2
 }, {
-  "id" : 10321,
-  "name" : "Pat Bryant",
-  "position" : "WR",
-  "nflTeam" : "DEN",
-  "rank" : 322,
-  "pffRank" : 322,
-  "positionRank" : 96,
-  "lastYearStats" : "2 total TDs, 319 total yds | 45 tgt, 28 rec, 319 rec yds, 2 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4600981",
-  "byeWeek" : 10,
-  "adp" : 170.2
-}, {
   "id" : 10322,
-  "name" : "LeQuint Allen Jr.",
-  "position" : "RB",
-  "nflTeam" : "JAX",
+  "name" : "Savion Williams",
+  "position" : "WR",
+  "nflTeam" : "GB",
   "rank" : 323,
   "pffRank" : 323,
-  "positionRank" : 75,
-  "lastYearStats" : "0 total TDs, 181 total yds | 33 rush yds, 0 rush TDs, 21 rec, 148 rec yds, 0 rec TDs",
+  "positionRank" : 96,
+  "lastYearStats" : "1 total TDs, 272 total yds | 36 tgt, 23 rec, 272 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4911851",
-  "byeWeek" : 7,
+  "espnId" : "4431487",
+  "byeWeek" : 11,
   "adp" : 170.2
 }, {
   "id" : 10323,
+  "name" : "Xavier Legette",
+  "position" : "WR",
+  "nflTeam" : "CAR",
+  "rank" : 324,
+  "pffRank" : 324,
+  "positionRank" : 97,
+  "lastYearStats" : "2 total TDs, 307 total yds | 46 tgt, 26 rec, 307 rec yds, 2 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4430034",
+  "byeWeek" : 5,
+  "adp" : 170.2
+}, {
+  "id" : 10324,
   "name" : "Ollie Gordon II",
   "position" : "RB",
   "nflTeam" : "MIA",
-  "rank" : 324,
-  "pffRank" : 324,
-  "positionRank" : 76,
+  "rank" : 325,
+  "pffRank" : 325,
+  "positionRank" : 74,
   "lastYearStats" : "1 total TDs, 207 total yds | 180 rush yds, 1 rush TDs, 4 rec, 27 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4711533",
   "byeWeek" : 6,
   "adp" : 170.2
 }, {
-  "id" : 10324,
+  "id" : 10325,
   "name" : "Keaton Mitchell",
   "position" : "RB",
   "nflTeam" : "LAC",
-  "rank" : 325,
-  "pffRank" : 325,
-  "positionRank" : 77,
+  "rank" : 326,
+  "pffRank" : 326,
+  "positionRank" : 75,
   "lastYearStats" : "0 total TDs, 139 total yds | 78 rush yds, 0 rush TDs, 8 rec, 61 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4596334",
   "byeWeek" : 7,
   "adp" : 170.2
 }, {
-  "id" : 10325,
+  "id" : 10326,
   "name" : "Brashard Smith",
   "position" : "RB",
   "nflTeam" : "KC",
-  "rank" : 326,
-  "pffRank" : 326,
-  "positionRank" : 78,
+  "rank" : 327,
+  "pffRank" : 327,
+  "positionRank" : 76,
   "lastYearStats" : "0 total TDs, 259 total yds | 139 rush yds, 0 rush TDs, 16 rec, 120 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4596602",
   "byeWeek" : 5,
   "adp" : 170.2
 }, {
-  "id" : 10326,
+  "id" : 10327,
   "name" : "Adam Randall",
   "position" : "RB",
   "nflTeam" : "BAL",
-  "rank" : 327,
-  "pffRank" : 327,
-  "positionRank" : 79,
+  "rank" : 328,
+  "pffRank" : 328,
+  "positionRank" : 77,
   "lastYearStats" : "0 total TDs, 149 total yds | 121 rush yds, 0 rush TDs, 3 rec, 28 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4685526",
   "byeWeek" : 13,
-  "adp" : 170.2
-}, {
-  "id" : 10327,
-  "name" : "Trey Benson",
-  "position" : "RB",
-  "nflTeam" : "ARI",
-  "rank" : 328,
-  "pffRank" : 328,
-  "positionRank" : 80,
-  "lastYearStats" : "0 total TDs, 0 total yds | 0 rush yds, 0 rush TDs, 0 rec, 0 rec yds, 0 rec TDs",
-  "injuryStatus" : "QUESTIONABLE",
-  "espnId" : "4429275",
-  "byeWeek" : 14,
   "adp" : 170.2
 }, {
   "id" : 10328,
@@ -4269,7 +4269,7 @@
   "nflTeam" : "PIT",
   "rank" : 329,
   "pffRank" : 329,
-  "positionRank" : 81,
+  "positionRank" : 78,
   "lastYearStats" : "0 total TDs, 35 total yds | 35 rush yds, 0 rush TDs, 0 rec, 0 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4819231",
@@ -4277,42 +4277,42 @@
   "adp" : 170.2
 }, {
   "id" : 10329,
-  "name" : "Ty Johnson",
-  "position" : "RB",
-  "nflTeam" : "BUF",
-  "rank" : 330,
-  "pffRank" : 330,
-  "positionRank" : 82,
-  "lastYearStats" : "3 total TDs, 426 total yds | 219 rush yds, 2 rush TDs, 21 rec, 207 rec yds, 1 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "3915411",
-  "byeWeek" : 7,
-  "adp" : 170.2
-}, {
-  "id" : 10330,
   "name" : "Tory Horton",
   "position" : "WR",
   "nflTeam" : "SEA",
-  "rank" : 331,
-  "pffRank" : 331,
-  "positionRank" : 97,
+  "rank" : 330,
+  "pffRank" : 330,
+  "positionRank" : 98,
   "lastYearStats" : "2 total TDs, 298 total yds | 35 tgt, 21 rec, 298 rec yds, 2 rec TDs",
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4597703",
   "byeWeek" : 11,
   "adp" : 170.2
 }, {
+  "id" : 10330,
+  "name" : "Ted Hurst",
+  "position" : "WR",
+  "nflTeam" : "TB",
+  "rank" : 331,
+  "pffRank" : 331,
+  "positionRank" : 99,
+  "lastYearStats" : "2 total TDs, 295 total yds | 37 tgt, 22 rec, 295 rec yds, 2 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "5220680",
+  "byeWeek" : 10,
+  "adp" : 170.2
+}, {
   "id" : 10331,
-  "name" : "Isaiah Davis",
+  "name" : "Emanuel Wilson",
   "position" : "RB",
-  "nflTeam" : "NYJ",
+  "nflTeam" : "SEA",
   "rank" : 332,
   "pffRank" : 332,
-  "positionRank" : 83,
-  "lastYearStats" : "0 total TDs, 193 total yds | 98 rush yds, 0 rush TDs, 12 rec, 95 rec yds, 0 rec TDs",
+  "positionRank" : 79,
+  "lastYearStats" : "1 total TDs, 221 total yds | 169 rush yds, 1 rush TDs, 6 rec, 52 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4695404",
-  "byeWeek" : 13,
+  "espnId" : "4887558",
+  "byeWeek" : 11,
   "adp" : 170.2
 }, {
   "id" : 10332,
@@ -4321,7 +4321,7 @@
   "nflTeam" : "IND",
   "rank" : 333,
   "pffRank" : 333,
-  "positionRank" : 98,
+  "positionRank" : 100,
   "lastYearStats" : "3 total TDs, 432 total yds | 57 tgt, 34 rec, 432 rec yds, 3 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "3929785",
@@ -4329,141 +4329,89 @@
   "adp" : 170.2
 }, {
   "id" : 10333,
-  "name" : "Darius Slayton",
-  "position" : "WR",
-  "nflTeam" : "NYG",
-  "rank" : 334,
-  "pffRank" : 334,
-  "positionRank" : 99,
-  "lastYearStats" : "1 total TDs, 427 total yds | 49 tgt, 30 rec, 427 rec yds, 1 rec TDs",
-  "injuryStatus" : "QUESTIONABLE",
-  "espnId" : "3916945",
-  "byeWeek" : 8,
-  "adp" : 170.2
-}, {
-  "id" : 10334,
   "name" : "Dyami Brown",
   "position" : "WR",
   "nflTeam" : "WAS",
-  "rank" : 335,
-  "pffRank" : 335,
-  "positionRank" : 100,
+  "rank" : 334,
+  "pffRank" : 334,
+  "positionRank" : 101,
   "lastYearStats" : "2 total TDs, 394 total yds | 46 tgt, 29 rec, 394 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4361577",
   "byeWeek" : 7,
   "adp" : 170.2
 }, {
-  "id" : 10335,
+  "id" : 10334,
   "name" : "Jahan Dotson",
   "position" : "WR",
   "nflTeam" : "ATL",
-  "rank" : 336,
-  "pffRank" : 336,
-  "positionRank" : 101,
+  "rank" : 335,
+  "pffRank" : 335,
+  "positionRank" : 102,
   "lastYearStats" : "2 total TDs, 402 total yds | 54 tgt, 31 rec, 402 rec yds, 2 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4361409",
   "byeWeek" : 11,
   "adp" : 170.2
 }, {
-  "id" : 10336,
-  "name" : "Andrei Iosivas",
-  "position" : "WR",
-  "nflTeam" : "CIN",
-  "rank" : 337,
-  "pffRank" : 337,
-  "positionRank" : 102,
-  "lastYearStats" : "2 total TDs, 317 total yds | 45 tgt, 27 rec, 317 rec yds, 2 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4368003",
-  "byeWeek" : 6,
-  "adp" : 170.2
-}, {
-  "id" : 10337,
-  "name" : "DJ Giddens",
-  "position" : "RB",
-  "nflTeam" : "IND",
-  "rank" : 338,
-  "pffRank" : 338,
-  "positionRank" : 84,
-  "lastYearStats" : "1 total TDs, 197 total yds | 141 rush yds, 1 rush TDs, 8 rec, 56 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4874509",
-  "byeWeek" : 13,
-  "adp" : 170.2
-}, {
-  "id" : 10338,
-  "name" : "Tyler Badie",
-  "position" : "RB",
-  "nflTeam" : "DEN",
-  "rank" : 339,
-  "pffRank" : 339,
-  "positionRank" : 85,
-  "lastYearStats" : "0 total TDs, 132 total yds | 17 rush yds, 0 rush TDs, 14 rec, 115 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4362748",
-  "byeWeek" : 10,
-  "adp" : 170.2
-}, {
-  "id" : 10339,
+  "id" : 10335,
   "name" : "Will Shipley",
   "position" : "RB",
   "nflTeam" : "PHI",
-  "rank" : 340,
-  "pffRank" : 340,
-  "positionRank" : 86,
+  "rank" : 336,
+  "pffRank" : 336,
+  "positionRank" : 80,
   "lastYearStats" : "0 total TDs, 122 total yds | 39 rush yds, 0 rush TDs, 11 rec, 83 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4431545",
   "byeWeek" : 10,
   "adp" : 170.2
 }, {
-  "id" : 10340,
-  "name" : "Sean Tucker",
+  "id" : 10336,
+  "name" : "Malik Davis",
   "position" : "RB",
-  "nflTeam" : "TB",
-  "rank" : 341,
-  "pffRank" : 341,
-  "positionRank" : 87,
-  "lastYearStats" : "2 total TDs, 145 total yds | 145 rush yds, 2 rush TDs, 0 rec, 0 rec yds, 0 rec TDs",
+  "nflTeam" : "DAL",
+  "rank" : 337,
+  "pffRank" : 337,
+  "positionRank" : 81,
+  "lastYearStats" : "1 total TDs, 270 total yds | 211 rush yds, 1 rush TDs, 8 rec, 59 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4430871",
-  "byeWeek" : 10,
+  "espnId" : "4240603",
+  "byeWeek" : 14,
   "adp" : 170.2
 }, {
-  "id" : 10341,
+  "id" : 10337,
   "name" : "Hunter Luepke",
   "position" : "RB",
   "nflTeam" : "DAL",
-  "rank" : 342,
-  "pffRank" : 342,
-  "positionRank" : 88,
+  "rank" : 338,
+  "pffRank" : 338,
+  "positionRank" : 82,
   "lastYearStats" : "0 total TDs, 117 total yds | 56 rush yds, 0 rush TDs, 8 rec, 61 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4383396",
   "byeWeek" : 14,
   "adp" : 170.2
 }, {
-  "id" : 10342,
+  "id" : 10338,
   "name" : "Trevor Etienne",
   "position" : "RB",
   "nflTeam" : "CAR",
-  "rank" : 343,
-  "pffRank" : 343,
-  "positionRank" : 89,
+  "rank" : 339,
+  "pffRank" : 339,
+  "positionRank" : 83,
   "lastYearStats" : "0 total TDs, 99 total yds | 70 rush yds, 0 rush TDs, 4 rec, 29 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4685350",
   "byeWeek" : 5,
   "adp" : 170.2
 }, {
-  "id" : 10343,
+  "id" : 10339,
   "name" : "Michael Mayer",
   "position" : "TE",
   "nflTeam" : "LV",
-  "rank" : 344,
-  "pffRank" : 344,
+  "rank" : 340,
+  "pffRank" : 340,
   "positionRank" : 43,
   "lastYearStats" : "1 total TDs, 362 total yds | 54 tgt, 36 rec, 362 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
@@ -4471,12 +4419,12 @@
   "byeWeek" : 13,
   "adp" : 170.2
 }, {
-  "id" : 10344,
+  "id" : 10340,
   "name" : "Van Jefferson",
   "position" : "WR",
   "nflTeam" : "WAS",
-  "rank" : 345,
-  "pffRank" : 345,
+  "rank" : 341,
+  "pffRank" : 341,
   "positionRank" : 103,
   "lastYearStats" : "1 total TDs, 357 total yds | 46 tgt, 27 rec, 357 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
@@ -4484,12 +4432,12 @@
   "byeWeek" : 7,
   "adp" : 170.2
 }, {
-  "id" : 10345,
+  "id" : 10341,
   "name" : "Marvin Mims Jr.",
   "position" : "WR",
   "nflTeam" : "DEN",
-  "rank" : 346,
-  "pffRank" : 346,
+  "rank" : 342,
+  "pffRank" : 342,
   "positionRank" : 104,
   "lastYearStats" : "1 total TDs, 272 total yds | 33 tgt, 24 rec, 272 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
@@ -4497,29 +4445,81 @@
   "byeWeek" : 10,
   "adp" : 170.2
 }, {
-  "id" : 10346,
+  "id" : 10342,
+  "name" : "Alec Ingold",
+  "position" : "RB",
+  "nflTeam" : "LAC",
+  "rank" : 343,
+  "pffRank" : 343,
+  "positionRank" : 84,
+  "lastYearStats" : "0 total TDs, 66 total yds | 8 rush yds, 0 rush TDs, 7 rec, 58 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "3917668",
+  "byeWeek" : 7,
+  "adp" : 170.2
+}, {
+  "id" : 10343,
   "name" : "Tahj Brooks",
   "position" : "RB",
   "nflTeam" : "CIN",
-  "rank" : 347,
-  "pffRank" : 347,
-  "positionRank" : 90,
+  "rank" : 344,
+  "pffRank" : 344,
+  "positionRank" : 85,
   "lastYearStats" : "0 total TDs, 129 total yds | 129 rush yds, 0 rush TDs, 0 rec, 0 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4429299",
   "byeWeek" : 6,
   "adp" : 170.2
 }, {
-  "id" : 10347,
+  "id" : 10344,
+  "name" : "Adam Prentice",
+  "position" : "RB",
+  "nflTeam" : "DEN",
+  "rank" : 345,
+  "pffRank" : 345,
+  "positionRank" : 86,
+  "lastYearStats" : "0 total TDs, 46 total yds | 17 rush yds, 0 rush TDs, 4 rec, 29 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "3929914",
+  "byeWeek" : 10,
+  "adp" : 170.2
+}, {
+  "id" : 10345,
   "name" : "Connor Heyward",
   "position" : "RB",
   "nflTeam" : "LV",
-  "rank" : 348,
-  "pffRank" : 348,
-  "positionRank" : 91,
+  "rank" : 346,
+  "pffRank" : 346,
+  "positionRank" : 87,
   "lastYearStats" : "0 total TDs, 45 total yds | 17 rush yds, 0 rush TDs, 3 rec, 28 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4241961",
+  "byeWeek" : 13,
+  "adp" : 170.2
+}, {
+  "id" : 10346,
+  "name" : "George Holani",
+  "position" : "RB",
+  "nflTeam" : "SEA",
+  "rank" : 347,
+  "pffRank" : 347,
+  "positionRank" : 88,
+  "lastYearStats" : "0 total TDs, 58 total yds | 48 rush yds, 0 rush TDs, 1 rec, 10 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4429835",
+  "byeWeek" : 11,
+  "adp" : 170.2
+}, {
+  "id" : 10347,
+  "name" : "Andrew Beck",
+  "position" : "RB",
+  "nflTeam" : "NYJ",
+  "rank" : 348,
+  "pffRank" : 348,
+  "positionRank" : 89,
+  "lastYearStats" : "0 total TDs, 28 total yds | 0 rush yds, 0 rush TDs, 4 rec, 28 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "3125107",
   "byeWeek" : 13,
   "adp" : 170.2
 }, {
@@ -4542,7 +4542,7 @@
   "nflTeam" : "ATL",
   "rank" : 350,
   "pffRank" : 350,
-  "positionRank" : 47,
+  "positionRank" : 49,
   "lastYearStats" : "9 total TDs, 1960 total yds | 1884 pass yds, 9 pass TDs, 5 INTs, 76 rush yds, 0 rush TDs",
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4360423",
@@ -4550,15 +4550,15 @@
   "adp" : 170.2
 }, {
   "id" : 10350,
-  "name" : "Reggie Gilliam",
-  "position" : "RB",
-  "nflTeam" : "NE",
+  "name" : "Elijah Arroyo",
+  "position" : "TE",
+  "nflTeam" : "SEA",
   "rank" : 351,
   "pffRank" : 351,
-  "positionRank" : 92,
-  "lastYearStats" : "0 total TDs, 29 total yds | 0 rush yds, 0 rush TDs, 4 rec, 29 rec yds, 0 rec TDs",
+  "positionRank" : 45,
+  "lastYearStats" : "1 total TDs, 264 total yds | 35 tgt, 24 rec, 264 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4039505",
+  "espnId" : "4678006",
   "byeWeek" : 11,
   "adp" : 170.2
 }, {
@@ -4568,7 +4568,7 @@
   "nflTeam" : "NYG",
   "rank" : 352,
   "pffRank" : 352,
-  "positionRank" : 93,
+  "positionRank" : 90,
   "lastYearStats" : "0 total TDs, 26 total yds | 0 rush yds, 0 rush TDs, 3 rec, 26 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "2975417",
@@ -4581,7 +4581,7 @@
   "nflTeam" : "NO",
   "rank" : 353,
   "pffRank" : 353,
-  "positionRank" : 94,
+  "positionRank" : 91,
   "lastYearStats" : "0 total TDs, 54 total yds | 54 rush yds, 0 rush TDs, 0 rec, 0 rec yds, 0 rec TDs",
   "injuryStatus" : "QUESTIONABLE",
   "espnId" : "4599739",
@@ -4594,7 +4594,7 @@
   "nflTeam" : "NYJ",
   "rank" : 354,
   "pffRank" : 354,
-  "positionRank" : 45,
+  "positionRank" : 46,
   "lastYearStats" : "1 total TDs, 231 total yds | 37 tgt, 27 rec, 231 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4808766",
@@ -4607,7 +4607,7 @@
   "nflTeam" : "LAR",
   "rank" : 355,
   "pffRank" : 355,
-  "positionRank" : 46,
+  "positionRank" : 47,
   "lastYearStats" : "0 total TDs, 38 total yds | 5 tgt, 4 rec, 38 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4833029",
@@ -4615,15 +4615,15 @@
   "adp" : 170.2
 }, {
   "id" : 10355,
-  "name" : "Noah Gray",
+  "name" : "Tommy Tremble",
   "position" : "TE",
-  "nflTeam" : "KC",
+  "nflTeam" : "CAR",
   "rank" : 356,
   "pffRank" : 356,
-  "positionRank" : 47,
-  "lastYearStats" : "1 total TDs, 261 total yds | 38 tgt, 26 rec, 261 rec yds, 1 rec TDs",
+  "positionRank" : 48,
+  "lastYearStats" : "1 total TDs, 250 total yds | 36 tgt, 25 rec, 250 rec yds, 1 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4240472",
+  "espnId" : "4372780",
   "byeWeek" : 5,
   "adp" : 170.2
 }, {
@@ -4633,7 +4633,7 @@
   "nflTeam" : "NO",
   "rank" : 357,
   "pffRank" : 357,
-  "positionRank" : 48,
+  "positionRank" : 49,
   "lastYearStats" : "0 total TDs, 179 total yds | 27 tgt, 21 rec, 179 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4036131",
@@ -4646,7 +4646,7 @@
   "nflTeam" : "ATL",
   "rank" : 358,
   "pffRank" : 358,
-  "positionRank" : 49,
+  "positionRank" : 50,
   "lastYearStats" : "0 total TDs, 182 total yds | 27 tgt, 20 rec, 182 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "3043275",
@@ -4659,7 +4659,7 @@
   "nflTeam" : "ARI",
   "rank" : 359,
   "pffRank" : 359,
-  "positionRank" : 50,
+  "positionRank" : 51,
   "lastYearStats" : "0 total TDs, 182 total yds | 28 tgt, 20 rec, 182 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4426844",
@@ -4667,37 +4667,11 @@
   "adp" : 170.2
 }, {
   "id" : 10359,
-  "name" : "Mason Rudolph",
-  "position" : "QB",
-  "nflTeam" : "PIT",
-  "rank" : 360,
-  "pffRank" : 360,
-  "positionRank" : 48,
-  "lastYearStats" : "0 total TDs, 166 total yds | 162 pass yds, 0 pass TDs, 0 INTs, 4 rush yds, 0 rush TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "3116407",
-  "byeWeek" : 9,
-  "adp" : 170.2
-}, {
-  "id" : 10360,
-  "name" : "Jarrett Stidham",
-  "position" : "QB",
-  "nflTeam" : "DEN",
-  "rank" : 361,
-  "pffRank" : 361,
-  "positionRank" : 49,
-  "lastYearStats" : "1 total TDs, 167 total yds | 161 pass yds, 1 pass TDs, 0 INTs, 6 rush yds, 0 rush TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "3892775",
-  "byeWeek" : 10,
-  "adp" : 170.2
-}, {
-  "id" : 10361,
   "name" : "Nick Mullens",
   "position" : "QB",
   "nflTeam" : "JAX",
-  "rank" : 362,
-  "pffRank" : 362,
+  "rank" : 360,
+  "pffRank" : 360,
   "positionRank" : 50,
   "lastYearStats" : "1 total TDs, 182 total yds | 179 pass yds, 1 pass TDs, 0 INTs, 3 rush yds, 0 rush TDs",
   "injuryStatus" : "HEALTHY",
@@ -4705,81 +4679,107 @@
   "byeWeek" : 7,
   "adp" : 170.2
 }, {
+  "id" : 10360,
+  "name" : "LeQuint Allen Jr.",
+  "position" : "RB",
+  "nflTeam" : "JAX",
+  "rank" : 361,
+  "pffRank" : 361,
+  "positionRank" : 92,
+  "lastYearStats" : "0 total TDs, 181 total yds | 33 rush yds, 0 rush TDs, 21 rec, 148 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4911851",
+  "byeWeek" : 7,
+  "adp" : 170.3
+}, {
+  "id" : 10361,
+  "name" : "Trey Benson",
+  "position" : "RB",
+  "nflTeam" : "ARI",
+  "rank" : 362,
+  "pffRank" : 362,
+  "positionRank" : 93,
+  "lastYearStats" : "0 total TDs, 0 total yds | 0 rush yds, 0 rush TDs, 0 rec, 0 rec yds, 0 rec TDs",
+  "injuryStatus" : "QUESTIONABLE",
+  "espnId" : "4429275",
+  "byeWeek" : 14,
+  "adp" : 170.3
+}, {
   "id" : 10362,
+  "name" : "Ty Johnson",
+  "position" : "RB",
+  "nflTeam" : "BUF",
+  "rank" : 363,
+  "pffRank" : 363,
+  "positionRank" : 94,
+  "lastYearStats" : "3 total TDs, 426 total yds | 219 rush yds, 2 rush TDs, 21 rec, 207 rec yds, 1 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "3915411",
+  "byeWeek" : 7,
+  "adp" : 170.3
+}, {
+  "id" : 10363,
+  "name" : "Isaiah Davis",
+  "position" : "RB",
+  "nflTeam" : "NYJ",
+  "rank" : 364,
+  "pffRank" : 364,
+  "positionRank" : 95,
+  "lastYearStats" : "0 total TDs, 193 total yds | 98 rush yds, 0 rush TDs, 12 rec, 95 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4695404",
+  "byeWeek" : 13,
+  "adp" : 170.3
+}, {
+  "id" : 10364,
+  "name" : "DJ Giddens",
+  "position" : "RB",
+  "nflTeam" : "IND",
+  "rank" : 365,
+  "pffRank" : 365,
+  "positionRank" : 96,
+  "lastYearStats" : "1 total TDs, 197 total yds | 141 rush yds, 1 rush TDs, 8 rec, 56 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4874509",
+  "byeWeek" : 13,
+  "adp" : 170.3
+}, {
+  "id" : 10365,
+  "name" : "Tyler Badie",
+  "position" : "RB",
+  "nflTeam" : "DEN",
+  "rank" : 366,
+  "pffRank" : 366,
+  "positionRank" : 97,
+  "lastYearStats" : "0 total TDs, 132 total yds | 17 rush yds, 0 rush TDs, 14 rec, 115 rec yds, 0 rec TDs",
+  "injuryStatus" : "HEALTHY",
+  "espnId" : "4362748",
+  "byeWeek" : 10,
+  "adp" : 170.3
+}, {
+  "id" : 10366,
   "name" : "Devin Singletary",
   "position" : "RB",
   "nflTeam" : "NYG",
-  "rank" : 363,
-  "pffRank" : 363,
-  "positionRank" : 95,
+  "rank" : 367,
+  "pffRank" : 367,
+  "positionRank" : 98,
   "lastYearStats" : "0 total TDs, 168 total yds | 142 rush yds, 0 rush TDs, 4 rec, 26 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
   "espnId" : "4040761",
   "byeWeek" : 8,
   "adp" : 170.3
 }, {
-  "id" : 10363,
-  "name" : "Alec Ingold",
-  "position" : "RB",
-  "nflTeam" : "LAC",
-  "rank" : 364,
-  "pffRank" : 364,
-  "positionRank" : 96,
-  "lastYearStats" : "0 total TDs, 66 total yds | 8 rush yds, 0 rush TDs, 7 rec, 58 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "3917668",
-  "byeWeek" : 7,
-  "adp" : 170.3
-}, {
-  "id" : 10364,
-  "name" : "Adam Prentice",
-  "position" : "RB",
-  "nflTeam" : "DEN",
-  "rank" : 365,
-  "pffRank" : 365,
-  "positionRank" : 97,
-  "lastYearStats" : "0 total TDs, 46 total yds | 17 rush yds, 0 rush TDs, 4 rec, 29 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "3929914",
-  "byeWeek" : 10,
-  "adp" : 170.3
-}, {
-  "id" : 10365,
-  "name" : "George Holani",
-  "position" : "RB",
-  "nflTeam" : "SEA",
-  "rank" : 366,
-  "pffRank" : 366,
-  "positionRank" : 98,
-  "lastYearStats" : "0 total TDs, 58 total yds | 48 rush yds, 0 rush TDs, 1 rec, 10 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "4429835",
-  "byeWeek" : 11,
-  "adp" : 170.3
-}, {
-  "id" : 10366,
-  "name" : "Andrew Beck",
-  "position" : "RB",
-  "nflTeam" : "NYJ",
-  "rank" : 367,
-  "pffRank" : 367,
-  "positionRank" : 99,
-  "lastYearStats" : "0 total TDs, 28 total yds | 0 rush yds, 0 rush TDs, 4 rec, 28 rec yds, 0 rec TDs",
-  "injuryStatus" : "HEALTHY",
-  "espnId" : "3125107",
-  "byeWeek" : 13,
-  "adp" : 170.3
-}, {
   "id" : 10367,
-  "name" : "Elijah Arroyo",
-  "position" : "TE",
-  "nflTeam" : "SEA",
+  "name" : "Sean Tucker",
+  "position" : "RB",
+  "nflTeam" : "TB",
   "rank" : 368,
   "pffRank" : 368,
-  "positionRank" : 51,
-  "lastYearStats" : "1 total TDs, 264 total yds | 35 tgt, 24 rec, 264 rec yds, 1 rec TDs",
+  "positionRank" : 99,
+  "lastYearStats" : "2 total TDs, 145 total yds | 145 rush yds, 2 rush TDs, 0 rec, 0 rec yds, 0 rec TDs",
   "injuryStatus" : "HEALTHY",
-  "espnId" : "4678006",
-  "byeWeek" : 11,
+  "espnId" : "4430871",
+  "byeWeek" : 10,
   "adp" : 170.3
 } ]
