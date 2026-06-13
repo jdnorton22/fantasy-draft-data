@@ -6,14 +6,14 @@
     <title>FFL Draft Day Picker Pro — User Guide</title>
     <style>
         :root {
-            --green-dark: #1a4d1a;
-            --green-mid: #2d7a2d;
-            --green-light: #4CAF50;
-            --gold: #D9B80D;
-            --blue: #2196F3;
-            --pink: #E91E63;
-            --red: #F44336;
-            --orange: #FF9800;
+            --green-dark: #111111;
+            --green-mid: #1e1e1e;
+            --green-light: #333333;
+            --gold: #AD9303;
+            --blue: #1A78C2;
+            --pink: #BA0D32;
+            --red: #C4352B;
+            --orange: #CC7A00;
             --purple: #9C27B0;
             --bg: #f8f9fa;
             --card-bg: #ffffff;
@@ -36,23 +36,21 @@
         }
 
         header {
-            background: linear-gradient(135deg, #1B5E20, #2E7D32, #43A047);
+            background: linear-gradient(135deg, #000000, #1e1e1e);
             color: white;
-            padding: 40px 20px;
+            padding: 3rem 2rem;
             text-align: center;
-            border-radius: 12px;
-            margin-bottom: 30px;
         }
 
         header h1 {
-            font-size: 2.2em;
-            margin-bottom: 8px;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.5px;
         }
 
         header p {
-            font-size: 1.1em;
+            font-size: 1.1rem;
             opacity: 0.9;
-            color: white;
         }
 
         .container {
@@ -72,7 +70,7 @@
         nav.toc h2 {
             font-size: 1.2rem;
             margin-bottom: 0.75rem;
-            color: var(--green-mid);
+            color: var(--text);
         }
 
         nav.toc ol {
@@ -84,7 +82,7 @@
         }
 
         nav.toc a {
-            color: var(--green-mid);
+            color: var(--purple);
             text-decoration: none;
             font-weight: 500;
         }
@@ -103,10 +101,10 @@
 
         section h2 {
             font-size: 1.5rem;
-            color: var(--green-dark);
+            color: #1a1a1a;
             margin-bottom: 1rem;
             padding-bottom: 0.5rem;
-            border-bottom: 2px solid var(--green-light);
+            border-bottom: 2px solid #333;
         }
 
         section h3 {
@@ -141,17 +139,17 @@
             vertical-align: middle;
         }
 
-        .badge-qb { background: var(--gold); color: #1a1a1a; }
-        .badge-rb { background: var(--green-light); }
-        .badge-wr { background: var(--pink); }
-        .badge-te { background: var(--red); }
-        .badge-k { background: var(--blue); }
-        .badge-dst { background: var(--orange); }
+        .badge-qb { background: #AD9303; color: #fff; }
+        .badge-rb { background: #3D8C40; }
+        .badge-wr { background: #BA0D32; }
+        .badge-te { background: #C4352B; }
+        .badge-k { background: #1A78C2; }
+        .badge-dst { background: #CC7A00; }
         .badge-ai { background: var(--purple); }
 
         .tip {
-            background: #e8f5e9;
-            border-left: 4px solid var(--green-light);
+            background: #f3e8ff;
+            border-left: 4px solid var(--purple);
             padding: 0.75rem 1rem;
             border-radius: 0 8px 8px 0;
             margin: 1rem 0;
@@ -159,7 +157,7 @@
         }
 
         .tip strong {
-            color: var(--green-dark);
+            color: var(--purple);
         }
 
         .warning {
@@ -189,9 +187,9 @@
         }
 
         th {
-            background: #f1f8e9;
+            background: #f5f5f5;
             font-weight: 600;
-            color: var(--green-dark);
+            color: #1a1a1a;
         }
 
         .keyboard-shortcut {
@@ -221,7 +219,7 @@
         .feature-card h4 {
             font-size: 0.95rem;
             margin-bottom: 0.4rem;
-            color: var(--green-dark);
+            color: #1a1a1a;
         }
 
         .feature-card p {
@@ -245,13 +243,12 @@
 </head>
 <body>
 
-<div class="container">
-
 <header>
-    <h1>🏈 FFL Draft Day Picker</h1>
-    <p>AI-Powered Fantasy Football Draft Assistant — iOS</p>
-    <p style="font-size: 0.85em; margin-top: 8px;">Version 4.450</p>
+    <h1>🏈 FFL Draft Day Picker Pro</h1>
+    <p>Your complete manual draft tracking companion for Fantasy Football</p>
 </header>
+
+<div class="container">
 
     <nav class="toc">
         <h2>Contents</h2>
@@ -349,7 +346,7 @@
 
         <h3>Making a Pick</h3>
         <ol>
-            <li>The current team on the clock is displayed at the top</li>
+            <li>The current team on the clock is shown in the <strong>Info</strong> tab at the top of the screen</li>
             <li>Use the <strong>Best Available card</strong> to draft the recommended player directly, or</li>
             <li>Tap <strong>"View Board"</strong> to open the full player list, search, filter, and select any available player</li>
             <li>Confirm the pick when prompted</li>
@@ -375,35 +372,37 @@
         <h3>Scoring Components</h3>
         <table>
             <tr><th>Factor</th><th>Weight</th><th>What It Measures</th></tr>
-            <tr><td>Value</td><td>30%</td><td>How much value you're getting vs the player's ADP</td></tr>
-            <tr><td>Positional Scarcity</td><td>25%</td><td>How many startable players remain at this position</td></tr>
-            <tr><td>Team Need</td><td>25%</td><td>Whether your roster needs this position based on requirements</td></tr>
-            <tr><td>Bye Week</td><td>10%</td><td>Scheduling conflicts with players already on your roster</td></tr>
+            <tr><td>Value</td><td>35%</td><td>How much value you're getting vs the player's ADP</td></tr>
+            <tr><td>Positional Scarcity</td><td>22%</td><td>How many startable players remain at this position</td></tr>
+            <tr><td>Team Need</td><td>22%</td><td>Whether your roster needs this position based on requirements</td></tr>
+            <tr><td>Bye Week</td><td>11%</td><td>Scheduling conflicts with players already on your roster</td></tr>
             <tr><td>Elite Tier</td><td>10%</td><td>Bonus for top-tier positional talent (top 5 at position)</td></tr>
         </table>
 
         <h3>Bonuses</h3>
         <ul>
-            <li><strong>TD Production:</strong> RB/WR/TE with 6+ TDs last season get +3 to +8 points</li>
-            <li><strong>Yardage Production:</strong> RB/WR/TE with 1,000+ total yards get +3, 1,500+ get +5</li>
+            <li><strong>🔥 TD Production:</strong> RB/WR/TE with 6–9 TDs last season get +3, 10–14 TDs get +5, 15+ TDs get +8 points</li>
+            <li><strong>🏃 Yardage Production:</strong> RB/WR/TE with 1,000–1,499 total yards get +3, 1,500+ get +5 points</li>
         </ul>
+        <p>When these bonuses trigger, you'll see them prominently in the AI recommendation reasons (e.g., "🔥 TD producer — 17 total TDs last season").</p>
 
         <h3>Penalties</h3>
         <ul>
-            <li><strong>Injury:</strong> Players marked OUT/IR/DOUBTFUL receive a -40 point penalty</li>
-            <li><strong>K/DST Early:</strong> Kickers and defenses are suppressed until core positions are filled (up to -30)</li>
-            <li><strong>Bye Conflict:</strong> Position-aware — penalizes heavily when same-position players share a bye week (QB conflicts are penalized most since you only carry 2)</li>
+            <li><strong>Injury:</strong> Players marked OUT/IR/DOUBTFUL receive a -40 point penalty and are excluded from recommendations</li>
+            <li><strong>Reach:</strong> Drafting well ahead of ADP (9+ picks early) incurs -5 to -30 penalty</li>
+            <li><strong>Bye Conflict:</strong> Position-aware — penalizes heavily when same-position players share a bye week</li>
         </ul>
 
-        <h3>Hard Rules</h3>
+        <h3>Hard Rules (Minimums First)</h3>
         <ul>
             <li>The AI will <strong>never</strong> recommend a player at a position that has hit its configured maximum</li>
-            <li>K and DST are excluded from recommendations until the draft is 75% complete</li>
+            <li><strong>Fill all minimums first:</strong> Until every position minimum is satisfied (QB, RB, WR, TE, K, DST), the AI only recommends players at positions that still need filling. No depth picks until your starting roster is complete.</li>
+            <li><strong>K/DST suppression:</strong> Even after minimums are met, K and DST are excluded from depth recommendations until at least 15% of each have been drafted league-wide</li>
         </ul>
 
         <h3>Bye Week Intelligence</h3>
         <p>The advisor actively avoids bye week collisions. When a player has a clear bye week (no conflicts with your roster), you'll see:</p>
-        <p style="color: var(--green-light); font-weight: 600;">✅ Bye 6 clear — no roster conflicts</p>
+        <p style="color: #3d8c40; font-weight: 600;">✅ Bye 6 clear — no roster conflicts</p>
         <p>When there's a conflict, especially at the same position:</p>
         <p style="color: var(--red); font-weight: 600;">⚠️ Bye 11 — 1 QB already on same bye</p>
     </section>
@@ -482,19 +481,39 @@
             <li>When it's your turn, the draft pauses and waits for your pick</li>
         </ol>
 
-        <h3>AI Behavior</h3>
-        <p>AI teams don't always pick the #1 recommendation. They use weighted randomization across the top 5 picks:</p>
+        <h3>Tabbed Draft Info</h3>
+        <p>The top of the draft screen features a tabbed card with three sections:</p>
         <ul>
-            <li>#1 pick: 40% chance</li>
-            <li>#2 pick: 25% chance</li>
-            <li>#3 pick: 18% chance</li>
-            <li>#4 pick: 10% chance</li>
-            <li>#5 pick: 7% chance</li>
+            <li><strong>Info</strong> — Shows the team on the clock, league name, current pick/round, and a progress bar</li>
+            <li><strong>Summary</strong> — Positional breakdown showing how many of each position have been drafted (switchable between your team and league-wide)</li>
+            <li><strong>Mock</strong> — Mock draft controls to start/stop the AI and see the current status</li>
         </ul>
-        <p>This creates realistic draft variance — you won't see the same mock draft twice.</p>
+
+        <h3>AI Opponent Behavior</h3>
+        <p>AI opponents select from the top 8 recommendations with weighted randomization:</p>
+        <table>
+            <tr><th>Pick Rank</th><th>Chance</th></tr>
+            <tr><td>#1 (best scored)</td><td>28%</td></tr>
+            <tr><td>#2</td><td>21%</td></tr>
+            <tr><td>#3</td><td>16%</td></tr>
+            <tr><td>#4</td><td>12%</td></tr>
+            <tr><td>#5</td><td>9%</td></tr>
+            <tr><td>#6</td><td>7%</td></tr>
+            <tr><td>#7</td><td>4%</td></tr>
+            <tr><td>#8</td><td>3%</td></tr>
+        </table>
+        <p>This creates realistic draft variance — opponents sometimes reach for players, just like real drafters. Each mock draft run plays out differently.</p>
+
+        <h3>Differences from Your AI</h3>
+        <p>AI opponents behave slightly differently from your AI advisor:</p>
+        <ul>
+            <li>They <strong>will draft injured players</strong> — simulating real drafters who take risks</li>
+            <li>They <strong>don't have K/DST suppression</strong> — they can grab a kicker early if the AI scores it well</li>
+            <li>They <strong>don't enforce "fill minimums first"</strong> — they can stack depth before completing their starting roster</li>
+        </ul>
 
         <div class="tip">
-            <strong>Tip:</strong> You can toggle mock draft on/off mid-draft from the settings menu. Turn it off to manually control all teams, or back on to let the AI resume.
+            <strong>Tip:</strong> Run multiple mock drafts from different draft positions to identify which positions dry up at your slot. The variance in AI picks means you'll face different scenarios each time.
         </div>
     </section>
 
@@ -564,16 +583,18 @@
         <h3>Draft Day Strategy</h3>
         <ul>
             <li>Use the 🤖 AI tab as your primary guide — it balances value, need, and scarcity automatically</li>
+            <li>The AI fills all starting roster minimums before recommending depth picks — trust the process</li>
             <li>Check the bye week indicator before drafting. Stacking too many players on the same bye leaves you thin for that week</li>
             <li>Tag your sleepers as favorites before the draft starts so you can quickly find them with the ⭐ filter</li>
-            <li>Don't reach for K/DST early — the AI suppresses them until round 12+ for good reason</li>
+            <li>Look for 🔥 TD producer and 🏃 Yardage producer tags in AI reasons — these players have proven production</li>
         </ul>
 
         <h3>Mock Draft Practice</h3>
         <ul>
             <li>Run multiple mock drafts from different draft positions to practice various strategies</li>
-            <li>The AI uses weighted randomization, so each mock plays out differently</li>
+            <li>AI opponents pick from 8 candidates with weighted randomization, so each mock plays out differently</li>
             <li>Pay attention to which positions dry up at your draft slot — this reveals your scarcity windows</li>
+            <li>Opponents don't enforce minimums-first like your AI does — they may grab K/DST early, giving you an edge</li>
         </ul>
 
         <h3>Understanding VBD</h3>
