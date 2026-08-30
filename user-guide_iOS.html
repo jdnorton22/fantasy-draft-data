@@ -3,42 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FFL Draft Day Picker — User Guide</title>
+    <title>FFL Draft Day Picker - iOS User Guide</title>
     <style>
         :root {
-            --bg: #f8f9fa;
-            --card-bg: #ffffff;
-            --text: #1a1a1a;
-            --text-secondary: #555;
-            --border: #e0e0e0;
-            --accent: #2563eb;
-            --purple: #9C27B0;
-            --gold: #AD9303;
-            --blue: #1A78C2;
-            --pink: #BA0D32;
-            --red: #C4352B;
-            --orange: #CC7A00;
-            --green: #3D8C40;
+            --bg: #0f1115;
+            --card-bg: #1a1d24;
+            --card-bg-alt: #21252e;
+            --text: #e8eaed;
+            --text-secondary: #a0a6b0;
+            --border: #2c313b;
+            --accent: #4f9dff;
+            --accent-dim: #2d4a6b;
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: var(--bg); color: var(--text); line-height: 1.6;
+            background: var(--bg); color: var(--text); line-height: 1.65;
         }
         header {
-            background: linear-gradient(135deg, #000000, #1e1e1e);
-            color: white; padding: 2.5rem 1.5rem; text-align: center;
+            background: linear-gradient(135deg, #0a0c10, #1c2129);
+            color: var(--text); padding: 2.5rem 1.5rem; text-align: center;
+            border-bottom: 1px solid var(--border);
         }
-        header h1 { font-size: 2rem; margin-bottom: 0.3rem; }
-        header p { font-size: 1rem; opacity: 0.85; }
-        .container { max-width: 900px; margin: 0 auto; padding: 1.5rem; }
+        header h1 { font-size: 1.9rem; margin-bottom: 0.35rem; font-weight: 700; }
+        header p { font-size: 1rem; color: var(--text-secondary); }
+        header .app-icon-link { display: inline-block; margin-bottom: 1rem; }
+        header .app-icon-link img {
+            width: 96px; height: 96px; border-radius: 20px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+            transition: transform 0.15s ease;
+        }
+        header .app-icon-link img:hover { transform: scale(1.04); }
+        .container { max-width: 880px; margin: 0 auto; padding: 1.5rem; }
         nav.toc {
             background: var(--card-bg); border: 1px solid var(--border);
             border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 2rem;
         }
-        nav.toc h2 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--accent); }
+        nav.toc h2 { font-size: 1.05rem; margin-bottom: 0.6rem; color: var(--accent); }
         nav.toc ol { padding-left: 1.25rem; }
-        nav.toc li { margin-bottom: 0.3rem; }
+        nav.toc li { margin-bottom: 0.35rem; }
         nav.toc a { color: var(--accent); text-decoration: none; font-weight: 500; }
         nav.toc a:hover { text-decoration: underline; }
         section {
@@ -46,389 +50,221 @@
             border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem;
         }
         section h2 {
-            font-size: 1.4rem; color: var(--text); margin-bottom: 0.75rem;
+            font-size: 1.35rem; color: var(--text); margin-bottom: 0.75rem;
             padding-bottom: 0.4rem; border-bottom: 2px solid var(--accent);
         }
-        section h3 { font-size: 1.1rem; margin-top: 1.25rem; margin-bottom: 0.4rem; }
+        section h3 { font-size: 1.05rem; margin-top: 1.25rem; margin-bottom: 0.4rem; color: var(--text); }
         p { margin-bottom: 0.6rem; color: var(--text-secondary); }
         ul, ol { margin-bottom: 0.75rem; padding-left: 1.5rem; color: var(--text-secondary); }
-        li { margin-bottom: 0.3rem; }
+        li { margin-bottom: 0.35rem; }
+        strong { color: var(--text); }
         table { width: 100%; border-collapse: collapse; margin: 0.75rem 0; font-size: 0.9rem; }
-        th, td { padding: 0.5rem 0.6rem; text-align: left; border-bottom: 1px solid var(--border); }
-        th { background: #f5f5f5; font-weight: 600; }
-        .badge {
-            display: inline-block; padding: 0.15rem 0.5rem; border-radius: 5px;
-            font-size: 0.75rem; font-weight: 700; color: white; vertical-align: middle;
+        th, td { padding: 0.55rem 0.65rem; text-align: left; border-bottom: 1px solid var(--border); color: var(--text-secondary); }
+        th { background: var(--card-bg-alt); font-weight: 600; color: var(--text); }
+        .note {
+            background: var(--accent-dim); border-left: 4px solid var(--accent);
+            padding: 0.65rem 1rem; border-radius: 0 8px 8px 0; margin: 0.85rem 0; font-size: 0.9rem;
+            color: var(--text);
         }
-        .badge-qb { background: var(--gold); }
-        .badge-rb { background: var(--green); }
-        .badge-wr { background: var(--pink); }
-        .badge-te { background: var(--red); }
-        .badge-k { background: var(--blue); }
-        .badge-dst { background: var(--orange); }
-        .badge-ai { background: var(--purple); }
-        .tip {
-            background: #f3e8ff; border-left: 4px solid var(--purple);
-            padding: 0.6rem 1rem; border-radius: 0 8px 8px 0; margin: 0.75rem 0; font-size: 0.88rem;
-        }
-        .tip strong { color: var(--purple); }
-        .warning {
-            background: #fff3e0; border-left: 4px solid var(--orange);
-            padding: 0.6rem 1rem; border-radius: 0 8px 8px 0; margin: 0.75rem 0; font-size: 0.88rem;
-        }
-        .warning strong { color: #e65100; }
+        .note strong { color: #cfe2ff; }
         footer { text-align: center; padding: 2rem; color: var(--text-secondary); font-size: 0.8rem; }
-        @media (max-width: 600px) { header h1 { font-size: 1.6rem; } section { padding: 1rem; } }
+        @media (max-width: 600px) { header h1 { font-size: 1.55rem; } section { padding: 1rem; } }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>🏈 FFL Draft Day Picker </h1>
-    <p>Your complete manual draft companion for Fantasy Football</p>
+    <a class="app-icon-link" href="https://FFLDraftDayPicker.com" target="_blank" rel="noopener">
+        <img src="FootballIcon1024.png" alt="FFL Draft Day Picker - visit FFLDraftDayPicker.com">
+    </a>
+    <h1>FFL Draft Day Picker</h1>
+    <p>iOS User Guide</p>
 </header>
 
 <div class="container">
     <nav class="toc">
         <h2>Contents</h2>
         <ol>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#setup">Draft Setup</a></li>
-            <li><a href="#main-screen">Main Draft Screen</a></li>
-            <li><a href="#ai-advisor">AI Draft Advisor</a></li>
+            <li><a href="#getting-started">Getting Started</a></li>
+            <li><a href="#setup">Setting Up a Draft</a></li>
+            <li><a href="#main-screen">The Main Draft Screen</a></li>
+            <li><a href="#making-picks">Making Picks</a></li>
+            <li><a href="#best-available">Best Available and the AI Advisor</a></li>
             <li><a href="#mock-draft">Mock Draft Mode</a></li>
-            <li><a href="#player-search">Player Search</a></li>
-            <li><a href="#trade-analyzer">Trade Analyzer</a></li>
-            <li><a href="#saved-drafts">Saved Drafts &amp; Report Cards</a></li>
             <li><a href="#menu">Menu Reference</a></li>
-            <li><a href="#tips">Pro Tips</a></li>
+            <li><a href="#settings">Settings</a></li>
         </ol>
     </nav>
 
-    <section id="overview">
-        <h2>1. Overview</h2>
-        <p>FFL Draft Day Picker Pro is a fully-featured manual draft tracker for American Fantasy Football. Use it live during your draft to record picks, get AI recommendations, track positional scarcity, and analyze every team's roster.</p>
-        <p>Key features:</p>
-        <ul>
-            <li>AI-powered pick recommendations with VBD, scarcity, and production analysis</li>
-            <li>Mock drafts against AI opponents with realistic variance</li>
-            <li>Player Search with AI Draft Advice for pre-draft research</li>
-            <li>Trade Analyzer comparing 8 dimensions with Pros/Cons verdicts</li>
-            <li>Saved Drafts with Team Report Cards and curved grading</li>
-            <li>Two color schemes (Standard Live / Blue-Grey)</li>
-            <li>QB Flex Mode for superflex leagues</li>
-            <li>Full Draft Board grid with serpentine/linear support</li>
-        </ul>
+    <section id="getting-started">
+        <h2>1. Getting Started</h2>
+        <p>FFL Draft Day Picker helps you run and track a fantasy football draft. Use it live during your league draft to record picks and get recommendations, or run practice mock drafts against AI opponents.</p>
+        <p>When you open the app for the first time, you land on the Draft Setup screen. Once a draft is configured and started, the app opens directly to your active draft each time until you reset it.</p>
+        <p>Player rankings, ADP, injury status, and headshots come from ESPN data and are refreshed on our servers. You can refresh the data before a draft, then work entirely offline during the draft itself.</p>
     </section>
 
     <section id="setup">
-        <h2>2. Draft Setup</h2>
-        <p>Configure your league before starting the draft.</p>
+        <h2>2. Setting Up a Draft</h2>
+        <p>On the setup screen, configure your league, then tap <strong>Start Draft</strong>.</p>
+
         <h3>League Settings</h3>
         <ul>
-            <li><strong>League Name</strong> — identifies your draft in exports and saved boards</li>
-            <li><strong>Teams</strong> — set count (2–20) and name each team</li>
-            <li><strong>Rounds</strong> — how many rounds to draft (default: 16)</li>
-            <li><strong>Draft Type</strong> — Snake (order reverses each round) or Linear (same order every round)</li>
-            <li><strong>Linear Rounds First</strong> — for keeper leagues: draft linearly for N rounds, then switch to snake</li>
+            <li><strong>League Name</strong> - names your draft in exports and saved boards.</li>
+            <li><strong>Teams</strong> - set the number of teams (2 to 20) and name each one.</li>
+            <li><strong>Rounds</strong> - the number of rounds to draft.</li>
+            <li><strong>Draft Type</strong> - Snake (order reverses each round) or Linear (same order every round).</li>
+            <li><strong>Linear Rounds First</strong> - for keeper leagues, draft linearly for a set number of rounds, then switch to snake.</li>
         </ul>
+
         <h3>Position Requirements</h3>
-        <p>Set min/max roster slots per position. The AI uses these to determine when minimums are filled and what to recommend next.</p>
+        <p>Set the minimum and maximum roster slots for each position. The app uses these to decide when your starting requirements are met and what to suggest next.</p>
         <table>
             <tr><th>Position</th><th>Default Min</th><th>Default Max</th></tr>
-            <tr><td><span class="badge badge-qb">QB</span></td><td>1</td><td>None</td></tr>
-            <tr><td><span class="badge badge-rb">RB</span></td><td>2</td><td>None</td></tr>
-            <tr><td><span class="badge badge-wr">WR</span></td><td>2</td><td>None</td></tr>
-            <tr><td><span class="badge badge-te">TE</span></td><td>1</td><td>None</td></tr>
-            <tr><td><span class="badge badge-k">K</span></td><td>1</td><td>1</td></tr>
-            <tr><td><span class="badge badge-dst">DST</span></td><td>1</td><td>1</td></tr>
+            <tr><td>QB</td><td>2</td><td>2</td></tr>
+            <tr><td>RB</td><td>3</td><td>None</td></tr>
+            <tr><td>WR</td><td>3</td><td>None</td></tr>
+            <tr><td>TE</td><td>1</td><td>2</td></tr>
+            <tr><td>K</td><td>1</td><td>1</td></tr>
+            <tr><td>DST</td><td>1</td><td>1</td></tr>
         </table>
-        <h3>QB Flex Mode</h3>
-        <p>Toggle on for superflex/2QB premium leagues. The AI will prioritize QBs 16 picks ahead in recommendations, reflecting their premium value in these formats.</p>
-        <h3>Other Settings</h3>
+
+        <h3>Other Options</h3>
         <ul>
-            <li><strong>Player Sort Order</strong> — ESPN Rank, ADP, or VBD</li>
-            <li><strong>Draft Grading</strong> — Curved (relative to other teams) or Raw</li>
-            <li><strong>Stopwatch</strong> — tracks pick time (count-up, no auto-draft)</li>
-            <li><strong>My Team</strong> — select your team for personalized recommendations</li>
-            <li><strong>Mock Draft Mode</strong> — AI opponents auto-pick when enabled</li>
+            <li><strong>Scoring Format</strong> - Standard, Half PPR, or Full PPR.</li>
+            <li><strong>Player Sort Order</strong> - Rank, ADP, or VBD (Value Based Drafting).</li>
+            <li><strong>Pick Timer</strong> - an optional per-pick stopwatch.</li>
+            <li><strong>QB Premium Mode</strong> - for Superflex or 2QB leagues; boosts quarterback value in recommendations.</li>
+            <li><strong>My Team</strong> - select which team is yours so the app can highlight your picks and tailor advice.</li>
+            <li><strong>Mock Draft Mode</strong> - when your team is selected, enable this to have the other teams auto-draft.</li>
         </ul>
+
+        <div class="note"><strong>Note:</strong> Most league settings are locked once the first pick is made. Set them before you start.</div>
     </section>
 
     <section id="main-screen">
-        <h2>3. Main Draft Screen</h2>
-        <h3>Tabbed Info Card (Pick · Summary · Draft)</h3>
-        <p>The card at the top of the screen has three tabs:</p>
+        <h2>3. The Main Draft Screen</h2>
+        <p>The draft screen is organized top to bottom.</p>
+
+        <h3>Info Card (Pick, Roster, Draft tabs)</h3>
+        <p>The card at the top has three tabs:</p>
         <ul>
-            <li><strong>Pick</strong> — who's on the clock, current pick/round, progress bar</li>
-            <li><strong>Summary</strong> — position counts with a 3-way toggle: My Team | On Clock | League. Tap the team icon to open the Draft Board grid.</li>
-            <li><strong>Draft</strong> — Mock draft controls, My Team selector (changeable mid-draft), and Color Scheme toggle (Standard Live / Blue-Grey)</li>
+            <li><strong>Pick</strong> - shows who is on the clock, the current round and pick, and overall progress.</li>
+            <li><strong>Roster</strong> - shows position counts with a toggle between your team, the team on the clock, and the whole league. Tap the team icon to open the full Draft Board.</li>
+            <li><strong>Draft</strong> - mock draft controls, the My Team selector (changeable mid-draft), and the color scheme options.</li>
         </ul>
+
+        <h3>Pick Ticker</h3>
+        <p>A horizontal strip below the info card shows the current pick and upcoming picks, so you can see who drafts next and plan ahead.</p>
+
         <h3>Best Available Card</h3>
-        <p>Shows the top recommended player with filter tabs:</p>
-        <table>
-            <tr><th>Tab</th><th>Shows</th></tr>
-            <tr><td><span class="badge badge-ai">🤖</span></td><td>AI's top recommendation with scoring reasons</td></tr>
-            <tr><td>All</td><td>Highest-ranked healthy available player</td></tr>
-            <tr><td>⭐</td><td>Next available favorite</td></tr>
-            <tr><td><span class="badge badge-qb">QB</span> <span class="badge badge-rb">RB</span> <span class="badge badge-wr">WR</span> <span class="badge badge-te">TE</span> <span class="badge badge-k">K</span> <span class="badge badge-dst">DST</span></td><td>Best available at that position</td></tr>
-        </table>
-        <p>Card shows: player headshot, name, team, rank, ADP, VBD, bye week, injury status, last-year stats, and up to 4 AI insight lines.</p>
+        <p>The central card recommends who to draft. It has filter tabs for the AI recommendation, Overall, Favorites, and each position. See the next section for details.</p>
+
         <h3>Draft Controls</h3>
         <ul>
-            <li><strong>View Board</strong> — opens the full player list to search, filter, and draft</li>
-            <li><strong>Reset Draft</strong> — clears all picks (keeps teams and config)</li>
+            <li><strong>View Board</strong> - opens the full player list where you can search, filter, and draft any player.</li>
+            <li><strong>Reset Draft</strong> - clears all picks while keeping your teams and settings.</li>
         </ul>
+
         <h3>Recent Picks</h3>
-        <p>Color-coded cards showing the latest picks with pick number, ADP, position rank, player name, and NFL team. Tap any card for the player detail. Below: View All, Analytics, and Undo buttons.</p>
-        <h3>Making a Pick</h3>
-        <ol>
-            <li>The Pick tab shows who's on the clock</li>
-            <li>Use the Best Available card or tap View Board</li>
-            <li>Confirm the pick when prompted</li>
-            <li>The draft advances automatically (snake order reverses each round)</li>
-        </ol>
-        <div class="tip"><strong>Tip:</strong> Tap Undo to reverse the last pick if there's a mistake.</div>
+        <p>A scrolling row of the most recent picks, color-coded by position. Tap any card to view that player's details. Below the row are the View All, Analytics, and Undo buttons.</p>
     </section>
 
-    <section id="ai-advisor">
-        <h2>4. AI Draft Advisor</h2>
-        <p>The AI scores every available player using a weighted composite of multiple factors.</p>
-        <h3>Scoring Weights</h3>
+    <section id="making-picks">
+        <h2>4. Making Picks</h2>
+        <ol>
+            <li>Check the Pick tab to confirm who is on the clock.</li>
+            <li>Draft directly from the Best Available card, or tap <strong>View Board</strong> to choose any player.</li>
+            <li>Confirm the pick when prompted.</li>
+            <li>The draft advances automatically. In a snake draft, the order reverses each round.</li>
+        </ol>
+        <div class="note"><strong>Note:</strong> Made a mistake? Tap <strong>Undo</strong> under the Recent Picks row to reverse the last pick.</div>
+    </section>
+
+    <section id="best-available">
+        <h2>5. Best Available and the AI Advisor</h2>
+        <p>The Best Available card has a row of filter tabs:</p>
+        <ul>
+            <li><strong>AI</strong> - the recommendation engine's top suggestion for your roster, with the reasons behind it.</li>
+            <li><strong>Overall</strong> - the highest-ranked available player.</li>
+            <li><strong>Favorites</strong> - the next available player you have tagged as a favorite.</li>
+            <li><strong>QB, RB, WR, TE, K, DST</strong> - the best available player at that position.</li>
+        </ul>
+
+        <h3>How the AI Picks</h3>
+        <p>The recommendation engine scores every available player using five weighted factors, then adds production bonuses and injury penalties.</p>
         <table>
-            <tr><th>Factor</th><th>Weight</th><th>What It Measures</th></tr>
-            <tr><td>Value</td><td>35%</td><td>ADP vs current pick number</td></tr>
-            <tr><td>Scarcity</td><td>22%</td><td>Remaining startable players at position</td></tr>
-            <tr><td>Team Need</td><td>22%</td><td>Roster gaps vs position requirements</td></tr>
-            <tr><td>Bye Week</td><td>11%</td><td>Position-aware schedule conflict detection</td></tr>
-            <tr><td>Elite Tier</td><td>10%</td><td>Top positional talent bonus (top 3/5/10)</td></tr>
+            <tr><th>Factor</th><th>What It Measures</th></tr>
+            <tr><td>Value</td><td>The player's ADP compared to the current pick number.</td></tr>
+            <tr><td>Scarcity</td><td>How many startable players remain at the position.</td></tr>
+            <tr><td>Team Need</td><td>Gaps in your roster versus your position requirements.</td></tr>
+            <tr><td>Bye Week</td><td>Schedule conflicts with players you already drafted.</td></tr>
+            <tr><td>Elite Tier</td><td>A bonus for top-tier talent at a position.</td></tr>
         </table>
-        <h3>Bonuses</h3>
-        <ul>
-            <li><strong>🔥 TD Production:</strong> RB/WR/TE with 6–9 TDs = +3, 10–14 = +5, 15+ = +8</li>
-            <li><strong>🏃 Yardage:</strong> RB/WR/TE with 1000–1499 yards = +3, 1500+ = +5</li>
-            <li><strong>⚡ QB Flex:</strong> When enabled, QBs get +8 flat bonus and value calculated 16 picks ahead</li>
-        </ul>
-        <h3>Penalties</h3>
-        <ul>
-            <li><strong>Injury:</strong> OUT/IR/DOUBTFUL players excluded from recommendations entirely</li>
-            <li><strong>Questionable:</strong> Excluded from all Best Available tabs</li>
-            <li><strong>Reach:</strong> 9-15 picks early = -5, 16-25 = -12, 26-40 = -20, 40+ = -30</li>
-        </ul>
-        <h3>Hard Rules</h3>
-        <ul>
-            <li><strong>Fill minimums first:</strong> Until every position minimum is met (QB, RB, WR, TE, K, DST), only positions that still need filling are recommended</li>
-            <li><strong>Position max:</strong> Never recommends exceeding a position cap</li>
-            <li><strong>K/DST suppression:</strong> Excluded from depth picks until 15% of each have been drafted league-wide</li>
-        </ul>
-        <div class="tip"><strong>Tip:</strong> Look for 🔥 TD producer and 🏃 Yardage producer tags in AI reasons — these players have proven production floors.</div>
+        <p>The engine also rewards proven touchdown and yardage production, and it avoids recommending injured players. It fills your starting requirements before suggesting depth, never exceeds a position maximum, and holds off on kickers and defenses until late in the draft.</p>
+
+        <div class="note"><strong>Note:</strong> Every player is scored with VBD, which measures how much better a player is than a replacement-level starter at the same position. You can sort your board by Rank, ADP, or VBD.</div>
     </section>
 
     <section id="mock-draft">
-        <h2>5. Mock Draft Mode</h2>
+        <h2>6. Mock Draft Mode</h2>
         <p>Practice your strategy against AI opponents.</p>
-        <h3>How It Works</h3>
         <ol>
-            <li>Select your team in the Draft tab</li>
-            <li>Toggle Mock on</li>
-            <li>AI opponents auto-pick; when it's your turn, the draft pauses</li>
-            <li>Make your pick manually, then AI resumes</li>
+            <li>Select your team on the setup screen or the Draft tab.</li>
+            <li>Turn on Mock Draft Mode.</li>
+            <li>The other teams draft automatically. When it is your turn, the draft pauses.</li>
+            <li>Make your pick, and the AI opponents resume.</li>
         </ol>
-        <h3>AI Opponent Behavior</h3>
-        <p>Opponents select from the top 8 recommendations with weighted randomization:</p>
-        <table>
-            <tr><th>Pick Rank</th><th>Chance</th></tr>
-            <tr><td>#1</td><td>28%</td></tr>
-            <tr><td>#2</td><td>21%</td></tr>
-            <tr><td>#3</td><td>16%</td></tr>
-            <tr><td>#4</td><td>12%</td></tr>
-            <tr><td>#5</td><td>9%</td></tr>
-            <tr><td>#6</td><td>7%</td></tr>
-            <tr><td>#7</td><td>4%</td></tr>
-            <tr><td>#8</td><td>3%</td></tr>
-        </table>
-        <h3>Opponent Differences</h3>
+        <h3>Difficulty Levels</h3>
+        <p>Choose how tightly opponents draft relative to ADP:</p>
         <ul>
-            <li>Will draft injured/questionable players</li>
-            <li>No K/DST suppression — can grab a kicker early</li>
-            <li>Don't enforce "fill minimums first" — can stack depth</li>
+            <li><strong>Normal</strong> - opponents reach often, so more value falls to you.</li>
+            <li><strong>Harder</strong> - realistic opponents that mostly draft by the book with occasional reaches.</li>
+            <li><strong>Tough</strong> - opponents rarely miss and almost always take the best available.</li>
         </ul>
-        <div class="tip"><strong>Tip:</strong> Each mock draft plays out differently due to the randomization. Run multiple from different slots to identify scarcity windows.</div>
-    </section>
-
-    <section id="player-search">
-        <h2>6. Player Search</h2>
-        <p>Browse all players from the menu — including those already drafted.</p>
-        <h3>Features</h3>
-        <ul>
-            <li>Search by name, position, or NFL team</li>
-            <li>Position filter tabs (All, QB, RB, WR, TE, K, DST)</li>
-            <li>Sort by ESPN Rank or ADP (segmented toggle)</li>
-            <li>Player count indicator</li>
-            <li>Drafted players shown at 50% opacity</li>
-        </ul>
-        <h3>AI Draft Advice</h3>
-        <p>Tap any player to see their detail card with AI Draft Advice — shown automatically when viewing from Player Search:</p>
-        <ul>
-            <li><strong>Position Tier:</strong> Elite / High-End / Mid-Range / Low-End / Bench — with thresholds tailored to your league size and position requirements</li>
-            <li><strong>Draft Window:</strong> Round estimate based on ADP ÷ team count</li>
-            <li><strong>🔥 TD Production:</strong> Analysis of last-year touchdowns with reliability commentary</li>
-            <li><strong>🏃 Yardage:</strong> Total yards analysis with floor/ceiling guidance</li>
-            <li><strong>Value Over Replacement:</strong> Dynamic baseline from league config (min starters × teams)</li>
-            <li><strong>Injury Risk:</strong> Discount guidance for injured/questionable players</li>
-        </ul>
-        <h3>View On Board</h3>
-        <p>Undrafted players (when draft is active) show a blue "View On Board" button. Tap to jump directly to the draft board with that player's name pre-searched — ready to draft.</p>
-    </section>
-
-    <section id="trade-analyzer">
-        <h2>7. Trade Analyzer</h2>
-        <p>Compare trade scenarios across 8 dimensions with AI-generated Pros and Cons.</p>
-        <h3>How to Use</h3>
-        <ol>
-            <li>Open Trade Analyzer from the menu</li>
-            <li>Add players to "Giving Up" (your side) and "Receiving"</li>
-            <li>The comparison chart updates automatically</li>
-            <li>Review the verdict (Good / Even / Bad) with detailed Pros and Cons</li>
-        </ol>
-        <h3>Comparison Dimensions</h3>
-        <table>
-            <tr><th>Metric</th><th>What It Measures</th><th>Better</th></tr>
-            <tr><td>VBD Total</td><td>Combined value over replacement</td><td>Higher</td></tr>
-            <tr><td>Avg ADP</td><td>Average draft position</td><td>Lower</td></tr>
-            <tr><td>Avg Rank</td><td>Average ESPN rank</td><td>Lower</td></tr>
-            <tr><td>Position Value</td><td>Weighted position importance (RB=10, QB=9, TE=8, WR=7, K/DST=2)</td><td>Higher</td></tr>
-            <tr><td>Total TDs</td><td>Combined last-year touchdowns</td><td>Higher</td></tr>
-            <tr><td>Total Yards</td><td>Combined last-year yardage</td><td>Higher</td></tr>
-            <tr><td>Health Risk</td><td>Injured/questionable player count</td><td>Lower</td></tr>
-            <tr><td>Bye Conflicts</td><td>Duplicate bye weeks in the group</td><td>Lower</td></tr>
-        </table>
-        <h3>Verdict Grading</h3>
-        <ul>
-            <li><strong>Good Trade</strong> (green) — you win 6-8 of 8 categories</li>
-            <li><strong>Even Trade</strong> (yellow) — you win 3-5 categories</li>
-            <li><strong>Bad Trade</strong> (red) — you win 0-2 categories</li>
-        </ul>
-        <h3>Saving Trades</h3>
-        <p>Tap Save to store a trade scenario. Names are auto-generated (e.g., "B. Robinson, P. Nacua → J. Gibbs"). Open saved trades with the folder icon. Duplicates are automatically replaced.</p>
-    </section>
-
-    <section id="saved-drafts">
-        <h2>8. Saved Drafts &amp; Report Cards</h2>
-        <h3>Saving a Draft</h3>
-        <p>When a draft completes, confetti drops and you're prompted to save. Options:</p>
-        <ul>
-            <li><strong>Save &amp; Export CSV</strong> — saves the board and opens the share sheet</li>
-            <li><strong>Save Draft</strong> — saves for future reference</li>
-            <li><strong>View Draft Grades</strong> — opens analytics immediately</li>
-        </ul>
-        <h3>Viewing Saved Drafts</h3>
-        <p>Access from menu → Saved Drafts. Each entry shows league name, team/round count, and save date. Tap to open the full Draft Board grid (same interactive board as during the live draft). Swipe to delete individual entries or use "Delete All".</p>
-        <h3>Team Report Cards</h3>
-        <p>From a saved draft's board view, tap the report icon (🔍) to see ranked teams. Each report card includes:</p>
-        <ul>
-            <li><strong>Curved Grade (A+ to F)</strong> — based on composite score relative to all teams</li>
-            <li><strong>Stats Grid</strong> — avg value over ADP, total TDs, total yards, elite picks count</li>
-            <li><strong>Highlights</strong> — best pick (biggest steal) and worst pick (biggest reach)</li>
-            <li><strong>Roster Breakdown</strong> — position counts with min-met indicators</li>
-            <li><strong>VS League Average</strong> — ADP, VBD, TDs, yards compared with green/red color coding</li>
-            <li><strong>Bye Week Calendar</strong> — week-by-week player list with conflict warnings</li>
-            <li><strong>Health Risks</strong> — injured/questionable players drafted</li>
-        </ul>
-        <h3>Grading Formula (Curved)</h3>
-        <p>Teams are ranked by a weighted composite score, then assigned grades by percentile:</p>
-        <table>
-            <tr><th>Factor</th><th>Weight</th></tr>
-            <tr><td>VBD Total</td><td>37.5%</td></tr>
-            <tr><td>ADP Value</td><td>22.5%</td></tr>
-            <tr><td>TD Production</td><td>15%</td></tr>
-            <tr><td>Yardage</td><td>10%</td></tr>
-            <tr><td>Elite Picks</td><td>10%</td></tr>
-            <tr><td>Health</td><td>5%</td></tr>
-        </table>
-        <table>
-            <tr><th>Percentile</th><th>Grade</th></tr>
-            <tr><td>Top 10%</td><td>A+</td></tr>
-            <tr><td>10–25%</td><td>A</td></tr>
-            <tr><td>25–40%</td><td>B+</td></tr>
-            <tr><td>40–55%</td><td>B</td></tr>
-            <tr><td>55–70%</td><td>C+</td></tr>
-            <tr><td>70–80%</td><td>C</td></tr>
-            <tr><td>80–90%</td><td>D</td></tr>
-            <tr><td>Bottom 10%</td><td>F</td></tr>
-        </table>
+        <div class="note"><strong>Note:</strong> Opponents use weighted randomization, so each mock draft plays out differently. Run several from different draft slots to learn where value tends to fall.</div>
     </section>
 
     <section id="menu">
-        <h2>9. Menu Reference</h2>
-        <p>Access the menu via the ••• button in the top left corner.</p>
+        <h2>7. Menu Reference</h2>
+        <p>Open the menu with the three-dots button in the top-left corner of the draft screen.</p>
         <table>
-            <tr><th>Item</th><th>Description</th></tr>
-            <tr><td>Draft</td><td>Return to the main draft screen (dismisses all open sheets)</td></tr>
-            <tr><td>Draft Board</td><td>Full grid view of all picks by team and round</td></tr>
-            <tr><td>Player Search</td><td>Browse/research all players with AI advice</td></tr>
-            <tr><td>Trade Analyzer</td><td>Compare trade scenarios with verdicts</td></tr>
-            <tr><td>My Rankings</td><td>Set custom player rankings</td></tr>
-            <tr><td>Refresh Player Data</td><td>Download latest rankings from server (resets draft)</td></tr>
-            <tr><td>NFL Transactions</td><td>Opens ESPN transactions page</td></tr>
-            <tr><td>Saved Drafts</td><td>View/open/delete completed draft boards</td></tr>
-            <tr><td>Favorites &amp; Busts</td><td>Manage player tags</td></tr>
-            <tr><td>Help &amp; Guide</td><td>Opens this user guide</td></tr>
-            <tr><td>Tutorial</td><td>In-app step-by-step walkthrough</td></tr>
+            <tr><th>Item</th><th>What It Does</th></tr>
+            <tr><td>Draft</td><td>Returns to the main draft screen and closes any open panels.</td></tr>
+            <tr><td>Draft Board</td><td>Opens the full grid of every pick, organized by team and round.</td></tr>
+            <tr><td>Player Search</td><td>Browse and research all players, including those already drafted, with AI draft advice on each player.</td></tr>
+            <tr><td>Trade Analyzer</td><td>Compare two sides of a trade across eight factors and get a verdict.</td></tr>
+            <tr><td>My Rankings</td><td>Set custom rankings to move players up or down your personal board.</td></tr>
+            <tr><td>Refresh Player Data</td><td>Downloads the latest rankings from the server. This resets the current draft.</td></tr>
+            <tr><td>NFL Transactions</td><td>Opens the ESPN transactions page in your browser.</td></tr>
+            <tr><td>Favorites and Busts</td><td>Tag players as favorites or busts to personalize your board.</td></tr>
+            <tr><td>Saved Drafts</td><td>View, reopen, or delete completed draft boards.</td></tr>
+            <tr><td>Draft Trends</td><td>Track your results and score trends across saved drafts.</td></tr>
+            <tr><td>Dark Mode / Light Mode</td><td>Toggles the app's appearance.</td></tr>
+            <tr><td>Help and Guide</td><td>Opens this user guide.</td></tr>
+            <tr><td>Tutorial</td><td>Opens the in-app step-by-step walkthrough.</td></tr>
         </table>
-        <h3>Gear Icon (Top Right)</h3>
-        <p>Opens Draft Settings — editable before first pick: league name, rounds, draft type, stopwatch, sort order, grading mode, QB Flex, position requirements, and team management.</p>
-        <h3>Favorites &amp; Busts</h3>
-        <p>Tag players to personalize your board. Tags cycle: None → ⭐ Favorite → 🔥 Bust → None. Favorites appear in the ⭐ filter tab. Tags persist across sessions and player refreshes.</p>
-        <h3>Custom Rankings</h3>
-        <p>Set a custom rank on any player to move them up or down your personal board. Players with custom ranks show a pencil icon and sort accordingly.</p>
+
+        <h3>Trade Analyzer</h3>
+        <p>Add players to the Giving Up side and the Receiving side. The comparison updates automatically across eight factors: VBD total, average ADP, average rank, position value, total touchdowns, total yards, health risk, and bye-week conflicts. A verdict rates the trade as good, even, or bad, and you can save scenarios to compare offers.</p>
+
+        <h3>Favorites and Busts</h3>
+        <p>Tagging cycles through None, Favorite, and Bust. Favorites appear under the Favorites tab on the Best Available card. Tags carry over between sessions and data refreshes.</p>
+
+        <h3>Saved Drafts and Report Cards</h3>
+        <p>When a draft finishes, you are prompted to save it. From a saved draft's board you can open Team Report Cards, which give each team a curved letter grade along with roster breakdowns, best and worst picks, and comparisons to the league average.</p>
     </section>
 
-    <section id="tips">
-        <h2>10. Pro Tips</h2>
-        <h3>Draft Day Strategy</h3>
-        <ul>
-            <li>Use the 🤖 AI tab as your primary guide — it balances value, need, and scarcity automatically</li>
-            <li>The AI fills all starting minimums before recommending depth — trust the process</li>
-            <li>Watch for 🔥 TD and 🏃 Yardage tags — proven production beats projections</li>
-            <li>Check the Summary tab (My Team) to track your roster balance in real-time</li>
-            <li>Tag sleepers as ⭐ favorites before the draft for quick access via the star filter</li>
-        </ul>
-        <h3>Mock Draft Practice</h3>
-        <ul>
-            <li>Run multiple mocks from different draft positions to find your scarcity windows</li>
-            <li>AI opponents use weighted randomization — each mock plays out differently</li>
-            <li>Opponents don't enforce minimums-first, so you'll see K/DST taken early sometimes</li>
-        </ul>
-        <h3>Understanding VBD</h3>
-        <ul>
-            <li>VBD = baseline overall rank − player overall rank</li>
-            <li>Baseline = the Nth player at a position (N = min starters × team count)</li>
-            <li>Higher VBD = bigger advantage over replacement-level</li>
-            <li>VBD recalculates when you change position requirements or team count</li>
-        </ul>
-        <h3>Trade Analyzer Tips</h3>
-        <ul>
-            <li>Add players to both sides and review all 8 dimensions — not just one metric</li>
-            <li>The Pros/Cons section calls out elite talent being gained or lost by name</li>
-            <li>Save scenarios to compare different trade offers side by side</li>
-        </ul>
-        <h3>Position Colors</h3>
-        <p>
-            <span class="badge badge-qb">QB</span>
-            <span class="badge badge-rb">RB</span>
-            <span class="badge badge-wr">WR</span>
-            <span class="badge badge-te">TE</span>
-            <span class="badge badge-k">K</span>
-            <span class="badge badge-dst">DST</span>
-        </p>
-        <p>Switch between Standard Live and Blue/Grey color schemes from the Draft tab.</p>
+    <section id="settings">
+        <h2>8. Settings</h2>
+        <p>Tap the gear icon in the top-right corner to open Draft Settings. Before the first pick, you can adjust the league name, rounds, draft type, pick timer, sort order, grading mode, QB Premium Mode, position requirements, and team management.</p>
+        <p>You can also change which team is yours at any time from the Draft tab, and switch the color scheme there as well.</p>
+        <div class="note"><strong>Note:</strong> Your draft is saved automatically as you go, so you can leave the app and return to the same board.</div>
     </section>
 
 </div>
 
 <footer>
-    <p>FFL Draft Day Picker Pro &copy; 2026 — Built for fantasy football enthusiasts</p>
+    <p>FFL Draft Day Picker &copy; 2026</p>
 </footer>
 
 </body>
