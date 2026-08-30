@@ -394,29 +394,35 @@
             padding: 6px 12px; border-radius: 4px; background: rgba(255, 179, 0, 0.06);
         }
 
-        /* Carousel */
-        .carousel-wrapper { position: relative; display: flex; align-items: center; justify-content: center; max-width: 900px; margin: 0 auto; }
-        .carousel-viewport { overflow: hidden; width: 100%; border-radius: 12px; }
-        .carousel-track { display: flex; transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1); }
-        .carousel-slide { min-width: 33.333%; padding: 0 8px; text-align: center; }
-        .carousel-slide img {
-            width: 100%; max-width: 240px; border-radius: 14px;
+        /* Screenshots gallery */
+        .shots-tabs { display: flex; justify-content: center; gap: 8px; margin-bottom: 32px; padding: 6px; background: var(--surface); border-radius: 999px; border: 1px solid var(--border); width: fit-content; max-width: 100%; margin-left: auto; margin-right: auto; }
+        .shots-tab-btn {
+            padding: 10px 22px; border: 1px solid transparent; border-radius: 999px;
+            background: transparent; color: #999; font-size: 0.9em; font-weight: 600;
+            cursor: pointer; transition: color 0.2s, background 0.2s, border-color 0.2s, box-shadow 0.2s;
+        }
+        .shots-tab-btn:hover { color: #ddd; background: rgba(255, 255, 255, 0.04); }
+        .shots-tab-btn.active {
+            background: linear-gradient(180deg, var(--green-dim) 0%, #1B5E20 100%);
+            color: #fff; border-color: rgba(76, 175, 80, 0.4);
+            box-shadow: 0 2px 12px rgba(46, 125, 50, 0.35);
+        }
+        .shots-panel { display: none; animation: fadeIn 0.3s ease; }
+        .shots-panel.active { display: grid; }
+        .shots-panel {
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px; justify-items: center; max-width: 900px; margin: 0 auto;
+        }
+        .shot img {
+            width: 100%; max-width: 240px; border-radius: 16px;
             border: 1px solid var(--border);
             box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
             transition: transform 0.3s, box-shadow 0.3s;
         }
-        .carousel-slide img:hover {
+        .shot img:hover {
             transform: scale(1.03) translateY(-4px);
             box-shadow: 0 20px 48px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(76, 175, 80, 0.15);
         }
-        .carousel-slide p { margin-top: 10px; color: #666; font-size: 0.85em; }
-        .carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); width: 40px; height: 40px; border-radius: 50%; border: 1px solid #222; background: #111; color: #ccc; font-size: 1.4em; cursor: pointer; z-index: 10; display: flex; align-items: center; justify-content: center; transition: border-color 0.2s; }
-        .carousel-btn:hover { border-color: var(--green); }
-        .carousel-prev { left: -20px; }
-        .carousel-next { right: -20px; }
-        .carousel-dots { display: flex; justify-content: center; gap: 6px; margin-top: 16px; }
-        .carousel-dot { width: 8px; height: 8px; border-radius: 50%; background: #222; cursor: pointer; transition: background 0.3s; }
-        .carousel-dot.active { background: var(--green); }
 
         /* FAQ */
         .faq-item { border-bottom: 1px solid #1a1a1a; cursor: pointer; }
@@ -447,7 +453,6 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            .carousel-slide { min-width: 50%; }
             .grid { grid-template-columns: 1fr; }
             .stat { border-right: none; border-bottom: 1px solid var(--border); flex: 1 1 50%; }
             .stat:nth-last-child(-n+2) { border-bottom: none; }
@@ -458,9 +463,6 @@
         }
         @media (max-width: 480px) {
             .draft-board-strip { display: none; }
-            .carousel-slide { min-width: 80%; }
-            .carousel-prev { left: 4px; }
-            .carousel-next { right: 4px; }
         }
     </style>
 </head>
@@ -517,7 +519,7 @@
     </div>
   
     <p class="hero-reddit"><a href="https://www.reddit.com/r/FFLDraftDayPickerApp/">Join us on Reddit — r/FFLDraftDayPickerApp</a></p>
-    <p class="meta">Android &amp; iOS &bull; Free &bull; Ad-free &bull; No account required &bull; v4.704</p>
+    <p class="meta">Android &amp; iOS &bull; Free &bull; Ad-free &bull; No account required &bull; v4.788</p>
 
     <div class="countdown-board">
         <p class="countdown-label">Kickoff Countdown</p>
@@ -624,27 +626,31 @@
 <section class="reveal" style="overflow: hidden;">
     <h2>See It in Action</h2>
     <div class="divider"></div>
-    <div class="carousel-wrapper">
-        <button class="carousel-btn carousel-prev" onclick="carouselMove(-1)" aria-label="Previous">&#8249;</button>
-        <div class="carousel-viewport">
-            <div class="carousel-track" id="carouselTrack">
-                <div class="carousel-slide"><img src="sshot_1.png" alt="iOS Draft Advisor" /><p>iOS — Draft Advisor</p></div>
-                <div class="carousel-slide"><img src="sshot_2.png" alt="iOS Player Roster" /><p>iOS — Player Roster</p></div>
-                <div class="carousel-slide"><img src="sshot_3.png" alt="iOS Player Details" /><p>iOS — Player Details</p></div>
-                <div class="carousel-slide"><img src="sshot_4.png" alt="iOS AI Advisor" /><p>iOS — AI Advisor</p></div>
-                <div class="carousel-slide"><img src="sshot_5.png" alt="iOS Draft History" /><p>iOS — Draft History</p></div>
-                <div class="carousel-slide"><img src="sshot_6.png" alt="iOS Report Cards" /><p>iOS — Report Cards</p></div>
-                <div class="carousel-slide"><img src="sshot1b.png" alt="Android Draft Advisor" /><p>Android — Draft Advisor</p></div>
-                <div class="carousel-slide"><img src="sshot2b.png" alt="Android Player Roster" /><p>Android — Player Roster</p></div>
-                <div class="carousel-slide"><img src="sshot3b.png" alt="Android Player Details" /><p>Android — Player Details</p></div>
-                <div class="carousel-slide"><img src="sshot4b.png" alt="Android Team Roster" /><p>Android — Team Roster</p></div>
-                <div class="carousel-slide"><img src="sshot5b.png" alt="Android Analytics" /><p>Android — Analytics</p></div>
-                <div class="carousel-slide"><img src="sshot6b.png" alt="Android Report Cards" /><p>Android — Report Cards</p></div>
-            </div>
-        </div>
-        <button class="carousel-btn carousel-next" onclick="carouselMove(1)" aria-label="Next">&#8250;</button>
+
+    <div class="shots-tabs">
+        <button class="shots-tab-btn active" onclick="switchShots(event, 'shots-ios')">iOS</button>
+        <button class="shots-tab-btn" onclick="switchShots(event, 'shots-android')">Android</button>
     </div>
-    <div class="carousel-dots" id="carouselDots"></div>
+
+    <!-- iOS -->
+    <div class="shots-panel active" id="shots-ios">
+        <div class="shot"><img src="screenshots/apple/ios-1.png" alt="FFL Draft Day Picker on iOS — screen 1" loading="lazy" /></div>
+        <div class="shot"><img src="screenshots/apple/ios-2.png" alt="FFL Draft Day Picker on iOS — screen 2" loading="lazy" /></div>
+        <div class="shot"><img src="screenshots/apple/ios-3.png" alt="FFL Draft Day Picker on iOS — screen 3" loading="lazy" /></div>
+        <div class="shot"><img src="screenshots/apple/ios-4.png" alt="FFL Draft Day Picker on iOS — screen 4" loading="lazy" /></div>
+        <div class="shot"><img src="screenshots/apple/ios-5.png" alt="FFL Draft Day Picker on iOS — screen 5" loading="lazy" /></div>
+    </div>
+
+    <!-- Android -->
+    <div class="shots-panel" id="shots-android">
+        <div class="shot"><img src="screenshots/android/android-1.png" alt="FFL Draft Day Picker on Android — screen 1" loading="lazy" /></div>
+        <div class="shot"><img src="screenshots/android/android-2.png" alt="FFL Draft Day Picker on Android — screen 2" loading="lazy" /></div>
+        <div class="shot"><img src="screenshots/android/android-3.png" alt="FFL Draft Day Picker on Android — screen 3" loading="lazy" /></div>
+        <div class="shot"><img src="screenshots/android/android-4.png" alt="FFL Draft Day Picker on Android — screen 4" loading="lazy" /></div>
+        <div class="shot"><img src="screenshots/android/android-5.png" alt="FFL Draft Day Picker on Android — screen 5" loading="lazy" /></div>
+        <div class="shot"><img src="screenshots/android/android-6.png" alt="FFL Draft Day Picker on Android — screen 6" loading="lazy" /></div>
+        <div class="shot"><img src="screenshots/android/android-7.png" alt="FFL Draft Day Picker on Android — screen 7" loading="lazy" /></div>
+    </div>
 </section>
 
 <!-- SECTION 4: FAQ -->
@@ -692,7 +698,7 @@
 
 <footer>
     <p>FFL Draft Day Picker &copy; 2026 &nbsp;|&nbsp; <a href="mailto:jeff.norton@outlook.com">Contact</a> &nbsp;|&nbsp; <a href="blog.html">Blog</a> &nbsp;|&nbsp; <a href="mailto:jeff.norton@outlook.com?subject=Fantasy%20Draft%20Picker%20-%20Feature%20Request">Request a Feature</a></p>
-    <p style="margin-top: 6px;">Made with ☕ and 🏈 &nbsp;|&nbsp; v4.704</p>
+    <p style="margin-top: 6px;">Made with ☕ and 🏈 &nbsp;|&nbsp; v4.788</p>
 </footer>
 
 <script>
@@ -711,48 +717,20 @@ function switchTab(e, tabId) {
     document.getElementById(tabId).classList.add('active');
 }
 
+// Screenshot gallery switching (scoped to its own classes)
+function switchShots(e, panelId) {
+    document.querySelectorAll('.shots-tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.shots-panel').forEach(p => p.classList.remove('active'));
+    e.currentTarget.classList.add('active');
+    document.getElementById(panelId).classList.add('active');
+}
+
 // Scroll reveal
 (function() {
     const observer = new IntersectionObserver(entries => {
         entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
     }, { threshold: 0.1 });
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-})();
-
-// Carousel
-(function() {
-    const track = document.getElementById('carouselTrack');
-    const slides = track.querySelectorAll('.carousel-slide');
-    const dotsContainer = document.getElementById('carouselDots');
-    let idx = 0, timer;
-
-    function perView() { return window.innerWidth <= 480 ? 1 : window.innerWidth <= 768 ? 2 : 3; }
-    function maxIdx() { return Math.max(0, slides.length - perView()); }
-    function update() {
-        const w = 100 / perView();
-        slides.forEach(s => s.style.minWidth = w + '%');
-        track.style.transform = 'translateX(-' + (idx * w) + '%)';
-        dotsContainer.querySelectorAll('.carousel-dot').forEach((d, i) => d.classList.toggle('active', i === idx));
-    }
-    function buildDots() {
-        dotsContainer.innerHTML = '';
-        for (let i = 0; i <= maxIdx(); i++) {
-            const d = document.createElement('div');
-            d.className = 'carousel-dot' + (i === idx ? ' active' : '');
-            d.onclick = () => { idx = i; update(); resetTimer(); };
-            dotsContainer.appendChild(d);
-        }
-    }
-    window.carouselMove = function(dir) { idx = Math.max(0, Math.min(maxIdx(), idx + dir)); update(); resetTimer(); };
-    function auto() { idx = idx >= maxIdx() ? 0 : idx + 1; update(); }
-    function resetTimer() { clearInterval(timer); timer = setInterval(auto, 4000); }
-
-    let tx = 0;
-    track.addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, { passive: true });
-    track.addEventListener('touchend', e => { const d = tx - e.changedTouches[0].clientX; if (Math.abs(d) > 50) carouselMove(d > 0 ? 1 : -1); }, { passive: true });
-
-    buildDots(); update(); timer = setInterval(auto, 4000);
-    window.addEventListener('resize', () => { buildDots(); update(); });
 })();
 
 // Hero draft-board strip
