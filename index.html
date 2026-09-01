@@ -407,21 +407,50 @@
             color: #fff; border-color: rgba(76, 175, 80, 0.4);
             box-shadow: 0 2px 12px rgba(46, 125, 50, 0.35);
         }
-        .shots-panel { display: none; animation: fadeIn 0.3s ease; }
-        .shots-panel.active { display: grid; }
-        .shots-panel {
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 20px; justify-items: center; max-width: 900px; margin: 0 auto;
+
+        /* Carousel */
+        .carousel-wrap { position: relative; max-width: 320px; margin: 0 auto; }
+        .shots-panel { display: none; }
+        .shots-panel.active { display: block; }
+        .carousel-track { overflow: hidden; border-radius: 20px; }
+        .carousel-slides {
+            display: flex; transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            will-change: transform;
         }
-        .shot img {
-            width: 100%; max-width: 240px; border-radius: 16px;
+        .carousel-slides .shot { flex: 0 0 100%; }
+        .carousel-slides .shot img {
+            width: 100%; display: block; border-radius: 20px;
             border: 1px solid var(--border);
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
-            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
         }
-        .shot img:hover {
-            transform: scale(1.03) translateY(-4px);
-            box-shadow: 0 20px 48px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(76, 175, 80, 0.15);
+        .carousel-btn {
+            position: absolute; top: 50%; transform: translateY(-50%);
+            width: 40px; height: 40px; border-radius: 50%;
+            background: rgba(12, 12, 12, 0.85); border: 1px solid var(--border);
+            color: var(--green-bright); font-size: 1.1em; cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
+            backdrop-filter: blur(6px); z-index: 2;
+        }
+        .carousel-btn:hover { background: #1a1a1a; border-color: var(--green-dim); box-shadow: 0 0 16px rgba(76, 175, 80, 0.2); }
+        .carousel-btn.prev { left: -52px; }
+        .carousel-btn.next { right: -52px; }
+        .carousel-dots { display: flex; justify-content: center; gap: 7px; margin-top: 18px; }
+        .carousel-dot {
+            width: 7px; height: 7px; border-radius: 50%;
+            background: #333; border: none; cursor: pointer;
+            transition: background 0.2s, transform 0.2s;
+        }
+        .carousel-dot.active { background: var(--green); transform: scale(1.3); }
+        .carousel-counter {
+            text-align: center; margin-top: 10px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.72em; color: #555; letter-spacing: 0.1em;
+        }
+        @media (max-width: 480px) {
+            .carousel-btn.prev { left: -12px; }
+            .carousel-btn.next { right: -12px; }
+            .carousel-wrap { max-width: calc(100% - 32px); }
         }
 
         /* FAQ */
@@ -623,33 +652,53 @@
 </section>
 
 <!-- SECTION 3: Screenshots -->
-<section class="reveal" style="overflow: hidden;">
+<section class="reveal" style="overflow: visible;">
     <h2>See It in Action</h2>
     <div class="divider"></div>
 
     <div class="shots-tabs">
-        <button class="shots-tab-btn active" onclick="switchShots(event, 'shots-ios')">iOS</button>
-        <button class="shots-tab-btn" onclick="switchShots(event, 'shots-android')">Android</button>
+        <button class="shots-tab-btn active" onclick="switchShots(this, 'ios')">iOS</button>
+        <button class="shots-tab-btn" onclick="switchShots(this, 'android')">Android</button>
     </div>
 
-    <!-- iOS -->
+    <!-- iOS Carousel -->
     <div class="shots-panel active" id="shots-ios">
-        <div class="shot"><img src="screenshots/apple/ios-1.png" alt="FFL Draft Day Picker on iOS — screen 1" loading="lazy" /></div>
-        <div class="shot"><img src="screenshots/apple/ios-2.png" alt="FFL Draft Day Picker on iOS — screen 2" loading="lazy" /></div>
-        <div class="shot"><img src="screenshots/apple/ios-3.png" alt="FFL Draft Day Picker on iOS — screen 3" loading="lazy" /></div>
-        <div class="shot"><img src="screenshots/apple/ios-4.png" alt="FFL Draft Day Picker on iOS — screen 4" loading="lazy" /></div>
-        <div class="shot"><img src="screenshots/apple/ios-5.png" alt="FFL Draft Day Picker on iOS — screen 5" loading="lazy" /></div>
+        <div class="carousel-wrap">
+            <button class="carousel-btn prev" aria-label="Previous screenshot" onclick="carouselMove('ios', -1)">&#8249;</button>
+            <div class="carousel-track">
+                <div class="carousel-slides" id="carousel-ios">
+                    <div class="shot"><img src="screenshots/apple/ios-1.png" alt="FFL Draft Day Picker on iOS — screen 1" loading="lazy" /></div>
+                    <div class="shot"><img src="screenshots/apple/ios-2.png" alt="FFL Draft Day Picker on iOS — screen 2" loading="lazy" /></div>
+                    <div class="shot"><img src="screenshots/apple/ios-3.png" alt="FFL Draft Day Picker on iOS — screen 3" loading="lazy" /></div>
+                    <div class="shot"><img src="screenshots/apple/ios-4.png" alt="FFL Draft Day Picker on iOS — screen 4" loading="lazy" /></div>
+                    <div class="shot"><img src="screenshots/apple/ios-5.png" alt="FFL Draft Day Picker on iOS — screen 5" loading="lazy" /></div>
+                </div>
+            </div>
+            <button class="carousel-btn next" aria-label="Next screenshot" onclick="carouselMove('ios', 1)">&#8250;</button>
+            <div class="carousel-dots" id="dots-ios"></div>
+            <p class="carousel-counter" id="counter-ios"></p>
+        </div>
     </div>
 
-    <!-- Android -->
+    <!-- Android Carousel -->
     <div class="shots-panel" id="shots-android">
-        <div class="shot"><img src="screenshots/android/android-1.png" alt="FFL Draft Day Picker on Android — screen 1" loading="lazy" /></div>
-        <div class="shot"><img src="screenshots/android/android-2.png" alt="FFL Draft Day Picker on Android — screen 2" loading="lazy" /></div>
-        <div class="shot"><img src="screenshots/android/android-3.png" alt="FFL Draft Day Picker on Android — screen 3" loading="lazy" /></div>
-        <div class="shot"><img src="screenshots/android/android-4.png" alt="FFL Draft Day Picker on Android — screen 4" loading="lazy" /></div>
-        <div class="shot"><img src="screenshots/android/android-5.png" alt="FFL Draft Day Picker on Android — screen 5" loading="lazy" /></div>
-        <div class="shot"><img src="screenshots/android/android-6.png" alt="FFL Draft Day Picker on Android — screen 6" loading="lazy" /></div>
-        <div class="shot"><img src="screenshots/android/android-7.png" alt="FFL Draft Day Picker on Android — screen 7" loading="lazy" /></div>
+        <div class="carousel-wrap">
+            <button class="carousel-btn prev" aria-label="Previous screenshot" onclick="carouselMove('android', -1)">&#8249;</button>
+            <div class="carousel-track">
+                <div class="carousel-slides" id="carousel-android">
+                    <div class="shot"><img src="screenshots/android/android-1.png" alt="FFL Draft Day Picker on Android — screen 1" loading="lazy" /></div>
+                    <div class="shot"><img src="screenshots/android/android-2.png" alt="FFL Draft Day Picker on Android — screen 2" loading="lazy" /></div>
+                    <div class="shot"><img src="screenshots/android/android-3.png" alt="FFL Draft Day Picker on Android — screen 3" loading="lazy" /></div>
+                    <div class="shot"><img src="screenshots/android/android-4.png" alt="FFL Draft Day Picker on Android — screen 4" loading="lazy" /></div>
+                    <div class="shot"><img src="screenshots/android/android-5.png" alt="FFL Draft Day Picker on Android — screen 5" loading="lazy" /></div>
+                    <div class="shot"><img src="screenshots/android/android-6.png" alt="FFL Draft Day Picker on Android — screen 6" loading="lazy" /></div>
+                    <div class="shot"><img src="screenshots/android/android-7.png" alt="FFL Draft Day Picker on Android — screen 7" loading="lazy" /></div>
+                </div>
+            </div>
+            <button class="carousel-btn next" aria-label="Next screenshot" onclick="carouselMove('android', 1)">&#8250;</button>
+            <div class="carousel-dots" id="dots-android"></div>
+            <p class="carousel-counter" id="counter-android"></p>
+        </div>
     </div>
 </section>
 
@@ -717,13 +766,75 @@ function switchTab(e, tabId) {
     document.getElementById(tabId).classList.add('active');
 }
 
-// Screenshot gallery switching (scoped to its own classes)
-function switchShots(e, panelId) {
+// Screenshot gallery switching + carousel
+const carouselState = {};
+
+function initCarousel(id, count) {
+    carouselState[id] = { index: 0, count };
+    renderDots(id);
+    renderCounter(id);
+}
+
+function carouselMove(id, dir) {
+    const s = carouselState[id];
+    s.index = (s.index + dir + s.count) % s.count;
+    updateCarousel(id);
+}
+
+function carouselGoTo(id, idx) {
+    carouselState[id].index = idx;
+    updateCarousel(id);
+}
+
+function updateCarousel(id) {
+    const s = carouselState[id];
+    document.getElementById('carousel-' + id).style.transform = 'translateX(-' + (s.index * 100) + '%)';
+    renderDots(id);
+    renderCounter(id);
+}
+
+function renderDots(id) {
+    const s = carouselState[id];
+    const el = document.getElementById('dots-' + id);
+    el.innerHTML = '';
+    for (let i = 0; i < s.count; i++) {
+        const b = document.createElement('button');
+        b.className = 'carousel-dot' + (i === s.index ? ' active' : '');
+        b.setAttribute('aria-label', 'Go to screenshot ' + (i + 1));
+        b.onclick = () => carouselGoTo(id, i);
+        el.appendChild(b);
+    }
+}
+
+function renderCounter(id) {
+    const s = carouselState[id];
+    document.getElementById('counter-' + id).textContent = (s.index + 1) + ' / ' + s.count;
+}
+
+function switchShots(btn, id) {
     document.querySelectorAll('.shots-tab-btn').forEach(b => b.classList.remove('active'));
     document.querySelectorAll('.shots-panel').forEach(p => p.classList.remove('active'));
-    e.currentTarget.classList.add('active');
-    document.getElementById(panelId).classList.add('active');
+    btn.classList.add('active');
+    document.getElementById('shots-' + id).classList.add('active');
 }
+
+// Init carousels
+initCarousel('ios', 5);
+initCarousel('android', 7);
+
+// Touch/swipe support
+(function() {
+    ['ios', 'android'].forEach(id => {
+        const track = document.getElementById('carousel-' + id);
+        if (!track) return;
+        let startX = 0;
+        track.parentElement.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
+        track.parentElement.addEventListener('touchend', e => {
+            const dx = e.changedTouches[0].clientX - startX;
+            if (Math.abs(dx) > 40) carouselMove(id, dx < 0 ? 1 : -1);
+        });
+    });
+})();
 
 // Scroll reveal
 (function() {
