@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZTD43J10TB"></script>
     <script>
@@ -10,879 +9,151 @@
     gtag('js', new Date());
     gtag('config', 'G-ZTD43J10TB');
     </script>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FFL Draft Day Picker - Fantasy Football Draft Kit & AI Draft Assistant App</title>
-    <meta name="description" content="Free fantasy football draft kit app with AI-powered recommendations using VBD scoring, real-time pick grading, mock drafts, and roster need analysis. Your complete live draft day companion for Android and iOS.">
-    <meta name="keywords" content="fantasy football draft kit, fantasy football draft app, fantasy draft assistant, AI draft recommendations, live draft tool, fantasy football cheat sheet, draft day app, ADP rankings, fantasy football 2026, draft board app, fantasy draft picker, best available player, draft advisor, mock draft tool, keeper league draft, draft analytics, draft grades, VBD scoring, projected points">
+    <meta name="color-scheme" content="dark light">
+    <title>FFL Draft Day Picker - Redesign Coming Soon</title>
+    <meta name="description" content="FFL Draft Day Picker is getting a redesign. Join the community on Reddit for updates.">
     <meta name="author" content="FFL Draft Day Picker">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://ffldraftdaypicker.com/">
     <link rel="icon" type="image/png" href="FootballIcon1024.png">
     <link rel="apple-touch-icon" href="FootballIcon1024.png">
 
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="FFL Draft Day Picker - Fantasy Football Draft Kit & AI Draft Assistant">
-    <meta property="og:description" content="AI-powered fantasy football draft kit with VBD scoring, real-time pick grading, mock drafts, and draft analytics. Free for Android and iOS.">
+    <meta property="og:title" content="FFL Draft Day Picker - Redesign Coming Soon">
+    <meta property="og:description" content="A fresh new look is on the way. Join the community on Reddit for updates.">
     <meta property="og:image" content="https://ffldraftdaypicker.com/FootballIcon1024.png">
     <meta property="og:url" content="https://ffldraftdaypicker.com/">
     <meta property="og:site_name" content="FFL Draft Day Picker">
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="FFL Draft Day Picker - Fantasy Football Draft Kit & AI Draft Assistant">
-    <meta name="twitter:description" content="AI-powered fantasy football draft kit with VBD scoring, real-time pick grading, mock drafts, and draft analytics. Free for Android and iOS.">
-    <meta name="twitter:image" content="https://ffldraftdaypicker.com/FootballIcon1024.png">
-
-    <!-- Structured Data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "FFL Draft Day Picker",
-        "description": "AI-powered fantasy football draft kit app using VBD scoring with projected points for accurate player valuation. Features real-time pick grading, mock drafts, draft analytics with letter grades, and roster need analysis.",
-        "applicationCategory": "SportsApplication",
-        "operatingSystem": "Android, iOS",
-        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "ratingCount": "1" },
-        "featureList": "VBD Scoring, Projected Points, AI Draft Recommendations, Pick Value Grading, Mock Draft Mode, Positional Scarcity Alerts, Roster Need Analysis, Bye Week Conflict Detection, Draft Clock, Keeper League Support, ESPN Integration, Draft Analytics & Grades, Favorite & Bust System, QB Flex Setting"
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-            { "@type": "Question", "name": "Does FFL Draft Day Picker work offline?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. All player data is bundled in the app. The AI advisor, pick grading, and draft tracking all run on your device with no internet connection required." } },
-            { "@type": "Question", "name": "How does the scoring work?", "acceptedAnswer": { "@type": "Answer", "text": "The app uses Value Based Drafting (VBD) with projected points to accurately rank players relative to replacement-level talent at their position. This ensures you're drafting based on true value, not just raw stats." } },
-            { "@type": "Question", "name": "Is FFL Draft Day Picker really free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. It is free, ad-free, and requires no account or sign-up. No in-app purchases, no paywalls, no data collection." } },
-            { "@type": "Question", "name": "How does the AI advisor decide who to recommend?", "acceptedAnswer": { "@type": "Answer", "text": "The engine scores every available player across five weighted factors: ADP value (30%), positional scarcity (25%), roster needs (25%), bye week conflicts (10%), and elite talent bonus (10%). Every recommendation includes reasoning." } }
-        ]
-    }
-    </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            color: #c8c8c8;
-            background: #030303;
-            line-height: 1.5;
-        }
-
         :root {
-            --green: #4CAF50;
-            --green-bright: #66BB6A;
-            --green-dim: #2E7D32;
-            --gold: #FFB300;
-            --gold-dim: #FF8F00;
-            --surface: #0c0c0c;
-            --surface-raised: #121212;
-            --border: #1f1f1f;
-            --border-hover: #2a4a2a;
-            --pos-qb: #9C27B0;
-            --pos-rb: #43A047;
-            --pos-wr: #1E88E5;
-            --pos-te: #FB8C00;
+            --bg: #0B1016;
+            --surface: #121A23;
+            --raised: #1A2531;
+            --hairline: rgba(157, 180, 204, 0.14);
+            --text1: #EAF1F8;
+            --text2: #93A4B8;
+            --signal: #5AA9FF;
+            --on-signal: #06101A;
         }
-
-        /* Field + stadium-light atmosphere */
-        .bg-gradient {
-            position: fixed; top: 0; left: 0; right: 0; bottom: 0;
-            z-index: -2; pointer-events: none;
-            background:
-                radial-gradient(ellipse 120% 70% at 50% -15%, rgba(46, 125, 50, 0.22) 0%, transparent 55%),
-                radial-gradient(ellipse 80% 50% at 50% 100%, rgba(20, 60, 20, 0.12) 0%, transparent 50%),
-                #030303;
-            animation: stadiumGlow 12s ease-in-out infinite alternate;
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg: #F2F5F9;
+                --surface: #FFFFFF;
+                --raised: #E6ECF3;
+                --hairline: rgba(60, 80, 104, 0.18);
+                --text1: #0E1722;
+                --text2: #4A5B6E;
+                --signal: #1565D8;
+                --on-signal: #FFFFFF;
+            }
         }
-        .bg-field {
-            position: fixed; inset: 0; z-index: -1; pointer-events: none; opacity: 0.35;
-            background-image:
-                linear-gradient(rgba(76, 175, 80, 0.04) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(76, 175, 80, 0.03) 1px, transparent 1px);
-            background-size: 100% 48px, 64px 100%;
-            mask-image: linear-gradient(to bottom, black 0%, black 40%, transparent 85%);
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { height: 100%; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text1);
+            line-height: 1.5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px 16px;
+            -webkit-font-smoothing: antialiased;
         }
-        @keyframes stadiumGlow {
-            from { filter: brightness(1); }
-            to { filter: brightness(1.08); }
+        /* One soft ice-blue glow, nothing else */
+        body::before {
+            content: '';
+            position: fixed; inset: 0; pointer-events: none;
+            background: radial-gradient(ellipse 70% 45% at 50% 0%, color-mix(in srgb, var(--signal) 14%, transparent), transparent 70%);
         }
-
-        /* Scroll reveal */
-        .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease, transform 0.6s ease; }
-        .reveal.visible { opacity: 1; transform: translateY(0); }
-
-        /* Nav */
-        .hamburger-menu { position: fixed; top: 16px; right: 20px; z-index: 200; }
-        .hamburger-btn {
-            width: 42px; height: 42px; border-radius: 50%; background: var(--surface);
-            border: 1px solid var(--border); backdrop-filter: blur(8px);
-            cursor: pointer; display: flex; flex-direction: column; align-items: center;
-            justify-content: center; gap: 5px; transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
-        }
-        .hamburger-btn:hover { background: #161616; border-color: var(--green-dim); box-shadow: 0 0 20px rgba(76, 175, 80, 0.15); }
-        .hamburger-btn span { display: block; width: 18px; height: 2px; background: var(--green); border-radius: 2px; transition: transform 0.3s, opacity 0.3s; }
-        .hamburger-btn.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
-        .hamburger-btn.open span:nth-child(2) { opacity: 0; }
-        .hamburger-btn.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
-        .nav-drawer-overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.7); z-index: 180; opacity: 0; pointer-events: none; transition: opacity 0.3s; }
-        .nav-drawer-overlay.open { opacity: 1; pointer-events: all; }
-        .nav-drawer {
-            position: fixed; top: 0; right: -280px; width: 280px; height: 100%;
-            background: #0a0a0a; border-left: 1px solid #1a1a1a; z-index: 190;
-            transition: right 0.35s cubic-bezier(0.25, 0.8, 0.25, 1);
-            padding: 80px 24px 40px; overflow-y: auto;
-        }
-        .nav-drawer.open { right: 0; }
-        .nav-drawer h3 { color: var(--green); font-size: 0.7em; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 14px; padding-bottom: 8px; border-bottom: 1px solid #1a1a1a; }
-        .nav-drawer a { display: block; padding: 12px 0; color: #bbb; text-decoration: none; font-size: 0.95em; border-bottom: 1px solid #111; transition: color 0.2s; }
-        .nav-drawer a:hover { color: var(--green); }
-
-        /* Hero */
-        .hero {
-            text-align: center; padding: 120px 20px 80px; position: relative;
-            border-bottom: 1px solid var(--border); overflow: hidden;
-        }
-        .hero > :not(.draft-board-strip) { position: relative; z-index: 1; }
-
-        /* Faint draft-board strip (hero backdrop) */
-        .draft-board-strip {
-            position: absolute; left: 0; right: 0; top: 42%;
-            transform: translateY(-50%); z-index: 0; pointer-events: none;
-            opacity: 0.2;
-            mask-image: linear-gradient(90deg, transparent 0%, #000 14%, #000 86%, transparent 100%);
-            -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 14%, #000 86%, transparent 100%);
-        }
-        .draft-board-viewport { overflow: hidden; width: 100%; }
-        .draft-board-track {
-            display: flex; gap: 10px; width: max-content;
-            animation: draftBoardScroll 55s linear infinite;
-            will-change: transform;
-        }
-        .draft-board-cell {
-            flex-shrink: 0; width: 78px; min-height: 62px; padding: 8px 10px 10px;
-            background: rgba(8, 10, 8, 0.75);
-            border: 1px solid rgba(76, 175, 80, 0.12);
-            border-radius: 5px; text-align: left;
-        }
-        .draft-board-cell.on-clock {
-            border-color: rgba(255, 179, 0, 0.22);
-            background: rgba(20, 16, 8, 0.8);
-            box-shadow: 0 0 24px rgba(255, 179, 0, 0.06);
-        }
-        .draft-board-cell .pick {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.68rem; font-weight: 700; letter-spacing: 0.04em;
-            color: rgba(102, 187, 106, 0.5);
-        }
-        .draft-board-cell.on-clock .pick { color: rgba(255, 179, 0, 0.45); }
-        .draft-board-cell .bar {
-            display: block; height: 3px; margin: 8px 0 6px; border-radius: 2px;
-            background: linear-gradient(90deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
-        }
-        .draft-board-cell .pos {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.52rem; font-weight: 700; letter-spacing: 0.14em; opacity: 0.55;
-        }
-        .draft-board-cell .pos-rb { color: var(--pos-rb); }
-        .draft-board-cell .pos-wr { color: var(--pos-wr); }
-        .draft-board-cell .pos-te { color: var(--pos-te); }
-        .draft-board-cell .pos-qb { color: var(--pos-qb); }
-        @keyframes draftBoardScroll {
-            from { transform: translateX(0); }
-            to { transform: translateX(-50%); }
-        }
-        @media (prefers-reduced-motion: reduce) {
-            .draft-board-track { animation: none; justify-content: center; width: 100%; flex-wrap: wrap; gap: 8px; padding: 0 16px; }
-            .draft-board-strip { opacity: 0.12; top: 36%; }
-        }
-        .hero::after {
-            content: ''; position: absolute; left: 50%; bottom: 0; transform: translateX(-50%);
-            width: min(90%, 520px); height: 1px;
-            background: linear-gradient(90deg, transparent, var(--green-dim), transparent);
-        }
-        .hero-icon {
-            width: 88px; height: 88px; border-radius: 20px; margin-bottom: 20px;
-            border: 1px solid var(--border);
-            box-shadow: 0 0 0 1px rgba(76, 175, 80, 0.1), 0 16px 48px rgba(0, 0, 0, 0.6), 0 0 40px rgba(76, 175, 80, 0.12);
-        }
-        .hero h1 {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: clamp(2.75rem, 8vw, 4rem);
-            font-weight: 400;
-            color: #fff;
-            margin-bottom: 8px;
-            letter-spacing: 0.04em;
-            line-height: 1.05;
-            text-shadow: 0 2px 24px rgba(76, 175, 80, 0.15);
-        }
-        .hero .tagline {
-            font-size: 1.15em; color: var(--green-bright); font-weight: 600; margin-bottom: 10px;
-            letter-spacing: 0.06em; text-transform: uppercase;
-        }
-        .hero .sub { font-size: 1.05em; color: #9a9a9a; margin-bottom: 36px; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.65; }
-        .position-strip {
-            display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-bottom: 28px;
-        }
-        .position-strip span {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.65rem; font-weight: 700; letter-spacing: 0.12em;
-            padding: 5px 10px; border-radius: 4px; border: 1px solid;
-        }
-        .position-strip .pos-qb { color: var(--pos-qb); border-color: rgba(156, 39, 176, 0.45); background: rgba(156, 39, 176, 0.08); }
-        .position-strip .pos-rb { color: var(--pos-rb); border-color: rgba(67, 160, 71, 0.45); background: rgba(67, 160, 71, 0.08); }
-        .position-strip .pos-wr { color: var(--pos-wr); border-color: rgba(30, 136, 229, 0.45); background: rgba(30, 136, 229, 0.08); }
-        .position-strip .pos-te { color: var(--pos-te); border-color: rgba(251, 140, 0, 0.45); background: rgba(251, 140, 0, 0.08); }
-        .position-strip .pos-flex { color: var(--gold); border-color: rgba(255, 179, 0, 0.4); background: rgba(255, 179, 0, 0.06); }
-        .btn-row { display: flex; justify-content: center; gap: 14px; flex-wrap: wrap; }
-        .cta {
-            display: inline-block; padding: 14px 32px; border-radius: 999px; font-size: 0.95em; font-weight: 600;
-            text-decoration: none; transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s; border: none;
-        }
-        .cta:hover { transform: translateY(-2px); }
-        .cta-green {
-            background: linear-gradient(180deg, var(--green-bright) 0%, var(--green) 100%);
-            color: #041004; box-shadow: 0 4px 20px rgba(76, 175, 80, 0.25);
-        }
-        .cta-green:hover { box-shadow: 0 8px 32px rgba(76, 175, 80, 0.35); }
-        .cta-outline { background: rgba(255, 255, 255, 0.03); color: #fff; border: 1px solid var(--border); }
-        .cta-outline:hover { border-color: var(--green); box-shadow: 0 6px 24px rgba(76, 175, 80, 0.12); }
-        .hero .meta { margin-top: 24px; font-size: 0.85em; color: #5c5c5c; }
-        .hero-reddit { margin-top: 14px; }
-        .hero-reddit a {
-            color: var(--green-bright); text-decoration: none; font-size: 0.9em;
-            border-bottom: 1px solid transparent; transition: border-color 0.2s;
-        }
-        .hero-reddit a:hover { border-bottom-color: var(--green-dim); }
-
-        /* Countdown — scoreboard */
-        .countdown-board {
-            margin-top: 40px; padding: 24px 20px 20px; max-width: 420px; margin-left: auto; margin-right: auto;
-            background: linear-gradient(180deg, rgba(18, 18, 18, 0.95) 0%, rgba(8, 8, 8, 0.98) 100%);
-            border: 1px solid var(--border); border-radius: 12px;
-            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04), 0 12px 40px rgba(0, 0, 0, 0.4);
-        }
-        .countdown-label {
-            font-family: 'Bebas Neue', sans-serif; font-size: 1.1rem; letter-spacing: 0.2em;
-            color: var(--gold); margin-bottom: 16px;
-        }
-        .countdown-row { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
-        .countdown-item {
-            text-align: center; min-width: 72px; padding: 10px 8px 8px;
-            background: #050505; border: 1px solid #252525; border-radius: 8px;
-            box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.5);
-        }
-        .countdown-item .num {
-            display: block; font-family: 'JetBrains Mono', monospace;
-            font-size: 1.85em; font-weight: 700; color: var(--green-bright);
-            font-variant-numeric: tabular-nums; line-height: 1.1;
-            text-shadow: 0 0 20px rgba(76, 175, 80, 0.35);
-        }
-        .countdown-item .lbl { font-size: 0.62em; color: #666; text-transform: uppercase; letter-spacing: 0.14em; margin-top: 4px; display: block; }
-        .countdown-foot { margin-top: 12px; color: #555; font-size: 0.78em; letter-spacing: 0.02em; }
-
-        /* Section */
-        section { padding: 80px 20px; max-width: 1000px; margin: 0 auto; }
-        section h2 {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: clamp(1.85rem, 5vw, 2.35rem);
-            text-align: center; color: #fff; margin-bottom: 12px;
-            letter-spacing: 0.06em; font-weight: 400;
-        }
-        .section-sub { text-align: center; color: #888; margin-bottom: 40px; font-size: 1em; max-width: 640px; margin-left: auto; margin-right: auto; }
-        .divider {
-            width: 56px; height: 3px; margin: 0 auto 32px; border-radius: 2px;
-            background: linear-gradient(90deg, transparent, var(--green), var(--gold), transparent);
-        }
-
-        /* Tabs */
-        .tabs {
-            display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-bottom: 32px;
-            padding: 6px; background: var(--surface); border-radius: 999px; border: 1px solid var(--border);
-            width: fit-content; max-width: 100%; margin-left: auto; margin-right: auto;
-        }
-        .tab-btn {
-            padding: 10px 18px; border-radius: 999px; border: 1px solid transparent;
-            background: transparent; color: #888; font-size: 0.88em; font-weight: 600;
-            cursor: pointer; transition: all 0.2s;
-        }
-        .tab-btn:hover { color: #ddd; background: rgba(255, 255, 255, 0.04); }
-        .tab-btn.active {
-            background: linear-gradient(180deg, var(--green-dim) 0%, #1B5E20 100%);
-            color: #fff; border-color: rgba(76, 175, 80, 0.4);
-            box-shadow: 0 2px 12px rgba(46, 125, 50, 0.35);
-        }
-        .tab-panel { display: none; animation: fadeIn 0.3s ease; }
-        .tab-panel.active { display: block; }
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-
-        /* Cards */
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 16px; }
         .card {
-            background: linear-gradient(145deg, var(--surface-raised) 0%, var(--surface) 100%);
-            border: 1px solid var(--border); border-radius: 12px; padding: 24px;
-            transition: border-color 0.25s, transform 0.25s, box-shadow 0.25s;
-            position: relative; overflow: hidden;
-        }
-        .card::before {
-            content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
-            background: linear-gradient(90deg, var(--green-dim), transparent);
-            opacity: 0; transition: opacity 0.25s;
-        }
-        .card:hover {
-            border-color: var(--border-hover);
-            transform: translateY(-3px);
-            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(76, 175, 80, 0.08);
-        }
-        .card:hover::before { opacity: 1; }
-        .card .icon { font-size: 1.6em; margin-bottom: 10px; filter: grayscale(0.15); }
-        .card h3 { font-size: 1em; color: var(--green-bright); margin-bottom: 6px; font-weight: 600; }
-        .card p { color: #8a8a8a; font-size: 0.9em; line-height: 1.65; }
-
-        /* Stats — draft ticker */
-        .stats {
-            display: flex; justify-content: center; gap: 0; flex-wrap: wrap;
-            padding: 0 20px; max-width: 920px; margin: 48px auto 56px;
-            border: 1px solid var(--border); border-radius: 12px;
-            background: var(--surface);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
-        }
-        .stat {
-            text-align: center; flex: 1 1 140px; padding: 28px 16px;
-            border-right: 1px solid var(--border);
-        }
-        .stat:last-child { border-right: none; }
-        .stat .num {
-            font-family: 'Bebas Neue', sans-serif;
-            font-size: 2.4em; font-weight: 400; letter-spacing: 0.04em;
-            color: var(--gold);
-            text-shadow: 0 0 24px rgba(255, 179, 0, 0.2);
-        }
-        .stat .lbl { font-size: 0.72em; color: #666; margin-top: 6px; text-transform: uppercase; letter-spacing: 0.1em; }
-
-        /* VBD highlight */
-        .vbd-section {
             position: relative;
-            background: linear-gradient(180deg, #060806 0%, #040404 50%, #060806 100%);
-            border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
-            padding: 64px 20px; overflow: hidden;
+            width: 100%;
+            max-width: 440px;
+            padding: 40px 28px 32px;
+            text-align: center;
+            background: var(--surface);
+            border: 1px solid var(--hairline);
+            border-radius: 14px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+            animation: rise 0.6s ease both;
         }
-        .vbd-section::before {
-            content: ''; position: absolute; inset: 0; pointer-events: none; opacity: 0.4;
-            background: repeating-linear-gradient(
-                0deg,
-                transparent 0,
-                transparent 39px,
-                rgba(76, 175, 80, 0.06) 39px,
-                rgba(76, 175, 80, 0.06) 40px
-            );
+        .icon {
+            width: 72px; height: 72px;
+            border-radius: 16px;
+            border: 1px solid var(--hairline);
+            margin-bottom: 20px;
         }
-        .vbd-section .inner { max-width: 700px; margin: 0 auto; text-align: center; position: relative; z-index: 1; }
-        .vbd-section h2 { color: #fff; margin-bottom: 16px; }
-        .vbd-section p { color: #949494; line-height: 1.75; margin-bottom: 16px; font-size: 1.02em; }
-        .vbd-section .highlight { color: var(--green-bright); font-weight: 600; }
-        .vbd-badge {
-            display: inline-block; margin-bottom: 12px;
-            font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; font-weight: 700;
-            letter-spacing: 0.15em; text-transform: uppercase;
-            color: var(--gold); border: 1px solid rgba(255, 179, 0, 0.35);
-            padding: 6px 12px; border-radius: 4px; background: rgba(255, 179, 0, 0.06);
+        h1 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+            line-height: 1.2;
+            margin-bottom: 14px;
         }
-
-        /* Screenshots gallery */
-        .shots-tabs { display: flex; justify-content: center; gap: 8px; margin-bottom: 32px; padding: 6px; background: var(--surface); border-radius: 999px; border: 1px solid var(--border); width: fit-content; max-width: 100%; margin-left: auto; margin-right: auto; }
-        .shots-tab-btn {
-            padding: 10px 22px; border: 1px solid transparent; border-radius: 999px;
-            background: transparent; color: #999; font-size: 0.9em; font-weight: 600;
-            cursor: pointer; transition: color 0.2s, background 0.2s, border-color 0.2s, box-shadow 0.2s;
+        .pill {
+            display: inline-flex; align-items: center; gap: 8px;
+            height: 26px; padding: 0 12px;
+            border-radius: 999px;
+            font-size: 12px; font-weight: 600;
+            color: var(--signal);
+            background: color-mix(in srgb, var(--signal) 16%, transparent);
+            border: 1px solid color-mix(in srgb, var(--signal) 40%, transparent);
+            margin-bottom: 20px;
         }
-        .shots-tab-btn:hover { color: #ddd; background: rgba(255, 255, 255, 0.04); }
-        .shots-tab-btn.active {
-            background: linear-gradient(180deg, var(--green-dim) 0%, #1B5E20 100%);
-            color: #fff; border-color: rgba(76, 175, 80, 0.4);
-            box-shadow: 0 2px 12px rgba(46, 125, 50, 0.35);
+        .pill i {
+            width: 6px; height: 6px; border-radius: 50%;
+            background: var(--signal);
+            animation: pulse 2s ease-in-out infinite;
         }
-
-        /* Carousel */
-        .carousel-wrap { position: relative; max-width: 320px; margin: 0 auto; }
-        .shots-panel { display: none; }
-        .shots-panel.active { display: block; }
-        .carousel-track { overflow: hidden; border-radius: 20px; }
-        .carousel-slides {
-            display: flex; transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-            will-change: transform;
+        p {
+            color: var(--text2);
+            font-size: 1rem;
+            margin-bottom: 28px;
         }
-        .carousel-slides .shot { flex: 0 0 100%; }
-        .carousel-slides .shot img {
-            width: 100%; display: block; border-radius: 20px;
-            border: 1px solid var(--border);
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.55);
+        .btn {
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            min-height: 56px;
+            padding: 8px 20px;
+            border-radius: 12px;
+            background: var(--signal);
+            color: var(--on-signal);
+            font-size: 16px; font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.2s, filter 0.2s;
         }
-        .carousel-btn {
-            position: absolute; top: 50%; transform: translateY(-50%);
-            width: 40px; height: 40px; border-radius: 50%;
-            background: rgba(12, 12, 12, 0.85); border: 1px solid var(--border);
-            color: var(--green-bright); font-size: 1.1em; cursor: pointer;
-            display: flex; align-items: center; justify-content: center;
-            transition: background 0.2s, border-color 0.2s, box-shadow 0.2s;
-            backdrop-filter: blur(6px); z-index: 2;
+        .btn small { font-size: 12px; font-weight: 500; opacity: 0.75; margin-top: 1px; }
+        .btn:hover { transform: translateY(-1px); filter: brightness(1.08); }
+        .btn:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
+        .handle {
+            margin-top: 18px;
+            font-size: 13px;
+            color: var(--text2);
+            font-variant-numeric: tabular-nums;
         }
-        .carousel-btn:hover { background: #1a1a1a; border-color: var(--green-dim); box-shadow: 0 0 16px rgba(76, 175, 80, 0.2); }
-        .carousel-btn.prev { left: -52px; }
-        .carousel-btn.next { right: -52px; }
-        .carousel-dots { display: flex; justify-content: center; gap: 7px; margin-top: 18px; }
-        .carousel-dot {
-            width: 7px; height: 7px; border-radius: 50%;
-            background: #333; border: none; cursor: pointer;
-            transition: background 0.2s, transform 0.2s;
-        }
-        .carousel-dot.active { background: var(--green); transform: scale(1.3); }
-        .carousel-counter {
-            text-align: center; margin-top: 10px;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.72em; color: #555; letter-spacing: 0.1em;
-        }
-        @media (max-width: 480px) {
-            .carousel-btn.prev { left: -12px; }
-            .carousel-btn.next { right: -12px; }
-            .carousel-wrap { max-width: calc(100% - 32px); }
-        }
-
-        /* FAQ */
-        .faq-item { border-bottom: 1px solid #1a1a1a; cursor: pointer; }
-        .faq-item:first-child { border-top: 1px solid #1a1a1a; }
-        .faq-q { padding: 18px 36px 18px 0; font-weight: 600; color: #e8e8e8; font-size: 1em; position: relative; transition: color 0.2s; }
-        .faq-item:hover .faq-q { color: #fff; }
-        .faq-q::after { content: '+'; position: absolute; right: 0; top: 50%; transform: translateY(-50%); font-size: 1.2em; color: var(--green); transition: transform 0.3s; }
-        .faq-item.open .faq-q::after { transform: translateY(-50%) rotate(45deg); }
-        .faq-a { max-height: 0; overflow: hidden; transition: max-height 0.35s ease, padding 0.35s ease; color: #888; line-height: 1.7; font-size: 0.9em; }
-        .faq-item.open .faq-a { max-height: 200px; padding: 0 0 16px 0; }
-
-        /* CTA bottom */
-        .cta-bottom {
-            text-align: center; padding: 80px 20px; position: relative;
-            background: radial-gradient(ellipse 80% 60% at 50% 100%, rgba(46, 125, 50, 0.12) 0%, transparent 70%);
-        }
-        .cta-bottom h2 { color: #fff; margin-bottom: 12px; }
-        .cta-bottom p { color: #666; margin-bottom: 28px; }
-        .support-row { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-top: 36px; }
-        .support-card { background: #0a0a0a; border: 1px solid #1a1a1a; border-radius: 12px; padding: 20px; text-align: center; min-width: 180px; }
-        .support-card h3 { color: var(--green); font-size: 0.9em; margin-bottom: 6px; }
-        .support-card a { color: var(--green); text-decoration: none; font-weight: 600; font-size: 0.9em; }
-        .support-card p { color: #555; font-size: 0.8em; margin-top: 4px; }
-
-        /* Footer */
-        footer { background: #050505; border-top: 1px solid #1a1a1a; text-align: center; padding: 24px 20px; color: #444; font-size: 0.85em; }
-        footer a { color: var(--green); text-decoration: none; }
-
-        /* Responsive */
-        @media (max-width: 768px) {
-            .grid { grid-template-columns: 1fr; }
-            .stat { border-right: none; border-bottom: 1px solid var(--border); flex: 1 1 50%; }
-            .stat:nth-last-child(-n+2) { border-bottom: none; }
-            .tabs { border-radius: 16px; padding: 8px; }
-            .tab-btn { padding: 8px 14px; font-size: 0.82em; }
-            .countdown-item { min-width: 64px; }
-            .draft-board-strip { opacity: 0.14; top: 38%; }
-        }
-        @media (max-width: 480px) {
-            .draft-board-strip { display: none; }
+        @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+        @media (prefers-reduced-motion: reduce) {
+            .card, .pill i { animation: none; }
+            .btn { transition: none; }
         }
     </style>
 </head>
 <body>
-
-<!-- Background -->
-<div class="bg-gradient"></div>
-<div class="bg-field" aria-hidden="true"></div>
-
-<!-- Navigation -->
-<div class="hamburger-menu">
-    <button class="hamburger-btn" id="hamburgerBtn" aria-label="Open navigation menu" onclick="toggleNav()">
-        <span></span><span></span><span></span>
-    </button>
-</div>
-<div class="nav-drawer-overlay" id="navOverlay" onclick="toggleNav()"></div>
-<nav class="nav-drawer" id="navDrawer" aria-label="Main navigation">
-    <h3>User Guides</h3>
-    <a href="user-guide_iOS.html">iOS User Guide</a>
-    <a href="user-guide_Android.html">Android User Guide</a>
-    <h3 style="margin-top: 24px;">Blog</h3>
-    <a href="blog.html">Blog</a>
-    <h3 style="margin-top: 24px;">Download</h3>
-    <a href="https://apps.apple.com/us/app/ffl-draft-day-picker/id6758958075">App Store</a>
-    <a href="https://play.google.com/store/apps/details?id=com.fantasydraft.picker">Google Play</a>
-    <h3 style="margin-top: 24px;">Contact</h3>
-    <a href="mailto:jeff.norton@outlook.com?subject=Fantasy%20Draft%20Picker%20-%20Feature%20Request">Feature Request</a>
-</nav>
-
-<!-- SECTION 1: Hero -->
-<header class="hero">
-    <div class="draft-board-strip" aria-hidden="true">
-        <div class="draft-board-viewport">
-            <div class="draft-board-track" id="draftBoardTrack"></div>
-        </div>
-    </div>
-    <img src="FootballIcon1024.png" alt="FFL Draft Day Picker App Icon" class="hero-icon" />
-    <h1>FFL Draft Day Picker</h1>
-    <p class="tagline">Your Live Draft &amp; Mock Draft Kit</p>
-    <div class="position-strip" aria-hidden="true">
-        <span class="pos-qb">QB</span>
-        <span class="pos-rb">RB</span>
-        <span class="pos-wr">WR</span>
-        <span class="pos-te">TE</span>
-        <span class="pos-flex">SUPERFLEX</span>
-    </div>
-    <p class="sub">
-        AI-powered fantasy football draft assistant with VBD scoring and projected points.
-        Real-time recommendations, pick grading, draft analytics — all offline, all free.
-    </p>
-    <div class="btn-row">
-        <a href="https://play.google.com/store/apps/details?id=com.fantasydraft.picker" class="cta cta-green">Get It on Google Play</a>
-        <a href="https://apps.apple.com/us/app/ffl-draft-day-picker/id6758958075" class="cta cta-outline">Download on App Store</a>
-    </div>
-  
-    <p class="hero-reddit"><a href="https://www.reddit.com/r/FFLDraftDayPickerApp/">Join us on Reddit — r/FFLDraftDayPickerApp</a></p>
-    <p class="meta">Android &amp; iOS &bull; Free &bull; Ad-free &bull; No account required &bull; v4.788</p>
-
-    <div class="countdown-board">
-        <p class="countdown-label">Kickoff Countdown</p>
-        <div class="countdown-row">
-            <div class="countdown-item"><span class="num" id="cd-days">--</span><span class="lbl">Days</span></div>
-            <div class="countdown-item"><span class="num" id="cd-hours">--</span><span class="lbl">Hours</span></div>
-            <div class="countdown-item"><span class="num" id="cd-mins">--</span><span class="lbl">Mins</span></div>
-            <div class="countdown-item"><span class="num" id="cd-secs">--</span><span class="lbl">Secs</span></div>
-        </div>
-        <p class="countdown-foot">until NFL Kickoff &bull; September 10, 2026</p>
-    </div>
-</header>
-
-<main>
-
-<!-- Stats -->
-<div class="stats reveal">
-    <div class="stat"><span class="num">360+</span><span class="lbl">NFL Players</span></div>
-    <div class="stat"><span class="num">VBD</span><span class="lbl">Scoring Engine</span></div>
-    <div class="stat"><span class="num">5</span><span class="lbl">AI Factors</span></div>
-    <div class="stat"><span class="num">A+</span><span class="lbl">Draft Grades</span></div>
-</div>
-
-<!-- VBD Scoring Section -->
-<div class="vbd-section reveal">
-    <div class="inner">
-        <span class="vbd-badge">Draft engine</span>
-        <h2>Powered by VBD Scoring</h2>
-        <p>
-            FFL Draft Day Picker uses <span class="highlight">Value Based Drafting (VBD)</span> with 
-            <span class="highlight">projected points</span> to rank every player. VBD measures each player's 
-            value relative to replacement-level talent at their position — so you're drafting based on 
-            true positional advantage, not just raw stats or name recognition.
-        </p>
-        <p>
-            Combined with real-time ADP tracking, the result is a scoring engine that tells you exactly 
-            when a player is a steal, a fair pick, or a reach. No guesswork.
-        </p>
-    </div>
-</div>
-
-<!-- SECTION 2: Features (Tabbed) -->
-<section class="reveal">
-    <h2>Draft Day Features</h2>
-    <div class="divider"></div>
-
-    <div class="tabs">
-        <button class="tab-btn active" onclick="switchTab(event, 'tab-ai')">AI Advisor</button>
-        <button class="tab-btn" onclick="switchTab(event, 'tab-mock')">Mock Drafts</button>
-        <button class="tab-btn" onclick="switchTab(event, 'tab-grading')">Draft Grading</button>
-        <button class="tab-btn" onclick="switchTab(event, 'tab-tools')">Draft Tools</button>
-    </div>
-
-    <!-- AI Advisor -->
-    <div class="tab-panel active" id="tab-ai">
-        <p class="section-sub" style="margin-bottom: 24px;">Five weighted factors evaluated in real time for every available player. Transparent reasoning with every recommendation.</p>
-        <div class="grid">
-            <div class="card"><div class="icon">💰</div><h3>ADP Value (30%)</h3><p>Flags players who've fallen past their ADP. Spots steals before your league mates do.</p></div>
-            <div class="card"><div class="icon">⚡</div><h3>Positional Scarcity (25%)</h3><p>Tracks position depth in real time. Raises urgency when startable talent is disappearing.</p></div>
-            <div class="card"><div class="icon">🎯</div><h3>Roster Needs (25%)</h3><p>Checks your lineup gaps against position requirements. Fills holes strategically.</p></div>
-            <div class="card"><div class="icon">📅</div><h3>Bye Week (10%)</h3><p>Penalizes players with overlapping bye weeks on your roster.</p></div>
-            <div class="card"><div class="icon">🏆</div><h3>Elite Talent (10%)</h3><p>Top 5 at each position get a bonus. Don't pass on league-winners.</p></div>
-            <div class="card"><div class="icon">🏥</div><h3>Health Aware</h3><p>-15 penalty for Questionable/Out. Injury warnings surface automatically.</p></div>
-        </div>
-    </div>
-
-    <!-- Mock Drafts -->
-    <div class="tab-panel" id="tab-mock">
-        <p class="section-sub" style="margin-bottom: 24px;">Full mock drafts with AI opponents. Realistic variance — no two mocks play out the same way.</p>
-        <div class="grid">
-            <div class="card"><div class="icon">🤖</div><h3>AI Auto-Pick</h3><p>Non-user teams draft with realistic randomness. Practice as many times as you want.</p></div>
-            <div class="card"><div class="icon">⚙️</div><h3>One Toggle</h3><p>Enable mock mode with a single checkbox. Orange "MOCK" badge keeps you aware.</p></div>
-            <div class="card"><div class="icon">🔄</div><h3>Keeper Support</h3><p>1-10 linear keeper rounds, then serpentine. Works in mock and live modes.</p></div>
-            <div class="card"><div class="icon">🏈</div><h3>QB Flex</h3><p>New setting puts a premium on QB position. Changes the entire draft dynamic for superflex leagues.</p></div>
-        </div>
-    </div>
-
-    <!-- Draft Grading -->
-    <div class="tab-panel" id="tab-grading">
-        <p class="section-sub" style="margin-bottom: 24px;">Curve-normalized letter grades (A+ through F) for every team after the draft.</p>
-        <div class="grid">
-            <div class="card"><div class="icon">🏅</div><h3>Team Grades</h3><p>Ranked grades with numeric scores (0-100). Tap any team for deep analytics.</p></div>
-            <div class="card"><div class="icon">📐</div><h3>Strategy Classification</h3><p>RB Heavy, WR Heavy, Zero RB, QB Stacking, Balanced, or Flexible.</p></div>
-            <div class="card"><div class="icon">🌟</div><h3>Notable Picks</h3><p>Best value and biggest reach identified per team with position distribution.</p></div>
-            <div class="card"><div class="icon">📤</div><h3>Share &amp; Export</h3><p>Shareable text reports. Full draft history exportable to CSV.</p></div>
-        </div>
-    </div>
-
-    <!-- Draft Tools -->
-    <div class="tab-panel" id="tab-tools">
-        <p class="section-sub" style="margin-bottom: 24px;">Everything you need visible at a glance on draft day.</p>
-        <div class="grid">
-            <div class="card"><div class="icon">⏱️</div><h3>Draft Clock</h3><p>Color-coded timer: green, orange, red. Keep your draft moving.</p></div>
-            <div class="card"><div class="icon">⭐</div><h3>Favorites &amp; Busts</h3><p>Mark players as Favorite (+3 bonus) or Bust (-15 penalty). Highlighted everywhere.</p></div>
-            <div class="card"><div class="icon">🔍</div><h3>Search &amp; Filter</h3><p>Search by name, filter by position. Sort by rank, ADP, or VBD value.</p></div>
-            <div class="card"><div class="icon">🔗</div><h3>ESPN Integration</h3><p>One-tap links to player profiles and team depth charts.</p></div>
-            <div class="card"><div class="icon">💾</div><h3>Config Backup</h3><p>JSON backup/restore. Favorites and busts persist through refreshes.</p></div>
-            <div class="card"><div class="icon">🌙</div><h3>Black Theme</h3><p>Full dark mode with muted position sticker colors and consolidated info cards.</p></div>
-        </div>
-    </div>
-</section>
-
-<!-- SECTION 3: Screenshots -->
-<section class="reveal" style="overflow: visible;">
-    <h2>See It in Action</h2>
-    <div class="divider"></div>
-
-    <div class="shots-tabs">
-        <button class="shots-tab-btn active" onclick="switchShots(this, 'ios')">iOS</button>
-        <button class="shots-tab-btn" onclick="switchShots(this, 'android')">Android</button>
-    </div>
-
-    <!-- iOS Carousel -->
-    <div class="shots-panel active" id="shots-ios">
-        <div class="carousel-wrap">
-            <button class="carousel-btn prev" aria-label="Previous screenshot" onclick="carouselMove('ios', -1)">&#8249;</button>
-            <div class="carousel-track">
-                <div class="carousel-slides" id="carousel-ios">
-                    <div class="shot"><img src="screenshots/apple/ios-1.png" alt="FFL Draft Day Picker on iOS — screen 1" loading="lazy" /></div>
-                    <div class="shot"><img src="screenshots/apple/ios-2.png" alt="FFL Draft Day Picker on iOS — screen 2" loading="lazy" /></div>
-                    <div class="shot"><img src="screenshots/apple/ios-3.png" alt="FFL Draft Day Picker on iOS — screen 3" loading="lazy" /></div>
-                    <div class="shot"><img src="screenshots/apple/ios-4.png" alt="FFL Draft Day Picker on iOS — screen 4" loading="lazy" /></div>
-                    <div class="shot"><img src="screenshots/apple/ios-5.png" alt="FFL Draft Day Picker on iOS — screen 5" loading="lazy" /></div>
-                </div>
-            </div>
-            <button class="carousel-btn next" aria-label="Next screenshot" onclick="carouselMove('ios', 1)">&#8250;</button>
-            <div class="carousel-dots" id="dots-ios"></div>
-            <p class="carousel-counter" id="counter-ios"></p>
-        </div>
-    </div>
-
-    <!-- Android Carousel -->
-    <div class="shots-panel" id="shots-android">
-        <div class="carousel-wrap">
-            <button class="carousel-btn prev" aria-label="Previous screenshot" onclick="carouselMove('android', -1)">&#8249;</button>
-            <div class="carousel-track">
-                <div class="carousel-slides" id="carousel-android">
-                    <div class="shot"><img src="screenshots/android/android-1.png" alt="FFL Draft Day Picker on Android — screen 1" loading="lazy" /></div>
-                    <div class="shot"><img src="screenshots/android/android-2.png" alt="FFL Draft Day Picker on Android — screen 2" loading="lazy" /></div>
-                    <div class="shot"><img src="screenshots/android/android-3.png" alt="FFL Draft Day Picker on Android — screen 3" loading="lazy" /></div>
-                    <div class="shot"><img src="screenshots/android/android-4.png" alt="FFL Draft Day Picker on Android — screen 4" loading="lazy" /></div>
-                    <div class="shot"><img src="screenshots/android/android-5.png" alt="FFL Draft Day Picker on Android — screen 5" loading="lazy" /></div>
-                    <div class="shot"><img src="screenshots/android/android-6.png" alt="FFL Draft Day Picker on Android — screen 6" loading="lazy" /></div>
-                    <div class="shot"><img src="screenshots/android/android-7.png" alt="FFL Draft Day Picker on Android — screen 7" loading="lazy" /></div>
-                </div>
-            </div>
-            <button class="carousel-btn next" aria-label="Next screenshot" onclick="carouselMove('android', 1)">&#8250;</button>
-            <div class="carousel-dots" id="dots-android"></div>
-            <p class="carousel-counter" id="counter-android"></p>
-        </div>
-    </div>
-</section>
-
-<!-- SECTION 4: FAQ -->
-<section class="reveal">
-    <h2>FAQ</h2>
-    <div class="divider"></div>
-    <div style="max-width: 680px; margin: 0 auto;">
-        <div class="faq-item" onclick="this.classList.toggle('open')">
-            <div class="faq-q">How does the VBD scoring work?</div>
-            <div class="faq-a">The app calculates Value Based Drafting scores using projected points for the upcoming season. Each player's value is measured against a replacement-level baseline at their position, so you see true positional advantage — not just raw point totals.</div>
-        </div>
-        <div class="faq-item" onclick="this.classList.toggle('open')">
-            <div class="faq-q">Does it work offline?</div>
-            <div class="faq-a">Yes — 100%. All player data is bundled. The AI advisor, pick grading, and draft tracking all run on-device with no internet required. Perfect for draft parties.</div>
-        </div>
-        <div class="faq-item" onclick="this.classList.toggle('open')">
-            <div class="faq-q">Can I use it for keeper or superflex leagues?</div>
-            <div class="faq-a">Yes. Configure 1–10 linear keeper rounds, then serpentine for the rest. The new QB Flex setting puts a premium on QB for superflex formats.</div>
-        </div>
-        <div class="faq-item" onclick="this.classList.toggle('open')">
-            <div class="faq-q">Is it really free?</div>
-            <div class="faq-a">Free, ad-free, no account, no data collection. Built by a fantasy football fan for fantasy football fans.</div>
-        </div>
-    </div>
-</section>
-
-<!-- SECTION 5: CTA + Support -->
-<div class="cta-bottom reveal">
-    <h2>Ready for Draft Day?</h2>
-    <p>Download FFL Draft Day Picker and draft like a pro.</p>
-    <div class="btn-row">
-        <a href="https://play.google.com/store/apps/details?id=com.fantasydraft.picker" class="cta cta-green">Get It on Google Play</a>
-        <a href="https://apps.apple.com/us/app/ffl-draft-day-picker/id6758958075" class="cta cta-outline">Download on App Store</a>
-    </div>
-    <div class="support-row">
-        <div class="support-card">
-            <h3>Feedback</h3>
-            <a href="mailto:jeff.norton@outlook.com?subject=Fantasy%20Draft%20Picker%20-%20Feature%20Request">Send a Feature Request</a>
-            <p>Ideas &amp; bugs welcome</p>
-        </div>
-    </div>
-</div>
-
-</main>
-
-<footer>
-    <p>FFL Draft Day Picker &copy; 2026 &nbsp;|&nbsp; <a href="mailto:jeff.norton@outlook.com">Contact</a> &nbsp;|&nbsp; <a href="blog.html">Blog</a> &nbsp;|&nbsp; <a href="mailto:jeff.norton@outlook.com?subject=Fantasy%20Draft%20Picker%20-%20Feature%20Request">Request a Feature</a></p>
-    <p style="margin-top: 6px;">Made with ☕ and 🏈 &nbsp;|&nbsp; v4.788</p>
-</footer>
-
-<script>
-// Nav toggle
-function toggleNav() {
-    document.getElementById('hamburgerBtn').classList.toggle('open');
-    document.getElementById('navDrawer').classList.toggle('open');
-    document.getElementById('navOverlay').classList.toggle('open');
-}
-
-// Tab switching
-function switchTab(e, tabId) {
-    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-    e.currentTarget.classList.add('active');
-    document.getElementById(tabId).classList.add('active');
-}
-
-// Screenshot gallery switching + carousel
-const carouselState = {};
-
-function initCarousel(id, count) {
-    carouselState[id] = { index: 0, count };
-    renderDots(id);
-    renderCounter(id);
-}
-
-function carouselMove(id, dir) {
-    const s = carouselState[id];
-    s.index = (s.index + dir + s.count) % s.count;
-    updateCarousel(id);
-}
-
-function carouselGoTo(id, idx) {
-    carouselState[id].index = idx;
-    updateCarousel(id);
-}
-
-function updateCarousel(id) {
-    const s = carouselState[id];
-    document.getElementById('carousel-' + id).style.transform = 'translateX(-' + (s.index * 100) + '%)';
-    renderDots(id);
-    renderCounter(id);
-}
-
-function renderDots(id) {
-    const s = carouselState[id];
-    const el = document.getElementById('dots-' + id);
-    el.innerHTML = '';
-    for (let i = 0; i < s.count; i++) {
-        const b = document.createElement('button');
-        b.className = 'carousel-dot' + (i === s.index ? ' active' : '');
-        b.setAttribute('aria-label', 'Go to screenshot ' + (i + 1));
-        b.onclick = () => carouselGoTo(id, i);
-        el.appendChild(b);
-    }
-}
-
-function renderCounter(id) {
-    const s = carouselState[id];
-    document.getElementById('counter-' + id).textContent = (s.index + 1) + ' / ' + s.count;
-}
-
-function switchShots(btn, id) {
-    document.querySelectorAll('.shots-tab-btn').forEach(b => b.classList.remove('active'));
-    document.querySelectorAll('.shots-panel').forEach(p => p.classList.remove('active'));
-    btn.classList.add('active');
-    document.getElementById('shots-' + id).classList.add('active');
-}
-
-// Init carousels
-initCarousel('ios', 5);
-initCarousel('android', 7);
-
-// Touch/swipe support
-(function() {
-    ['ios', 'android'].forEach(id => {
-        const track = document.getElementById('carousel-' + id);
-        if (!track) return;
-        let startX = 0;
-        track.parentElement.addEventListener('touchstart', e => { startX = e.touches[0].clientX; }, { passive: true });
-        track.parentElement.addEventListener('touchend', e => {
-            const dx = e.changedTouches[0].clientX - startX;
-            if (Math.abs(dx) > 40) carouselMove(id, dx < 0 ? 1 : -1);
-        });
-    });
-})();
-
-// Scroll reveal
-(function() {
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-    }, { threshold: 0.1 });
-    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
-})();
-
-// Hero draft-board strip
-(function() {
-    const track = document.getElementById('draftBoardTrack');
-    if (!track) return;
-    const posCycle = ['RB', 'WR', 'WR', 'RB', 'WR', 'RB', 'TE', 'WR', 'QB', 'RB', 'WR', 'RB'];
-    const picks = [];
-    for (let round = 1; round <= 3; round++) {
-        for (let slot = 1; slot <= 12; slot++) {
-            picks.push(round + '.' + String(slot).padStart(2, '0'));
-        }
-    }
-    const onClockIdx = 2;
-    function cellHtml(pick, i) {
-        const pos = posCycle[i % posCycle.length];
-        const clock = i === onClockIdx ? ' on-clock' : '';
-        return '<div class="draft-board-cell' + clock + '">' +
-            '<span class="pick">' + pick + '</span>' +
-            '<span class="bar"></span>' +
-            '<span class="pos pos-' + pos.toLowerCase() + '">' + pos + '</span></div>';
-    }
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const list = reduced ? picks.slice(0, 10) : picks;
-    const cells = list.map(cellHtml).join('');
-    track.innerHTML = reduced ? cells : cells + cells;
-})();
-
-// Countdown
-(function() {
-    const target = new Date('2026-09-10T20:20:00-04:00').getTime();
-    function tick() {
-        const d = target - Date.now();
-        if (d <= 0) { ['cd-days','cd-hours','cd-mins','cd-secs'].forEach(id => document.getElementById(id).textContent = '0'); return; }
-        document.getElementById('cd-days').textContent = Math.floor(d / 864e5);
-        document.getElementById('cd-hours').textContent = Math.floor((d % 864e5) / 36e5);
-        document.getElementById('cd-mins').textContent = Math.floor((d % 36e5) / 6e4);
-        document.getElementById('cd-secs').textContent = Math.floor((d % 6e4) / 1e3);
-    }
-    tick(); setInterval(tick, 1000);
-})();
-</script>
+    <main class="card">
+        <img class="icon" src="FootballIcon1024.png" alt="FFL Draft Day Picker app icon" width="72" height="72">
+        <h1>FFL Draft Day Picker</h1>
+        <div class="pill"><i aria-hidden="true"></i>Redesign coming soon</div>
+        <p>A fresh new look is on the way. Follow along and share feedback with the community.</p>
+        <a class="btn" href="https://www.reddit.com/r/FFLDraftDayPickerApp/" rel="noopener">
+            <span>Join us on Reddit</span>
+            <small>r/FFLDraftDayPickerApp</small>
+        </a>
+        <div class="handle">Built by a fan for fans</div>
+    </main>
 </body>
 </html>
