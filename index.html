@@ -126,6 +126,24 @@
             text-decoration: none;
             transition: transform 0.2s, filter 0.2s;
         }
+        .stores {
+            display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
+            margin-bottom: 10px;
+        }
+        .btn-store {
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            min-height: 56px; padding: 8px 12px;
+            border-radius: 12px;
+            background: var(--raised);
+            border: 1px solid var(--hairline);
+            color: var(--text1);
+            text-decoration: none;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .btn-store small { font-size: 11px; color: var(--text2); }
+        .btn-store span { font-size: 16px; font-weight: 600; }
+        .btn-store:hover { transform: translateY(-1px); border-color: color-mix(in srgb, var(--signal) 50%, transparent); }
+        .btn-store:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
         .btn small { font-size: 12px; font-weight: 500; opacity: 0.75; margin-top: 1px; }
         .btn:hover { transform: translateY(-1px); filter: brightness(1.08); }
         .btn:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
@@ -139,7 +157,7 @@
         @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
         @media (prefers-reduced-motion: reduce) {
             .card, .pill i { animation: none; }
-            .btn { transition: none; }
+            .btn, .btn-store { transition: none; }
         }
     </style>
 </head>
@@ -149,6 +167,16 @@
         <h1>FFL Draft Day Picker</h1>
         <div class="pill"><i aria-hidden="true"></i>Redesign coming soon</div>
         <p>A fresh new look is on the way. Follow along and share feedback with the community.</p>
+        <div class="stores">
+            <a class="btn-store" href="https://apps.apple.com/us/app/ffl-draft-day-picker/id6758958075" rel="noopener">
+                <small>Download on the</small>
+                <span>App Store</span>
+            </a>
+            <a class="btn-store" href="https://play.google.com/store/apps/details?id=com.fantasydraft.picker" rel="noopener">
+                <small>Get it on</small>
+                <span>Google Play</span>
+            </a>
+        </div>
         <a class="btn" href="https://www.reddit.com/r/FFLDraftDayPickerApp/" rel="noopener">
             <span>Join us on Reddit</span>
             <small>r/FFLDraftDayPickerApp</small>
