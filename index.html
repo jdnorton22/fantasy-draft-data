@@ -116,6 +116,12 @@
             border: 1px solid color-mix(in srgb, var(--signal) 40%, transparent);
         }
         .tile p { font-size: 14px; color: var(--text2); }
+        .chips { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+        .chips li {
+            height: 32px; display: inline-flex; align-items: center; padding: 0 12px;
+            border-radius: 999px; font-size: 13px; font-weight: 600;
+            color: var(--text2); background: var(--surface); border: 1px solid var(--hairline);
+        }
         .steps { list-style: none; counter-reset: s; display: grid; gap: 10px; }
         .steps li {
             counter-increment: s; background: var(--surface); border: 1px solid var(--hairline);
@@ -210,6 +216,24 @@
             </div>
         </section>
 
+        <section aria-labelledby="espn">
+            <h2 id="espn">ESPN DATA</h2>
+            <div class="tile">
+                <h3>Fresh data, refreshed nightly</h3>
+                <p>Player data comes from ESPN and is updated every night in our cloud.</p>
+                <ul class="chips">
+                    <li>Player headshots</li>
+                    <li>NFL team logos</li>
+                    <li>ESPN rank</li>
+                    <li>ADP</li>
+                    <li>Injury status</li>
+                    <li>Bye weeks</li>
+                    <li>Last season stats</li>
+                    <li>Profile and depth chart links</li>
+                </ul>
+            </div>
+        </section>
+
         <section aria-labelledby="how">
             <h2 id="how">HOW IT WORKS</h2>
             <ol class="steps">
@@ -228,7 +252,7 @@
         </section>
     </main>
 
-    <footer>Android &amp; iOS &bull; Free</footer>
+    <footer>Android &amp; iOS &bull; Free<br>Not affiliated with ESPN or the NFL. Team names and logos belong to their owners.</footer>
 
     <script>
     (function () {
