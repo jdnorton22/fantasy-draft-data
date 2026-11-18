@@ -13,8 +13,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="dark light">
-    <title>FFL Draft Day Picker - Redesign Coming Soon</title>
-    <meta name="description" content="FFL Draft Day Picker is getting a redesign. Join the community on Reddit for updates.">
+    <title>FFL Draft Day Picker - Fantasy Football Draft Kit &amp; AI Draft Assistant</title>
+    <meta name="description" content="Free fantasy football draft kit with AI pick recommendations, tiers, mock drafts, pick swaps and draft grades. Your live draft day companion for Android and iOS.">
+    <meta name="keywords" content="fantasy football draft kit, fantasy football draft app, AI draft assistant, live draft tool, mock draft, draft grades, VBD scoring, keeper league">
     <meta name="author" content="FFL Draft Day Picker">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://ffldraftdaypicker.com/">
@@ -22,8 +23,8 @@
     <link rel="apple-touch-icon" href="FootballIcon1024.png">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="FFL Draft Day Picker - Redesign Coming Soon">
-    <meta property="og:description" content="A fresh new look is on the way. Join the community on Reddit for updates.">
+    <meta property="og:title" content="FFL Draft Day Picker - Fantasy Football Draft Kit &amp; AI Draft Assistant">
+    <meta property="og:description" content="Free, ad-free draft kit with AI recommendations, mock drafts and draft grades. Android and iOS.">
     <meta property="og:image" content="https://ffldraftdaypicker.com/FootballIcon1024.png">
     <meta property="og:url" content="https://ffldraftdaypicker.com/">
     <meta property="og:site_name" content="FFL Draft Day Picker">
@@ -52,107 +53,86 @@
             }
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        html, body { height: 100%; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif;
             background: var(--bg);
             color: var(--text1);
             line-height: 1.5;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 24px 16px;
             -webkit-font-smoothing: antialiased;
         }
-        /* One soft ice-blue glow, nothing else */
         body::before {
             content: '';
-            position: fixed; inset: 0; pointer-events: none;
+            position: fixed; inset: 0; pointer-events: none; z-index: -1;
             background: radial-gradient(ellipse 70% 45% at 50% 0%, color-mix(in srgb, var(--signal) 14%, transparent), transparent 70%);
         }
-        .card {
-            position: relative;
-            width: 100%;
-            max-width: 440px;
-            padding: 40px 28px 32px;
-            text-align: center;
-            background: var(--surface);
-            border: 1px solid var(--hairline);
-            border-radius: 14px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
-            animation: rise 0.6s ease both;
-        }
+        main { max-width: 640px; margin: 0 auto; padding: 56px 16px 32px; }
+        section { margin-top: 40px; }
+        a:focus-visible, button:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
+
+        /* Hero */
+        .hero { text-align: center; animation: rise 0.6s ease both; }
         .icon {
-            width: 72px; height: 72px;
-            border-radius: 16px;
-            border: 1px solid var(--hairline);
-            margin-bottom: 20px;
+            width: 80px; height: 80px; border-radius: 18px;
+            border: 1px solid var(--hairline); margin-bottom: 20px;
         }
-        h1 {
-            font-size: 1.6rem;
-            font-weight: 700;
-            letter-spacing: -0.01em;
-            line-height: 1.2;
-            margin-bottom: 14px;
-        }
+        h1 { font-size: clamp(1.7rem, 6vw, 2.2rem); font-weight: 700; letter-spacing: -0.01em; line-height: 1.15; margin-bottom: 10px; }
+        .lead { color: var(--text2); font-size: 1.05rem; max-width: 480px; margin: 0 auto 18px; }
         .pill {
             display: inline-flex; align-items: center; gap: 8px;
-            height: 26px; padding: 0 12px;
-            border-radius: 999px;
-            font-size: 12px; font-weight: 600;
-            color: var(--signal);
+            height: 26px; padding: 0 12px; border-radius: 999px;
+            font-size: 12px; font-weight: 600; color: var(--signal);
             background: color-mix(in srgb, var(--signal) 16%, transparent);
             border: 1px solid color-mix(in srgb, var(--signal) 40%, transparent);
-            margin-bottom: 20px;
+            margin-bottom: 24px;
         }
-        .pill i {
-            width: 6px; height: 6px; border-radius: 50%;
-            background: var(--signal);
-            animation: pulse 2s ease-in-out infinite;
-        }
-        p {
-            color: var(--text2);
-            font-size: 1rem;
-            margin-bottom: 28px;
-        }
-        .btn {
+        .pill i { width: 6px; height: 6px; border-radius: 50%; background: var(--signal); animation: pulse 2s ease-in-out infinite; }
+
+        /* Buttons */
+        .stores { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; max-width: 440px; margin: 0 auto 10px; }
+        .btn-store, .btn {
             display: flex; flex-direction: column; align-items: center; justify-content: center;
-            min-height: 56px;
-            padding: 8px 20px;
-            border-radius: 12px;
-            background: var(--signal);
-            color: var(--on-signal);
-            font-size: 16px; font-weight: 600;
-            text-decoration: none;
-            transition: transform 0.2s, filter 0.2s;
+            min-height: 56px; padding: 8px 12px; border-radius: 12px;
+            text-decoration: none; transition: transform 0.2s, filter 0.2s, border-color 0.2s;
         }
-        .stores {
-            display: grid; grid-template-columns: 1fr 1fr; gap: 10px;
-            margin-bottom: 10px;
-        }
-        .btn-store {
-            display: flex; flex-direction: column; align-items: center; justify-content: center;
-            min-height: 56px; padding: 8px 12px;
-            border-radius: 12px;
-            background: var(--raised);
-            border: 1px solid var(--hairline);
-            color: var(--text1);
-            text-decoration: none;
-            transition: transform 0.2s, border-color 0.2s;
-        }
+        .btn-store { background: var(--raised); border: 1px solid var(--hairline); color: var(--text1); }
         .btn-store small { font-size: 11px; color: var(--text2); }
         .btn-store span { font-size: 16px; font-weight: 600; }
         .btn-store:hover { transform: translateY(-1px); border-color: color-mix(in srgb, var(--signal) 50%, transparent); }
-        .btn-store:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
+        .btn { max-width: 440px; margin: 0 auto; background: var(--signal); color: var(--on-signal); font-size: 16px; font-weight: 600; }
         .btn small { font-size: 12px; font-weight: 500; opacity: 0.75; margin-top: 1px; }
         .btn:hover { transform: translateY(-1px); filter: brightness(1.08); }
-        .btn:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
-        .handle {
-            margin-top: 18px;
-            font-size: 13px;
-            color: var(--text2);
-            font-variant-numeric: tabular-nums;
+        .meta { margin-top: 14px; font-size: 13px; color: var(--text2); }
+
+        /* Cards */
+        h2 { font-size: 12px; font-weight: 600; color: var(--text2); margin-bottom: 12px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px; }
+        .tile { background: var(--surface); border: 1px solid var(--hairline); border-radius: 14px; padding: 14px; }
+        .tile h3 { font-size: 16px; font-weight: 600; margin-bottom: 2px; }
+        .new {
+            display: inline-block; vertical-align: 2px; margin-left: 6px;
+            padding: 1px 8px; border-radius: 999px; font-size: 11px; font-weight: 600;
+            color: var(--signal);
+            background: color-mix(in srgb, var(--signal) 16%, transparent);
+            border: 1px solid color-mix(in srgb, var(--signal) 40%, transparent);
         }
+        .tile p { font-size: 14px; color: var(--text2); }
+        .steps { list-style: none; counter-reset: s; display: grid; gap: 10px; }
+        .steps li {
+            counter-increment: s; background: var(--surface); border: 1px solid var(--hairline);
+            border-radius: 14px; padding: 14px 14px 14px 52px; position: relative; font-size: 14px; color: var(--text2);
+        }
+        .steps li::before {
+            content: counter(s); position: absolute; left: 14px; top: 14px;
+            width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center;
+            font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums;
+            color: var(--signal); background: color-mix(in srgb, var(--signal) 16%, transparent);
+            border: 1px solid color-mix(in srgb, var(--signal) 40%, transparent);
+        }
+        .steps b { display: block; color: var(--text1); font-size: 16px; font-weight: 600; }
+
+        .cta { text-align: center; }
+        footer { text-align: center; font-size: 13px; color: var(--text2); padding: 8px 16px 40px; }
+
         /* Menu */
         .menu-btn {
             position: fixed; top: 16px; right: 16px; z-index: 30;
@@ -162,40 +142,30 @@
             cursor: pointer; transition: border-color 0.2s;
         }
         .menu-btn:hover { border-color: color-mix(in srgb, var(--signal) 50%, transparent); }
-        .menu-btn:focus-visible { outline: 2px solid var(--signal); outline-offset: 3px; }
         .menu-btn span { display: block; width: 18px; height: 2px; border-radius: 2px; background: var(--signal); transition: transform 0.25s, opacity 0.25s; }
         .menu-btn.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
         .menu-btn.open span:nth-child(2) { opacity: 0; }
         .menu-btn.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
-        .menu-overlay {
-            position: fixed; inset: 0; z-index: 10; background: rgba(0, 0, 0, 0.55);
-            opacity: 0; pointer-events: none; transition: opacity 0.25s;
-        }
+        .menu-overlay { position: fixed; inset: 0; z-index: 10; background: rgba(0, 0, 0, 0.55); opacity: 0; pointer-events: none; transition: opacity 0.25s; }
         .menu-overlay.open { opacity: 1; pointer-events: auto; }
         .menu {
             position: fixed; top: 0; right: 0; bottom: 0; z-index: 20;
             width: min(280px, 85vw); padding: 76px 20px 24px;
             background: var(--surface); border-left: 1px solid var(--hairline);
-            transform: translateX(100%); visibility: hidden;
-            transition: transform 0.3s ease, visibility 0.3s;
+            transform: translateX(100%); visibility: hidden; transition: transform 0.3s ease, visibility 0.3s;
         }
         .menu.open { transform: none; visibility: visible; }
-        .menu h2 {
-            font-size: 12px; font-weight: 600; color: var(--text2);
-            margin: 0 0 8px;
-        }
-        .menu h2:not(:first-child) { margin-top: 24px; }
         .menu a {
             display: flex; align-items: center; min-height: 44px;
             color: var(--text1); text-decoration: none; font-size: 16px; font-weight: 500;
             border-bottom: 1px solid var(--hairline);
         }
         .menu a:hover { color: var(--signal); }
-        .menu a:focus-visible { outline: 2px solid var(--signal); outline-offset: 2px; }
+
         @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
         @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
         @media (prefers-reduced-motion: reduce) {
-            .card, .pill i { animation: none; }
+            .hero, .pill i { animation: none; }
             .btn, .btn-store, .menu, .menu-overlay, .menu-btn span { transition: none; }
         }
     </style>
@@ -205,33 +175,61 @@
         <span></span><span></span><span></span>
     </button>
     <div class="menu-overlay" id="menuOverlay"></div>
-    <nav class="menu" id="menu" aria-label="Help and guides">
-        <h2>User Guides</h2>
+    <nav class="menu" id="menu" aria-label="User guides">
         <a href="user-guide_iOS.html">iOS User Guide</a>
         <a href="user-guide_Android.html">Android User Guide</a>
     </nav>
 
-    <main class="card">
-        <img class="icon" src="FootballIcon1024.png" alt="FFL Draft Day Picker app icon" width="72" height="72">
-        <h1>FFL Draft Day Picker</h1>
-        <div class="pill"><i aria-hidden="true"></i>Redesign coming soon</div>
-        <p>A fresh new look is on the way. Follow along and share feedback with the community.</p>
-        <div class="stores">
-            <a class="btn-store" href="https://apps.apple.com/us/app/ffl-draft-day-picker/id6758958075" rel="noopener">
-                <small>Download on the</small>
-                <span>App Store</span>
+    <main>
+        <header class="hero">
+            <img class="icon" src="FootballIcon1024.png" alt="FFL Draft Day Picker app icon" width="80" height="80">
+            <h1>FFL Draft Day Picker</h1>
+            <p class="lead">Your fantasy football draft kit. An AI advisor for your live draft, with the reasoning behind every pick.</p>
+            <div class="pill"><i aria-hidden="true"></i>Redesign is launching now...</div>
+            <div class="stores">
+                <a class="btn-store" href="https://apps.apple.com/us/app/ffl-draft-day-picker/id6758958075" rel="noopener">
+                    <small>Download on the</small><span>App Store</span>
+                </a>
+                <a class="btn-store" href="https://play.google.com/store/apps/details?id=com.fantasydraft.picker" rel="noopener">
+                    <small>Get it on</small><span>Google Play</span>
+                </a>
+            </div>
+            <p class="meta">Free &bull; Ad-free &bull; No account &bull; Works offline</p>
+        </header>
+
+        <section aria-labelledby="features">
+            <h2 id="features">WHAT IT DOES</h2>
+            <div class="grid">
+                <div class="tile"><h3>AI draft advisor</h3><p>Scores every player on value, scarcity, team need, bye weeks and injuries, and tells you why.</p></div>
+                <div class="tile"><h3>Tiers and pick grades</h3><p>See when a tier is about to run out. Every pick is graded from Elite to Big Reach.</p></div>
+                <div class="tile"><h3>Mock drafts</h3><p>Practice with AI-controlled teams that draft like real league mates.</p></div>
+                <div class="tile"><h3>Traded picks <span class="new">New</span></h3><p>Swap picks 1-for-1, 1-for-many or many-for-many, before or during the draft. Traded picks show on the board.</p></div>
+                <div class="tile"><h3>Keeper leagues</h3><p>Set keeper rounds, then draft serpentine or linear.</p></div>
+                <div class="tile"><h3>Draft board and clock</h3><p>Live board, roster needs, recent picks and a color-coded pick timer.</p></div>
+                <div class="tile"><h3>Report cards</h3><p>A-to-F grades for every team after the draft. Save and share your results.</p></div>
+            </div>
+        </section>
+
+        <section aria-labelledby="how">
+            <h2 id="how">HOW IT WORKS</h2>
+            <ol class="steps">
+                <li><b>Set up</b>Name your league, teams, rounds and roster rules.</li>
+                <li><b>Draft</b>Follow the Best Available card, or search any player.</li>
+                <li><b>Review</b>Check the grades, history and report cards.</li>
+            </ol>
+        </section>
+
+        <section class="cta" aria-label="Community">
+            <a class="btn" href="https://www.reddit.com/r/FFLDraftDayPickerApp/" rel="noopener">
+                <span>Join us on Reddit</span>
+                <small>r/FFLDraftDayPickerApp</small>
             </a>
-            <a class="btn-store" href="https://play.google.com/store/apps/details?id=com.fantasydraft.picker" rel="noopener">
-                <small>Get it on</small>
-                <span>Google Play</span>
-            </a>
-        </div>
-        <a class="btn" href="https://www.reddit.com/r/FFLDraftDayPickerApp/" rel="noopener">
-            <span>Join us on Reddit</span>
-            <small>r/FFLDraftDayPickerApp</small>
-        </a>
-        <div class="handle">Built by a fan for fans</div>
+            <p class="meta">Built by a fan for fans</p>
+        </section>
     </main>
+
+    <footer>Android &amp; iOS &bull; Free</footer>
+
     <script>
     (function () {
         var btn = document.getElementById('menuBtn');
